@@ -11,19 +11,19 @@ namespace ABPUtils
             set;
         }
 
-        public string DNS
+        public string Dns
         {
             get;
             set;
         }
 
-        public int NSCount
+        public int NsCount
         {
             get;
             set;
         }
 
-        public List<string> NSList
+        public List<string> NsList
         {
             get;
             set;
@@ -43,19 +43,19 @@ namespace ABPUtils
 
         public QueryResult()
         {
-            NSList = new List<string>();
+            NsList = new List<string>();
             Error = "NONE.";
         }
 
         public override string ToString()
         {
-            StringBuilder sb = new StringBuilder();
+            var sb = new StringBuilder();
 
             sb.AppendFormat("Domain:\t{0}\n", Domain);
-            sb.AppendFormat("DNS:\t{0}\n", DNS);
+            sb.AppendFormat("DNS:\t{0}\n", Dns);
             sb.AppendFormat("Info:\t{0}\n", Info);
-            sb.AppendFormat("Count:\t{0}\n", NSCount);
-            foreach (var ns in NSList)
+            sb.AppendFormat("Count:\t{0}\n", NsCount);
+            foreach (var ns in NsList)
             {
                 sb.AppendFormat("NS => {0}\n", ns);
             }

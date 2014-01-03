@@ -24,7 +24,7 @@ namespace ABPUtils
         {
             if (args.IsTrue("help") || args.IsTrue("h"))
             {
-                Console.WriteLine(ChinaListConst.HELP_INFO, DateTime.Now.ToString("yyyy"));
+                Console.WriteLine(ChinaListConst.HelpInfo, DateTime.Now.ToString("yyyy"));
             }
             else if (args.IsTrue("version"))
             {
@@ -43,11 +43,7 @@ namespace ABPUtils
                     return;
                 }
 
-                QueryResult result = null;
-                if (string.IsNullOrEmpty(args.Single("dns")))
-                    result = ChinaLists.DNSQuery(null, domain);
-                else
-                    result = ChinaLists.DNSQuery(IPAddress.Parse(args.Single("dns")), domain);
+                var result = ChinaLists.DnsQuery(string.IsNullOrEmpty(args.Single("dns")) ? null : IPAddress.Parse(args.Single("dns")), domain);
 
                 if (result == null)
                 {
@@ -107,19 +103,12 @@ namespace ABPUtils
                     output = args.Single("output");
 
                 var dns = args.Single("dns");
-                if (string.IsNullOrEmpty(dns))
-                {
-                    ChinaLists.ValidateDomains(null, input, output);
-                }
-                else
-                {
-                    ChinaLists.ValidateDomains(IPAddress.Parse(args.Single("dns")), input, output);
-                }
+                ChinaLists.ValidateDomains(string.IsNullOrEmpty(dns) ? null : IPAddress.Parse(args.Single("dns")), input,
+                    output);
             }
             else if (args.IsTrue("m") || args.IsTrue("merge"))
             {
-                var input = string.Empty;
-                input = args.Single("i");
+                var input = args.Single("i");
 
                 if (string.IsNullOrEmpty(input))
                     input = args.Single("input");
@@ -138,8 +127,7 @@ namespace ABPUtils
                 if (!string.IsNullOrEmpty(p))
                 {
                     var temp = p.Split(':');
-                    proxy = new WebProxy(temp[0], int.Parse(temp[1]));
-                    proxy.BypassProxyOnLocal = true;
+                    proxy = new WebProxy(temp[0], int.Parse(temp[1])) {BypassProxyOnLocal = true};
                 }
 
                 var output = args.Single("o");
@@ -150,8 +138,7 @@ namespace ABPUtils
             }
             else if (args.IsTrue("conf"))
             {
-                var input = string.Empty;
-                input = args.Single("i");
+                var input = args.Single("i");
 
                 if (string.IsNullOrEmpty(input))
                     input = args.Single("input");

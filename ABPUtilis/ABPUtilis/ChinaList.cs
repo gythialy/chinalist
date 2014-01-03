@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -10,8 +11,8 @@ namespace ABPUtils
 {
     class ChinaList
     {
-        private const string CHECKSUM_REGX = @"^\s*!\s*checksum[\s\-:]+([\w\+\/=]+).*\n";
-        private const string URL_REGX = @"([a-z0-9][a-z0-9\-]*?\.(?:com|edu|cn|net|org|gov|im|info|la|co|tv|biz|mobi)(?:\.(?:cn|tw))?)";
+        private const string ChecksumRegx = @"^\s*!\s*checksum[\s\-:]+([\w\+\/=]+).*\n";
+        private const string UrlRegx = @"([a-z0-9][a-z0-9\-]*?\.(?:com|edu|cn|net|org|gov|im|info|la|co|tv|biz|mobi)(?:\.(?:cn|tw))?)";
 
         public String FileName
         {
@@ -29,11 +30,11 @@ namespace ABPUtils
         /// </summary>
         public void Update()
         {
-            string content = ReadList();
+            var content = ReadList();
             content = UpdateTime(content);
             content = RemoveChecksum(content);
 
-            string result = UpdateCheckSum(content);
+            var result = UpdateCheckSum(content);
             ChinaLists.Save(FileName, result);
         }
 
@@ -43,8 +44,8 @@ namespace ABPUtils
         /// <returns></returns>
         public int Validate()
         {
-            string content = ReadListToEnd();
-            string checkSum = FindCheckSum(content);
+            var content = ReadListToEnd();
+            var checkSum = FindCheckSum(content);
             if (string.IsNullOrEmpty(checkSum))
             {
                 Console.WriteLine("Couldn't find a checksum in the file {0}", FileName);
@@ -52,18 +53,15 @@ namespace ABPUtils
             }
 
             content = RemoveChecksum(content);
-            string genearteCheckSum = CalculateMD5Hash(RemoveEmptyLines(content));
+            var genearteCheckSum = CalculateMD5Hash(RemoveEmptyLines(content));
 
             if (checkSum.Equals(genearteCheckSum))
             {
                 Console.WriteLine("Checksum in the file {0} is valid.", FileName);
                 return 1;
             }
-            else
-            {
-                Console.WriteLine("Wrong checksum [{0}] found in the file {1}, expected is [{2}]", checkSum, FileName, genearteCheckSum);
-                return 0;
-            }
+            Console.WriteLine("Wrong checksum [{0}] found in the file {1}, expected is [{2}]", checkSum, FileName, genearteCheckSum);
+            return 0;
         }
 
         /// <summary>
@@ -72,21 +70,18 @@ namespace ABPUtils
         /// <returns></returns>
         public List<string> GetDomains()
         {
-            List<string> urls = new List<string>();
+            var urls = new List<string>();
 
-            string s = string.Empty;
-            using (StreamReader sr = new StreamReader(FileName, Encoding.UTF8))
+            string s;
+            using (var sr = new StreamReader(FileName, Encoding.UTF8))
             {
                 s = sr.ReadToEnd();
             }
 
-            Regex regex = new Regex(URL_REGX, RegexOptions.Multiline | RegexOptions.IgnoreCase);
-            MatchCollection matches = regex.Matches(s);
-            foreach (Match match in matches)
+            var regex = new Regex(UrlRegx, RegexOptions.Multiline | RegexOptions.IgnoreCase);
+            var matches = regex.Matches(s);
+            foreach (var match in from Match match in matches let url = match.Value where !urls.Contains(url) select match)
             {
-                string url = match.Value;
-                if (urls.Contains(url))
-                    continue;
                 urls.Add(match.Value);
             }
             urls.Sort();
@@ -100,14 +95,13 @@ namespace ABPUtils
         /// <returns></returns>
         private string ReadList()
         {
-            var line = string.Empty;
-            var content = string.Empty;
             var sBuilder = new StringBuilder();
             var list = new List<string>();
 
-            using (StreamReader sr = new StreamReader(FileName, Encoding.UTF8))
+            using (var sr = new StreamReader(FileName, Encoding.UTF8))
             {
                 // filter duplicate line
+                string line;
                 while ((line = sr.ReadLine()) != null)
                 {
                     if (!string.IsNullOrEmpty(line))
@@ -122,7 +116,7 @@ namespace ABPUtils
                 }
             }
 
-            content = sBuilder.ToString();
+            var content = sBuilder.ToString();
             content = ToSimplified(content);
             content = content.Replace("\r", string.Empty);
 
@@ -135,9 +129,9 @@ namespace ABPUtils
         /// <returns></returns>
         private string ReadListToEnd()
         {
-            var content = string.Empty;
+            string content;
 
-            using (StreamReader sr = new StreamReader(FileName, Encoding.UTF8))
+            using (var sr = new StreamReader(FileName, Encoding.UTF8))
             {
                 content = sr.ReadToEnd();
                 content = content.Replace("\r", string.Empty);
@@ -152,10 +146,10 @@ namespace ABPUtils
         /// <returns></returns>
         private string UpdateTime(string content)
         {
-            DateTime dt = DateTime.Now;
+            var dt = DateTime.Now;
             //Wed, 22 Jul 2009 16:39:15 +0800
-            string time = string.Format("Last Modified:  {0}", dt.ToString("r")).Replace("GMT", "+0800");
-            Regex regex = new Regex(@"Last Modified:.*$", RegexOptions.Multiline);
+            var time = string.Format("Last Modified:  {0}", dt.ToString("r")).Replace("GMT", "+0800");
+            var regex = new Regex(@"Last Modified:.*$", RegexOptions.Multiline);
             content = regex.Replace(content, time);
 
             return content;
@@ -179,7 +173,7 @@ namespace ABPUtils
         /// <returns></returns>
         private string RemoveChecksum(string content)
         {
-            Regex regex = new Regex(CHECKSUM_REGX, RegexOptions.Multiline | RegexOptions.IgnoreCase);
+            var regex = new Regex(ChecksumRegx, RegexOptions.Multiline | RegexOptions.IgnoreCase);
             content = regex.Replace(content, string.Empty);
 
             return content;
@@ -192,20 +186,17 @@ namespace ABPUtils
         /// <returns></returns>
         private string FindCheckSum(string content)
         {
-            Regex regex = new Regex(CHECKSUM_REGX, RegexOptions.Multiline | RegexOptions.IgnoreCase);
+            var regex = new Regex(ChecksumRegx, RegexOptions.Multiline | RegexOptions.IgnoreCase);
 
-            Match match = regex.Match(content);
-            string value = match.Value;
+            var match = regex.Match(content);
+            var value = match.Value;
 
             if (string.IsNullOrEmpty(value))
             {
                 return string.Empty;
             }
-            else
-            {
-                string[] temp = match.Value.Split(':');
-                return temp[1].Trim();
-            }
+            var temp = match.Value.Split(':');
+            return temp[1].Trim();
         }
 
         /// <summary>
@@ -215,8 +206,8 @@ namespace ABPUtils
         /// <returns></returns>
         private string UpdateCheckSum(string content)
         {
-            int index = content.IndexOf("]");
-            string checkSum = string.Format("\n!  Checksum: {0}", CalculateMD5Hash(RemoveEmptyLines(content)));
+            var index = content.IndexOf("]", StringComparison.Ordinal);
+            var checkSum = string.Format("\n!  Checksum: {0}", CalculateMD5Hash(RemoveEmptyLines(content)));
             content = content.Insert(index + 1, checkSum);
 
             return content;
@@ -229,7 +220,7 @@ namespace ABPUtils
         /// <returns></returns>
         private string ToSimplified(string source)
         {
-            System.Globalization.CultureInfo cl = new System.Globalization.CultureInfo("zh-CN", false);
+            var cl = new System.Globalization.CultureInfo("zh-CN", false);
 
             return Strings.StrConv(source, VbStrConv.SimplifiedChinese, cl.LCID);
         }
@@ -241,11 +232,11 @@ namespace ABPUtils
         /// <returns></returns>
         private string CalculateMD5Hash(string content)
         {
-            string result = string.Empty;
-            using (MD5CryptoServiceProvider x = new MD5CryptoServiceProvider())
+            string result;
+            using (var x = new MD5CryptoServiceProvider())
             {
-                byte[] md5Hash = Encoding.UTF8.GetBytes(content);
-                byte[] hashResult = x.ComputeHash(md5Hash);
+                var md5Hash = Encoding.UTF8.GetBytes(content);
+                var hashResult = x.ComputeHash(md5Hash);
                 result = Convert.ToBase64String(hashResult);
                 //remove trailing = characters if any
                 result = result.TrimEnd('=');

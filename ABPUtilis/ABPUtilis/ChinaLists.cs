@@ -22,8 +22,8 @@ namespace ABPUtils
         /// <returns></returns>
         public static string GetVersion()
         {
-            Assembly assembly = Assembly.GetExecutingAssembly();
-            FileVersionInfo fvi = FileVersionInfo.GetVersionInfo(assembly.Location);
+            var assembly = Assembly.GetExecutingAssembly();
+            var fvi = FileVersionInfo.GetVersionInfo(assembly.Location);
             return fvi.ProductVersion;
         }
 
@@ -43,39 +43,36 @@ namespace ABPUtils
                 lazyList = "adblock-lazy.txt";
 
             // validate ChinaList to merge
-            ChinaList cl = new ChinaList(chinaList);
+            var cl = new ChinaList(chinaList);
             cl.Update();
 
             if (cl.Validate() != 1)
                 return;
 
             // load ChinaList content
-            string chinaListContent = string.Empty;
-            StringBuilder sBuilder = new StringBuilder();
-            using (StreamReader sr = new StreamReader(chinaList, Encoding.UTF8))
+            var sBuilder = new StringBuilder();
+            using (var sr = new StreamReader(chinaList, Encoding.UTF8))
             {
-                chinaListContent = sr.ReadToEnd();
-                var headerIndex = chinaListContent.IndexOf(ChinaListConst.CHINALIST_LAZY_HEADER_MARK);
-                chinaListContent = chinaListContent.Substring(headerIndex).Insert(0, ChinaListConst.CHINALIST_LAZY_HEADER);
-                var index = chinaListContent.IndexOf(ChinaListConst.CHINALIST_END_MARK);
+                var chinaListContent = sr.ReadToEnd();
+                var headerIndex = chinaListContent.IndexOf(ChinaListConst.ChinalistLazyHeaderMark, StringComparison.Ordinal);
+                chinaListContent = chinaListContent.Substring(headerIndex).Insert(0, ChinaListConst.ChinalistLazyHeader);
+                var index = chinaListContent.IndexOf(ChinaListConst.ChinalistEndMark, StringComparison.Ordinal);
                 chinaListContent = chinaListContent.Remove(index);
                 sBuilder.Append(chinaListContent);
             }
 
-            string easyListContent = TrimEasyList();
-            sBuilder.AppendLine("!-----------------------EasyList----------------------------");
-            sBuilder.AppendLine(easyListContent);
+            sBuilder.AppendLine("!*** EasyList ***");
+            sBuilder.AppendLine(TrimEasyList());
 
-            string easyPrivacyContent = TrimEasyPrivacy();
-            sBuilder.AppendLine("!-----------------------EasyPrivacy----------------------------");
-            sBuilder.Append(easyPrivacyContent);
+            sBuilder.AppendLine("!*** EasyPrivacy ***");
+            sBuilder.Append(TrimEasyPrivacy());
 
             //apply patch settings
-            if (File.Exists(ChinaListConst.PATCH_FILE) && patch)
+            if (File.Exists(ChinaListConst.PatchFile) && patch)
             {
-                Console.WriteLine("use {0} to patch {1}", ChinaListConst.PATCH_FILE, lazyList);
+                Console.WriteLine("use {0} to patch {1}", ChinaListConst.PatchFile, lazyList);
 
-                Configurations pConfig = GetConfigurations();
+                var pConfig = GetConfigurations();
 
                 if (pConfig != null)
                 {
@@ -104,9 +101,9 @@ namespace ABPUtils
                     if (!string.IsNullOrEmpty(pConfig.Privacy))
                     {
                         sBuilder.AppendLine("! *** adblock-privacy.txt");
-                        var line = string.Empty;
-                        using (StreamReader sr = new StreamReader(pConfig.Privacy, Encoding.UTF8))
+                        using (var sr = new StreamReader(pConfig.Privacy, Encoding.UTF8))
                         {
+                            string line;
                             while ((line = sr.ReadLine()) != null)
                             {
                                 if (string.IsNullOrWhiteSpace(line) || line.StartsWith("!") || line.StartsWith("["))
@@ -120,10 +117,9 @@ namespace ABPUtils
                 Console.WriteLine("Patch file end.");
             }
 
-            sBuilder.AppendLine(string.Empty);
-            sBuilder.AppendLine(ChinaListConst.CHINALIST_END_MARK);
+            sBuilder.AppendLine(ChinaListConst.ChinalistEndMark);
 
-            Console.WriteLine(string.Format("Merge {0}, {1} and {2}.", chinaList, ChinaListConst.EASYLIST, ChinaListConst.EASYPRIVACY));
+            Console.WriteLine("Merge {0}, {1} and {2}.", chinaList, ChinaListConst.Easylist, ChinaListConst.Easyprivacy);
             Save(lazyList, sBuilder.ToString());
 
             cl = new ChinaList(lazyList);
@@ -142,53 +138,47 @@ namespace ABPUtils
         {
             if (DownloadEasyList(null))
             {
-                Configurations patchConfig = ChinaLists.GetConfigurations();
+                var patchConfig = GetConfigurations();
                 if (patchConfig == null)
                 {
                     Console.WriteLine("wrong Patch Confguration file.");
                     return;
                 }
 
-                StringBuilder sBuilder = new StringBuilder();
-                using (StreamReader sr = new StreamReader(chinaList, Encoding.UTF8))
+                var sBuilder = new StringBuilder();
+                using (var sr = new StreamReader(chinaList, Encoding.UTF8))
                 {
                     sBuilder.Append(sr.ReadToEnd());
                 }
 
-                using (StreamReader sr = new StreamReader(ChinaListConst.EASYLIST, Encoding.UTF8))
+                using (var sr = new StreamReader(ChinaListConst.Easylist, Encoding.UTF8))
                 {
                     sBuilder.Append(sr.ReadToEnd());
                 }
 
-                using (StreamReader sr = new StreamReader(ChinaListConst.EASYPRIVACY, Encoding.UTF8))
+                using (var sr = new StreamReader(ChinaListConst.Easyprivacy, Encoding.UTF8))
                 {
                     sBuilder.Append(sr.ReadToEnd());
                 }
 
-                string s = sBuilder.ToString();
+                var s = sBuilder.ToString();
 
-                List<string> removedItems = new List<string>(patchConfig.RemovedItems);
-                foreach (var item in patchConfig.RemovedItems)
+                var removedItems = new List<string>(patchConfig.RemovedItems);
+                foreach (var item in patchConfig.RemovedItems.Where(item => !s.Contains(item)))
                 {
-                    if (s.IndexOf(item) > -1)
-                        continue;
-
                     removedItems.Remove(item);
                 }
 
-                List<ModifyItem> modifyItems = new List<ModifyItem>(patchConfig.ModifyItems);
-                foreach (var item in patchConfig.ModifyItems)
+                var modifyItems = new List<ModifyItem>(patchConfig.ModifyItems);
+                foreach (var item in patchConfig.ModifyItems.Where(item => !s.Contains(item.OldItem)))
                 {
-                    if (s.IndexOf(item.OldItem) > -1)
-                        continue;
-
                     modifyItems.Remove(item);
                 }
 
                 patchConfig.ModifyItems = modifyItems;
                 patchConfig.RemovedItems = removedItems;
-                string xml = SimpleSerializer.XmlSerialize<Configurations>(patchConfig);
-                Save(ChinaListConst.PATCH_FILE, xml);
+                var xml = SimpleSerializer.XmlSerialize(patchConfig);
+                Save(ChinaListConst.PatchFile, xml);
             }
         }
 
@@ -206,29 +196,28 @@ namespace ABPUtils
             if (string.IsNullOrEmpty(invalidDomains))
                 invalidDomains = "invalid_domains.txt";
 
-            ChinaList cl = new ChinaList(fileName);
-            List<string> domains = cl.GetDomains();
+            var cl = new ChinaList(fileName);
+            var domains = cl.GetDomains();
             //List<string> urls = cl.ParseURLs();
-            StringBuilder results = new StringBuilder();
+            var results = new StringBuilder();
             //StringBuilder fullResult = new StringBuilder();
-            List<string> whiteList = new List<string>();
-            whiteList.Add("ns1.dnsv2.com");
+            var whiteList = new List<string> { "ns1.dnsv2.com" };
 
             Parallel.ForEach(domains, domain =>
             {
                 Console.WriteLine("Querying DNS records for domain: {0}", domain);
-                QueryResult queryResult = DNSQuery(dns, domain);
+                var queryResult = DnsQuery(dns, domain);
                 Console.Write(queryResult.ToString());
                 //fullResult.Append(queryResult.ToString());
-                bool ret = false;
+                var ret = false;
 
-                if (queryResult.NSCount < 1)
+                if (queryResult.NsCount < 1)
                 {
                     results.Append(queryResult.ToString());
                     return;
                 }
 
-                foreach (var ns in queryResult.NSList)
+                foreach (var ns in queryResult.NsList)
                 {
                     var t = ns;
                     if (ns.Contains("="))
@@ -236,17 +225,14 @@ namespace ABPUtils
 
                     try
                     {
-                        IPHostEntry ip = Dns.GetHostEntry(t);
-                        QueryResult temp = DNSQuery(ip.AddressList[0], domain);
-                        if (temp.NSCount > 0 || whiteList.Contains(t))
+                        var ip = Dns.GetHostEntry(t);
+                        var temp = DnsQuery(ip.AddressList[0], domain);
+                        if (temp.NsCount > 0 || whiteList.Contains(t))
                         {
                             ret = true;
                             break;
                         }
-                        else
-                        {
-                            queryResult.Error += string.Format("\n[V]: ns->{0}, Count->{1}", t, temp.NSCount);
-                        }
+                        queryResult.Error += string.Format("\n[V]: ns->{0}, Count->{1}", t, temp.NsCount);
                     }
                     catch (Exception ex)
                     {
@@ -265,23 +251,23 @@ namespace ABPUtils
             Save(invalidDomains, results.ToString());
         }
 
-        public static QueryResult DNSQuery(IPAddress dnsServer, string domain)
+        public static QueryResult DnsQuery(IPAddress dnsServer, string domain)
         {
             if (dnsServer == null)
                 dnsServer = IPAddress.Parse("8.8.8.8");
 
-            QueryResult queryResult = new QueryResult()
+            var queryResult = new QueryResult
             {
                 Domain = domain,
-                DNS = dnsServer.ToString(),
-                NSCount = -1
+                Dns = dnsServer.ToString(),
+                NsCount = -1
             };
 
             Response response = null;
             try
             {
                 // create a DNS request
-                Request request = new Request();
+                var request = new Request();
                 request.AddQuestion(new Question(domain, DnsType.NS, DnsClass.IN));
 
                 response = Resolver.Lookup(request, dnsServer);
@@ -301,25 +287,22 @@ namespace ABPUtils
 
             // queryResult.NSCount = response.Answers.Length + response.AdditionalRecords.Length + response.NameServers.Length;
 
-            foreach (Answer answer in response.Answers)
+            foreach (var answer in response.Answers.Where(answer => answer.Record != null))
             {
-                if (answer.Record != null)
-                    queryResult.NSList.Add(answer.Record.ToString());
+                queryResult.NsList.Add(answer.Record.ToString());
             }
 
-            foreach (AdditionalRecord additionalRecord in response.AdditionalRecords)
+            foreach (var additionalRecord in response.AdditionalRecords.Where(additionalRecord => additionalRecord.Record != null))
             {
-                if (additionalRecord.Record != null)
-                    queryResult.NSList.Add(additionalRecord.Record.ToString());
+                queryResult.NsList.Add(additionalRecord.Record.ToString());
             }
 
-            foreach (NameServer nameServer in response.NameServers)
+            foreach (var nameServer in response.NameServers.Where(nameServer => nameServer.Record != null))
             {
-                if (nameServer.Record != null)
-                    queryResult.NSList.Add(nameServer.Record.ToString());
+                queryResult.NsList.Add(nameServer.Record.ToString());
             }
 
-            queryResult.NSCount = queryResult.NSList.Count;
+            queryResult.NsCount = queryResult.NsList.Count;
 
             return queryResult;
         }
@@ -331,7 +314,7 @@ namespace ABPUtils
         /// <param name="content"></param>
         public static void Save(string fileName, string content)
         {
-            using (StreamWriter sw = new StreamWriter(fileName, false))
+            using (var sw = new StreamWriter(fileName, false))
             {
                 sw.Write(content);
                 sw.Flush();
@@ -340,76 +323,56 @@ namespace ABPUtils
 
         private static bool IsFileExist(string fileName)
         {
-            DateTime dt = File.GetLastWriteTime(fileName);
-            FileInfo fileInfo = new FileInfo(fileName);
+            var dt = File.GetLastWriteTime(fileName);
+            var fileInfo = new FileInfo(fileName);
 
             return (dt.ToString("yyyy-MM-dd").Equals(DateTime.Now.ToString("yyyy-MM-dd")) && fileInfo.Length > 0);
         }
 
         private static string TrimEasyList()
         {
-            StringBuilder sBuilder = new StringBuilder();
-            using (StreamReader sr = new StreamReader(ChinaListConst.EASYLIST, Encoding.UTF8))
+            var sBuilder = new StringBuilder();
+            using (var sr = new StreamReader(ChinaListConst.Easylist, Encoding.UTF8))
             {
-                string easyListContent = sr.ReadToEnd();
-                string[] lists = Regex.Split(easyListContent, @"! \*\*\* ");
+                var easyListContent = sr.ReadToEnd();
+                var lists = Regex.Split(easyListContent, @"! \*\*\* ");
 
-                foreach (var list in lists)
+                foreach (var t in from list in lists select list.Trim() into t where IsEasyListItemOn(t) select t.TrimEnd(new[] { '\r', '\n' }))
                 {
-                    var t = list.Trim();
-
-                    if (IsEasyListItemOn(t))
-                    {
-                        var index = t.IndexOf("!-----------------");
-                        if (index > 0)
-                            t = t.Remove(index);
-
-                        t = t.TrimEnd(new char[] { '\r', '\n' });
-                        sBuilder.AppendLine("! *** " + t);
-                    }
+                    sBuilder.AppendLine("! *** " + t);
                 }
             }
 
-            return sBuilder.Replace("\r", string.Empty).ToString();
+            return sBuilder.Replace("\r", string.Empty).ToString().TrimEnd(new[] { '\r', '\n' });
         }
 
         private static string TrimEasyPrivacy()
         {
-            StringBuilder sBuilder = new StringBuilder();
-            using (StreamReader sr = new StreamReader(ChinaListConst.EASYPRIVACY, Encoding.UTF8))
+            var sBuilder = new StringBuilder();
+            using (var sr = new StreamReader(ChinaListConst.Easyprivacy, Encoding.UTF8))
             {
-                string easyPrivacyContent = sr.ReadToEnd();
+                var easyPrivacyContent = sr.ReadToEnd();
 
-                string[] lists = Regex.Split(easyPrivacyContent, @"! \*\*\* ");
+                var lists = Regex.Split(easyPrivacyContent, @"! \*\*\* ");
 
-                foreach (var list in lists)
+                var titleRegx = new Regex(@"^([\s\S]*?)(\*){3}", RegexOptions.IgnoreCase | RegexOptions.Multiline);
+                var contentRegx = new Regex(@"\! Chinese[\s\S]*?\!", RegexOptions.IgnoreCase | RegexOptions.Multiline);
+
+                foreach (var t in lists.Select(list => list.Trim()).Where(IsEasyPrivacyOff))
                 {
-                    var t = list.Trim();
-
-                    if (t.StartsWith(ChinaListConst.HEAD)
-                        || IsEasyPrivacyOff(t))
-                        continue;
-
-                    if (t.IndexOf("_international.txt") > -1)
+                    if (t.Contains("_international.txt"))
                     {
-                        int chinese = t.IndexOf("! Chinese");
-                        if (chinese < 0)
+                        var match = contentRegx.Match(t);
+                        if (!match.Success)
                             continue;
-
-                        int czech = t.IndexOf("! Czech");
-                        if (czech < 0)
-                            czech = t.IndexOf("! Danish");
-
-                        int length = t.IndexOf(".txt ***");
-                        t = t.Substring(0, length + 9) + t.Substring(chinese, czech - chinese);
+                        var title = titleRegx.Match(t).Groups[0].Value;
+                        var content = contentRegx.Match(t).Groups[0].Value.TrimEnd(new[] { '\r', '\n', '!' });
+                        sBuilder.AppendFormat("! *** {0}\n {1}\n", title, content);
                     }
-
-                    var index = t.IndexOf("!-----------------");
-                    if (index > 0)
-                        t = t.Remove(index);
-
-                    t = t.TrimEnd(new char[] { '\r', '\n' });
-                    sBuilder.AppendLine("! *** " + t);
+                    else
+                    {
+                        sBuilder.AppendLine(t);
+                    }
                 }
             }
 
@@ -418,39 +381,19 @@ namespace ABPUtils
 
         private static string ParseNameServer(string ns)
         {
-            string temp = string.Empty;
-            temp = ns.Split('=')[1].Trim();
+            var temp = ns.Split('=')[1].Trim();
             temp = temp.Split('\n')[0].Trim();
 
             return temp;
         }
 
-        private static StringBuilder RemoveDuplicateFilter(StringBuilder sBuilder)
-        {
-            var list = new List<string>(sBuilder.ToString().Split('\n')).Distinct<string>();
-            var t = new List<string>();
-
-            sBuilder.Clear();
-
-            foreach (var f in list)
-            {
-                if (t.Contains(f))
-                    continue;
-
-                t.Add(f);
-                sBuilder.AppendLine(f);
-            }
-
-            return sBuilder;
-        }
-
         private static Configurations GetConfigurations()
         {
-            if (File.Exists(ChinaListConst.PATCH_FILE))
+            if (File.Exists(ChinaListConst.PatchFile))
             {
-                using (StreamReader sr = new StreamReader(ChinaListConst.PATCH_FILE, Encoding.UTF8))
+                using (var sr = new StreamReader(ChinaListConst.PatchFile, Encoding.UTF8))
                 {
-                    string xml = sr.ReadToEnd();
+                    var xml = sr.ReadToEnd();
                     return SimpleSerializer.XmlDeserialize<Configurations>(xml);
                 }
             }
@@ -459,77 +402,38 @@ namespace ABPUtils
         }
 
 
-
         private static bool IsEasyListItemOn(string value)
         {
-            Configurations patchconfig = GetConfigurations();
-            List<string> easyList = null;
+            var patchconfig = GetConfigurations();
 
-            if (patchconfig == null || patchconfig.EasyListFlag == null)
-            {
-                easyList = new List<string>(new string[] {ChinaListConst.EASYLIST_EASYLIST_GENERAL_BLOCK,
-                                        ChinaListConst.EASYLIST_EASYLIST_GENERAL_HIDE,
-                                        ChinaListConst.EASYLIST_EASYLIST_GENERAL_POPUP,
-                                        ChinaListConst.EASYLIST_GENERAL_BLOCK_DIMENSIONS,
-                                        ChinaListConst.EASYLIST_EASYLIST_ADSERVERS,
-                                        ChinaListConst.EASYLIST_ADSERVERS_POPUP,
-                                        ChinaListConst.EASYLIST_EASYLIST_THIRDPARTY,
-                                        ChinaListConst.EASYLIST_THIRDPARTY_POPUP});
-            }
-            else
-            {
-                easyList = patchconfig.EasyListFlag;
-            }
+            var easyList = patchconfig.EasyListFlag;
 
-            foreach (var s in easyList)
-            {
-                if (value.IndexOf(s) > -1)
-                    return true;
-            }
-
-            return false;
+            return easyList != null && easyList.Any(value.Contains);
         }
 
         private static bool IsEasyPrivacyOff(string value)
         {
-            List<string> easyPrivacy = null;
-            Configurations patchconfig = GetConfigurations();
+            var patchconfig = GetConfigurations();
+            var easyPrivacy = patchconfig.EasyPrivacyFlag;
 
-            if (patchconfig == null || patchconfig.EasyPrivacyFlag == null)
-            {
-                easyPrivacy = new List<string>(
-                 new string[] {
-                                ChinaListConst.EASYPRIVACY_WHITELIST,
-                                ChinaListConst.EASYPRIVACY_WHITELIST_INTERNATIONAL
-                            });
-            }
-            else
-            {
-                easyPrivacy = patchconfig.EasyPrivacyFlag;
-            }
-
-            foreach (var s in easyPrivacy)
-            {
-                if (value.IndexOf(s) > -1)
-                    return true;
-            }
-
-            return false;
+            return easyPrivacy != null && easyPrivacy.Any(value.Contains);
         }
 
         private static bool DownloadEasyList(WebProxy proxy)
         {
-            using (WebClient webClient = new WebClient())
+            using (var webClient = new WebClient())
             {
                 if (proxy != null)
                 {
                     webClient.Proxy = proxy;
-                    Console.WriteLine("use proxy: {0}", proxy.Address.Authority.ToString());
+                    Console.WriteLine("use proxy: {0}", proxy.Address.Authority);
                 }
 
-                Dictionary<string, string> lists = new Dictionary<string, string>();
-                lists.Add(ChinaListConst.EASYLIST, ChinaListConst.EASYLIST_URL);
-                lists.Add(ChinaListConst.EASYPRIVACY, ChinaListConst.EASYPRIVACY_URL);
+                var lists = new Dictionary<string, string>
+                {
+                    {ChinaListConst.Easylist, ChinaListConst.EasylistUrl},
+                    {ChinaListConst.Easyprivacy, ChinaListConst.EasyprivacyUrl}
+                };
 
                 foreach (var s in lists)
                 {
@@ -542,11 +446,11 @@ namespace ABPUtils
                         Console.WriteLine("{0} is out of date, to start the update.", s.Key);
                         webClient.DownloadFile(s.Value, s.Key);
                         Console.WriteLine("update {0} completed.", s.Key);
-                        ChinaList t = new ChinaList(s.Key);
+                        var t = new ChinaList(s.Key);
 
                         if (t.Validate() != 1)
                         {
-                            Console.WriteLine(string.Format("Download {0} error,pls try later.", s.Key));
+                            Console.WriteLine("Download {0} error,pls try later.", s.Key);
                             return false;
                         }
                     }

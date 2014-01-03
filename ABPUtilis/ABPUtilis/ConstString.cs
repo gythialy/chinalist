@@ -3,9 +3,9 @@ namespace ABPUtils
 {
     internal class ChinaListConst
     {
-        public const string PATCH_FILE = "patch.xml";
-        public const string EASYLIST = "easylist.txt";
-        public const string CHINALIST_LAZY_HEADER = @"[Adblock Plus 2.1]
+        public const string PatchFile = "patch.xml";
+        public const string Easylist = "easylist.txt";
+        public const string ChinalistLazyHeader = @"[Adblock Plus 2.1]
 !  Adblock Plus List with Main Focus on Chinese Sites.
 !  Last Modified:  
 !  Homepage: http://chinalist.github.io/
@@ -20,7 +20,7 @@ namespace ABPUtils
 !  coding: utf-8, expires: 5 days
 !--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
 ";
-        public const string HELP_INFO = @"Copyright (C) 2008 - {0} Adblock Plus ChinaList Project
+        public const string HelpInfo = @"Copyright (C) 2008 - {0} Adblock Plus ChinaList Project
 This is free software. You may redistribute copies of it under the terms of
 the GNU LGPL License <http://www.gnu.org/copyleft/lesser.html>.
 Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
@@ -58,26 +58,10 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
 
   h, help        Dispaly this help screen.";
 
-        public const string EASYLIST_URL = "https://easylist-downloads.adblockplus.org/easylist.txt";
-        public const string EASYPRIVACY = "easyprivacy.txt";
-        public const string EASYPRIVACY_URL = "https://easylist-downloads.adblockplus.org/easyprivacy.txt";
-        public const string CHINALIST_LAZY_HEADER_MARK = "!----------------------------White List--------------------";
-        public const string CHINALIST_END_MARK = "!------------------------End of List-------------------------";
-
-        public const string EASYLIST_EASYLIST_GENERAL_BLOCK = "easylist:easylist/easylist_general_block.txt";
-        public const string EASYLIST_EASYLIST_GENERAL_HIDE = "easylist:easylist/easylist_general_hide.txt";
-        public const string EASYLIST_EASYLIST_GENERAL_POPUP = "easylist:easylist/easylist_general_block_popup.txt";
-        public const string EASYLIST_GENERAL_BLOCK_DIMENSIONS = "easylist:easylist/easylist_general_block_dimensions.txt";
-        public const string EASYLIST_EASYLIST_ADSERVERS = "easylist:easylist/easylist_adservers.txt";
-        public const string EASYLIST_ADSERVERS_POPUP = "easylist:easylist/easylist_adservers_popup.txt";
-        public const string EASYLIST_EASYLIST_THIRDPARTY = "easylist:easylist/easylist_thirdparty.txt";
-        public const string EASYLIST_THIRDPARTY_POPUP = "easylist:easylist/easylist_thirdparty_popup.txt";
-
-        public const string EASYPRIVACY_TRACKINGSERVERS_INTERNATIONAL = "easylist:easyprivacy/easyprivacy_trackingservers_international.txt";
-        public const string EASYPRIVACY_THIRDPARTY_INTERNATIONAL = "easylist:easyprivacy/easyprivacy_thirdparty_international.txt";
-        public const string EASYPRIVACY_SPECIFIC_INTERNATIONAL = "easylist:easyprivacy/easyprivacy_specific_international.txt";
-        public const string EASYPRIVACY_WHITELIST = "easylist:easyprivacy/easyprivacy_whitelist.txt";
-        public const string EASYPRIVACY_WHITELIST_INTERNATIONAL = "easylist:easyprivacy/easyprivacy_whitelist_international.txt";
-        public const string HEAD = "[Adblock Plus";
+        public const string EasylistUrl = "https://easylist-downloads.adblockplus.org/easylist.txt";
+        public const string Easyprivacy = "easyprivacy.txt";
+        public const string EasyprivacyUrl = "https://easylist-downloads.adblockplus.org/easyprivacy.txt";
+        public const string ChinalistLazyHeaderMark = "!----------------------------White List--------------------";
+        public const string ChinalistEndMark = "!------------------------End of List-------------------------";
     }
 }
