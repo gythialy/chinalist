@@ -11,7 +11,7 @@ namespace ABPUtils
 {
     class ChinaList
     {
-        private const string ChecksumRegx = @"^\s*!\s*checksum[\s\-:]+([\w\+\/=]+).*\n";
+        private const string ChecksumRegx = @"(\!\s*checksum[\s\-:]+)([\w\+\/=]+).*(\n)";
         private const string UrlRegx = @"([a-z0-9][a-z0-9\-]*?\.(?:com|edu|cn|net|org|gov|im|info|la|co|tv|biz|mobi)(?:\.(?:cn|tw))?)";
 
         public String FileName
@@ -173,10 +173,7 @@ namespace ABPUtils
         /// <returns></returns>
         private string RemoveChecksum(string content)
         {
-            var regex = new Regex(ChecksumRegx, RegexOptions.Multiline | RegexOptions.IgnoreCase);
-            content = regex.Replace(content, string.Empty);
-
-            return content;
+            return Regex.Replace(content, ChecksumRegx, string.Empty, RegexOptions.Multiline | RegexOptions.IgnoreCase);
         }
 
         /// <summary>
@@ -187,16 +184,9 @@ namespace ABPUtils
         private string FindCheckSum(string content)
         {
             var regex = new Regex(ChecksumRegx, RegexOptions.Multiline | RegexOptions.IgnoreCase);
-
             var match = regex.Match(content);
-            var value = match.Value;
 
-            if (string.IsNullOrEmpty(value))
-            {
-                return string.Empty;
-            }
-            var temp = match.Value.Split(':');
-            return temp[1].Trim();
+            return match.Success ? match.Groups[2].Value.Trim() : string.Empty;
         }
 
         /// <summary>
@@ -206,11 +196,9 @@ namespace ABPUtils
         /// <returns></returns>
         private string UpdateCheckSum(string content)
         {
-            var index = content.IndexOf("]", StringComparison.Ordinal);
-            var checkSum = string.Format("\n!  Checksum: {0}", CalculateMD5Hash(RemoveEmptyLines(content)));
-            content = content.Insert(index + 1, checkSum);
-
-            return content;
+            return Regex.Replace(content, @"(\[Adblock Plus \d\.\d\])",
+                        string.Format("$1\n!  Checksum: {0}", CalculateMD5Hash(RemoveEmptyLines(content))),
+                        RegexOptions.Multiline | RegexOptions.IgnoreCase);
         }
 
         /// <summary>
