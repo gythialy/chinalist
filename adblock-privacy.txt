@@ -16,9 +16,6 @@
 ||stat.17k.com^
 ||analytics.21cn.com^
 
-!---E
-||eastmoney.com/count
-
 !---G
 ||greenxf.com/count$script
 
@@ -40,5 +37,4 @@
 /tracking.$image,object_subrequest
 !--sort by domain
 ||51img.ajiang.net^
-||cnzz.net^
 ||sitebro.$third-party

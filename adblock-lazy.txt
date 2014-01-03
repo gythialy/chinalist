@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: T2RaNzAGuC4dDDKylHiiHg
+!  Checksum: 75rw71LdPbU2w/xceZL3uQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 03 Jan 2014 21:21:25 +0800
+!  Last Modified:  Fri, 03 Jan 2014 23:36:45 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -148,11 +148,6 @@ jd.com#@#.adwords
 5173.com##.fullscreenmsg
 5173.com###popupRight
 5173.com###ggFloat
-
-!---51.la
-||51img.ajiang.net^$image,domain=www.51.la
-51.la###zztxt
-51.la###zanzhu
 
 !---51nb.com
 @@||forum.51nb.com/images/*/
@@ -1668,7 +1663,6 @@ soku.com###ab_282
 @@||td.atm.youku.com^$object-subrequest
 @@||js.tudouui.com/bin/player$object
 /cv/*&uuid=$object_subrequest
-/pos?$object_subrequest
 ||tudou.com^*/outside.php
 ||player.pb.ops.tudou.com/info.php?
 ||stat*.tudou.com^
@@ -3026,6 +3020,8 @@ www.3dmgame.com##.banner_1
 360doc.com###divadleft
 51caiju.com###hint + .AdTop-Article-QQ
 51caiju.com##.l_qq_com
+51.la###zztxt
+51.la###zanzhu
 52wubi.com##.top960
 amznz.com##div[style="float:left;width:250px;height:250px;"]
 appinn.com##.ads
@@ -3098,7 +3094,6 @@ saraba1st.com##.tac.mb5
 sfacg.com###beitou
 www.shupeng.com##.dk-weixin
 www.shupeng.com##.mod.msg-mod.msg-notice + .mod
-simplecd.me##[class^="ad-"]ad
 suopao.org##.t5[style^="margin-top:8px;"]
 ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
 u-car.com.tw##.contad
@@ -24102,7 +24097,7 @@ _popunder+$popup
 ! Non-English (instead of whitelisting ads)
 ||adhood.com^$third-party
 !*** EasyPrivacy ***
-easylist:easyprivacy/easyprivacy_general.txt ***
+!*** easylist:easyprivacy/easyprivacy_general.txt ***
 &pageReferrer=
 &uuid=*&piano_visit_key=
 -AdTracking.
@@ -26403,7 +26398,6 @@ m.youtube.com##a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"]
 ! *** adblock-privacy.txt
 ||stat.17k.com^
 ||analytics.21cn.com^
-||eastmoney.com/count
 ||greenxf.com/count$script
 ||iplaysoft.com/plus/api/counter.php
 |http://click.$image
@@ -26416,6 +26410,5 @@ m.youtube.com##a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"]
 |http://track.
 /tracking.$image,object_subrequest
 ||51img.ajiang.net^
-||cnzz.net^
 ||sitebro.$third-party
 !------------------------End of List-------------------------

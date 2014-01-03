@@ -371,7 +371,7 @@ namespace ABPUtils
                     }
                     else
                     {
-                        sBuilder.AppendLine(t);
+                        sBuilder.AppendLine("!*** " + t);
                     }
                 }
             }
