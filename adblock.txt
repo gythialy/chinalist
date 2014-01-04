@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: MBXLdTuPQVfX3dAKf70uCA
+!  Checksum: 3QtOa/tOCxv8G2H221OYbg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 03 Jan 2014 23:36:41 +0800
+!  Last Modified:  Sat, 04 Jan 2014 16:24:03 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -273,55 +273,29 @@ autohome.com.cn##.advarticle
 club.autohome.com.cn##.serve
 
 !---Baidu
-||baidu.com/cpro.php
 ||baidu.com/ecom$image,script
-||bs.baidu.com/adcoup-mat/
-||ecma.bdimg.com/lego-mat/
 ||music.baidu.com/static/html/cbjs.html
 ||news.baidu.com/nocache/mp/b.jpg
-||mu6.bdstatic.com/static/j/4HDIIHzf.js
 ||play.baidu.com/player/static/audio/10s.mp3
 ||wenku.baidu.com/static/common/tmp/red_packet/no1.swf
 ||youxi.baidu.com/images/$third-party
 baike.baidu.com###mabox
-news.baidu.com###ecad
 www.baidu.com##.tools
-www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ad-material-wrapper
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_bdtg
 www.baidu.com,www1.baidu.com,ipv6.baidu.com###ec_im_container
-www.baidu.com,www1.baidu.com,ipv6.baidu.com###ecad
-www.baidu.com,www1.baidu.com,ipv6.baidu.com##.EC_mr15
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_pp_f
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_pp_f + br
-www.baidu.com,www1.baidu.com,ipv6.baidu.com##.EC_ppim
-www.baidu.com,www1.baidu.com,ipv6.baidu.com##.EC_ppim2
 !--hao123
-@@||hao123.com/images/track.gif|
-||hao123.com/images/ua2.gif
-!--image
-image.baidu.com###ecomContainer
-image.baidu.com##[id^="relecom"]
+hao123img.com/res/ecom/
 !--pan
 ||dq.baidu.com/nocipher?
-pan.baidu.com###activateGuidePopupOuter
 !--tieba
 ||m.tiebaimg.com/timg?wapp^*imgtype=0$image
+||imgsrc.baidu.com/tieba/pic/item/$image
 tieba.baidu.com##.l_banner
 tieba.baidu.com###search_button.search_button
 tieba.baidu.com##[id^="game_couplet_pb_"]
-!--zhidao
-||baidu.com^*/egg*.swf
-iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##.ad-fc-down
-iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###ad-brand-down
-iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###ik-qb-egg
-iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com###qb-ad-cpro
-iknow.baidu.com,z.baidu.com,zidao.baidu.com,zhidao.baidu.com##[class^="wgt-ads"]
 !--unions
-@@||cpro.baidu.com/cpro/ui/uijs.php$domain=vdisk.cn|dl.vmall.com
-@@||cpro.baidu.com/cpro/ui/y.js$domain=vdisk.cn|dl.vmall.com
-@@||cpro.baidu.com/extra/text_flash/AC_RunActiveContent.js$domain=vdisk.cn|dl.vmall.com
-@@||cpro.baidu.com/img/bg_captchaF.png
-@@||drmcmm.baidu.com/media/$image,object,domain=cpro.baidu.com
 ||cb.baidu.com^
 ||cbjs.baidu.com^
 ||cpro.baidu.com^
@@ -2713,6 +2687,7 @@ zxtjd.com###it_an
 ||hoyiad.com^$third-party
 ||huaqimen.com^$third-party
 ||huoli.com^$third-party
+||hz3137.com^$third-party
 ||i-power.hk^$third-party
 ||i-qianming.cn^$third-party
 ||icast.cn^$third-party
@@ -2810,7 +2785,9 @@ zxtjd.com###it_an
 ||360.rbc.cn^$third-party
 ||redu.com^$third-party
 ||redu-click.com^$third-party
+||rekanw.com^$third-party
 ||author.richi.cc^$third-party
+||rsccs.com^$third-party
 ||samboc.com^$third-party
 ||scupio.com^$third-party
 ||c.sfilm.com^$third-party
@@ -2847,6 +2824,7 @@ zxtjd.com###it_an
 ||tttccc.net^$third-party
 ||tuigoo.com^$third-party
 ||tuite8.com^$third-party
+||tukj.net^$third-party
 ||txjy2008.com^$third-party
 ||ubcpm.com^$third-party
 ||uctrac.com^$third-party
@@ -3002,6 +2980,7 @@ zxtjd.com###it_an
 /tan1.js
 /u/_sponsor/*
 /tanchuang.
+@@||tbcdn.cn/apps/tuiguang/$domain=tmall.com
 /tuiguang/*
 /webafp?
 
@@ -3115,7 +3094,7 @@ zjol.com.cn##span.qqt
 zjol.com.cn##span.lqgg
 
 !-----------------------Temporary---------------------------
-!---2013.12
+!---2014.01
 ||qtfy30.cn/top_690.gif
 ||xiuxiu.meitu.com/images/banner/meitushop_fixed_816.gif
 ||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
