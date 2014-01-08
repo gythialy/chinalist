@@ -29,7 +29,7 @@ ChinaList 团队维护的核心列表，作为EasyList的补充列表。
 **推荐所有中文用户订阅**
 - ChinaList Lazy  
 ChinaList 和 EasyList、 EasyPrivacy 的部分规则的合并列表，自动生成，和 ChinaList 保持同步更新。  
-轻量版的 EasyList, EasyPrivacy, ChinaList 的组合，[细节说明](https://code.google.com/p/adblock-chinalist/wiki/something_about_ChinaList_Lazy)。  
+轻量版的 EasyList, EasyPrivacy, ChinaList 的组合，[细节说明](https://github.com/chinalist/chinalist/wiki/something_about_ChinaList_Lazy)。  
 **推荐访问少量英文站点的中文用户订阅**
 
 #### 其他团队维护的列表  
@@ -60,8 +60,7 @@ Adblock Plus非万能，其实现原理[在此](http://adblockplus.org/zh_CN/faq
 - [人人网改造器](http://userscripts.org/scripts/show/45836)
 - [去各大视频网站黑屏](https://code.google.com/p/haoutil/)  
 
-LICENSE 
-===
+## LICENSE 
 
 - ChinaList [GNU Lesser GPL](http://www.gnu.org/licenses/lgpl.html)
 - ChinaList Lazy [Creative Commons 3.0 BY-SA](http://creativecommons.org/licenses/by-sa/3.0/)
