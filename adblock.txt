@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 03pdVFJiY40k1kQGxLN4xQ
+!  Checksum: QEfJkxFIIijFROCY6a1olg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 09 Jan 2014 20:39:18 +0800
+!  Last Modified:  Thu, 09 Jan 2014 21:21:21 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -307,13 +307,8 @@ tieba.baidu.com##[id^="game_couplet_pb_"]
 ||cpro.baidustatic.com^
 ||ubmcmm.baidustatic.com^
 !--iQIYI
-@@||data.video.qiyi.com/videos/other/$object_subrequest
-/ts.swf|$domain=iqiyi.com
 ||iqiyi.com/player/cupid/*/pageer.swf
 ||msg.iqiyi.com^
-||afp.qiyi.com^
-||jsmsg.video.qiyi.com^
-||msg.video.qiyi.com^
 ||qiyipic.com/common/$object_subrequest
 iqiyi.com###adflash
 iqiyi.com##[id^="div_theatre"]
@@ -1614,32 +1609,16 @@ ynet.com##[style="width:300px;height:250px;"]
 news.ynet.com##.RC
 
 !---优酷
-@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
-@@||valf.atm.youku.com/vf?$object-subrequest
-@@||static.youku.com^*/v/swf/qplayer.swf?
 ||l.ykimg.com^
-||p-log.ykimg.com^
-||e.stat.ykimg.com/red/
-||f.youku.com/crossdomain.xml
 ||atm.youku.com^
 ||hz.youku.com/red/
-||lstat.youku.com^
-||e.stat.youku.com^
-||l.youku.com^*log?
 ||static.youku.com/*/js/cps.js
-||static.youku.com/*/index/js/hzClick.js
 ||static.youku.com/*/index/js/iresearch.js
-||ykimg.com/0510000051F9F50C6714C049A3006CED
-||res.mfs.ykimg.com/051000005010E4DF6714C005B3085337
-tv.youku.com##.topStyle
 soku.com###ab_282
 !--土豆
-@@||td.atm.youku.com^$object-subrequest
-@@||js.tudouui.com/bin/player$object
 /cv/*&uuid=$object_subrequest
 ||tudou.com^*/outside.php
 ||player.pb.ops.tudou.com/info.php?
-||stat*.tudou.com^
 
 !---天极
 ||media.yesky.com/
@@ -2651,8 +2630,9 @@ zxtjd.com###it_an
 ||egooad.com^$third-party
 ||ems183.cn^$third-party
 ||esearches.com.tw^$third-party
-||f8272.com^$third-party
 ||ezsaving.com^$third-party
+||f8272.com^$third-party
+||feedsportal.com^$third-party
 ||feesee.com^$third-party
 ||tg.feixue.com^$third-party
 ||feitian001.com^$third-party

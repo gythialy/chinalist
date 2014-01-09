@@ -25,6 +25,13 @@
 !---I
 ||iplaysoft.com/plus/api/counter.php
 
+!---Y
+||p-log.ykimg.com^
+||e.stat.ykimg.com/red/
+||e.stat.youku.com^
+||l.youku.com^*log?
+||lstat.youku.com^
+
 !---Common
 |http://click.$image
 |http://pv.
