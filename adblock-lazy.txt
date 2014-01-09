@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: OqiafCzUwCDlZBbpmf0LQw
+!  Checksum: 5JFfCsHBqmHh4T24ozL4jA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 04 Jan 2014 16:24:07 +0800
+!  Last Modified:  Thu, 09 Jan 2014 20:39:22 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1138,6 +1138,7 @@ jjwxc.net##table[style^="width:984px;"]
 !---QQ
 @@||mat1.gtimg.com/www/*/pop.js$domain=qq.com
 ||wa.gtimg.com^
+||ra.gtimg.com/adsame/
 ||qq.com/livemsg?
 ||promreport.crm2.qq.com/wpadisplay/r.gif?
 ||l.qq.com/p?
@@ -1910,8 +1911,6 @@ news.580k.com##.contentAD
 ||imgs.ccw.com.cn^*_260_80.
 ||imgs.ccw.com.cn/ccw/1.htm
 ||download.china.cn/market/
-||img.cnbeta.com/*300$image
-cnbeta.com##.bd_r
 ||cnhubei.com/gg_10/
 ||cnhubei.com^*/g2
 ||log.daqi.com^
@@ -2574,7 +2573,7 @@ zxtjd.com###it_an
 ||adqoo.com^$third-party
 ||ads80.com^$third-party
 ||adsage.com^$third-party
-||adsame.com^$third-party,domain=~autohome.com.cn|~iphone4.tw|~yicai.com
+||adsame.com^$third-party,domain=~autohome.com.cn|~iphone4.tw
 ||adsbro.com^$third-party
 ||adszui.com^$third-party
 ||adunioncode.com^$third-party
@@ -3009,6 +3008,7 @@ appinn.com##.gad
 baihe.com##.blockUI
 bcc.com.tw##TABLE[width="100%"] TR > TD[height="80"]
 ck101.com###portal_block_563
+cnbeta.com##.bd_r
 fbook.net##.head-d
 hornydragon.blogspot.com,hornydragon.blogspot.tw###HTML13
 www.alibuybuy.com##[class^="ad_"]
@@ -3086,7 +3086,6 @@ xfastest.com##[id^="ad"].block
 xfastest.com##.articles-left-olny
 xfastest.com###showRightOverFlow
 xiachufang.com##.g-ga.g-bg-white
-yicai.com##a[href^="http://yicai.adsame.com"][href*="adwo.com"]
 yingzheng.com###diy1.area
 yunkeji.com##.content > p:nth-last-of-type(2)
 yunkeji.com##.content > p:nth-last-of-type(3)
@@ -6834,6 +6833,7 @@ zjol.com.cn##span.lqgg
 /myfreepaysitebanner.
 /mylayer-ad/*
 /mysimpleads/*
+/n_ads/*
 /namediaad.
 /navad/*
 /navads/*
@@ -8241,6 +8241,7 @@ _btnad_
 _button_ad_
 _buttonad.
 _centre_ad.
+_ChatAd_
 _companionad.
 _content_ad.
 _content_ad_
@@ -11216,7 +11217,6 @@ _popunder+$popup
 ###adsider
 ###adsiframe
 ###adsimage
-###adskin
 ###adskinleft
 ###adskinlink
 ###adskinright
@@ -15371,6 +15371,7 @@ _popunder+$popup
 ##.ad-banner-label
 ##.ad-banner-leaderboard
 ##.ad-banner-smaller
+##.ad-banner-top
 ##.ad-banner-top-wrapper
 ##.ad-banner728-top
 ##.ad-bar
@@ -15773,6 +15774,7 @@ _popunder+$popup
 ##.ad250-h2
 ##.ad250c
 ##.ad250x250
+##.ad260x60
 ##.ad284x134
 ##.ad2content_box
 ##.ad300
@@ -16030,6 +16032,7 @@ _popunder+$popup
 ##.adMediumRectangle
 ##.adMegaBoard
 ##.adMeldGuts
+##.adMessage
 ##.adMiddle
 ##.adMiniTower
 ##.adMinisLR
@@ -21627,7 +21630,7 @@ _popunder+$popup
 ||254a.com^$third-party
 ||2dpt.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|1025thebull.com|1037theq.com|1041beat.com|1057ezrock.com|1067litefm.com|10news.com|247comedy.com|3news.co.nz|49ers.com|610cktb.com|700wlw.com|850koa.com|940winz.com|94hjy.com|970espn.com|99kisscountry.com|abc15.com|abc2news.com|abcactionnews.com|am570radio.com|am760.net|atlantafalcons.com|automobilemag.com|automotive.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|belfasttelegraph.co.uk|bengals.com|bet.com|big1059.com|bigdog1009.ca|bloomberg.com|boom973.com|boom997.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|capitalfm.ca|cbs.com|cbsnews.com|cbssports.com|channel955.com|chargers.com|chicagobears.com|cj104.com|cjad.com|cjbk.com|clevelandbrowns.com|cnettv.cnet.com|coast933.com|colts.com|cp24.com|cricketcountry.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|egirlgames.net|elvisduran.com|enjoydressup.com|entrepreneur.com|eonline.com|escapegames.com|euronews.com|evolution935.com|fansportslive.com|fm98wjlb.com|foodnetwork.ca|four.co.nz|foxsportsradio.com|fresh100.com|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globalpost.com|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|hallelujah1051.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|kgbx.com|khow.com|kiisfm.com|kjrh.com|kogo.com|komonews.com|kshb.com|kwgn.com|kwnr.com|kxan.com|leaderpost.com|livestream.com|magic96.com|metacafe.com|miamidolphins.com|mix923fm.com|mojointhemorning.com|moneycontrol.com|montrealgazette.com|motorcyclistonline.com|mtv.ca|mydamnchannel.com|myezrock.com|mymagic97.com|nationalpost.com|nba.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newsnet5.com|newstalk1010.com|newstalk1130.com|newyorkjets.com|nymag.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|player.screenwavemedia.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rootsports.com|rottentomatoes.com|seahawks.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|sploder.com|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|thedenverchannel.com|thedrocks.com|theindychannel.com|theprovince.com|thestarphoenix.com|theteam1260.com|tide.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|turnto23.com|tvone.tv|tvoneonline.com|twitch.tv|usmagazine.com|vancouversun.com|veetle.com|vice.com|videojug.com|vikings.com|virginradio.ca|washingtonpost.com|washingtontimes.com|wcpo.com|wdfn.com|weather.com|wescfm.com|wgci.com|wibw.com|wikihow.com|windsorstar.com|wiod.com|wkyt.com|wmyi.com|wor710.com|wptv.com|wxyz.com|yahoo.com|youtube.com|z100.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|1025thebull.com|1037theq.com|1041beat.com|1057ezrock.com|1067litefm.com|10news.com|247comedy.com|3news.co.nz|49ers.com|610cktb.com|700wlw.com|850koa.com|940winz.com|94hjy.com|970espn.com|99kisscountry.com|abc15.com|abc2news.com|abcactionnews.com|am570radio.com|am760.net|atlantafalcons.com|automobilemag.com|automotive.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|belfasttelegraph.co.uk|bengals.com|bet.com|big1059.com|bigdog1009.ca|bloomberg.com|boom973.com|boom997.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|capitalfm.ca|cbs.com|cbsnews.com|cbssports.com|channel955.com|chargers.com|chicagobears.com|cj104.com|cjad.com|cjbk.com|clevelandbrowns.com|cnettv.cnet.com|coast933.com|colts.com|cp24.com|cricketcountry.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|egirlgames.net|elvisduran.com|enjoydressup.com|entrepreneur.com|eonline.com|escapegames.com|euronews.com|evolution935.com|fansportslive.com|fm98wjlb.com|foodnetwork.ca|four.co.nz|foxsportsradio.com|fresh100.com|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalpost.com|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|hallelujah1051.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|kgbx.com|khow.com|kiisfm.com|kjrh.com|kogo.com|komonews.com|kshb.com|kwgn.com|kwnr.com|kxan.com|leaderpost.com|livestream.com|magic96.com|metacafe.com|miamidolphins.com|mix923fm.com|mojointhemorning.com|moneycontrol.com|montrealgazette.com|motorcyclistonline.com|mtv.ca|mydamnchannel.com|myezrock.com|mymagic97.com|nationalpost.com|nba.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newsnet5.com|newstalk1010.com|newstalk1130.com|newyorkjets.com|nymag.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|player.screenwavemedia.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rootsports.com|rottentomatoes.com|seahawks.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|sploder.com|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|thedenverchannel.com|thedrocks.com|theindychannel.com|theprovince.com|thestarphoenix.com|theteam1260.com|tide.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|turnto23.com|tvone.tv|tvoneonline.com|twitch.tv|usmagazine.com|vancouversun.com|veetle.com|vice.com|videojug.com|vikings.com|virginradio.ca|washingtonpost.com|washingtontimes.com|wcpo.com|wdfn.com|weather.com|wescfm.com|wgci.com|wibw.com|wikihow.com|windsorstar.com|wiod.com|wkyt.com|wmyi.com|wor710.com|wptv.com|wxyz.com|yahoo.com|youtube.com|z100.com
 ||2mdn.net^$~object-subrequest,third-party
 ||350media.com^$third-party
 ||360ads.com^$third-party
@@ -21665,8 +21668,10 @@ _popunder+$popup
 ||a.raasnet.com^$third-party
 ||a2dfp.net^$third-party
 ||a2pub.com^$third-party
+||a3pub.com^$third-party
 ||a433.com^$third-party
 ||a4dtrk.com^$third-party
+||a5pub.com^$third-party
 ||aa.voice2page.com^$third-party
 ||aaa.at4.info^$third-party
 ||abletomeet.com^$third-party
@@ -22495,7 +22500,6 @@ _popunder+$popup
 ||delivery45.com^$third-party
 ||delivery47.com^$third-party
 ||delivery49.com^$third-party
-||demdex.net^$third-party
 ||deplayer.net^$third-party
 ||designweekly.co.cc^$third-party
 ||destinationurl.com^$third-party
@@ -22516,6 +22520,7 @@ _popunder+$popup
 ||directrev.com^$third-party
 ||directtrack.com^$third-party
 ||dl-rms.com^$third-party
+||dmu20vut.com^$third-party
 ||dollarade.com^$third-party
 ||dollarsponsor.com^$third-party
 ||domainadvertising.com^$third-party
@@ -22556,6 +22561,7 @@ _popunder+$popup
 ||doubleclick.net/N6088/pfadx/ssp.kshb/$third-party
 ||doubleclick.net/N6872/pfadx/shaw.mylifetimetv.ca/$third-party
 ||doubleclick.net/pfadx/*.BLIPTV/$third-party
+||doubleclick.net/pfadx/*.ESPN/$third-party
 ||doubleclick.net/pfadx/*.MCNONLINE/$third-party
 ||doubleclick.net/pfadx/*.mtvi$third-party
 ||doubleclick.net/pfadx/*.muzu/$third-party
@@ -22563,6 +22569,7 @@ _popunder+$popup
 ||doubleclick.net/pfadx/*.NBCUNIVERSAL/$third-party
 ||doubleclick.net/pfadx/*.reuters/$third-party
 ||doubleclick.net/pfadx/*.sevenload.com_$third-party
+||doubleclick.net/pfadx/*.VIACOMINTERNATIONAL/$third-party
 ||doubleclick.net/pfadx/*/kidstv/$third-party
 ||doubleclick.net/pfadx/*adcat=$third-party
 ||doubleclick.net/pfadx/aetn.aetv.shows/$third-party
@@ -22609,6 +22616,7 @@ _popunder+$popup
 ||doubleclick.net^*/pfadx/ibs.orl.news/$third-party
 ||doubleclick.net^*/pfadx/muzumain/$third-party
 ||doubleclick.net^*/pfadx/ssp.wews/$third-party
+||doubleclick.net^*/pfadx/team.sd/$third-party
 ||doubleclick.net^*;afv_flvurl=http://cdn.c.ooyala.com/$third-party
 ||doubleclicks.me^$third-party
 ||doublepimp.com^$third-party
@@ -23508,7 +23516,7 @@ _popunder+$popup
 ||reelcentric.com^$third-party
 ||referback.com^$third-party
 ||registry.cw.cm^$third-party
-||reklamport.com^$third-party
+||regurgical.com^$third-party
 ||reklamz.com^$third-party
 ||relatedweboffers.com^$third-party
 ||relestar.com^$third-party
@@ -23655,9 +23663,11 @@ _popunder+$popup
 ||socialspark.com^$third-party
 ||sociocast.com^$third-party
 ||sociomantic.com^$third-party
+||sodud.com^$third-party
 ||softonicads.com^$third-party
 ||softpopads.com^$third-party
 ||solocpm.com^$third-party
+||solutionzip.info^$third-party
 ||sonnerie.net^$third-party
 ||sonobi.com^$third-party
 ||sparkstudios.com^$third-party
@@ -24775,7 +24785,6 @@ _popunder+$popup
 /ga.php?name=$image
 /ga.php?utm
 /ga.pl?utmac=$image
-/ga.reevoo-
 /ga/trackevent.
 /ga1.js
 /ga2.aspx?utmac=$image
@@ -25522,6 +25531,7 @@ _popunder+$popup
 /seoTracker.
 /seotracker/*
 /SEOTracking.
+/serve/mtrcs_
 /server.php?request=track&output=
 /services/analytics/*
 /session-tracker/tracking-
@@ -26354,6 +26364,7 @@ twitter.com##.stream-tweet[impression_id][label="promoted"]
 @@||youtube.com/yt/advertise/medias/images/$image
 @@||youtube.com/yt/css/www-advertise.css
 @@||youtube.com^*_adsense_$xmlhttprequest
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|1025thebull.com|1037theq.com|1041beat.com|1057ezrock.com|1067litefm.com|10news.com|247comedy.com|3news.co.nz|49ers.com|610cktb.com|700wlw.com|850koa.com|940winz.com|94hjy.com|970espn.com|99kisscountry.com|abc15.com|abc2news.com|abcactionnews.com|am570radio.com|am760.net|atlantafalcons.com|automobilemag.com|automotive.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|belfasttelegraph.co.uk|bengals.com|bet.com|big1059.com|bigdog1009.ca|bloomberg.com|boom973.com|boom997.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|capitalfm.ca|cbs.com|cbsnews.com|cbssports.com|channel955.com|chargers.com|chicagobears.com|cj104.com|cjad.com|cjbk.com|clevelandbrowns.com|cnettv.cnet.com|coast933.com|colts.com|cp24.com|cricketcountry.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|egirlgames.net|elvisduran.com|enjoydressup.com|entrepreneur.com|eonline.com|escapegames.com|euronews.com|evolution935.com|fansportslive.com|fm98wjlb.com|foodnetwork.ca|four.co.nz|foxsportsradio.com|fresh100.com|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globalpost.com|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|hallelujah1051.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|kgbx.com|khow.com|kiisfm.com|kjrh.com|kogo.com|komonews.com|kshb.com|kwgn.com|kwnr.com|kxan.com|leaderpost.com|livestream.com|magic96.com|metacafe.com|miamidolphins.com|mix923fm.com|mojointhemorning.com|moneycontrol.com|montrealgazette.com|motorcyclistonline.com|mtv.ca|mydamnchannel.com|myezrock.com|mymagic97.com|nationalpost.com|nba.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newsnet5.com|newstalk1010.com|newstalk1130.com|newyorkjets.com|nymag.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|player.screenwavemedia.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rootsports.com|rottentomatoes.com|seahawks.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|sploder.com|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|thedenverchannel.com|thedrocks.com|theindychannel.com|theprovince.com|thestarphoenix.com|theteam1260.com|tide.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|turnto23.com|tvone.tv|tvoneonline.com|twitch.tv|usmagazine.com|vancouversun.com|veetle.com|vice.com|videojug.com|vikings.com|virginradio.ca|washingtonpost.com|washingtontimes.com|wcpo.com|wdfn.com|weather.com|wescfm.com|wgci.com|wibw.com|wikihow.com|windsorstar.com|wiod.com|wkyt.com|wmyi.com|wor710.com|wptv.com|wxyz.com|yahoo.com|youtube.com|z100.com
 ||phobos.apple.com^$image,domain=dailymotion.com|youtube.com
 ||topspin.net/secure/media/$image,domain=youtube.com
 ||espn.vad.go.com^$domain=youtube.com

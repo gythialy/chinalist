@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 3QtOa/tOCxv8G2H221OYbg
+!  Checksum: 03pdVFJiY40k1kQGxLN4xQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 04 Jan 2014 16:24:03 +0800
+!  Last Modified:  Thu, 09 Jan 2014 20:39:18 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1137,6 +1137,7 @@ jjwxc.net##table[style^="width:984px;"]
 !---QQ
 @@||mat1.gtimg.com/www/*/pop.js$domain=qq.com
 ||wa.gtimg.com^
+||ra.gtimg.com/adsame/
 ||qq.com/livemsg?
 ||promreport.crm2.qq.com/wpadisplay/r.gif?
 ||l.qq.com/p?
@@ -1909,8 +1910,6 @@ news.580k.com##.contentAD
 ||imgs.ccw.com.cn^*_260_80.
 ||imgs.ccw.com.cn/ccw/1.htm
 ||download.china.cn/market/
-||img.cnbeta.com/*300$image
-cnbeta.com##.bd_r
 ||cnhubei.com/gg_10/
 ||cnhubei.com^*/g2
 ||log.daqi.com^
@@ -2573,7 +2572,7 @@ zxtjd.com###it_an
 ||adqoo.com^$third-party
 ||ads80.com^$third-party
 ||adsage.com^$third-party
-||adsame.com^$third-party,domain=~autohome.com.cn|~iphone4.tw|~yicai.com
+||adsame.com^$third-party,domain=~autohome.com.cn|~iphone4.tw
 ||adsbro.com^$third-party
 ||adszui.com^$third-party
 ||adunioncode.com^$third-party
@@ -3008,6 +3007,7 @@ appinn.com##.gad
 baihe.com##.blockUI
 bcc.com.tw##TABLE[width="100%"] TR > TD[height="80"]
 ck101.com###portal_block_563
+cnbeta.com##.bd_r
 fbook.net##.head-d
 hornydragon.blogspot.com,hornydragon.blogspot.tw###HTML13
 www.alibuybuy.com##[class^="ad_"]
@@ -3085,7 +3085,6 @@ xfastest.com##[id^="ad"].block
 xfastest.com##.articles-left-olny
 xfastest.com###showRightOverFlow
 xiachufang.com##.g-ga.g-bg-white
-yicai.com##a[href^="http://yicai.adsame.com"][href*="adwo.com"]
 yingzheng.com###diy1.area
 yunkeji.com##.content > p:nth-last-of-type(2)
 yunkeji.com##.content > p:nth-last-of-type(3)
