@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: Pjt84yE3aAG0Y2PG6Po8ag
+!  Checksum: +8Teey1xZ9It92Tx4KzR4w
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 11 Jan 2014 10:20:05 +0800
+!  Last Modified:  Sat, 11 Jan 2014 10:26:11 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -919,32 +919,16 @@ narutom.com###naruto_desk
 
 !---NewHua
 @@||onlinedown.net/newhuagg/sort_pic_24_24.js
-/newhuagg/*ad*.js
-/newhuagg/*_banner
 /newhuagg/index_
-/newhuagg/*_left
-/newhuagg/news_article_
-/newhuagg/news_index_bannar.js
 /newhuagg/news_top.js
 /newhuagg/*_right
-/newhuagg/sort_2
-/newhuagg/*_top_
-||onlinedown.net/js/cover.js
 ||onlinedown.net/newhuagg/*_pic_$script
-newhua.com##.ad_c
-newhua.com##.ad_r1
-newhua.com##.ad_ritht_1
-newhua.com##.ad_ritht_2
-newhua.com##.adr
 newhua.com##.i1
-newhua.com##.sad
-games.newhua.com##.adwin
-games.newhua.com##.gad_r
 onlinedown.net##.adr
 onlinedown.net##.ban
 onlinedown.net##.newsbox
 onlinedown.net##.r1
-onlinedown.net##.r2
+newhua.com##[class^="ad_"]
 
 !---牛游戏网
 ||newyx.net/images/newest/home/hao.jpg
