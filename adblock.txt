@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: QEfJkxFIIijFROCY6a1olg
+!  Checksum: Pjt84yE3aAG0Y2PG6Po8ag
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 09 Jan 2014 21:21:21 +0800
+!  Last Modified:  Sat, 11 Jan 2014 10:20:05 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -2848,7 +2848,6 @@ zxtjd.com###it_an
 ||womenwan.com^$third-party
 ||woniu666.com^$third-party
 ||wqzyt.net^$third-party
-||wumii.cn^$third-party,domain=~wumii.com
 ||wy31.com^$third-party
 ||wyunion.com^$third-party
 ||xcy8.com^
@@ -2964,6 +2963,7 @@ zxtjd.com###it_an
 /webafp?
 
 !-----------------------Element Hiding---------------------
+##.wumii-widget-ad
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
 17k.com##[id^="ad0"]
 17k.com##.b950
