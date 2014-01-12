@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 0rt2g9SNukpfmrHxTauJ9w
+!  Checksum: l1qyfWJ7l4NCcE9HSv7YJQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 11 Jan 2014 10:26:15 +0800
+!  Last Modified:  Sun, 12 Jan 2014 12:58:29 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1573,8 +1573,10 @@ tw.yahoo.com###ticker
 !--HK
 ||l.yimg.com/*/a/hk/$~stylesheet
 ||l.yimg.com/mq/hk/promotions/
+||s.yimg.com/ja/ap/$script,domain=hk.yahoo.com|hk.news.yahoo.com
 hk.yahoo.com###eu
 hk.yahoo.com###mntl1
+hk.yahoo.com###mt_ugc
 hk.yahoo.com###ysm-ad
 hk.dictionary.yahoo.com###fr-adv
 hk.search.auctions.yahoo.com###yauadysmh
@@ -4666,6 +4668,7 @@ zjol.com.cn##span.lqgg
 /ads/house_
 /ads/html/*
 /ads/iframe
+/ads/im2.
 /ads/image/*
 /ads/images/*
 /ads/imbox-
@@ -5497,6 +5500,7 @@ zjol.com.cn##span.lqgg
 /apopwin.
 /app.ads.
 /app/ads.js
+/Article-Ad-
 /article_ad.
 /artimediatargetads.
 /as3overstreamplatformadapter.
@@ -6199,6 +6203,7 @@ zjol.com.cn##span.lqgg
 /friendfinder_
 /frnads.
 /frontend/ads/*
+/ftp/adv/*
 /full/ads/*
 /fullad.
 /fulladbazee.
@@ -8958,6 +8963,7 @@ _a468x60.
 /servlet/ajrotator/*$popup
 /spopunder^$popup
 ://ads.$popup
+://adv.$popup
 =popunder&$popup
 =popunders&$popup
 ?bannerid=*&punder=$popup
@@ -8982,6 +8988,7 @@ _popunder+$popup
 ###ADSLOT_4
 ###ADSLOT_SKYSCRAPER
 ###ADS_2
+###ADSlideshow
 ###ADSpro
 ###ADV120x90
 ###ADVERTISE_HERE_ROW
@@ -11195,6 +11202,8 @@ _popunder+$popup
 ###adskyscraper
 ###adskyscraper_flex
 ###adsleft1
+###adslist
+###adslistbox
 ###adslot
 ###adslot1173
 ###adslot1189
@@ -14872,6 +14881,7 @@ _popunder+$popup
 ###zone_c_ads
 ###zztextad
 ##.AD-POST
+##.AD-Rotate
 ##.AD-label300x250
 ##.AD300x600-wrapper
 ##.AD355125
@@ -15142,6 +15152,7 @@ _popunder+$popup
 ##.RW_ad300
 ##.RectangleAd
 ##.RelatedAds
+##.Right-Column-AD-Container
 ##.Right300x250AD
 ##.RightAd1
 ##.RightAd2
@@ -15280,6 +15291,7 @@ _popunder+$popup
 ##.ad-270x100
 ##.ad-300
 ##.ad-300-250
+##.ad-300-600
 ##.ad-300-b
 ##.ad-300-b-absolute
 ##.ad-300-block
@@ -16026,6 +16038,7 @@ _popunder+$popup
 ##.adNoticeOut
 ##.adObj
 ##.adOne
+##.adOuterContainer
 ##.adOverlay
 ##.adPageBorderL
 ##.adPageBorderR
@@ -17615,10 +17628,12 @@ _popunder+$popup
 ##.advertisement-728x90
 ##.advertisement-BottomRight
 ##.advertisement-banner
+##.advertisement-bkg
 ##.advertisement-block
 ##.advertisement-bottom
 ##.advertisement-caption
 ##.advertisement-content
+##.advertisement-dashed
 ##.advertisement-header
 ##.advertisement-label
 ##.advertisement-label-up-white
@@ -17836,6 +17851,7 @@ _popunder+$popup
 ##.article-ad
 ##.article-ad-300x250
 ##.article-ad-box
+##.article-ad-cont
 ##.article-ad-left
 ##.article-ad-main
 ##.article-ads
@@ -18002,6 +18018,7 @@ _popunder+$popup
 ##.bb-adv-300x250
 ##.bbccom-advert
 ##.bbsTopAd
+##.bcom_ad
 ##.bean-bag-ad
 ##.beauty_ads
 ##.before-comment-ad
@@ -19082,6 +19099,7 @@ _popunder+$popup
 ##.header-adplace
 ##.header-ads
 ##.header-adsense
+##.header-adv
 ##.header-advert
 ##.header-advert-container
 ##.header-bannerad
@@ -21448,6 +21466,7 @@ _popunder+$popup
 ##a[href^="http://d2.zedo.com/"]
 ##a[href^="http://data.ad.yieldmanager.net/"]
 ##a[href^="http://down1oads.com/"]
+##a[href^="http://elitefuckbook.com/"]
 ##a[href^="http://feedads.g.doubleclick.net/"]
 ##a[href^="http://fusionads.net"]
 ##a[href^="http://galleries.pinballpublishernetwork.com/"]
@@ -21480,6 +21499,7 @@ _popunder+$popup
 ##a[href^="http://www.amazon.co.uk/exec/obidos/external-search?"]
 ##a[href^="http://www.babylon.com/welcome/index?affID"]
 ##a[href^="http://www.bet365.com/home/?affiliate"]
+##a[href^="http://www.clickansave.net/"]
 ##a[href^="http://www.dealcent.com/register.php?affid="]
 ##a[href^="http://www.dl-provider.com/search/"]
 ##a[href^="http://www.down1oads.com/"]
@@ -23417,7 +23437,6 @@ _popunder+$popup
 ||ppcwebspy.com^$third-party
 ||precisionclick.com^$third-party
 ||predictad.com^$third-party
-||predictive.com^$third-party
 ||prf.hn^$third-party
 ||prickac.com^$third-party
 ||primaryads.com^$third-party
@@ -23709,6 +23728,7 @@ _popunder+$popup
 ||tacticalrepublic.com^$third-party
 ||tafmaster.com^$third-party
 ||taggify.net^$third-party
+||tagjunction.com^$third-party
 ||tagshost.com^$third-party
 ||tailsweep.com^$third-party
 ||tangozebra.com^$third-party
