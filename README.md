@@ -18,8 +18,7 @@
 - 目前 ABP 没有能力处理国内各大视频网站的内嵌广告，请通过其他[脚本](http://userscripts.org/scripts/show/119622)或者[扩展](https://code.google.com/p/haoutil/)解决
 - 本项目谢绝[不理性用户](https://code.google.com/p/adblock-chinalist/issues/detail?id=1113)
 - ChinaList 不再(自 2010/08/04 起)提供对 ChinaList-Strict 和 NoSex-NoEnt 相关的任何支持，[相关讨论](http://goo.gl/PZMu)
-- ChinaList 不再(自 2013/08/27 起)过滤追踪用户信息的脚本等，[详情在此
-](http://goo.gl/op9DwE)
+- ChinaList 不再(自 2013/08/27 起)过滤追踪用户信息的脚本等，[详情在此](http://goo.gl/op9DwE)
 
 ## 订阅
 
@@ -50,8 +49,8 @@ Adblock Plus非万能，其实现原理[在此](http://adblockplus.org/zh_CN/faq
 
 ##### [Greasemonkey](https://addons.mozilla.org/zh-cn/firefox/addon/greasemonkey/) 0.9.8+ / [Scriptish](https://addons.mozilla.org/zh-cn/firefox/addon/scriptish/) 
 
-- [调整远景论坛](https://raw.github.com/gythialy/chinalist/master/scripts/remove_ads_for_pcbeta.user.js)
-- [Disable anti ABP for hkgolden.com](https://raw.github.com/gythialy/chinalist/master/scripts/disable_hkgolden_com.user.js)
+- [调整远景论坛](https://raw.github.com/chinalist/chinalist/master/scripts/remove_ads_for_pcbeta.user.js)
+- [Disable anti ABP for hkgolden.com](https://raw.github.com/chinalist/chinalist/master/scripts/disable_hkgolden_com.user.js)
 - [隐藏华军验证码广告](http://userscripts.org/scripts/show/129215)
 - [去各大视频网站黑屏](http://userscripts.org/scripts/show/119622)
 
@@ -67,9 +66,15 @@ Adblock Plus非万能，其实现原理[在此](http://adblockplus.org/zh_CN/faq
 
 -------------
 
-欢迎参与[讨论组(Maybe GFWed)](https://groups.google.com/group/adblock-chinalist)，发表您的意见丶建议或提交 [Issues](https://github.com/gythialy/chinalist/issues)。
+欢迎参与[讨论组]()(Maybe GFWed)]，发表您的意见丶建议或提交 [Issues]()。
 
-如果您对 Adblock Plus 和 ChinaList 感兴趣，请查阅[官方文档](http://adblockplus.org/zh_CN/documentation)或者[项目 Wiki](https://github.com/chinalist/chinalist/wiki/) 中的文档，也许对您有帮助。
+如果您对 Adblock Plus 和 ChinaList 感兴趣，请查阅[官方文档]()或者项目 [Wiki]() 中的文档，也许对您有帮助。
 
 *Need help!*  
-欢迎加入 ChinaList 团队，加入前请先[移步这里](https://github.com/chinalist/chinalist/wiki/The_skills_needed_to_join_ChinaList)看自己是否满足条件 
+欢迎加入 ChinaList 团队，加入前请先查看[技能需求]()看自己是否满足条件 
+
+[讨论组]:https://groups.google.com/group/adblock-chinalist
+[Issues]:https://github.com/chinalist/chinalist/issues
+[Wiki]:https://github.com/chinalist/chinalist/wiki/
+[官方文档]:http://adblockplus.org/zh_CN/documentation
+[技能需求]:https://github.com/chinalist/chinalist/wiki/The_skills_needed_to_join_ChinaList
