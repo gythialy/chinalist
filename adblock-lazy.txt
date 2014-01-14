@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: gJLK+fbBzB5zNP7LdIlbAA
+!  Checksum: EOnBDCC5ss4hwzg+gkgrqw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 13 Jan 2014 12:28:56 +0800
+!  Last Modified:  Tue, 14 Jan 2014 09:27:47 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1870,6 +1870,7 @@ ys168.com###xtxx
 !---News Sites
 ||36krcnd.com/poster/$image
 ||hot.580k.com/share/Ad_
+580k.com#@#.ad960
 news.580k.com##.contentAD
 ||67.com/img/$object
 67.com##.ad275-250
@@ -5104,6 +5105,7 @@ zjol.com.cn##span.lqgg
 /adstatic.
 /adstatic/*
 /adstemplate/*
+/adstitle.
 /adstop.
 /adstop_
 /adstorage.
@@ -10847,6 +10849,7 @@ _popunder+$popup
 ###adops_skyscraper
 ###adoptionsimg
 ###adoverlaysrc
+###adplace
 ###adplaceholder_mpu01
 ###adplacement
 ###adplacer_preroll1
@@ -13647,6 +13650,7 @@ _popunder+$popup
 ###oas_Top
 ###oas_Top1
 ###oas_wide_skyscraper
+###ob_sponsoredcontent
 ###oba_message
 ###oem_ad
 ###ofie_ad
@@ -19904,6 +19908,7 @@ _popunder+$popup
 ##.oas_ad
 ##.oas_add
 ##.oas_advertisement
+##.oas_sidebar_v7
 ##.oasad
 ##.ob_ads_header
 ##.ob_container .item-container-obpd
@@ -21574,6 +21579,7 @@ _popunder+$popup
 ##a[id^="mg_add"]
 ##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?key="][target="_blank"]
 ##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?key="][target="_blank"] + .ob_source
+##a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?key="][target="_blank"] + .ob_source
 ##div[id^="MarketGid"]
 ##div[id^="YFBMSN"]
 ##div[id^="div-gpt-ad-"]
@@ -25649,6 +25655,7 @@ _popunder+$popup
 /statistics-page-view/*
 /statistics.asp?
 /statistics.aspx?profile
+/statistics/getcook.php?
 /statistics/logging/*
 /statlogger.
 /stats-js.cgi?
