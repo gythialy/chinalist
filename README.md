@@ -66,15 +66,9 @@ Adblock Plus非万能，其实现原理[在此](http://adblockplus.org/zh_CN/faq
 
 -------------
 
-欢迎参与[讨论组]()(Maybe GFWed)]，发表您的意见丶建议或提交 [Issues]()。
+欢迎参与[讨论组](https://groups.google.com/group/adblock-chinalist)(Maybe GFWed)]，发表您的意见丶建议或提交 [Issues](https://github.com/chinalist/chinalist/issues)。
 
-如果您对 Adblock Plus 和 ChinaList 感兴趣，请查阅[官方文档]()或者项目 [Wiki]() 中的文档，也许对您有帮助。
+如果您对 Adblock Plus 和 ChinaList 感兴趣，请查阅[官方文档](http://adblockplus.org/zh_CN/documentation)或者项目 [Wiki](https://github.com/chinalist/chinalist/wiki/) 中的文档，也许对您有帮助。
 
 *Need help!*  
-欢迎加入 ChinaList 团队，加入前请先查看[技能需求]()看自己是否满足条件 
-
-[讨论组]:https://groups.google.com/group/adblock-chinalist
-[Issues]:https://github.com/chinalist/chinalist/issues
-[Wiki]:https://github.com/chinalist/chinalist/wiki/
-[官方文档]:http://adblockplus.org/zh_CN/documentation
-[技能需求]:https://github.com/chinalist/chinalist/wiki/The_skills_needed_to_join_ChinaList
+欢迎加入 ChinaList 团队，加入前请先查看[技能需求](https://github.com/chinalist/chinalist/wiki/The_skills_needed_to_join_ChinaList)，看自己是否满足条件 
