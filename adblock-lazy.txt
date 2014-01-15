@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: EOnBDCC5ss4hwzg+gkgrqw
+!  Checksum: bgAofKq0EX7Rkp7P8oMZew
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 14 Jan 2014 09:27:47 +0800
+!  Last Modified:  Thu, 16 Jan 2014 00:19:07 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -276,6 +276,7 @@ club.autohome.com.cn##.serve
 
 !---Baidu
 ||baidu.com/ecom$image,script
+||ecma.bdimg.com/lego-mat/$image
 ||music.baidu.com/static/html/cbjs.html
 ||news.baidu.com/nocache/mp/b.jpg
 ||play.baidu.com/player/static/audio/10s.mp3
@@ -283,10 +284,12 @@ club.autohome.com.cn##.serve
 ||youxi.baidu.com/images/$third-party
 baike.baidu.com###mabox
 www.baidu.com##.tools
+www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ad-material-wrapper
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_bdtg
 www.baidu.com,www1.baidu.com,ipv6.baidu.com###ec_im_container
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_pp_f
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_pp_f + br
+zhidao.baidu.com###union-qbbanner
 !--hao123
 hao123img.com/res/ecom/
 !--pan
@@ -3518,6 +3521,7 @@ zjol.com.cn##span.lqgg
 .zm/ads/
 .zw/ads/
 /!advert_
+/0/ads/*
 /1/ads/*
 /120ad.
 /120ads/*
@@ -4705,6 +4709,7 @@ zjol.com.cn##span.lqgg
 /ads/mpu2?
 /ads/mpu?
 /ads/msn/*
+/ads/mt_
 /ads/navbar/*
 /ads/ninemsn.
 /ads/oas-
@@ -4927,6 +4932,7 @@ zjol.com.cn##span.lqgg
 /adSearch?
 /adsecondary.
 /adsegmentation.
+/adseller/*
 /adsence.
 /adsenceSearch.
 /adsenceSearchTop.
@@ -7624,6 +7630,7 @@ zjol.com.cn##span.lqgg
 /topads1.
 /topads2.
 /topads3.
+/topads_
 /topads|
 /topadvert.
 /topleftads.
@@ -7845,6 +7852,7 @@ zjol.com.cn##span.lqgg
 /youradhere.
 /youradhere468-
 /youradhere_
+/ypad/*
 /ysc_csc_news
 /ysmads.
 /ysmwrapper.js
@@ -8291,6 +8299,7 @@ _media/ads/
 _mmsadbanner/
 _Mobile_Ad_
 _mpu_widget?
+_online_ad.
 _onlinead_
 _openx.
 _openx/
@@ -8372,6 +8381,23 @@ takeover_banner_
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||com/banners/$image,object,subdocument
+||messianictimes.com/images/1-13/ba_mhfinal_
+||messianictimes.com/images/1-13/mstudies1-13.jpg
+||messianictimes.com/images/1-13/the-fig-tree-blossoms145.jpg
+||messianictimes.com/images/2-13/istand.jpg
+||messianictimes.com/images/2-13/mresources2-13.jpg&ad_box_
+||messianictimes.com/images/2013_Regional_211x106.jpg
+||messianictimes.com/images/3-13/st_3-13_02.jpg
+||messianictimes.com/images/4-13/reach.jpg
+||messianictimes.com/images/5-13/arise.jpg
+||messianictimes.com/images/5-13/destiny5-13.jpg
+||messianictimes.com/images/7-13/pendant7-13.jpg
+||messianictimes.com/images/Ariel%20Ministries.png
+||messianictimes.com/images/banners/
+||messianictimes.com/images/Israel%20Today%20Logo.png
+||messianictimes.com/images/Jews%20for%20Jesus%20Banner.png
+||messianictimes.com/images/MJBI.org.gif
+||messianictimes.com/images/Word%20of%20Messiah%20Ministries1.png
 ||online.*/promoredirect?key=
 ||ox-d.*^auid=
 ||serve.*/promoload?
@@ -9611,6 +9637,10 @@ _popunder+$popup
 ###ad-container-inner
 ###ad-container-outer
 ###ad-contentad
+###ad-cube-Bottom
+###ad-cube-Middle
+###ad-cube-sec
+###ad-cube-top
 ###ad-desktop-wrap
 ###ad-div-leaderboard
 ###ad-double-spotlight-container
@@ -10687,6 +10717,7 @@ _popunder+$popup
 ###adbanner00005
 ###adbanner1
 ###adbanner_abovethefold_300
+###adbannerbox
 ###adbannerdiv
 ###adbannerleft
 ###adbannerright
@@ -12239,6 +12270,7 @@ _popunder+$popup
 ###content_ads_content
 ###content_adv
 ###content_bottom_ad
+###content_bottom_ads
 ###content_box_300body_sponsoredoffers
 ###content_box_adright300_google
 ###content_lower_center_right_ad
@@ -15520,6 +15552,7 @@ _popunder+$popup
 ##.ad-lazy-support-yes
 ##.ad-lb
 ##.ad-leader
+##.ad-leader-plus-top
 ##.ad-leader-wrap
 ##.ad-leaderboard
 ##.ad-leaderboard-companion
@@ -17114,6 +17147,7 @@ _popunder+$popup
 ##.ads_sidebar_360_b
 ##.ads_singlepost
 ##.ads_slice
+##.ads_small_rectangle
 ##.ads_spacer
 ##.ads_square
 ##.ads_takeover
@@ -17525,6 +17559,7 @@ _popunder+$popup
 ##.advert-mpu
 ##.advert-mrec
 ##.advert-note
+##.advert-overlay
 ##.advert-sky
 ##.advert-skyscraper
 ##.advert-stub
@@ -19912,6 +19947,7 @@ _popunder+$popup
 ##.oasad
 ##.ob_ads_header
 ##.ob_container .item-container-obpd
+##.ob_source + a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?key="][target="_blank"]
 ##.oba_message
 ##.ocp-sponsor
 ##.ody-sponsor
@@ -20011,6 +20047,7 @@ _popunder+$popup
 ##.peg_ad
 ##.pencil_ad
 ##.performancingads_region
+##.pfAd
 ##.pg-ad-block
 ##.pgAdSection_Home_MasterSponsers
 ##.photo-ad
@@ -20423,6 +20460,7 @@ _popunder+$popup
 ##.searchSponsoredResultsList
 ##.search_ad_box
 ##.search_column_results_sponsored
+##.search_inline_web_ad
 ##.search_results_ad
 ##.search_results_sponsored_top
 ##.searchad
@@ -20772,6 +20810,7 @@ _popunder+$popup
 ##.sponsored-title
 ##.sponsoredAd
 ##.sponsoredAdLine
+##.sponsoredAds
 ##.sponsoredBar
 ##.sponsoredBottom
 ##.sponsoredBox
@@ -21641,7 +21680,9 @@ _popunder+$popup
 ||1100i.com^$third-party
 ||123date.me^$third-party
 ||152media.com^$third-party
+||15f3c01a.info^$third-party
 ||174.142.194.177^$third-party
+||17a898b9.info^$third-party
 ||188server.com^$third-party
 ||18clicks.com^$third-party
 ||194.71.107.25^$third-party
@@ -21780,6 +21821,7 @@ _popunder+$popup
 ||ademails.com^$third-party
 ||adengage.com^$third-party
 ||adespresso.com^$third-party
+||adestra.com^$third-party
 ||adexcite.com^$third-party
 ||adexprt.com^$third-party
 ||adexprts.com^$third-party
@@ -22234,6 +22276,7 @@ _popunder+$popup
 ||beaconads.com^$third-party
 ||beead.co.uk^$third-party
 ||beead.net^$third-party
+||beforescence.com^$third-party
 ||begun.ru^$third-party
 ||belointeractive.com^$third-party
 ||belvertising.be^$third-party
@@ -23223,6 +23266,7 @@ _popunder+$popup
 ||mobitracker.info^$third-party
 ||mobiyield.com^$third-party
 ||moborobot.com^$third-party
+||modelegating.com^$third-party
 ||mogointeractive.com^$third-party
 ||mokonocdn.com^$third-party
 ||money-cpm.fr^$third-party
@@ -25921,7 +25965,6 @@ _popunder+$popup
 /usr.gif?openratetracking=
 /utag.ga.
 /utag.handler.js
-/utag.js
 /utag.loader-
 /utag.loader.
 /utrack?
@@ -26257,6 +26300,7 @@ http://utm.
 ||lc.jiathis.com^
 ||log.v.iask.com^
 ||look.urs.tw^$third-party
+||tanx.com/cms.gif?
 ||tns.simba.taobao.com^
 ||toruk.tanx.com^
 ||track.ra.icast.cn^

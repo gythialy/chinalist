@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: PQVeOugeA3Mf8C+kAuNAZQ
+!  Checksum: laTXPfXt5UOJtUyjT1AGeQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 14 Jan 2014 09:27:44 +0800
+!  Last Modified:  Thu, 16 Jan 2014 00:19:03 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -275,6 +275,7 @@ club.autohome.com.cn##.serve
 
 !---Baidu
 ||baidu.com/ecom$image,script
+||ecma.bdimg.com/lego-mat/$image
 ||music.baidu.com/static/html/cbjs.html
 ||news.baidu.com/nocache/mp/b.jpg
 ||play.baidu.com/player/static/audio/10s.mp3
@@ -282,10 +283,12 @@ club.autohome.com.cn##.serve
 ||youxi.baidu.com/images/$third-party
 baike.baidu.com###mabox
 www.baidu.com##.tools
+www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ad-material-wrapper
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_bdtg
 www.baidu.com,www1.baidu.com,ipv6.baidu.com###ec_im_container
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_pp_f
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_pp_f + br
+zhidao.baidu.com###union-qbbanner
 !--hao123
 hao123img.com/res/ecom/
 !--pan
