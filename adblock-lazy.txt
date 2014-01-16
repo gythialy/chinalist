@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: V7x/+LAjDyR5F9gXUasQ6g
+!  Checksum: NueEduvLOm4chgWmPcrRQQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 16 Jan 2014 12:16:21 +0800
+!  Last Modified:  Thu, 16 Jan 2014 15:45:30 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -625,7 +625,9 @@ gamersky.com###hitix
 !---Gamme
 ||gamme.com.tw/ga/
 gamme.com.tw#@#.adlist
+gamme.com.tw#@#.adtitle
 gamme.com.tw###bd
+gamme.com.tw##.fullad_ad
 gamme.com.tw##[class^="sidead_"]
 gamme.com.tw##[class^="topad_"]
 
