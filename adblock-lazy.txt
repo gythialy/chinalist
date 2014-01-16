@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: bgAofKq0EX7Rkp7P8oMZew
+!  Checksum: V7x/+LAjDyR5F9gXUasQ6g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 16 Jan 2014 00:19:07 +0800
+!  Last Modified:  Thu, 16 Jan 2014 12:16:21 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -290,6 +290,7 @@ www.baidu.com,www1.baidu.com,ipv6.baidu.com###ec_im_container
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_pp_f
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ec_pp_f + br
 zhidao.baidu.com###union-qbbanner
+zhidao.baidu.com##.wgt-ads
 !--hao123
 hao123img.com/res/ecom/
 !--pan
