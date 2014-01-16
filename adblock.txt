@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: oY1DLUHu3Ms3b84/z2ScTQ
+!  Checksum: FFBQJiq6P5N3SjaOLGl7TA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 16 Jan 2014 20:58:29 +0800
+!  Last Modified:  Thu, 16 Jan 2014 21:14:10 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -605,8 +605,8 @@ funshion.com##[class^="fs2012-"]
 
 !---福利吧
 ||sinaimg.cn/large/a6a976a2tw1ebxdekbycrj20h801y0tg.jpg
-||sinaimg.cn/large/a6a976a2tw1eb7veqqy77j205k06yjrs.jpg
 ||sinaimg.cn/large/a6a976a2tw1eau3o38naej20h801ygma.jpg
+||sinaimg.cn/large/a6a976a2tw1eckl0oyeokj20go01o3z6.jpg
 ||sinaimg.cn/mw690/a6a976a2tw1e8alo7m2r2j20h802idga.jpg
 ||sinaimg.cn/mw690/a6a976a2tw1ebltwttxj3j20go01oaai.jpg
 fuliba.net##.textwidget
@@ -1279,7 +1279,9 @@ pinglun.sohu.com##.sogouAd1
 www.sohu.com###ad_TOP
 www.sohu.com###contentC > .columnC
 !--tv
+||vm.aty.sohu.com^
 ||hd.sohu.com.cn^$object_subrequest
+||images.sohu.com/ytv/$subdocument
 tv.sohu.com##.skyAD
 tv.sohu.com###miaozhenad
 !--Sogou
