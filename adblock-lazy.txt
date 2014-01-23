@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: wSNSAwqDGjmb9azJAA7C8g
+!  Checksum: UpZZwaPkcSkVFi756Kwihg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 23 Jan 2014 20:47:57 +0800
+!  Last Modified:  Thu, 23 Jan 2014 20:56:02 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2292,7 +2292,6 @@ news.pchome.com.tw###ad_bg_div
 ph66.com##[class^="ad_"]
 ||a-m-s.poco.cn^
 ||sub.powerapple.com^
-||pt80.com/down/ad/pingyin80.gif
 ||ptfish.com/08html/
 ||ptfish.com/*/ad$image,object
 ||qiushibaike.com/static/css/img/web2
@@ -3041,6 +3040,7 @@ portal.opera.com##.ads
 portal.opera.com##.alt-ads
 price.com.hk###ad0
 price.com.hk##.tb
+pt80.net##.wp.a_t
 cn.reuters.com##.ad
 saraba1st.com##.tac.mb5
 sfacg.com###beitou
