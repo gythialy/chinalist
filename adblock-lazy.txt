@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: SwaVypuyHI2MY7R4SpwFQg
+!  Checksum: FcQ54y0GK6wN85yl0virvA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 18 Jan 2014 15:28:21 +0800
+!  Last Modified:  Thu, 23 Jan 2014 20:36:22 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2118,9 +2118,7 @@ tucao.cc##.a2013d
 ||edsystem.wasu.cn^
 wasu.cn##.m_sp970x100
 wasu.cn##.sp313x262
-||yiyi.cc/ad/
-||yytcdn.com/uploads/player_image/$domain=yinyuetai.com
-||yytt2012.com/tk/
+||hc.yinyuetai.com/partner/$object-subrequest
 
 !---Miscellaneous
 ||111cn.net/gg_ad/
@@ -3237,6 +3235,7 @@ zjol.com.cn##span.lqgg
 -adwords.
 -affiliates/img_
 -article-ads-
+-article-advert-
 -banner-ad
 -banner.swf?
 -banner468x60.
@@ -3327,6 +3326,7 @@ zjol.com.cn##span.lqgg
 .adplacement=
 .adresult.
 .adriver.$~object-subrequest
+.adru.
 .ads-lazy.
 .ads-tool.
 .ads.darla.
@@ -3417,6 +3417,7 @@ zjol.com.cn##span.lqgg
 .dartconfig.js
 .eg/ads/
 .eu/ads/
+.gg/ads/
 .gif?ad=
 .gr/ads/
 .homad.
@@ -4814,9 +4815,11 @@ zjol.com.cn##span.lqgg
 /ads2013/*
 /ads210.
 /ads2_
+/ads2x300new.
 /ads3.
 /ads3/*
 /ads300.
+/ads300adn2.
 /ads300x250_
 /ads4.
 /ads4/*
@@ -4829,6 +4832,7 @@ zjol.com.cn##span.lqgg
 /ads7.
 /ads7/*
 /ads728.
+/ads728adn2.
 /ads728x90_
 /ads790.
 /ads8.
@@ -5120,6 +5124,7 @@ zjol.com.cn##span.lqgg
 /adstemplate/*
 /adstitle.
 /adstop.
+/adstop728.
 /adstop_
 /adstorage.
 /adstracking.
@@ -5224,6 +5229,7 @@ zjol.com.cn##span.lqgg
 /adunit/*
 /adunits.
 /adunits/*
+/adunits?
 /adunittop|
 /adunix.
 /adutil.
@@ -6266,6 +6272,7 @@ zjol.com.cn##span.lqgg
 /GeoDynBanner.php?wmid=
 /ges_ads/*
 /get-ad.
+/get-advert-
 /get.ad?
 /get/ad.
 /get_ad_
@@ -6400,11 +6407,13 @@ zjol.com.cn##span.lqgg
 /headerad.
 /headeradd2.
 /headerads.
+/headerAdvertismentTab.
 /headermktgpromoads.
 /headvert.
 /hikaku/banner/*
 /hitbar_ad_
 /holl_ad.
+/home/_ads
 /home/ad_
 /home/ads-
 /home/ads/*
@@ -6828,6 +6837,7 @@ zjol.com.cn##span.lqgg
 /mysimpleads/*
 /n_ads/*
 /namediaad.
+/nativeads/*
 /navad/*
 /navads/*
 /nd_affiliate.
@@ -7378,6 +7388,7 @@ zjol.com.cn##span.lqgg
 /sisterads.
 /site-advert.
 /site/ads/*
+/site/ads?
 /site=*/size=*/viewid=
 /site=*/viewid=*/size=
 /site_ads.
@@ -7513,6 +7524,7 @@ zjol.com.cn##span.lqgg
 /static/js/4728ba74bc.js$~third-party
 /static_ads/*
 /staticadslot.
+/sticker_ad.
 /sticky_ad.
 /stickyad.
 /stickyad2.
@@ -7567,6 +7579,7 @@ zjol.com.cn##span.lqgg
 /teaseimg/ads/*
 /technomedia.
 /teletoon_ad.
+/tempads/*
 /template/ad.
 /templateadvimages/*
 /templates/ad.
@@ -7770,6 +7783,7 @@ zjol.com.cn##span.lqgg
 /wbadvert/*
 /weather-sponsor/*
 /weather/ads/*
+/web-ad_
 /web-ads.
 /web/ads/*
 /web_ads/*
@@ -7827,6 +7841,7 @@ zjol.com.cn##span.lqgg
 /www/ads/*
 /www/deliverx/*
 /www/delivery/*
+/www/js/ad/*
 /x5advcorner.
 /xadvertisement.
 /xbanner.php?
@@ -8389,23 +8404,6 @@ takeover_banner_
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||com/banners/$image,object,subdocument
-||messianictimes.com/images/1-13/ba_mhfinal_
-||messianictimes.com/images/1-13/mstudies1-13.jpg
-||messianictimes.com/images/1-13/the-fig-tree-blossoms145.jpg
-||messianictimes.com/images/2-13/istand.jpg
-||messianictimes.com/images/2-13/mresources2-13.jpg&ad_box_
-||messianictimes.com/images/2013_Regional_211x106.jpg
-||messianictimes.com/images/3-13/st_3-13_02.jpg
-||messianictimes.com/images/4-13/reach.jpg
-||messianictimes.com/images/5-13/arise.jpg
-||messianictimes.com/images/5-13/destiny5-13.jpg
-||messianictimes.com/images/7-13/pendant7-13.jpg
-||messianictimes.com/images/Ariel%20Ministries.png
-||messianictimes.com/images/banners/
-||messianictimes.com/images/Israel%20Today%20Logo.png
-||messianictimes.com/images/Jews%20for%20Jesus%20Banner.png
-||messianictimes.com/images/MJBI.org.gif
-||messianictimes.com/images/Word%20of%20Messiah%20Ministries1.png
 ||online.*/promoredirect?key=
 ||ox-d.*^auid=
 ||serve.*/promoload?
@@ -9234,6 +9232,7 @@ _popunder+$popup
 ###BANNER_160x600
 ###BANNER_300x250
 ###BANNER_728x90
+###BBoxAd
 ###BDV_fullAd
 ###BackgroundAdContainer
 ###BannerAd
@@ -9360,6 +9359,7 @@ _popunder+$popup
 ###ID_Ad_Sky
 ###IM_AD
 ###IframeAdBannerSmallContainer
+###ImageRotaAreaAD
 ###IslandAd_DeferredAdSpacediv
 ###JobsearchResultsAds
 ###Journal_Ad_125
@@ -9374,6 +9374,7 @@ _popunder+$popup
 ###LeftAd1
 ###LeftAdF1
 ###LeftAdF2
+###LeftSideBarAD
 ###LftAd
 ###LittleAdvert
 ###LoungeAdsDiv
@@ -10389,6 +10390,7 @@ _popunder+$popup
 ###ad_block
 ###ad_block_1
 ###ad_block_2
+###ad_block_300x250
 ###ad_board_after_forums
 ###ad_board_before_forums
 ###ad_body
@@ -10423,6 +10425,7 @@ _popunder+$popup
 ###ad_cna2
 ###ad_comments
 ###ad_companion_banner
+###ad_complex
 ###ad_comps_top
 ###ad_cont
 ###ad_container
@@ -11648,6 +11651,7 @@ _popunder+$popup
 ###adverts_right
 ###advertsingle
 ###advertspace
+###advetisement_300x250
 ###advframe
 ###advgeoul
 ###advgoogle
@@ -12257,6 +12261,7 @@ _popunder+$popup
 ###contentAdsCatArchive
 ###contentBottomAdLeaderboard
 ###contentBoxad
+###contentFooterAD
 ###contentTopAds2
 ###content_0_storyarticlepage_main_0_pnlAdSlot
 ###content_0_storyarticlepage_main_0_pnlAdSlotInner
@@ -12938,6 +12943,7 @@ _popunder+$popup
 ###gpt_ad_small_insider_1
 ###gpt_unit_videoAdSlot1_0
 ###gridAdSidebar
+###gridAdSidebarRight
 ###grid_ad
 ###grouponAdContainer
 ###gsyadrectangleload
@@ -14049,6 +14055,7 @@ _popunder+$popup
 ###rotatingads
 ###row2AdContainer
 ###rprightHeaderAd
+###rpuAdUnit-0
 ###rrAdWrapper
 ###rr_MSads
 ###rr_ad
@@ -15019,6 +15026,7 @@ _popunder+$popup
 ##.AdLeftbarBorderStyle
 ##.AdMedium
 ##.AdMessage
+##.AdModule
 ##.AdModule_Content
 ##.AdModule_ContentLarge
 ##.AdModule_Hdr
@@ -15358,6 +15366,7 @@ _popunder+$popup
 ##.ad-200-big
 ##.ad-200-small
 ##.ad-200x200
+##.ad-234
 ##.ad-246x90
 ##.ad-250
 ##.ad-250x125
@@ -15492,6 +15501,7 @@ _popunder+$popup
 ##.ad-column
 ##.ad-comment
 ##.ad-companion
+##.ad-contain
 ##.ad-container-160x600
 ##.ad-container-300x250
 ##.ad-container-728
@@ -15618,6 +15628,7 @@ _popunder+$popup
 ##.ad-on
 ##.ad-one
 ##.ad-other
+##.ad-outside
 ##.ad-padding
 ##.ad-page-leader
 ##.ad-page-medium
@@ -16718,6 +16729,7 @@ _popunder+$popup
 ##.adbuttons
 ##.adcard
 ##.adcasing
+##.adcenter
 ##.adchange
 ##.adchoices
 ##.adchoices-link
@@ -16741,6 +16753,7 @@ _popunder+$popup
 ##.add300
 ##.add300top
 ##.add300x250
+##.add768
 ##.addResources
 ##.add_300_250
 ##.add_300x250
@@ -16914,6 +16927,7 @@ _popunder+$popup
 ##.ads-btm
 ##.ads-by
 ##.ads-by-google-0
+##.ads-card
 ##.ads-categories-bsa
 ##.ads-col
 ##.ads-content
@@ -17508,6 +17522,7 @@ _popunder+$popup
 ##.adv_banner
 ##.adv_banner_hor
 ##.adv_box_narrow
+##.adv_cnt
 ##.adv_flash
 ##.adv_headerleft
 ##.adv_headerright
@@ -17521,11 +17536,13 @@ _popunder+$popup
 ##.adv_pointer_home
 ##.adv_pointer_section
 ##.adv_right
+##.adv_sd_dx
 ##.adv_side1
 ##.adv_side2
 ##.adv_sidebar
 ##.adv_sidebar_300x250
 ##.adv_top
+##.adv_underpost
 ##.adv_x_1
 ##.adv_x_2
 ##.adver
@@ -17953,6 +17970,7 @@ _popunder+$popup
 ##.article_inner_ad
 ##.article_mpu_box
 ##.article_page_ads_bottom
+##.article_sponsored_links
 ##.article_tower_ad
 ##.articlead
 ##.articleads
@@ -18194,6 +18212,7 @@ _popunder+$popup
 ##.block-openadstream
 ##.block-openx
 ##.block-reklama
+##.block-simpleads
 ##.block-sponsored-links
 ##.block-thirdage-ads
 ##.block-vh-adjuggler
@@ -18681,6 +18700,7 @@ _popunder+$popup
 ##.detail_top_advert
 ##.devil-ad-spot
 ##.dfp-ad
+##.dfp-ad-advert_mpu_body_1
 ##.dfp-ad-unit
 ##.dfp-ad-widget
 ##.dfp_ad
@@ -18903,6 +18923,7 @@ _popunder+$popup
 ##.fulladblock
 ##.fullbannerad
 ##.fusionAdLink
+##.future_dfp-inline_ad
 ##.fwAdTags
 ##.g-ad
 ##.g-adblock3
@@ -19645,6 +19666,7 @@ _popunder+$popup
 ##.main-ads
 ##.main-advert
 ##.main-column-ad
+##.main-footer-ad
 ##.main-right-ads
 ##.main-tabs-ad-block
 ##.mainAd
@@ -19670,6 +19692,8 @@ _popunder+$popup
 ##.map_media_banner_ad
 ##.mapped-ad
 ##.marginadsthin
+##.market-ad
+##.market-ad-small
 ##.marketing-ad
 ##.marketplace-ad
 ##.marketplaceAd
@@ -19968,7 +19992,6 @@ _popunder+$popup
 ##.oasad
 ##.ob_ads_header
 ##.ob_container .item-container-obpd
-##.ob_source + a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?key="][target="_blank"]
 ##.oba_message
 ##.ocp-sponsor
 ##.ody-sponsor
@@ -20106,6 +20129,7 @@ _popunder+$popup
 ##.poll_sponsor_ad
 ##.pop-up-ad
 ##.popadtext
+##.popunder-adv
 ##.popupAd
 ##.popupAdOuter
 ##.popupAdWrapper
@@ -20494,6 +20518,7 @@ _popunder+$popup
 ##.section-ad-wrapper
 ##.section-ad2
 ##.section-advert-banner
+##.section-aside-ad
 ##.section_ad_left
 ##.section_mpu_wrapper
 ##.section_mpu_wrapper_wrapper
@@ -20515,6 +20540,7 @@ _popunder+$popup
 ##.showAdContainer
 ##.showAd_No
 ##.showAd_Yes
+##.showad_box
 ##.showcaseAd
 ##.sidbaread
 ##.side-ad
@@ -21079,6 +21105,7 @@ _popunder+$popup
 ##.the_list_ad_zone
 ##.theleftad
 ##.themeblvd-ad-square-buttons
+##.themidad
 ##.third-box-ad
 ##.third-party-ad
 ##.thirdAd160Cont
@@ -21569,6 +21596,7 @@ _popunder+$popup
 ##a[href^="http://games.ucoz.ru/"][target="_blank"]
 ##a[href^="http://greensmoke.com/"]
 ##a[href^="http://hd-plugins.com/download/"]
+##a[href^="http://hyperlinksecure.com/go/"]
 ##a[href^="http://install.securewebsiteaccess.com/"]
 ##a[href^="http://keep2share.cc/pr/"]
 ##a[href^="http://latestdownloads.net/download.php?"]
@@ -21638,6 +21666,7 @@ _popunder+$popup
 ##a[href^="http://www1.clickdownloader.com/"]
 ##a[href^="http://wxdownloadmanager.com/dl/"]
 ##a[href^="http://xads.zedo.com/"]
+##a[href^="https://coinbase.com/?r="]
 ##a[href^="https://secure.eveonline.com/ft/?aid="]
 ##a[href^="https://www.share-online.biz/affiliate/"]
 ##a[id^="mg_add"]
@@ -21744,6 +21773,7 @@ _popunder+$popup
 ||50.7.243.123^$third-party
 ||5clickcashsoftware.com^$third-party
 ||600z.com^$third-party
+||62.27.51.163^$third-party,domain=~adlive.de.ip
 ||63.225.61.4^$third-party
 ||64.20.60.123^$third-party
 ||74.117.182.77^
@@ -22035,6 +22065,7 @@ _popunder+$popup
 ||adspeed.com^$third-party
 ||adspirit.de^$third-party
 ||adspring.to^$third-party
+||adspynet.com^$third-party
 ||adsrevenue.net^$third-party
 ||adsring.com^$third-party
 ||adsrv.us^$third-party
@@ -22183,7 +22214,6 @@ _popunder+$popup
 ||aglocobanners.com^$third-party
 ||agmtrk.com^$third-party
 ||aim4media.com^$third-party
-||aimatch.com^$third-party
 ||ajansreklam.net^$third-party
 ||alchemysocial.com^$third-party
 ||alfynetwork.com^$third-party
@@ -22742,6 +22772,7 @@ _popunder+$popup
 ||e-generator.com^$third-party
 ||e-planning.net^$third-party
 ||e-viral.com^$third-party
+||e9mlrvy1.com^$third-party
 ||eads-adserving.com^$third-party
 ||eads.to^$third-party
 ||easy-adserver.com^$third-party
@@ -23220,6 +23251,7 @@ _popunder+$popup
 ||mdialog.com^$third-party
 ||meadigital.com^$third-party
 ||media-general.com^$third-party
+||media-networks.ru^$third-party
 ||media-servers.net^$third-party
 ||media.net^$third-party
 ||media303.com^$third-party
@@ -23234,6 +23266,7 @@ _popunder+$popup
 ||mediag4.com^$third-party
 ||mediagridwork.com^$third-party
 ||mediakeywords.com^$third-party
+||medialand.ru^$third-party
 ||medialation.net^$third-party
 ||mediaonenetwork.net^$third-party
 ||mediapeo.com^$third-party
@@ -23499,6 +23532,7 @@ _popunder+$popup
 ||pixazza.com^$third-party
 ||pixeltrack66.com^$third-party
 ||pixfuture.net^$third-party
+||pixxur.com^$third-party
 ||pjatr.com^$third-party
 ||pjtra.com^$third-party
 ||platinumadvertisement.com^$third-party
@@ -23625,6 +23659,7 @@ _popunder+$popup
 ||relytec.com^$third-party
 ||remiroyal.ro^$third-party
 ||resideral.com^$third-party
+||respond-adserver.cloudapp.net^$third-party
 ||respondhq.com^$third-party
 ||resultlinks.com^$third-party
 ||resultsz.com^$third-party
@@ -24437,6 +24472,7 @@ _popunder+$popup
 /apixel?
 /appendOmnitureTracking.
 /argtk.min.
+/article_counter.php?
 /article_hit.php?
 /asknet_tracking.
 /aslog.php?
@@ -24526,6 +24562,7 @@ _popunder+$popup
 /botd.gif?
 /br-trk-
 /br-trk.
+/br_imps/add_item?
 /brightcove/tracking/*
 /brightcoveGoogleAnalytics.
 /brightedge.js
@@ -24711,6 +24748,7 @@ _popunder+$popup
 /counter.do?
 /counter.visit?
 /Counter.woa/*
+/counter/article?
 /counter/process.asp?
 /counter/r.pl
 /counter?id=
