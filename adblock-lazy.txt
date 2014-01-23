@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: FcQ54y0GK6wN85yl0virvA
+!  Checksum: wSNSAwqDGjmb9azJAA7C8g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 23 Jan 2014 20:36:22 +0800
+!  Last Modified:  Thu, 23 Jan 2014 20:47:57 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1038,15 +1038,11 @@ oeeee.com##.textad-960-65.clearfix.c-gray
 pconline.com.cn##.ivyBaidu
 
 !---人民网
-.gif?id=$domain=people.com.cn
+@@||pmm.people.com.cn/main/s*^2013juxing
 ||hi.people.com.cn/NMediaFile/$object
 ||hi.people.com.cn/NMediaFile/*.gif
 ||msn.people.com.cn/css/2010tianrun/
-people.com.cn,~msn.people.com.cn##.topad
-hi.people.com.cn##img[width="690"][height="80"]
-hi.people.com.cn##table[width="290"]
 msn.people.com.cn##.banNSch
-msn.people.com.cn##.shangxun
 
 !---PIXNET
 /blog/addvisit^
@@ -26539,6 +26535,7 @@ m.youtube.com##a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"]
 ||analytics.21cn.com^
 ||greenxf.com/count$script
 ||iplaysoft.com/plus/api/counter.php
+.gif?id=$domain=people.com.cn
 ||e.stat.ykimg.com/red/
 ||e.stat.youku.com^
 ||l.youku.com^*log?

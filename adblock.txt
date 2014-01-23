@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: YMp4lqNh8QZZG0oUIfo/EA
+!  Checksum: 45jy9tdFQaeGCDtz4dgoRQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 23 Jan 2014 20:36:17 +0800
+!  Last Modified:  Thu, 23 Jan 2014 20:47:54 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1037,15 +1037,11 @@ oeeee.com##.textad-960-65.clearfix.c-gray
 pconline.com.cn##.ivyBaidu
 
 !---人民网
-.gif?id=$domain=people.com.cn
+@@||pmm.people.com.cn/main/s*^2013juxing
 ||hi.people.com.cn/NMediaFile/$object
 ||hi.people.com.cn/NMediaFile/*.gif
 ||msn.people.com.cn/css/2010tianrun/
-people.com.cn,~msn.people.com.cn##.topad
-hi.people.com.cn##img[width="690"][height="80"]
-hi.people.com.cn##table[width="290"]
 msn.people.com.cn##.banNSch
-msn.people.com.cn##.shangxun
 
 !---PIXNET
 /blog/addvisit^
