@@ -16,7 +16,6 @@
 
 - ChinaList 只是对 EasyList 的补充，EasyList 已存在的规则，ChinaList 将不再添加
 - 目前 ABP 没有能力处理国内各大视频网站的内嵌广告，请通过其他[脚本](http://userscripts.org/scripts/show/119622)或者[扩展](https://code.google.com/p/haoutil/)解决
-- 本项目谢绝[不理性用户](https://code.google.com/p/adblock-chinalist/issues/detail?id=1113)
 - ChinaList 不再(自 2010/08/04 起)提供对 ChinaList-Strict 和 NoSex-NoEnt 相关的任何支持，[相关讨论](http://goo.gl/PZMu)
 - ChinaList 不再(自 2013/08/27 起)过滤追踪用户信息的脚本等，[详情在此](http://goo.gl/op9DwE)
 
