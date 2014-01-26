@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: ULYlctMZJPcGMvYQixGThw
+!  Checksum: dReBAaSArJKrFARF04fJdQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 26 Jan 2014 13:21:48 +0800
+!  Last Modified:  Sun, 26 Jan 2014 13:55:00 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -30,22 +30,24 @@ yocoy.com#@##AdArea
 @@||bbs.byr.cn/article/Advertising/
 @@||bbs.byr.cn/board/Advertising?
 @@||chinahr.com/images/phpads/$image,~third-party
-@@||icbc.com.cn/ICBC_ADJS/$script,~third-party
 @@||fireeye.ijinshan.com/static/js/analyse.js
 @@||ganji.com/findjob/send_resume.php?$subdocument
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
-@@||adcdn.pingan.com^
-@@||sdc.pingan.com^$~image
 @@||ad.qyer.com^
 bbs.kafan.cn#@#.a_mu
 news.now.com#@##ad-2
 shuhe.cc#@#.ad960
-@@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
-@@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
-@@||online.unionpay.com/ads/$script,~third-party
 wired.tw#@#.header_ad
 wired.tw#@#.sidebar_ads
 wired.tw#@#.top-content-adplace
+!---Financial Siste
+best.cmbchina.com#@#.ad-wrap
+@@||icbc.com.cn/ICBC_ADJS/$script,~third-party
+@@||adcdn.pingan.com^
+@@||sdc.pingan.com^$~image
+@@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
+@@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
+@@||online.unionpay.com/ads/$script,~third-party
 !---Shopping websites
 @@||a.banggo.com/Ad/getAdPosList.shtml
 @@/adbanner/*$image,domain=books.com.tw
