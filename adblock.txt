@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 0xpj/lwNYEl10AOR4xcJ5A
+!  Checksum: bJMe+gssfDRBi16L1Ed4mg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 23 Jan 2014 21:00:43 +0800
+!  Last Modified:  Sun, 26 Jan 2014 13:21:38 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1301,15 +1301,7 @@ map.sogou.com###CboardDlg_1
 !---搜房
 ||imgn.jiatx.com/jiatx/mall/outer/
 ||soufun.com/html/homepage/ad/
-||show.soufun.com/adsunion/
-||news.sh.soufun.com^$subdocument
-||hezuo.sh.soufun.com^$subdocument,third-party
-soufun.com##[class^="ad_"]
-soufun.com##.adtextlink
-soufun.com##.photo02
-soufun.com##.photo03
-soufun.com##.topbanner
-news.sh.soufun.com##TABLE[width="270"][height="400"][align="left"]
+||soufun.com/afp/door/
 
 !--好租网
 haozu.com##.index7ad
