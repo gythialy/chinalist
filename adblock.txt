@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 0xpj/lwNYEl10AOR4xcJ5A
+!  Checksum: 6j0qmHAT4KPEOqfa1athYA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 23 Jan 2014 21:00:43 +0800
+!  Last Modified:  Mon, 03 Feb 2014 16:59:21 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1005,9 +1005,9 @@ money18.on.cc#@#.ads-bg
 
 !---远景
 ||bbs.pcbeta.com/static/image/biz/
-bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
-bbs.pcbeta.com###diynavtop + .wp
 bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
+bbs.pcbeta.com###diynavtop.area + DIV[style]
+bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
 
 !---PCHome.net
 ||jscss.kdslife.com/club/html/img/aoyou.jpg
@@ -1282,6 +1282,7 @@ pinglun.sohu.com##.sogouAd1
 www.sohu.com###ad_TOP
 www.sohu.com###contentC > .columnC
 !--tv
+||js.tv.itc.cn/gg$script
 ||vm.aty.sohu.com^
 ||hd.sohu.com.cn^$object_subrequest
 ||images.sohu.com/ytv/$subdocument
@@ -2591,6 +2592,7 @@ zxtjd.com###it_an
 ||chitika.com^$third-party
 ||hk.chinesegamer.net^$third-party
 ||click.com^$third-party
+||cnlink8.com^$third-party
 ||cnxad.com^$third-party
 ||cocoren.com^$third-party
 ||coinurl.com^$third-party
