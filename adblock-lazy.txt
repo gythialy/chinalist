@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: U7wsZ7UtL9pwB+ZGbB6xNg
+!  Checksum: tq+nNs7lvvRoFbfNEFJyjw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 03 Feb 2014 16:59:25 +0800
+!  Last Modified:  Mon, 03 Feb 2014 17:04:18 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2063,8 +2063,6 @@ xxsy.net###infoleftad_2
 xxsy.net##.rightbanner
 ||xzcl.com/top/
 xzcl.com##.m_ads
-||yueshuba.com/js/
-||yueshuba.com/themes/jieqidiv1/images/yueshuba_banner.gif
 ||zhulang.com/images/$object
 ||images.zhulang.com/game/upload/$domain=book.zhulang.com|www.zhulang.com
 zhulang.com##[id^="adv"]
@@ -2593,7 +2591,6 @@ zxtjd.com###it_an
 ||chitika.com^$third-party
 ||hk.chinesegamer.net^$third-party
 ||click.com^$third-party
-||cnlink8.com^$third-party
 ||cnxad.com^$third-party
 ||cocoren.com^$third-party
 ||coinurl.com^$third-party
@@ -2678,7 +2675,6 @@ zxtjd.com###it_an
 ||ishare.tw^$subdocument,third-party
 ||istreamsche.com^$third-party
 ||izptech.com^$third-party
-||jdunion.com^$third-party
 ||down.jialichuang.com^$third-party
 ||jidian5.com^$third-party
 ||jiling0432.info^$third-party
@@ -3070,7 +3066,7 @@ zjol.com.cn##span.qqt
 zjol.com.cn##span.lqgg
 
 !-----------------------Temporary---------------------------
-!---2014.01
+!---2014.02
 ||qtfy30.cn/top_690.gif
 ||xiuxiu.meitu.com/images/banner/meitushop_fixed_816.gif
 ||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
