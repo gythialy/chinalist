@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: tq+nNs7lvvRoFbfNEFJyjw
+!  Checksum: lshAhBsR6UF4aIsgy9kALw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 03 Feb 2014 17:04:18 +0800
+!  Last Modified:  Fri, 07 Feb 2014 16:49:03 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2804,7 +2804,7 @@ zxtjd.com###it_an
 ||ujoin.net^$third-party
 ||ujian.cc^$third-party
 ||ulink.cc^$third-party
-||union.$third-party,popup,domain=~click.union.jd.com|~click.union.360buy.com
+||union.$third-party,domain=~click.union.jd.com|~click.union.360buy.com
 ||union001.$third-party
 ||union009.com^$third-party
 ||union178.com^$third-party
@@ -3273,6 +3273,7 @@ zjol.com.cn##span.lqgg
 -layer-ad.
 -layer-ads/
 -leaderboard-ad-
+-load-ads.
 -news-ad-
 -newsletter-ad-
 -NewStockAd-
@@ -3297,6 +3298,7 @@ zjol.com.cn##span.lqgg
 -show-ads.
 -side-ad-
 -skyscrapper160x600.
+-source/ads/
 -sponsor-ad.
 -sponsored-links-
 -strip-ads-
@@ -3639,6 +3641,7 @@ zjol.com.cn##span.lqgg
 /ad-letter.
 /ad-lil.
 /ad-loader-
+/ad-loader.
 /ad-loading.
 /ad-local.
 /ad-logger/*
@@ -3670,6 +3673,7 @@ zjol.com.cn##span.lqgg
 /ad-top-
 /ad-top.
 /ad-topbanner-
+/ad-unit-
 /ad-utilities.
 /ad-vert.
 /ad-vertical-
@@ -3994,6 +3998,7 @@ zjol.com.cn##span.lqgg
 /ad_pop1.
 /ad_pos=
 /ad_position=
+/ad_position_
 /ad_premium.
 /ad_premium_
 /ad_print.
@@ -4671,6 +4676,8 @@ zjol.com.cn##span.lqgg
 /ads/daily_
 /ads/dart.
 /ads/default_
+/ads/design-
+/ads/dfp.
 /ads/dhtml/*
 /ads/directory/*
 /ads/display/*
@@ -5287,6 +5294,7 @@ zjol.com.cn##span.lqgg
 /adv_frame/*
 /adv_horiz.
 /adv_image/*
+/adv_library3.
 /adv_link.
 /adv_server.
 /adv_top.
@@ -5905,6 +5913,7 @@ zjol.com.cn##span.lqgg
 /core-ads-
 /core/ads/*
 /coread/*
+/corner-ad.
 /corner_ads/*
 /cornerbig.swf
 /cornersmall.swf
@@ -6726,6 +6735,8 @@ zjol.com.cn##span.lqgg
 /lib/ad.js
 /lifeshowad/*
 /lightad.
+/lightboxad^
+/lightboxbannerad^
 /lijit-ad-
 /lijitads.
 /linkad2.
@@ -7449,6 +7460,7 @@ zjol.com.cn##span.lqgg
 /slider_ad.
 /sliderAd/*
 /sliderad3.
+/SliderJobAdList.
 /slideshow/ads.
 /slideshowintad?
 /slidetopad.
@@ -8253,6 +8265,7 @@ _advertorials/
 _advertphoto.
 _adverts.js
 _adverts/
+_adverts3.
 _advertsarea.
 _AdvertsImgs/
 _adview?
@@ -9050,6 +9063,7 @@ _popunder+$popup
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
+###AD-HOME-LEFT
 ###AD1line
 ###AD2line
 ###AD300x250
@@ -9219,6 +9233,7 @@ _popunder+$popup
 ###Adrectangle
 ###Ads470by50
 ###AdsBannerTop
+###AdsBottomContainer
 ###AdsBottomIframe
 ###AdsCarouselBoxArea
 ###AdsContainerTop
@@ -9230,6 +9245,7 @@ _popunder+$popup
 ###AdsPlayRight_1
 ###AdsRight
 ###AdsShowCase
+###AdsTopContainer
 ###AdsVideo250
 ###AdsWrap
 ###Ads_BA_BUT_box
@@ -9273,6 +9289,8 @@ _popunder+$popup
 ###BBoxAd
 ###BDV_fullAd
 ###BackgroundAdContainer
+###Banner300x250Module
+###Banner728x90
 ###BannerAd
 ###BannerAdvert
 ###BannerAdvertisement
@@ -9562,6 +9580,7 @@ _popunder+$popup
 ###ad-120x600-other
 ###ad-120x600-sidebar
 ###ad-120x60Div
+###ad-125x125
 ###ad-160
 ###ad-160-long
 ###ad-160x600
@@ -9952,6 +9971,7 @@ _popunder+$popup
 ###ad300x150
 ###ad300x250
 ###ad300x250Module
+###ad300x250_336x280_300x600_336x850
 ###ad300x250_callout
 ###ad300x250box
 ###ad300x250box2
@@ -10436,6 +10456,7 @@ _popunder+$popup
 ###ad_board_before_forums
 ###ad_body
 ###ad_bottom
+###ad_bottom_728x90
 ###ad_bottom_another
 ###ad_bottom_article_text
 ###ad_bottombrandtext
@@ -11569,6 +11590,8 @@ _popunder+$popup
 ###advert_back_160x600
 ###advert_back_300x250_1
 ###advert_back_300x250_2
+###advert_banner
+###advert_bottom_100x70
 ###advert_box
 ###advert_header
 ###advert_home01
@@ -11862,6 +11885,7 @@ _popunder+$popup
 ###banner-728
 ###banner-728adtag
 ###banner-728adtag-bottom
+###banner-728x90
 ###banner-ad
 ###banner-ad-container
 ###banner-ad-loader
@@ -11869,6 +11893,7 @@ _popunder+$popup
 ###banner-advert
 ###banner-advert-container
 ###banner-lg-ad
+###banner-skyscraper
 ###banner120x600
 ###banner250x250
 ###banner300-top-right
@@ -12506,6 +12531,7 @@ _popunder+$popup
 ###dcomad_top_300x250_0
 ###dcomad_top_300x250_1
 ###dcomad_top_300x251_2
+###ddAdZone2
 ###defer-adright
 ###detail_page_vid_topads
 ###devil-ad
@@ -13071,6 +13097,7 @@ _popunder+$popup
 ###header-banner-spc
 ###header-google
 ###header-house-ad
+###header-lb-ad
 ###header-top-ads-text
 ###headerAd
 ###headerAdBackground
@@ -13176,6 +13203,7 @@ _popunder+$popup
 ###home_feature_ad
 ###home_lower_center_right_ad
 ###home_mpu
+###home_sec2_adverts
 ###home_sidebar_ad
 ###home_spensoredlinks
 ###home_top_right_ad
@@ -13553,6 +13581,7 @@ _popunder+$popup
 ###medRecAd
 ###medReqAd
 ###media-ad
+###media-ad-thumbs
 ###mediaAdLeaderboard
 ###media_ad
 ###mediaget_box
@@ -14777,6 +14806,7 @@ _popunder+$popup
 ###topad_table
 ###topadbar
 ###topadblock
+###topadcontainer
 ###topaddwide
 ###topadone
 ###topads-spacer
@@ -15203,6 +15233,7 @@ _popunder+$popup
 ##.BoxAd
 ##.BoxAdWrap
 ##.BoxSponsorBottom
+##.BtmAd
 ##.BtmSponsAd
 ##.ButtonAd
 ##.CG_adkit_leaderboard
@@ -16096,6 +16127,7 @@ _popunder+$popup
 ##.adChoiceLogo
 ##.adChoicesLogo
 ##.adClose
+##.adCode
 ##.adColBgBottom
 ##.adColumn
 ##.adColumnLeft
@@ -16356,6 +16388,7 @@ _popunder+$popup
 ##.ad_300x240
 ##.ad_300x250
 ##.ad_300x250_box_right
+##.ad_300x50
 ##.ad_300x500
 ##.ad_300x60
 ##.ad_300x600
@@ -16477,6 +16510,7 @@ _popunder+$popup
 ##.ad_column
 ##.ad_column_box
 ##.ad_column_hl
+##.ad_common
 ##.ad_cont
 ##.ad_cont_footer
 ##.ad_contain
@@ -16849,7 +16883,6 @@ _popunder+$popup
 ##.adds2
 ##.adds300x250
 ##.addtitle
-##.addtop
 ##.addvert
 ##.addwide
 ##.adenquire
@@ -16893,6 +16926,7 @@ _popunder+$popup
 ##.adinjwidget
 ##.adinner
 ##.adinsert-bdr
+##.adinsert160
 ##.adinside
 ##.adintro
 ##.adits
@@ -17198,6 +17232,7 @@ _popunder+$popup
 ##.ads_big_right
 ##.ads_big_right_code
 ##.ads_block
+##.ads_block250
 ##.ads_border
 ##.ads_box
 ##.ads_box_headline
@@ -18382,6 +18417,7 @@ _popunder+$popup
 ##.bottom-ads728
 ##.bottom-banner-ad
 ##.bottom-center-adverts
+##.bottom-leaderboard-adslot
 ##.bottom-rightadvtsment
 ##.bottomAd
 ##.bottomAdBlock
@@ -18416,6 +18452,7 @@ _popunder+$popup
 ##.box-ad-a
 ##.box-ad-grey
 ##.box-ad-mr1
+##.box-ad-unit-j
 ##.box-ad-wsr
 ##.box-ads
 ##.box-ads-small
@@ -18515,6 +18552,7 @@ _popunder+$popup
 ##.bxad
 ##.bz-ad
 ##.bzads-ic-ad-300-250-600
+##.c3_adverts
 ##.cA-adStack
 ##.cA-adStrap
 ##.cColumn-TextAdsBox
@@ -18905,6 +18943,7 @@ _popunder+$popup
 ##.ez-clientAd
 ##.ezAdsWidget
 ##.ezAdsense
+##.ezoic-ad
 ##.fN-affiliateStrip
 ##.f_Ads
 ##.fbCalendarAds
@@ -19014,6 +19053,8 @@ _popunder+$popup
 ##.frn_cont_adbox
 ##.frontads
 ##.frontpage-google-ad
+##.frontpage-right-ad
+##.frontpage-right-ad-hide
 ##.frontpage_ads
 ##.fs-ad-block
 ##.fs1-advertising
@@ -19065,6 +19106,7 @@ _popunder+$popup
 ##.gam-300x250-default-ad-container
 ##.gam_ad_slot
 ##.game-ads
+##.game-right-ad-container
 ##.gameAd
 ##.gameBottomAd
 ##.game__adv_containerLeaderboard
@@ -20201,6 +20243,7 @@ _popunder+$popup
 ##.partner_ads
 ##.partnerad_container
 ##.partnersTextLinks
+##.pb-mod-ad-flex
 ##.pb-mod-ad-leaderboard
 ##.pd-ads-mpu
 ##.peg_ad
@@ -20237,6 +20280,7 @@ _popunder+$popup
 ##.pmg-sponsoredlinks
 ##.pn-ad
 ##.pnp_ad
+##.pod-ad
 ##.pod-ad-300
 ##.pod-ad-box
 ##.podRelatedAdLinksWidget
@@ -20723,6 +20767,7 @@ _popunder+$popup
 ##.sidebar-box-ads
 ##.sidebar-content-ad
 ##.sidebar-skyscraper-ad
+##.sidebar-sponsors
 ##.sidebar-square-ad
 ##.sidebar-text-ad
 ##.sidebar-top-ad
@@ -21054,6 +21099,7 @@ _popunder+$popup
 ##.sponsorshipbox
 ##.sponsorwrapper
 ##.sport-mpu-box
+##.spot-ad
 ##.spotlightAd
 ##.sqAd2
 ##.sq_ad
@@ -21278,6 +21324,7 @@ _popunder+$popup
 ##.top-advert
 ##.top-banner-468
 ##.top-banner-ad
+##.top-banner-ad-container
 ##.top-banner-ad-wrapper
 ##.top-banner-add
 ##.top-bar-ad-related
@@ -21464,6 +21511,7 @@ _popunder+$popup
 ##.video_ads_overdiv
 ##.video_ads_overdiv2
 ##.video_advertisement_box
+##.video_top_ad
 ##.view-image-ads
 ##.view-promo-mpu-right
 ##.view-site-ads
@@ -21809,6 +21857,8 @@ _popunder+$popup
 ##input[onclick^="window.open('http://www.FriendlyDuck.com/AF_"]
 ##input[onclick^="window.open('http://www.friendlyduck.com/AF_"]
 ##script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content
+! Magnify transparient advert on video
+###magnify_widget_playlist_item_companion
 ! https://adblockplus.org/forum/viewtopic.php?f=2&t=17016
 ##.l-container > #fishtank
 ! Google
@@ -21878,12 +21928,13 @@ _popunder+$popup
 ||254a.com^$third-party
 ||2dpt.com^$third-party
 ||2mdn.net/dot.gif$object-subrequest,third-party
-||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|1025thebull.com|1031iheartaustin.com|1037theq.com|1041beat.com|1057ezrock.com|1067litefm.com|10news.com|247comedy.com|3news.co.nz|49ers.com|610cktb.com|700wlw.com|850koa.com|940winz.com|94hjy.com|970espn.com|99kisscountry.com|abc15.com|abc2news.com|abcactionnews.com|am1300thezone.com|am570radio.com|am760.net|atlantafalcons.com|automobilemag.com|automotive.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|belfasttelegraph.co.uk|bengals.com|bet.com|big1059.com|bigdog1009.ca|bloomberg.com|bnn.ca|boom973.com|boom997.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|caller.com|canada.com|capitalfm.ca|cbs.com|cbsnews.com|cbssports.com|channel955.com|chargers.com|chicagobears.com|cj104.com|cjad.com|cjbk.com|clevelandbrowns.com|cnettv.cnet.com|coast933.com|colts.com|commercialappeal.com|courierpress.com|cp24.com|cricketcountry.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|egirlgames.net|elvisduran.com|enjoydressup.com|entrepreneur.com|eonline.com|escapegames.com|euronews.com|evolution935.com|fansportslive.com|fm98wjlb.com|foodnetwork.ca|four.co.nz|foxsportsradio.com|fresh100.com|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalpost.com|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|gosanangelo.com|hallelujah1051.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|independentmail.com|jaguars.com|kase101.com|kcchiefs.com|kdvr.com|kfiam640.com|kgbx.com|khow.com|kiisfm.com|kitsapsun.com|kitv.com|kjrh.com|knoxnews.com|kogo.com|komonews.com|kshb.com|kwgn.com|kwnr.com|kxan.com|leaderpost.com|livestream.com|magic96.com|metacafe.com|miamidolphins.com|mix923fm.com|mojointhemorning.com|moneycontrol.com|montrealgazette.com|motorcyclistonline.com|mtv.ca|mydamnchannel.com|myezrock.com|mymagic97.com|naplesnews.com|nationalpost.com|nba.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newsnet5.com|newstalk1010.com|newstalk1130.com|newyorkjets.com|nymag.com|oktvusa.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|player.screenwavemedia.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redding.com|redskins.com|reporternews.com|reuters.com|rollingstone.com|rootsports.com|rottentomatoes.com|seahawks.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|sploder.com|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|tcpalm.com|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|thedenverchannel.com|thedrocks.com|theindychannel.com|theprovince.com|thestarphoenix.com|theteam1260.com|tide.com|timescolonist.com|timeslive.co.za|timesrecordnews.com|titansonline.com|totaljerkface.com|turnto23.com|tvone.tv|tvoneonline.com|twitch.tv|usmagazine.com|vancouversun.com|vcstar.com|veetle.com|vice.com|videojug.com|vikings.com|virginradio.ca|washingtonpost.com|washingtontimes.com|wcpo.com|wdfn.com|weather.com|wescfm.com|wgci.com|wibw.com|wikihow.com|windsorstar.com|wiod.com|wjdx.com|wkyt.com|wmyi.com|wor710.com|wptv.com|wxyz.com|yahoo.com|youtube.com|z100.com
+||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|1025thebull.com|1031iheartaustin.com|1037theq.com|1041beat.com|1057ezrock.com|1067litefm.com|10news.com|247comedy.com|3news.co.nz|49ers.com|610cktb.com|700wlw.com|850koa.com|940winz.com|94hjy.com|970espn.com|99kisscountry.com|abc15.com|abc2news.com|abcactionnews.com|am1300thezone.com|am570radio.com|am760.net|atlantafalcons.com|automobilemag.com|automotive.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|belfasttelegraph.co.uk|bengals.com|bet.com|big1059.com|bigdog1009.ca|bloomberg.com|bnn.ca|boom973.com|boom997.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|caller.com|canada.com|capitalfm.ca|cbs.com|cbsnews.com|cbssports.com|channel955.com|chargers.com|chicagobears.com|chicagotribune.com|cj104.com|cjad.com|cjbk.com|clevelandbrowns.com|cnettv.cnet.com|coast933.com|colts.com|commercialappeal.com|courierpress.com|cp24.com|cricketcountry.com|csmonitor.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|egirlgames.net|elvisduran.com|enjoydressup.com|entrepreneur.com|eonline.com|escapegames.com|euronews.com|evolution935.com|fansportslive.com|fm98wjlb.com|foodnetwork.ca|four.co.nz|foxsportsradio.com|fresh100.com|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalpost.com|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|gosanangelo.com|hallelujah1051.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|independentmail.com|jaguars.com|kase101.com|kcchiefs.com|kdvr.com|kfiam640.com|kgbx.com|khow.com|kiisfm.com|kitsapsun.com|kitv.com|kjrh.com|knoxnews.com|kogo.com|komonews.com|kshb.com|kwgn.com|kwnr.com|kxan.com|leaderpost.com|livestream.com|magic96.com|metacafe.com|miamidolphins.com|mix923fm.com|mojointhemorning.com|moneycontrol.com|montrealgazette.com|motorcyclistonline.com|mtv.ca|mydamnchannel.com|myezrock.com|mymagic97.com|naplesnews.com|nationalpost.com|nba.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newsnet5.com|newstalk1010.com|newstalk1130.com|newyorkjets.com|nymag.com|oktvusa.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|player.screenwavemedia.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redding.com|redskins.com|reporternews.com|reuters.com|rollingstone.com|rootsports.com|rottentomatoes.com|seahawks.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|sploder.com|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|tcpalm.com|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|thedenverchannel.com|thedrocks.com|theindychannel.com|theprovince.com|thestarphoenix.com|theteam1260.com|tide.com|timescolonist.com|timeslive.co.za|timesrecordnews.com|titansonline.com|totaljerkface.com|turnto23.com|tvone.tv|tvoneonline.com|twitch.tv|usmagazine.com|vancouversun.com|vcstar.com|veetle.com|vice.com|videojug.com|vikings.com|virginradio.ca|washingtonpost.com|washingtontimes.com|wcpo.com|wdfn.com|weather.com|wescfm.com|wgci.com|wibw.com|wikihow.com|windsorstar.com|wiod.com|wjdx.com|wkyt.com|wmyi.com|wor710.com|wptv.com|wxyz.com|yahoo.com|youtube.com|z100.com
 ||2mdn.net^$~object-subrequest,third-party
 ||350media.com^$third-party
 ||360ads.com^$third-party
 ||360yield.com^$third-party
 ||365sbaffiliates.com^$third-party
+||3lift.com^$third-party
 ||3lr67y45.com^$third-party
 ||3omb.com^$third-party
 ||3rdads.com^$third-party
@@ -22004,7 +22055,6 @@ _popunder+$popup
 ||ademails.com^$third-party
 ||adengage.com^$third-party
 ||adespresso.com^$third-party
-||adestra.com^$third-party
 ||adexcite.com^$third-party
 ||adexprt.com^$third-party
 ||adexprts.com^$third-party
@@ -22218,6 +22268,7 @@ _popunder+$popup
 ||adteractive.com^$third-party
 ||adtgs.com^$third-party
 ||adtlgc.com^$third-party
+||adtoadd.com^$third-party
 ||adtoll.com^$third-party
 ||adtology1.com^$third-party
 ||adtology2.com^$third-party
@@ -23693,6 +23744,7 @@ _popunder+$popup
 ||pntrs.com^$third-party
 ||pointclicktrack.com^$third-party
 ||pointroll.com^$third-party
+||points2shop.com^$third-party
 ||pokerstrategy.com^$third-party
 ||polyad.net^$third-party
 ||popads.net^$third-party
@@ -23954,6 +24006,7 @@ _popunder+$popup
 ||solutionzip.info^$third-party
 ||sonnerie.net^$third-party
 ||sonobi.com^$third-party
+||sophiasearch.com^$third-party
 ||sparkstudios.com^$third-party
 ||specificclick.net^$third-party
 ||specificmedia.com^$third-party
@@ -24019,6 +24072,7 @@ _popunder+$popup
 ||tagjunction.com^$third-party
 ||tagshost.com^$third-party
 ||tailsweep.com^$third-party
+||takensparks.com^$third-party
 ||tangozebra.com^$third-party
 ||tapad.com^$third-party
 ||targetadverts.com^$third-party
@@ -24092,7 +24146,6 @@ _popunder+$popup
 ||tradedoubler.com^$third-party
 ||tradeexpert.net^$third-party
 ||tradepopups.com^$third-party
-||tradepub.com^$third-party
 ||traff-advertazer.com^$third-party
 ||traffic-supremacy.com^$third-party
 ||trafficbarads.com^$third-party
@@ -24256,6 +24309,7 @@ _popunder+$popup
 ||werbe-sponsor.de^$third-party
 ||wfnetwork.com^$third-party
 ||wgreatdream.com^$third-party
+||wh5kb0u4.com^$third-party
 ||whtsrv9.com^$third-party
 ||why-outsource.net^$third-party
 ||widgetadvertising.biz^$third-party
@@ -24398,6 +24452,7 @@ _popunder+$popup
 -ga-track.
 -geoIP.js
 -google-analytics.
+-google-analytics/
 -mediaplex_
 -optimost-
 -page-analytics.
@@ -25419,6 +25474,7 @@ _popunder+$popup
 /logger.ashx?
 /logger/p.gif?
 /logger?*ctxid=
+/logger?d=
 /logging-code.
 /logging/pixel?
 /logging_requests.
@@ -26518,6 +26574,7 @@ http://utm.
 ||css.aliyun.com^$third-party
 ||dw.cbsi.com.cn^$third-party
 ||etwun.com:8080/counter.php?
+||ftimg.net/js/log.js?
 ||g.cn.miaozhen.com^
 ||ifengimg.com/sta_collection.*.js
 ||js.letvcdn.com/js/*/stats/
@@ -26566,7 +26623,6 @@ http://utm.
 ||ebook.tianya.cn/js/stat.js
 ||eclick.baidu.com^
 ||firefoxchina.cn/*/trac.js
-||ftchinese.com/log/new_log.php?
 ||hao123.com/img/gut.gif?
 ||hdslb.com/images/isptrack.js
 ||his.tv.sohu.com/his/ping.do?
