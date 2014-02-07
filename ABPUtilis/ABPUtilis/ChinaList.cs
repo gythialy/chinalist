@@ -5,7 +5,6 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
-using Microsoft.VisualBasic;
 
 namespace ABPUtils
 {
@@ -117,7 +116,6 @@ namespace ABPUtils
             }
 
             var content = sBuilder.ToString();
-            content = ToSimplified(content);
             content = content.Replace("\r", string.Empty);
 
             return content;
@@ -199,18 +197,6 @@ namespace ABPUtils
             return Regex.Replace(content, @"(\[Adblock Plus \d\.\d\])",
                         string.Format("$1\n!  Checksum: {0}", CalculateMD5Hash(RemoveEmptyLines(content))),
                         RegexOptions.Multiline | RegexOptions.IgnoreCase);
-        }
-
-        /// <summary>
-        /// Convert string to Simplified Chinese
-        /// </summary>
-        /// <param name="source"></param>
-        /// <returns></returns>
-        private string ToSimplified(string source)
-        {
-            var cl = new System.Globalization.CultureInfo("zh-CN", false);
-
-            return Strings.StrConv(source, VbStrConv.SimplifiedChinese, cl.LCID);
         }
 
         /// <summary>
