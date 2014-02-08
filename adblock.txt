@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: 8R5zkVi5TZlxnOyZf8vBcQ
+!  Checksum: 2ddb2JZzN1bJ30XY2kLDnA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 08 Feb 2014 10:05:36 +0800
+!  Last Modified:  Sat, 08 Feb 2014 10:11:16 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1863,6 +1863,7 @@ ref.so##table[width="300"]
 ||log.vdisk.cn^
 ||hiad.vmall.com^
 dl.vmall.com###filelist_marker
+||wangpanwu.com/images/aoyou.gif
 ||yimuhe.com/n_ad/
 /ys168/*$domain=ys168.com
 ys168.com###idzdy1
