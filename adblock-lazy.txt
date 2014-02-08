@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: lshAhBsR6UF4aIsgy9kALw
+!  Checksum: +fneaNsLqoa78SVCfYvL2A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 07 Feb 2014 16:49:03 +0800
+!  Last Modified:  Sat, 08 Feb 2014 10:05:48 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2470,6 +2470,7 @@ zxtjd.com###it_an
 ||51link.com^$third-party
 ||51wan.com^$third-party,domain=~qqopenapp.com|~qzoneapp.com|~tqapp.cn|~twsapp.com
 ||523688.com^$third-party
+||5293.com^$third-party
 ||52lover.info^$third-party
 ||54kefu.net^$third-party
 ||5566ad.com^$third-party
@@ -6671,7 +6672,6 @@ zjol.com.cn##span.lqgg
 /js/oas-
 /js/oas.
 /js/ppu.$script
-/js/quantcast-
 /js/youmuffpu.js
 /js2.ad/size=
 /js_ad_utf8.
@@ -7098,6 +7098,7 @@ zjol.com.cn##span.lqgg
 /popads_
 /poplivejasmine.
 /popounder4.
+/poprotator.
 /popu.js
 /popunder-
 /popunder.
@@ -8465,6 +8466,7 @@ takeover_banner_
 /anti_ab.
 /antiadblock.
 /blockblock/blockblock.jquery.js
+/cus/blocages/*$third-party,xmlhttprequest
 /no-adblock/*
 ! *** easylist:easylist/easylist_general_block_dimensions.txt ***
 ,160x600;
@@ -11865,6 +11867,7 @@ _popunder+$popup
 ###autos_banner_ad
 ###awds-nt1-ad
 ###awesome-ad
+###b-ad-choices
 ###b5-skyscraper-ad-3
 ###b5_ad_footer
 ###b5_ad_sidebar1
@@ -18128,6 +18131,7 @@ _popunder+$popup
 ##.b-ad-topBanner
 ##.b-ads728
 ##.b-ads_300
+##.b-ads_gpt
 ##.b-ads_iframe
 ##.b-advert
 ##.b-advert__grid
@@ -18499,6 +18503,7 @@ _popunder+$popup
 ##.bps-advertisement-inline-ads
 ##.bps-advertisement-placeholder
 ##.bps-search-chitika-ad
+##.bq_ad_320x250
 ##.bq_adleaderboard
 ##.bq_rightAd
 ##.br-ad
@@ -18931,7 +18936,9 @@ _popunder+$popup
 ##.entry-ad
 ##.entry-ads
 ##.entry-body-ad
+##.entry-bottom-ad
 ##.entry-injected-ad
+##.entry-top-ad
 ##.entryAd
 ##.entry_sidebar_ads
 ##.entryad
@@ -20554,6 +20561,7 @@ _popunder+$popup
 ##.right_picAd
 ##.right_side-partyad
 ##.right_side_ads
+##.right_side_box_ad
 ##.rightad
 ##.rightad250
 ##.rightad_1
@@ -23147,7 +23155,6 @@ _popunder+$popup
 ||grafpedia.com^$third-party
 ||grapeshot.co.uk^$third-party
 ||gratisnetwork.com^$third-party
-||gravityrd.com^$third-party
 ||greenads.org^$third-party
 ||greenlabelppc.com^$third-party
 ||groovinads.com^$third-party
@@ -25401,6 +25408,7 @@ _popunder+$popup
 /js/hbx.js
 /js/indextools/*
 /js/livestats_
+/js/quantcast-
 /js/sophus/*
 /js/tagging/tagtrack.js
 /js/tophits_
@@ -26164,6 +26172,7 @@ _popunder+$popup
 /tracking_pixel
 /trackingcookies.
 /TrackingData.
+/trackingfilter.json?
 /trackingFooter.
 /TrackingHandler.
 /trackingp.gif

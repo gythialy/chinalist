@@ -1,8 +1,8 @@
 [Adblock Plus 2.1]
-!  Checksum: hHf2dlBRiowJe+U0Q1OFbw
+!  Checksum: 8R5zkVi5TZlxnOyZf8vBcQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 07 Feb 2014 16:48:54 +0800
+!  Last Modified:  Sat, 08 Feb 2014 10:05:36 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -2469,6 +2469,7 @@ zxtjd.com###it_an
 ||51link.com^$third-party
 ||51wan.com^$third-party,domain=~qqopenapp.com|~qzoneapp.com|~tqapp.cn|~twsapp.com
 ||523688.com^$third-party
+||5293.com^$third-party
 ||52lover.info^$third-party
 ||54kefu.net^$third-party
 ||5566ad.com^$third-party
