@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: 1tm9sIpvF3dxt3zcNboCrw
+!  Checksum: Bq/NIkyc9VqtiMYrchiCcA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 08 Feb 2014 10:36:07 +0800
+!  Last Modified:  Mon, 10 Feb 2014 00:11:43 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2580,6 +2580,7 @@ zxtjd.com###it_an
 ||books.com.tw/exep/ap/$third-party
 ||boosj.com^$third-party
 ||btnibbler.com^$third-party
+||btyou.com^$third-party
 ||buzzads.com^$third-party
 ||buzz-time.com.cn^$third-party
 ||c1o1.com^$third-party
@@ -3685,6 +3686,7 @@ zjol.com.cn##span.lqgg
 /ad.cgi?
 /ad.code?
 /ad.css?
+/ad.doubleclick.
 /ad.epl?
 /ad.gif|
 /ad.html?
@@ -4466,6 +4468,7 @@ zjol.com.cn##span.lqgg
 /AdNewsclip14.
 /AdNewsclip15.
 /adnext.
+/adnexus-
 /adng.html
 /adnotice.
 /adobject.
@@ -6029,6 +6032,7 @@ zjol.com.cn##span.lqgg
 /direct_ads.
 /directads.
 /directadvert.
+/DispAd_
 /display-ad/*
 /display-ads-
 /display-ads/*
@@ -10423,6 +10427,7 @@ _popunder+$popup
 ###ad_adsense
 ###ad_after_navbar
 ###ad_anchor
+###ad_and_content_ad_box
 ###ad_area
 ###ad_article_btm
 ###ad_banner
@@ -12200,6 +12205,7 @@ _popunder+$popup
 ###btnads
 ###btr_horiz_ad
 ###burn_header_ad
+###bus-center-ad
 ###button-ads
 ###button-ads-horizontal
 ###button-ads-vertical
@@ -13386,12 +13392,17 @@ _popunder+$popup
 ###ka_adFullBanner
 ###ka_adMediumRectangle
 ###ka_adRightSkyscraperWide
+###ka_adsense_container
 ###ka_samplead
+###kamidarticle-adnotice
+###kamidarticle-middle-content
 ###karmaAds
 ###kaufDA-widget
 ###kdz_ad1
 ###kdz_ad2
+###keen_overlay_ad_display
 ###keyadvertcontainer
+###l_home-keen_ad_mask
 ###landing-adserve
 ###landing-adserver
 ###lapho-top-ad-1
@@ -14295,6 +14306,7 @@ _popunder+$popup
 ###side_skyscraper_ad
 ###side_sponsors
 ###sidead
+###sidead1
 ###sidead1mask
 ###sideadbox
 ###sideads
@@ -15843,6 +15855,7 @@ _popunder+$popup
 ##.ad-story-inject
 ##.ad-story-top
 ##.ad-strip
+##.ad-subtitle
 ##.ad-table
 ##.ad-tabs
 ##.ad-tag
@@ -16697,6 +16710,7 @@ _popunder+$popup
 ##.ad_slug_font
 ##.ad_slug_table
 ##.ad_small
+##.ad_sonar
 ##.ad_space
 ##.ad_space_300_250
 ##.ad_space_holder
@@ -17247,6 +17261,7 @@ _popunder+$popup
 ##.ads_catDivRight
 ##.ads_column
 ##.ads_container
+##.ads_der
 ##.ads_disc_anchor
 ##.ads_disc_leader
 ##.ads_disc_lwr_square
@@ -17880,6 +17895,7 @@ _popunder+$popup
 ##.advertisement-text
 ##.advertisement-top
 ##.advertisement-txt
+##.advertisement-wrapper
 ##.advertisement300x250
 ##.advertisement468
 ##.advertisementBackground
@@ -19015,6 +19031,7 @@ _popunder+$popup
 ##.footer-ad-squares
 ##.footer-ads
 ##.footer-adsbar
+##.footer-adsense
 ##.footer-advert
 ##.footer-banner-ad
 ##.footer-leaderboard-ad
@@ -20255,6 +20272,7 @@ _popunder+$popup
 ##.pb-mod-ad-leaderboard
 ##.pd-ads-mpu
 ##.peg_ad
+##.pencil-ad-container
 ##.pencil_ad
 ##.performancingads_region
 ##.pfAd
@@ -21972,6 +21990,7 @@ _popunder+$popup
 ||888media.net^$third-party
 ||888medianetwork.com^$third-party
 ||888promos.com^$third-party
+||8yxupue8.com^$third-party
 ||97d73lsi.com^$third-party
 ||a-ads.com^$third-party
 ||a-static.com^$third-party
@@ -24257,6 +24276,7 @@ _popunder+$popup
 ||vibrantmedia.com^$third-party
 ||video-loader.com^$third-party
 ||videoclick.ru^$third-party
+||videodeals.com^$third-party
 ||videoegg.com^$third-party
 ||videohub.com^$third-party
 ||videolansoftware.com^$third-party
@@ -25481,6 +25501,7 @@ _popunder+$popup
 /logEvent?
 /logextrastats.
 /logger.ashx?
+/logger.js
 /logger/p.gif?
 /logger?*ctxid=
 /logger?d=
@@ -25780,6 +25801,7 @@ _popunder+$popup
 /pv.gif?url
 /pvcount.
 /pview?event
+/PvServlet?
 /px_trans.gif
 /pxl.cgi?
 /pxlctl.gif?
@@ -25809,6 +25831,7 @@ _popunder+$popup
 /rcdntpagetag.js
 /readomniturecookie.
 /readtracker-
+/recommendtrack?
 /record_clicks.
 /record_visitor.
 /RecordClick.
@@ -26342,6 +26365,7 @@ _popunder+$popup
 /WebPageEventLogger.
 /webrec/wr.do?
 /WebStat.asmx
+/webstat/cei_count.asp?
 /WebStat2.
 /webstatistics.php?
 /WebStatistik/*.pl?
