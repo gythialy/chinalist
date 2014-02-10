@@ -1,19 +1,5 @@
 <?xml version="1.0"?>
-<Configurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <EasyListFlag>
-    <string>easylist:easylist/easylist_general_block.txt</string>
-    <string>easylist:easylist/easylist_general_block_dimensions.txt</string>
-    <string>easylist:easylist/easylist_general_block_popup.txt</string>
-    <string>easylist:easylist/easylist_general_hide.txt</string>
-    <string>easylist:easylist/easylist_adservers.txt</string>
-  </EasyListFlag>
-  <EasyPrivacyFlag>
-    <string>easylist:easyprivacy/easyprivacy_general.txt</string>
-    <string>easylist:easyprivacy/easyprivacy_trackingservers_international.txt</string>
-    <string>easylist:easyprivacy/easyprivacy_thirdparty_international.txt</string>
-    <string>easylist:easyprivacy/easyprivacy_specific_international.txt</string>
-    <string>easylist:easyprivacy/easyprivacy_whitelist_international.txt</string>
-  </EasyPrivacyFlag>
+<PatchConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <RemovedItems>
     <string>||treatme.co.nz/Affiliates/</string>
     <string>/adv.htm</string>
@@ -183,5 +169,4 @@
       <NewItem>/html.ng/*$domain=~cntv.cn</NewItem>
     </ModifyItem>
   </ModifyItems>
-  <Privacy>adblock-privacy.txt</Privacy>
-</Configurations>
+</PatchConfig>

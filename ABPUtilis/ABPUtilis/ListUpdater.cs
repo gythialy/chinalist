@@ -5,11 +5,10 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
-using Microsoft.VisualBasic;
 
 namespace ABPUtils
 {
-    class ChinaList
+    public class ListUpdater
     {
         private const string ChecksumRegx = @"(\!\s*checksum[\s\-:]+)([\w\+\/=]+).*(\n)";
         private const string UrlRegx = @"([a-z0-9][a-z0-9\-]*?\.(?:com|edu|cn|net|org|gov|im|info|la|co|tv|biz|mobi)(?:\.(?:cn|tw))?)";
@@ -20,17 +19,17 @@ namespace ABPUtils
             private set;
         }
 
-        public ChinaList(string fileName)
+        public ListUpdater(string fileName)
         {
-            FileName = fileName;
+            FileName = fileName.ToFullPath();
         }
 
         /// <summary>
-        /// update list
+        /// update list time and checksum
         /// </summary>
         public void Update()
         {
-            var content = ReadList();
+            var content = LoadContent();
             content = UpdateTime(content);
             content = RemoveChecksum(content);
 
@@ -39,7 +38,7 @@ namespace ABPUtils
         }
 
         /// <summary>
-        /// validate list
+        /// validate list checksum
         /// </summary>
         /// <returns></returns>
         public int Validate()
@@ -53,7 +52,7 @@ namespace ABPUtils
             }
 
             content = RemoveChecksum(content);
-            var genearteCheckSum = CalculateMD5Hash(RemoveEmptyLines(content));
+            var genearteCheckSum = CalculateMd5Hash(RemoveEmptyLines(content));
 
             if (checkSum.Equals(genearteCheckSum))
             {
@@ -90,37 +89,13 @@ namespace ABPUtils
         }
 
         /// <summary>
-        /// Read list content and convert to Simplified Chinese
+        /// Read list content then remove duplicate and empty line
         /// </summary>
         /// <returns></returns>
-        private string ReadList()
+        private string LoadContent()
         {
-            var sBuilder = new StringBuilder();
-            var list = new List<string>();
-
-            using (var sr = new StreamReader(FileName, Encoding.UTF8))
-            {
-                // filter duplicate line
-                string line;
-                while ((line = sr.ReadLine()) != null)
-                {
-                    if (!string.IsNullOrEmpty(line))
-                    {
-                        if (list.Contains(line) && !line.StartsWith("!"))
-                            continue;
-
-                        list.Add(line);
-                    }
-
-                    sBuilder.AppendLine(line);
-                }
-            }
-
-            var content = sBuilder.ToString();
-            content = ToSimplified(content);
-            content = content.Replace("\r", string.Empty);
-
-            return content;
+            var lines = File.ReadAllLines(FileName, Encoding.UTF8).Where(s => !string.IsNullOrEmpty(s)).Distinct();
+            return string.Join("\n", lines);
         }
 
         /// <summary>
@@ -144,7 +119,7 @@ namespace ABPUtils
         /// change list update time
         /// </summary>
         /// <returns></returns>
-        private string UpdateTime(string content)
+        private static string UpdateTime(string content)
         {
             var dt = DateTime.Now;
             //Wed, 22 Jul 2009 16:39:15 +0800
@@ -160,7 +135,7 @@ namespace ABPUtils
         /// </summary>
         /// <param name="content"></param>
         /// <returns></returns>
-        private string RemoveEmptyLines(string content)
+        private static string RemoveEmptyLines(string content)
         {
             content = Regex.Replace(content, "\n+", "\n");
             return content;
@@ -171,7 +146,7 @@ namespace ABPUtils
         /// </summary>
         /// <param name="content"></param>
         /// <returns></returns>
-        private string RemoveChecksum(string content)
+        private static string RemoveChecksum(string content)
         {
             return Regex.Replace(content, ChecksumRegx, string.Empty, RegexOptions.Multiline | RegexOptions.IgnoreCase);
         }
@@ -181,7 +156,7 @@ namespace ABPUtils
         /// </summary>
         /// <param name="content"></param>
         /// <returns></returns>
-        private string FindCheckSum(string content)
+        private static string FindCheckSum(string content)
         {
             var regex = new Regex(ChecksumRegx, RegexOptions.Multiline | RegexOptions.IgnoreCase);
             var match = regex.Match(content);
@@ -194,23 +169,11 @@ namespace ABPUtils
         /// </summary>
         /// <param name="content"></param>
         /// <returns></returns>
-        private string UpdateCheckSum(string content)
+        private static string UpdateCheckSum(string content)
         {
             return Regex.Replace(content, @"(\[Adblock Plus \d\.\d\])",
-                        string.Format("$1\n!  Checksum: {0}", CalculateMD5Hash(RemoveEmptyLines(content))),
+                        string.Format("$1\n!  Checksum: {0}", CalculateMd5Hash(RemoveEmptyLines(content))),
                         RegexOptions.Multiline | RegexOptions.IgnoreCase);
-        }
-
-        /// <summary>
-        /// Convert string to Simplified Chinese
-        /// </summary>
-        /// <param name="source"></param>
-        /// <returns></returns>
-        private string ToSimplified(string source)
-        {
-            var cl = new System.Globalization.CultureInfo("zh-CN", false);
-
-            return Strings.StrConv(source, VbStrConv.SimplifiedChinese, cl.LCID);
         }
 
         /// <summary>
@@ -218,7 +181,7 @@ namespace ABPUtils
         /// </summary>
         /// <param name="content"></param>
         /// <returns></returns>
-        private string CalculateMD5Hash(string content)
+        private static string CalculateMd5Hash(string content)
         {
             string result;
             using (var x = new MD5CryptoServiceProvider())
