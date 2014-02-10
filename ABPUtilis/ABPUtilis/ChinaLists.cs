@@ -15,6 +15,7 @@ namespace ABPUtils
     public class ChinaLists
     {
         private const string ListEndMark = "!------------------------End of List-------------------------";
+        private static readonly Configurations Configs = Configurations.Default;
 
         private ChinaLists() { }
 
@@ -31,37 +32,45 @@ namespace ABPUtils
         }
 
         /// <summary>
-        /// Merge input list with part of EasyList and EasyPrivacy
+        /// CombineLazyList input list with part of EasyList and EasyPrivacy
         /// </summary>
-        /// <param name="chinaList"></param>
+        /// <param name="input"></param>
         /// <param name="proxy"></param>
         /// <param name="patch"></param>
-        /// <param name="lazyList"></param>
-        public static void Merge(string chinaList, WebProxy proxy, bool patch, string lazyList = "adblock-lazy.txt")
+        /// <param name="output"></param>
+        public static void CombineLazyList(string input, WebProxy proxy, bool patch, string output = "../adblock-lazy.txt")
         {
             if (!DownloadEasyList(proxy))
                 return;
 
-            if (string.IsNullOrEmpty(lazyList))
-                lazyList = "adblock-lazy.txt";
-
-            // validate ListUpdater to merge
-            var cl = new ListUpdater(chinaList);
-            cl.Update();
-
-            if (cl.Validate() != 1)
+            if (string.IsNullOrEmpty(output))
+            {
+                Console.WriteLine("Merget output file is empty.");
                 return;
+            }
+
+            var path = GetFullPath(input);
+            if (!IsDirectory(path))
+            {
+                Console.WriteLine("input {0} is not dicectory.", input);
+                return;
+            }
 
             // load ListUpdater content
-            var sBuilder = new StringBuilder();
-            using (var sr = new StreamReader(chinaList, Encoding.UTF8))
+            var sBuilder = new StringBuilder(Configs.ChinaListLazyHeader);
+            var files = GetChinaLists(path);
+            foreach (var file in files)
             {
-                var chinaListContent = sr.ReadToEnd();
-                var headerRegex = new Regex(@"\[Adblock Plus [\s\S]*?NO WARRANTY but Best Wishes----",
-                    RegexOptions.IgnoreCase | RegexOptions.Multiline);
-                chinaListContent = headerRegex.Replace(chinaListContent, string.Empty);
-                sBuilder.Append(Configurations.ChinaListLazyHeader());
-                sBuilder.Append(chinaListContent);
+                using (var sr = new StreamReader(file, Encoding.UTF8))
+                {
+                    var content = sr.ReadToEnd();
+                    //remove header
+                    var headerRegex = new Regex(@"\[Adblock Plus [\s\S]*?NO WARRANTY but Best Wishes----",
+                        RegexOptions.IgnoreCase | RegexOptions.Multiline);
+                    content = headerRegex.Replace(content, string.Empty);
+                    sBuilder.AppendFormat("!*** {0} ***\n", Path.GetFileName(file));
+                    sBuilder.Append(content);
+                }
             }
 
             sBuilder.AppendLine("!*** EasyList ***");
@@ -71,10 +80,10 @@ namespace ABPUtils
             sBuilder.Append(TrimEasyPrivacy());
 
             //apply patch settings
-            var patchFile = Configurations.PatchFile();
+            var patchFile = Configs.PatchFile;
             if (File.Exists(patchFile) && patch)
             {
-                Console.WriteLine("use {0} to patch {1}", patchFile, lazyList);
+                Console.WriteLine("use {0} to patch {1}", patchFile, output);
 
                 var pConfig = GetConfigurations();
 
@@ -93,29 +102,13 @@ namespace ABPUtils
                     }
 
                     if (pConfig.NewItems.Count > 0)
-                        sBuilder.AppendLine("!-----------------additional for ListUpdater Lazy-------------");
+                        sBuilder.AppendLine("!-----------------additional for ChinaList Lazy-------------");
 
                     foreach (var item in pConfig.NewItems)
                     {
                         sBuilder.AppendLine(item);
                         Console.WriteLine("add filter {0}", item);
                     }
-
-                    // Merge ListUpdater Privacy
-//                    if (!string.IsNullOrEmpty(Configurations.Privacy))
-//                    {
-//                        sBuilder.AppendLine("! *** adblock-privacy.txt");
-//                        using (var sr = new StreamReader(pConfig.Privacy, Encoding.UTF8))
-//                        {
-//                            string line;
-//                            while ((line = sr.ReadLine()) != null)
-//                            {
-//                                if (string.IsNullOrWhiteSpace(line) || line.StartsWith("!") || line.StartsWith("["))
-//                                    continue;
-//                                sBuilder.AppendLine(line);
-//                            }
-//                        }
-//                    }
                 }
 
                 Console.WriteLine("Patch file end.");
@@ -123,14 +116,32 @@ namespace ABPUtils
 
             sBuilder.AppendLine(ListEndMark);
 
-            Console.WriteLine("Merge {0}, {1} and {2}.", chinaList, Configurations.Easylist(), Configurations.Easyprivacy());
-            Save(lazyList, sBuilder.ToString());
+            Console.WriteLine("Merge {0}, {1} and {2}.", input, Configs.Easylist, Configs.Easyprivacy);
+            Save(GetFullPath(output), sBuilder.ToString());
 
-            cl = new ListUpdater(lazyList);
-            cl.Update();
-            cl.Validate();
+            var updater = new ListUpdater(output);
+            updater.Update();
+            updater.Validate();
 
             Console.WriteLine("End of merge and validate.");
+        }
+
+        private static bool IsDirectory(string path)
+        {
+            var attr = File.GetAttributes(path);
+
+            return (attr & FileAttributes.Directory) == FileAttributes.Directory;
+        }
+
+        private static IEnumerable<string> GetChinaLists(string input)
+        {
+            var files = Directory.GetFiles(input, "*.txt", SearchOption.TopDirectoryOnly).ToList();
+            var enabled = Configs.ChinaLazyList;
+
+            var result = files.Where(enabled.Contains).ToList();
+            result.Sort();
+
+            return result;
         }
 
         /// <summary>
@@ -140,50 +151,49 @@ namespace ABPUtils
         /// <param name="proxy"></param>
         public static void CleanConfigurations(string chinaList, WebProxy proxy)
         {
-            if (DownloadEasyList(null))
+            if (!DownloadEasyList(null)) return;
+
+            var patchConfig = GetConfigurations();
+            if (patchConfig == null)
             {
-                var patchConfig = GetConfigurations();
-                if (patchConfig == null)
-                {
-                    Console.WriteLine("wrong Patch Confguration file.");
-                    return;
-                }
-
-                var sBuilder = new StringBuilder();
-                using (var sr = new StreamReader(chinaList, Encoding.UTF8))
-                {
-                    sBuilder.Append(sr.ReadToEnd());
-                }
-
-                using (var sr = new StreamReader(Configurations.Easylist(), Encoding.UTF8))
-                {
-                    sBuilder.Append(sr.ReadToEnd());
-                }
-
-                using (var sr = new StreamReader(Configurations.Easyprivacy(), Encoding.UTF8))
-                {
-                    sBuilder.Append(sr.ReadToEnd());
-                }
-
-                var s = sBuilder.ToString();
-
-                var removedItems = new List<string>(patchConfig.RemovedItems);
-                foreach (var item in patchConfig.RemovedItems.Where(item => !s.Contains(item)))
-                {
-                    removedItems.Remove(item);
-                }
-
-                var modifyItems = new List<ModifyItem>(patchConfig.ModifyItems);
-                foreach (var item in patchConfig.ModifyItems.Where(item => !s.Contains(item.OldItem)))
-                {
-                    modifyItems.Remove(item);
-                }
-
-                patchConfig.ModifyItems = modifyItems;
-                patchConfig.RemovedItems = removedItems;
-                var xml = SimpleSerializer.XmlSerialize(patchConfig);
-                Save(Configurations.PatchFile(), xml);
+                Console.WriteLine("wrong Patch Confguration file.");
+                return;
             }
+
+            var sBuilder = new StringBuilder();
+            using (var sr = new StreamReader(chinaList, Encoding.UTF8))
+            {
+                sBuilder.Append(sr.ReadToEnd());
+            }
+
+            using (var sr = new StreamReader(Configs.Easylist, Encoding.UTF8))
+            {
+                sBuilder.Append(sr.ReadToEnd());
+            }
+
+            using (var sr = new StreamReader(Configs.Easyprivacy, Encoding.UTF8))
+            {
+                sBuilder.Append(sr.ReadToEnd());
+            }
+
+            var s = sBuilder.ToString();
+
+            var removedItems = new List<string>(patchConfig.RemovedItems);
+            foreach (var item in patchConfig.RemovedItems.Where(item => !s.Contains(item)))
+            {
+                removedItems.Remove(item);
+            }
+
+            var modifyItems = new List<ModifyItem>(patchConfig.ModifyItems);
+            foreach (var item in patchConfig.ModifyItems.Where(item => !s.Contains(item.OldItem)))
+            {
+                modifyItems.Remove(item);
+            }
+
+            patchConfig.ModifyItems = modifyItems;
+            patchConfig.RemovedItems = removedItems;
+
+            Save(Configs.PatchFile, SimpleSerializer.XmlSerialize(patchConfig));
         }
 
         /// <summary>
@@ -328,15 +338,15 @@ namespace ABPUtils
         private static bool IsFileExist(string fileName)
         {
             var dt = File.GetLastWriteTime(fileName);
-            var fileInfo = new FileInfo(fileName);
+            var updater = new ListUpdater(fileName);
 
-            return (dt.ToString("yyyy-MM-dd").Equals(DateTime.Now.ToString("yyyy-MM-dd")) && fileInfo.Length > 0);
+            return dt.ToString("yyyy-MM-dd").Equals(DateTime.Now.ToString("yyyy-MM-dd")) && updater.Validate() == 1;
         }
 
         private static string TrimEasyList()
         {
             var sBuilder = new StringBuilder();
-            using (var sr = new StreamReader(Configurations.Easylist(), Encoding.UTF8))
+            using (var sr = new StreamReader(Configs.Easylist, Encoding.UTF8))
             {
                 var easyListContent = sr.ReadToEnd();
                 var lists = Regex.Split(easyListContent, @"! \*\*\* ");
@@ -353,7 +363,7 @@ namespace ABPUtils
         private static string TrimEasyPrivacy()
         {
             var sBuilder = new StringBuilder();
-            using (var sr = new StreamReader(Configurations.Easyprivacy(), Encoding.UTF8))
+            using (var sr = new StreamReader(Configs.Easyprivacy, Encoding.UTF8))
             {
                 var easyPrivacyContent = sr.ReadToEnd();
 
@@ -393,7 +403,7 @@ namespace ABPUtils
 
         private static PatchConfig GetConfigurations()
         {
-            var file =  Configurations.PatchFile();
+            var file = Configs.PatchFile;
             if (!File.Exists(file)) return null;
 
             using (var sr = new StreamReader(file, Encoding.UTF8))
@@ -405,19 +415,23 @@ namespace ABPUtils
 
         private static bool IsEasyListItemOn(string value)
         {
-            var easyList = Configurations.EasyListFlag();
+            var easyList = Configs.EasyListFlag;
 
             return easyList != null && easyList.Any(value.Contains);
         }
 
         private static bool IsEasyPrivacyOff(string value)
         {
-            var easyPrivacy = Configurations.EasyPrivacyFlag();
+            var easyPrivacy = Configs.EasyPrivacyFlag;
             return easyPrivacy != null && easyPrivacy.Any(value.Contains);
         }
 
         private static bool DownloadEasyList(WebProxy proxy)
         {
+            var folder = Configs.EasyListPath;
+            if (!Directory.Exists(folder))
+                Directory.CreateDirectory(folder);
+
             using (var webClient = new WebClient())
             {
                 if (proxy != null)
@@ -428,24 +442,25 @@ namespace ABPUtils
 
                 var lists = new Dictionary<string, string>
                 {
-                    {Configurations.Easylist(), Configurations.EasylistUrl()},
-                    {Configurations.Easyprivacy(), Configurations.EasyprivacyUrl()}
+                    {Configs.Easylist, Configs.EasylistUrl},
+                    {Configs.Easyprivacy, Configs.EasyprivacyUrl}
                 };
 
                 foreach (var s in lists)
                 {
+                    var name = Path.GetFileName(s.Key);
+
                     if (IsFileExist(s.Key))
                     {
-                        Console.WriteLine("{0} is the latest, skip over downloading.", s.Key);
+                        Console.WriteLine("{0} is the latest, skip over downloading.", name);
                     }
                     else
                     {
-                        Console.WriteLine("{0} is out of date, to start the update.", s.Key);
+                        Console.WriteLine("{0} is out of date, to start the update.", name);
                         webClient.DownloadFile(s.Value, s.Key);
                         Console.WriteLine("update {0} completed.", s.Key);
-                        var t = new ListUpdater(s.Key);
-
-                        if (t.Validate() == 1) continue;
+                        var updater = new ListUpdater(s.Key);
+                        if (updater.Validate() == 1) continue;
                         Console.WriteLine("Download {0} error, pls try later.", s.Key);
                         return false;
                     }
@@ -453,6 +468,27 @@ namespace ABPUtils
             }
 
             return true;
+        }
+
+        private static string GetFullPath(string path)
+        {
+            return Path.GetFullPath(Path.Combine(Configs.RunTime, path));
+        }
+
+        public static bool CombineList(string input, string output)
+        {
+            var path = Path.GetFullPath(Path.Combine(Configs.RunTime, input));
+            var header = Configs.Header(Path.GetFileName(path));
+            if (string.IsNullOrEmpty(header)) return false;
+            var content = File.ReadAllText(path);
+            var sb = new StringBuilder(header);
+            sb.AppendLine(content);
+            sb.AppendLine(ListEndMark);
+            var target = Path.GetFullPath(Path.Combine(Configs.RunTime, output));
+            Save(target, sb.ToString());
+            var updater = new ListUpdater(target);
+            updater.Update();
+            return updater.Validate() == 1;
         }
     }
 }

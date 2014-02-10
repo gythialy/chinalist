@@ -8,110 +8,238 @@ namespace ABPUtils
 {
     public class Configurations
     {
-        private static readonly Settings UserSettings = Settings.Default;
         private const string EasyListFolder = "easylist";
+
+        private readonly string _version;
+        private readonly string _chinaListHeader;
+        private readonly string _lazyHeader;
+        private readonly string _antiSocialHeader;
+        private readonly string _privacyHeader;
+        private readonly string _chinaListPath;
+        private readonly string _chinaListPrivacyPath;
+        private readonly string _chinaListAntiSocialPath;
+        private readonly string _patchPath;
+        private readonly string _easyListUrl;
+        private readonly string _easyPrivacyUrl;
+        private readonly List<string> _easyListFlag;
+        private readonly List<string> _easyPrivacyFlag;
+        private readonly List<string> _lazyList;
+        private readonly string _helpInfo;
+        private readonly string _easyListName;
+        private readonly string _easyPrivacyName;
+
+        private static Configurations _one;
+        public static Configurations Default
+        {
+            get { return _one ?? (_one = new Configurations()); }
+        }
 
         private Configurations()
         {
+            var userSettings = Settings.Default;
+            _version = userSettings["ABPVersion"].ToString();
+            _chinaListHeader = string.Format(userSettings["ChinaListHeader"].ToString(), _version);
+            _lazyHeader = string.Format(userSettings["ChinaListLazyHeader"].ToString(), _version);
+            _antiSocialHeader = string.Format(userSettings["ChinaListAntiSocialHeader"].ToString(), _version);
+            _privacyHeader = string.Format(userSettings["ChinaListPrivacyHeader"].ToString(), _version);
+
+            _chinaListPath = Path.GetFullPath(Path.Combine(RunTime, userSettings["ChinaList"].ToString()));
+            _chinaListPrivacyPath = Path.GetFullPath(Path.Combine(RunTime, userSettings["ChinaListPrivacy"].ToString()));
+            _chinaListAntiSocialPath = Path.GetFullPath(Path.Combine(RunTime, userSettings["ChinaListAntiSocial"].ToString()));
+            _patchPath = Path.GetFullPath(Path.Combine(RunTime, userSettings["PatchFile"].ToString()));
+
+            _easyListUrl = userSettings["EasylistUrl"].ToString();
+            var index = _easyListUrl.LastIndexOf("/", StringComparison.Ordinal) + 1;
+            _easyListName = Path.GetFullPath(Path.Combine(RunTime, EasyListFolder, _easyListUrl.Substring(index)));
+
+            _easyPrivacyUrl = userSettings["EasyprivacyUrl"].ToString();
+            index = _easyPrivacyUrl.LastIndexOf("/", StringComparison.Ordinal) + 1;
+            _easyPrivacyName = Path.GetFullPath(Path.Combine(RunTime, EasyListFolder, _easyPrivacyUrl.Substring(index)));
+
+            _easyListFlag = userSettings["EasyListFlag"].ToString().Split('\n').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
+            _easyPrivacyFlag = userSettings["EasyPrivacyFlag"].ToString().Split('\n').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
+            _lazyList = userSettings["ChinaLazyList"].ToString().Split(',').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
+            _helpInfo = userSettings["HelpInfo"].ToString();
         }
 
-        public static string Version()
+        public string Version
         {
-            return UserSettings["ABPVersion"].ToString();
+            get
+            {
+                return _version;
+            }
         }
 
-        public static string ChinaListHeader()
+        public string ChinaListHeader
         {
-            return UserSettings["ChinaListHeader"].ToString();
+            get
+            {
+                return _chinaListHeader;
+            }
         }
 
-        public static string ChinaListLazyHeader()
+        public string ChinaListLazyHeader
         {
-            return UserSettings["ChinaListLazyHeader"].ToString();
+            get
+            {
+                return _lazyHeader;
+            }
         }
 
-        public static string ChinaListAntiSocialHeader()
+        public string ChinaListAntiSocialHeader
         {
-            return UserSettings["ChinaListAntiSocialHeader"].ToString();
+            get
+            {
+                return _antiSocialHeader;
+            }
         }
 
-        public static string ChinaListPrivacyHeader()
+        public string ChinaListPrivacyHeader
         {
-            return UserSettings["ChinaListPrivacyHeader"].ToString();
+            get
+            {
+                return _privacyHeader;
+            }
         }
 
-        public static string ChinaList()
+        public string ChinaList
         {
-            return Path.Combine(RunTime(), UserSettings["ListUpdater"].ToString());
+            get
+            {
+                return _chinaListPath;
+            }
         }
 
-        public static string ChinaListPrivacy()
+        public string ChinaListPrivacy
         {
-            return Path.Combine(RunTime(), UserSettings["ChinaListPrivacy"].ToString());
+            get
+            {
+                return _chinaListPrivacyPath;
+            }
         }
 
-        public static string ChinaListAntiSocial()
+        public string ChinaListAntiSocial
         {
-            return Path.Combine(RunTime(), UserSettings["ChinaListAntiSocial"].ToString());
+            get
+            {
+                return _chinaListAntiSocialPath;
+            }
         }
 
-        public static string PatchFile()
+        public string PatchFile
         {
-            return Path.Combine(RunTime(), UserSettings["PatchFile"].ToString());
+            get
+            {
+                return _patchPath;
+            }
         }
 
-        public static string Easylist()
+        public string Easylist
         {
-            var easyList = EasylistUrl();
-            var index = easyList.LastIndexOf("/", StringComparison.Ordinal);
-            return Path.Combine(RunTime(), EasyListFolder, easyList.Substring(index));
+            get
+            {
+                return _easyListName;
+            }
         }
 
-        public static string EasylistUrl()
+        public string EasylistUrl
         {
-            return UserSettings["EasylistUrl"].ToString();
+            get
+            {
+                return _easyListUrl;
+            }
         }
 
-        public static string Easyprivacy()
+        public string Easyprivacy
         {
-            var easyPrivacy = EasyprivacyUrl();
-            var index = easyPrivacy.LastIndexOf("/", StringComparison.Ordinal);
-            return Path.Combine(RunTime(), EasyListFolder, easyPrivacy.Substring(index));
+            get
+            {
+                return _easyPrivacyName;
+            }
         }
 
-        public static string EasyprivacyUrl()
+        public string EasyprivacyUrl
         {
-            return UserSettings["EasyprivacyUrl"].ToString();
+            get
+            {
+                return _easyPrivacyUrl;
+            }
         }
 
-        public static List<string> EasyListFlag()
+        public List<string> EasyListFlag
         {
-            return UserSettings["EasyListFlag"].ToString().Split('\n').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
+            get
+            {
+                return _easyListFlag;
+            }
         }
 
-        public static List<string> EasyPrivacyFlag()
+        public List<string> EasyPrivacyFlag
         {
-            return UserSettings["EasyPrivacyFlag"].ToString().Split('\n').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
+            get
+            {
+                return _easyPrivacyFlag;
+            }
         }
 
-        public static List<string> EnabledList()
+        public List<string> ChinaLazyList
         {
-            return UserSettings["EnabledList"].ToString().Split(',').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
+            get
+            {
+                return _lazyList.Select(GetPropValue).Where(value => !string.IsNullOrEmpty(value)).ToList();
+            }
         }
 
-        public static string HelpInfo()
+        public string HelpInfo
         {
-            return UserSettings["HelpInfo"].ToString();
+            get
+            {
+                return _helpInfo;
+            }
         }
 
-        public static string RunTime()
+        public string RunTime
         {
-            return Environment.CurrentDirectory;
+            get
+            {
+                return Environment.CurrentDirectory;
+            }
         }
 
-        public static string ParentFolder()
+        public string ParentFolder
         {
-            return Directory.GetParent(RunTime()).FullName;
+            get
+            {
+                return Directory.GetParent(RunTime).FullName;
+            }
+        }
+
+        public string EasyListPath
+        {
+            get
+            {
+                return Path.Combine(RunTime, EasyListFolder);
+            }
+        }
+
+        public string Header(string name)
+        {
+            switch (name)
+            {
+                case "chinalist.txt":
+                    return _chinaListHeader;
+                case "chinalist-privacy.txt":
+                    return _privacyHeader;
+                case "chinalist-anti-social.txt":
+                    return _antiSocialHeader;
+                default:
+                    return string.Empty;
+            }
+        }
+
+        private string GetPropValue(string propName)
+        {
+            return GetType().GetProperty(propName).GetValue(this, null).ToString();
         }
     }
 }

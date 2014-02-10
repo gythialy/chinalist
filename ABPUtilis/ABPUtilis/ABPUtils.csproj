@@ -155,6 +155,7 @@
     </Compile>
     <Compile Include="QueryResult.cs" />
     <Compile Include="SimpleSerializer.cs" />
+    <Compile Include="StringUtils.cs" />
     <Compile Include="Whois.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -199,6 +200,7 @@ if NOT $(ConfigurationName) == Release goto exit
 
 echo Build binary for AnyCPU platform
 copy "$(TargetPath)" "$(SolutionDir)..\dev\$(TargetFileName)"
+copy "$(TargetPath).config" "$(SolutionDir)..\dev\$(TargetFileName).config"
 
 :exit
 echo Finished Post Build Event</PostBuildEvent>

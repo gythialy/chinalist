@@ -37,39 +37,13 @@ namespace ABPUtils.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"""[Adblock Plus 2.1]
-!  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  
-!  Homepage: http://chinalist.github.io/
-!
-!  ListUpdater Lazy = Part of EasyList + ListUpdater + Part of EasyPrivacy
-!  If you need to know the details,
-!  please visit: https://github.com/chinalist/chinalist/wiki/something_about_ChinaList_Lazy
-!
-!  If you need help or have any question,
-!  please visit: https://github.com/chinalist/chinalist
-!
-!  coding: utf-8, expires: 5 days
-!--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
-""")]
-        public string ChinaListLazyHeader {
-            get {
-                return ((string)(this["ChinaListLazyHeader"]));
-            }
-            set {
-                this["ChinaListLazyHeader"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("chinalist/chinalist.txt")]
         public string ChinaList {
             get {
-                return ((string)(this["ListUpdater"]));
+                return ((string)(this["ChinaList"]));
             }
             set {
-                this["ListUpdater"] = value;
+                this["ChinaList"] = value;
             }
         }
         
@@ -99,78 +73,6 @@ namespace ABPUtils.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"[Adblock Plus 2.1]
-!  Title: ListUpdater
-!  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  
-!  Homepage: http://chinalist.github.io/
-!
-!  As a supplement for EasyList,ListUpdater won't provide the filters
-!  which in EasyList already.Please subscribe EasyList also.
-!  If you need help or have any question,
-!  please visit: https://github.com/chinalist/chinalist
-!
-!  coding: utf-8, expires: 5 days
-!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----")]
-        public string ChinaListHeader {
-            get {
-                return ((string)(this["ChinaListHeader"]));
-            }
-            set {
-                this["ChinaListHeader"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"[Adblock Plus 2.1]
-!  Title: ListUpdater Anti Social
-!  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  
-!  Homepage: http://chinalist.github.io/
-!
-!  This is an unofficial version, 
-!  does not provide any technical support
-!
-!  please visit: https://github.com/chinalist/chinalist
-!
-!  coding: utf-8, expires: 5 days
-!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----")]
-        public string ChinaListAntiSocialHeader {
-            get {
-                return ((string)(this["ChinaListAntiSocialHeader"]));
-            }
-            set {
-                this["ChinaListAntiSocialHeader"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"[Adblock Plus 2.1]
-!  Title: ListUpdater Privacy
-!  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  
-!  Homepage: http://chinalist.github.io/
-!
-!  As a supplement for EasyPrivacy,ListUpdater won't provide the filters
-!  which in EasyPrivacy already.Please subscribe EasyPrivacy also.
-!  If you need help or have any question,
-!  please visit: https://github.com/chinalist/chinalist
-!
-!  coding: utf-8, expires: 5 days
-!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----")]
-        public string ChinaListPrivacyHeader {
-            get {
-                return ((string)(this["ChinaListPrivacyHeader"]));
-            }
-            set {
-                this["ChinaListPrivacyHeader"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("https://easylist-downloads.adblockplus.org/easylist.txt")]
         public string EasylistUrl {
             get {
@@ -195,7 +97,7 @@ namespace ABPUtils.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"Copyright (C) 2008 - {0} Adblock Plus ListUpdater Project
+        [global::System.Configuration.DefaultSettingValueAttribute(@"Copyright (C) 2008 - {0} Adblock Plus ChinaList Project
 This is free software. You may redistribute copies of it under the terms of
 the GNU LGPL License <http://www.gnu.org/copyleft/lesser.html>.
 Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
@@ -215,6 +117,8 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
   m, merge       Merge the specific input file with Part of EasyList and
                  EasyPrivacy.
 
+  b, build       Build the rules from the specific input file to a ABP subscribable list.
+
   n, nsookup     Show the ns server of the specific domain.
 
   u, update      Update and validate the checksum of the specific input file.
@@ -231,8 +135,7 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
 
   dns            DNS server (optional).
 
-  h, help        Dispaly this help screen.
-")]
+  h, help        Dispaly this help screen.")]
         public string HelpInfo {
             get {
                 return ((string)(this["HelpInfo"]));
@@ -256,13 +159,13 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("ListUpdater,ChinaListAntiSocial,ChinaListPrivacy")]
-        public string EnabledList {
+        [global::System.Configuration.DefaultSettingValueAttribute("ChinaList,ChinaListAntiSocial,ChinaListPrivacy")]
+        public string ChinaLazyList {
             get {
-                return ((string)(this["EnabledList"]));
+                return ((string)(this["ChinaLazyList"]));
             }
             set {
-                this["EnabledList"] = value;
+                this["ChinaLazyList"] = value;
             }
         }
         
@@ -282,11 +185,112 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"[Adblock Plus {0}]
+!  Adblock Plus List with Main Focus on Chinese Sites.
+!  Last Modified:  
+!  Homepage: http://chinalist.github.io/
+!
+!  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
+!  If you need to know the details,
+!  please visit: https://github.com/chinalist/chinalist/wiki/something_about_ChinaList_Lazy
+!
+!  If you need help or have any question,
+!  please visit: https://github.com/chinalist/chinalist
+!
+!  coding: utf-8, expires: 5 days
+!--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
+")]
+        public string ChinaListLazyHeader {
+            get {
+                return ((string)(this["ChinaListLazyHeader"]));
+            }
+            set {
+                this["ChinaListLazyHeader"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"[Adblock Plus {0}]
+!  Title: ChinaList
+!  Adblock Plus List with Main Focus on Chinese Sites.
+!  Last Modified:  
+!  Homepage: http://chinalist.github.io/
+!
+!  As a supplement for EasyList,ChinaList won't provide the filters
+!  which in EasyList already.Please subscribe EasyList also.
+!  If you need help or have any question,
+!  please visit: https://github.com/chinalist/chinalist
+!
+!  coding: utf-8, expires: 5 days
+!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
+")]
+        public string ChinaListHeader {
+            get {
+                return ((string)(this["ChinaListHeader"]));
+            }
+            set {
+                this["ChinaListHeader"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"[Adblock Plus {0}]
+!  Title: ChinaList Anti Social
+!  Adblock Plus List with Main Focus on Chinese Sites.
+!  Last Modified:  
+!  Homepage: http://chinalist.github.io/
+!
+!  This is an unofficial version, 
+!  does not provide any technical support
+!
+!  please visit: https://github.com/chinalist/chinalist
+!
+!  coding: utf-8, expires: 5 days
+!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
+")]
+        public string ChinaListAntiSocialHeader {
+            get {
+                return ((string)(this["ChinaListAntiSocialHeader"]));
+            }
+            set {
+                this["ChinaListAntiSocialHeader"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"[Adblock Plus {0}]
+!  Title: ChinaList Privacy
+!  Adblock Plus List with Main Focus on Chinese Sites.
+!  Last Modified:  
+!  Homepage: http://chinalist.github.io/
+!
+!  As a supplement for EasyPrivacy,ChinaList won't provide the filters
+!  which in EasyPrivacy already.Please subscribe EasyPrivacy also.
+!  If you need help or have any question,
+!  please visit: https://github.com/chinalist/chinalist
+!
+!  coding: utf-8, expires: 5 days
+!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
+")]
+        public string ChinaListPrivacyHeader {
+            get {
+                return ((string)(this["ChinaListPrivacyHeader"]));
+            }
+            set {
+                this["ChinaListPrivacyHeader"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute(@"easylist:easyprivacy/easyprivacy_general.txt
 easylist:easyprivacy/easyprivacy_trackingservers_international.txt
 easylist:easyprivacy/easyprivacy_thirdparty_international.txt
 easylist:easyprivacy/easyprivacy_specific_international.txt
-easylist:easyprivacy/easyprivacy_whitelist_international.txt<")]
+easylist:easyprivacy/easyprivacy_whitelist_international.txt")]
         public string EasyPrivacyFlag {
             get {
                 return ((string)(this["EasyPrivacyFlag"]));

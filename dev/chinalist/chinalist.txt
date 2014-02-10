@@ -1,3 +1,4 @@
+!----------------------------White List--------------------
 2tu.cc#@#.adds
 36.cn#@#.mainAd
 51job.com#@##ad_left
@@ -3054,4 +3055,3 @@ zjol.com.cn##span.lqgg
 ||qtfy30.cn/top_690.gif
 ||xiuxiu.meitu.com/images/banner/meitushop_fixed_816.gif
 ||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
-!------------------------End of List-------------------------

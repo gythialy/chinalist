@@ -5,23 +5,6 @@
     <Setting Name="ABPVersion" Type="System.String" Scope="User">
       <Value Profile="(Default)">2.1</Value>
     </Setting>
-    <Setting Name="ChinaListLazyHeader" Type="System.String" Scope="User">
-      <Value Profile="(Default)">"[Adblock Plus 2.1]
-!  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  
-!  Homepage: http://chinalist.github.io/
-!
-!  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
-!  If you need to know the details,
-!  please visit: https://github.com/chinalist/chinalist/wiki/something_about_ChinaList_Lazy
-!
-!  If you need help or have any question,
-!  please visit: https://github.com/chinalist/chinalist
-!
-!  coding: utf-8, expires: 5 days
-!--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
-"</Value>
-    </Setting>
     <Setting Name="ChinaList" Type="System.String" Scope="User">
       <Value Profile="(Default)">chinalist/chinalist.txt</Value>
     </Setting>
@@ -30,51 +13,6 @@
     </Setting>
     <Setting Name="ChinaListPrivacy" Type="System.String" Scope="User">
       <Value Profile="(Default)">chinalist/chinalist-privacy.txt</Value>
-    </Setting>
-    <Setting Name="ChinaListHeader" Type="System.String" Scope="User">
-      <Value Profile="(Default)">[Adblock Plus 2.1]
-!  Title: ChinaList
-!  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  
-!  Homepage: http://chinalist.github.io/
-!
-!  As a supplement for EasyList,ChinaList won't provide the filters
-!  which in EasyList already.Please subscribe EasyList also.
-!  If you need help or have any question,
-!  please visit: https://github.com/chinalist/chinalist
-!
-!  coding: utf-8, expires: 5 days
-!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----</Value>
-    </Setting>
-    <Setting Name="ChinaListAntiSocialHeader" Type="System.String" Scope="User">
-      <Value Profile="(Default)">[Adblock Plus 2.1]
-!  Title: ChinaList Anti Social
-!  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  
-!  Homepage: http://chinalist.github.io/
-!
-!  This is an unofficial version, 
-!  does not provide any technical support
-!
-!  please visit: https://github.com/chinalist/chinalist
-!
-!  coding: utf-8, expires: 5 days
-!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----</Value>
-    </Setting>
-    <Setting Name="ChinaListPrivacyHeader" Type="System.String" Scope="User">
-      <Value Profile="(Default)">[Adblock Plus 2.1]
-!  Title: ChinaList Privacy
-!  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  
-!  Homepage: http://chinalist.github.io/
-!
-!  As a supplement for EasyPrivacy,ChinaList won't provide the filters
-!  which in EasyPrivacy already.Please subscribe EasyPrivacy also.
-!  If you need help or have any question,
-!  please visit: https://github.com/chinalist/chinalist
-!
-!  coding: utf-8, expires: 5 days
-!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----</Value>
     </Setting>
     <Setting Name="EasylistUrl" Type="System.String" Scope="User">
       <Value Profile="(Default)">https://easylist-downloads.adblockplus.org/easylist.txt</Value>
@@ -103,6 +41,8 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
   m, merge       Merge the specific input file with Part of EasyList and
                  EasyPrivacy.
 
+  b, build       Build the rules from the specific input file to a ABP subscribable list.
+
   n, nsookup     Show the ns server of the specific domain.
 
   u, update      Update and validate the checksum of the specific input file.
@@ -119,13 +59,12 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
 
   dns            DNS server (optional).
 
-  h, help        Dispaly this help screen.
-</Value>
+  h, help        Dispaly this help screen.</Value>
     </Setting>
     <Setting Name="PatchFile" Type="System.String" Scope="User">
       <Value Profile="(Default)">patch.xml</Value>
     </Setting>
-    <Setting Name="EnabledList" Type="System.String" Scope="User">
+    <Setting Name="ChinaLazyList" Type="System.String" Scope="User">
       <Value Profile="(Default)">ChinaList,ChinaListAntiSocial,ChinaListPrivacy</Value>
     </Setting>
     <Setting Name="EasyListFlag" Type="System.String" Scope="User">
@@ -135,12 +74,77 @@ easylist:easylist/easylist_general_block_popup.txt
 easylist:easylist/easylist_general_hide.txt
 easylist:easylist/easylist_adservers.txt</Value>
     </Setting>
+    <Setting Name="ChinaListLazyHeader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[Adblock Plus {0}]
+!  Adblock Plus List with Main Focus on Chinese Sites.
+!  Last Modified:  
+!  Homepage: http://chinalist.github.io/
+!
+!  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
+!  If you need to know the details,
+!  please visit: https://github.com/chinalist/chinalist/wiki/something_about_ChinaList_Lazy
+!
+!  If you need help or have any question,
+!  please visit: https://github.com/chinalist/chinalist
+!
+!  coding: utf-8, expires: 5 days
+!--CC-BY-SA 3.0 + Licensed, NO WARRANTY but Best Wishes----
+</Value>
+    </Setting>
+    <Setting Name="ChinaListHeader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[Adblock Plus {0}]
+!  Title: ChinaList
+!  Adblock Plus List with Main Focus on Chinese Sites.
+!  Last Modified:  
+!  Homepage: http://chinalist.github.io/
+!
+!  As a supplement for EasyList,ChinaList won't provide the filters
+!  which in EasyList already.Please subscribe EasyList also.
+!  If you need help or have any question,
+!  please visit: https://github.com/chinalist/chinalist
+!
+!  coding: utf-8, expires: 5 days
+!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
+</Value>
+    </Setting>
+    <Setting Name="ChinaListAntiSocialHeader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[Adblock Plus {0}]
+!  Title: ChinaList Anti Social
+!  Adblock Plus List with Main Focus on Chinese Sites.
+!  Last Modified:  
+!  Homepage: http://chinalist.github.io/
+!
+!  This is an unofficial version, 
+!  does not provide any technical support
+!
+!  please visit: https://github.com/chinalist/chinalist
+!
+!  coding: utf-8, expires: 5 days
+!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
+</Value>
+    </Setting>
+    <Setting Name="ChinaListPrivacyHeader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[Adblock Plus {0}]
+!  Title: ChinaList Privacy
+!  Adblock Plus List with Main Focus on Chinese Sites.
+!  Last Modified:  
+!  Homepage: http://chinalist.github.io/
+!
+!  As a supplement for EasyPrivacy,ChinaList won't provide the filters
+!  which in EasyPrivacy already.Please subscribe EasyPrivacy also.
+!  If you need help or have any question,
+!  please visit: https://github.com/chinalist/chinalist
+!
+!  coding: utf-8, expires: 5 days
+!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
+</Value>
+    </Setting>
     <Setting Name="EasyPrivacyFlag" Type="System.String" Scope="User">
       <Value Profile="(Default)">easylist:easyprivacy/easyprivacy_general.txt
 easylist:easyprivacy/easyprivacy_trackingservers_international.txt
 easylist:easyprivacy/easyprivacy_thirdparty_international.txt
 easylist:easyprivacy/easyprivacy_specific_international.txt
-easylist:easyprivacy/easyprivacy_whitelist_international.txt&lt;</Value>
+easylist:easyprivacy/easyprivacy_whitelist_international.txt</Value>
     </Setting>
   </Settings>
 </SettingsFile>

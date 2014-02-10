@@ -16,15 +16,17 @@ namespace ABPUtils
             var arguments = new Arguments(args);
             DispatcherTask(arguments);
 
-            //Console.WriteLine("Press any key to continue...");
-            //Console.ReadKey();
+//            Console.WriteLine("Press any key to continue...");
+//            Console.ReadKey();
         }
 
         private static void DispatcherTask(Arguments args)
         {
+            var configurations = Configurations.Default;
+
             if (args.IsTrue("help") || args.IsTrue("h"))
             {
-                Console.WriteLine(Configurations.HelpInfo(), DateTime.Now.ToString("yyyy"));
+                Console.WriteLine(configurations.HelpInfo, DateTime.Now.ToString("yyyy"));
             }
             else if (args.IsTrue("version"))
             {
@@ -106,6 +108,25 @@ namespace ABPUtils
                 ChinaLists.ValidateDomains(string.IsNullOrEmpty(dns) ? null : IPAddress.Parse(args.Single("dns")), input,
                     output);
             }
+            else if (args.IsTrue("b") || args.IsTrue("build"))
+            {
+                var input = args.Single("i");
+
+                if (string.IsNullOrEmpty(input))
+                    input = args.Single("input");
+
+                if (string.IsNullOrEmpty(input))
+                {
+                    Console.WriteLine("wrong input file.");
+                    return;
+                }
+
+                var output = args.Single("o");
+                if (string.IsNullOrEmpty(output))
+                    output = args.Single("output");
+
+                ChinaLists.CombineList(input, output);
+            }
             else if (args.IsTrue("m") || args.IsTrue("merge"))
             {
                 var input = args.Single("i");
@@ -134,7 +155,7 @@ namespace ABPUtils
                 if (string.IsNullOrEmpty(output))
                     output = args.Single("output");
 
-                ChinaLists.Merge(input, proxy, args.IsTrue("patch"), output);
+                ChinaLists.CombineLazyList(input, proxy, args.IsTrue("patch"), output);
             }
             else if (args.IsTrue("conf"))
             {

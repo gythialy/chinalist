@@ -21,7 +21,7 @@ namespace ABPUtils
 
         public ListUpdater(string fileName)
         {
-            FileName = Path.GetFullPath(Path.Combine(Configurations.RunTime(), fileName));
+            FileName = Path.GetFullPath(Path.Combine(Configurations.Default.RunTime, fileName));
         }
 
         /// <summary>
@@ -95,7 +95,7 @@ namespace ABPUtils
         private string LoadContent()
         {
             var lines = File.ReadAllLines(FileName, Encoding.UTF8).Where(s => !string.IsNullOrEmpty(s)).Distinct();
-            return string.Join("", lines);
+            return string.Join("\n", lines);
         }
 
         /// <summary>
@@ -169,7 +169,7 @@ namespace ABPUtils
         /// </summary>
         /// <param name="content"></param>
         /// <returns></returns>
-        private string UpdateCheckSum(string content)
+        private static string UpdateCheckSum(string content)
         {
             return Regex.Replace(content, @"(\[Adblock Plus \d\.\d\])",
                         string.Format("$1\n!  Checksum: {0}", CalculateMd5Hash(RemoveEmptyLines(content))),
