@@ -49,6 +49,8 @@ namespace ABPUtils
                     .Select(s => s.ToFullPath())
                     .Where(t => !string.IsNullOrEmpty(t) && File.Exists(t))
                     .ToList();
+            _chinaListFlag.Sort();
+
             _chinaListPrivacyPath = userSettings["ChinaListPrivacy"].ToString().ToFullPath();
             _chinaListAntiSocialPath = userSettings["ChinaListAntiSocial"].ToString().ToFullPath();
             _patchPath = userSettings["PatchFile"].ToString().ToFullPath();

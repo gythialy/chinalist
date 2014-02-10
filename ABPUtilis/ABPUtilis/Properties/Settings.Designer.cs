@@ -25,9 +25,9 @@ namespace ABPUtils.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("chinalist/chinalist-miscellaneous.txt\r\nchinalist/chinalist-ads-union.txt\r\nchinali" +
-            "st/chinalist-generic.txt\r\nchinalist/chinalist-hidden.txt\r\nchinalist/chinalist-sp" +
-            "ecific.txt\r\nchinalist/chinalist-temp.txt\r\nchinalist/chinalist-white.txt")]
+        [global::System.Configuration.DefaultSettingValueAttribute("chinalist/chinalist-miscellaneous.txt\r\nchinalist/chinalist-adservers.txt\r\nchinali" +
+            "st/chinalist-generic.txt\r\nchinalist/chinalist-hide.txt\r\nchinalist/chinalist-spec" +
+            "ific.txt\r\nchinalist/chinalist-temp.txt\r\nchinalist/chinalist-white.txt")]
         public string ChinaList {
             get {
                 return ((string)(this["ChinaList"]));
@@ -99,6 +99,8 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
   version        Show ABPUtils version.
 
   c, check       Check the domains in the specific input file.
+
+  cl 			 Merge as ChinaList, otherwise as ChinaList Lazy.
 
   conf           Clean patch.xml if exist.
 

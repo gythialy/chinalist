@@ -1,6 +1,6 @@
 @echo on
 Rem Combine ChinaList
-ABPUtils.exe -b -i=chinalist/chinalist.txt -o=../adblock.txt
+ABPUtils.exe -m -o=../adblock.txt -cl
 Rem Combine ChinaList Privacy
 ABPUtils.exe -b -i=chinalist/chinalist-privacy.txt -o=../adblock-privacy.txt
 Rem Combine ChinaList Anti Social

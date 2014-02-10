@@ -4,9 +4,9 @@
   <Settings>
     <Setting Name="ChinaList" Type="System.String" Scope="User">
       <Value Profile="(Default)">chinalist/chinalist-miscellaneous.txt
-chinalist/chinalist-ads-union.txt
+chinalist/chinalist-adservers.txt
 chinalist/chinalist-generic.txt
-chinalist/chinalist-hidden.txt
+chinalist/chinalist-hide.txt
 chinalist/chinalist-specific.txt
 chinalist/chinalist-temp.txt
 chinalist/chinalist-white.txt</Value>
@@ -36,6 +36,8 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
   version        Show ABPUtils version.
 
   c, check       Check the domains in the specific input file.
+
+  cl 			 Merge as ChinaList, otherwise as ChinaList Lazy.
 
   conf           Clean patch.xml if exist.
 

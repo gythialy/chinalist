@@ -116,14 +116,14 @@ namespace ABPUtils
 
             sBuilder.AppendLine(ListEndMark);
 
-            Console.WriteLine("Merge {0}, {1} and {2}.", input, Configs.Easylist, Configs.Easyprivacy);
+            Console.WriteLine("Merge {0}, {1} and {2}.", input, Path.GetFileName(Configs.Easylist), Path.GetFileName(Configs.Easyprivacy));
             Save(output, sBuilder.ToString());
 
             var updater = new ListUpdater(output);
             updater.Update();
             updater.Validate();
 
-            Console.WriteLine("End of merge and validate.");
+            Console.WriteLine("End of combine ChinaList Lazy and validate.");
         }
 
         private static bool IsDirectory(string path)
@@ -468,6 +468,42 @@ namespace ABPUtils
             }
 
             return true;
+        }
+
+        public static void CombineChinaList(string output = "../adblock.txt")
+        {
+            if (string.IsNullOrEmpty(output))
+            {
+                Console.WriteLine("Merget output file is empty.");
+                return;
+            }
+
+            var sBuilder = new StringBuilder(Configs.ChinaListHeader);
+            var files = Configs.ChinaList;
+            foreach (var file in files)
+            {
+                Console.WriteLine("fetch data from {0}", Path.GetFileName(file));
+                using (var sr = new StreamReader(file, Encoding.UTF8))
+                {
+                    var content = sr.ReadToEnd();
+                    //remove header
+                    var headerRegex = new Regex(@"\[Adblock Plus [\s\S]*?NO WARRANTY but Best Wishes----",
+                        RegexOptions.IgnoreCase | RegexOptions.Multiline);
+                    content = headerRegex.Replace(content, string.Empty);
+                    sBuilder.AppendFormat("!*** {0} ***\n", Path.GetFileName(file));
+                    sBuilder.AppendLine(content);
+                }
+            }
+
+            sBuilder.AppendLine(ListEndMark);
+
+            Save(output, sBuilder.ToString());
+
+            var updater = new ListUpdater(output);
+            updater.Update();
+            updater.Validate();
+
+            Console.WriteLine("End of combine ChinaList and validate.");
         }
 
         public static bool CombineList(string input, string output)

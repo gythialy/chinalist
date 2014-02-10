@@ -130,33 +130,41 @@ namespace ABPUtils
             }
             else if (args.IsTrue("m") || args.IsTrue("merge"))
             {
-                var input = args.Single("i");
-
-                if (string.IsNullOrEmpty(input))
-                    input = args.Single("input");
-
-                if (string.IsNullOrEmpty(input))
-                {
-                    Console.WriteLine("wrong input file.");
-                    return;
-                }
-
-                WebProxy proxy = null;
-                var p = args.Single("p");
-                if (string.IsNullOrEmpty(p))
-                    p = args.Single("proxy");
-
-                if (!string.IsNullOrEmpty(p))
-                {
-                    var temp = p.Split(':');
-                    proxy = new WebProxy(temp[0], int.Parse(temp[1])) {BypassProxyOnLocal = true};
-                }
-
+                var isChinaList = args.IsTrue("cl");
                 var output = args.Single("o");
                 if (string.IsNullOrEmpty(output))
                     output = args.Single("output");
 
-                ChinaLists.CombineLazyList(input, proxy, args.IsTrue("patch"), output);
+                if (isChinaList)
+                {
+                    ChinaLists.CombineChinaList(output);
+                }
+                else
+                {
+                    var input = args.Single("i");
+
+                    if (string.IsNullOrEmpty(input))
+                        input = args.Single("input");
+
+                    if (string.IsNullOrEmpty(input))
+                    {
+                        Console.WriteLine("wrong input file.");
+                        return;
+                    }
+
+                    WebProxy proxy = null;
+                    var p = args.Single("p");
+                    if (string.IsNullOrEmpty(p))
+                        p = args.Single("proxy");
+
+                    if (!string.IsNullOrEmpty(p))
+                    {
+                        var temp = p.Split(':');
+                        proxy = new WebProxy(temp[0], int.Parse(temp[1])) { BypassProxyOnLocal = true };
+                    }
+
+                    ChinaLists.CombineLazyList(input, proxy, args.IsTrue("patch"), output);
+                }
             }
             else if (args.IsTrue("conf"))
             {
