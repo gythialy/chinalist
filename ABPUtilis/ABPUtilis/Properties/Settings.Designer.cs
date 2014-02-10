@@ -160,12 +160,12 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("ChinaList,ChinaListAntiSocial,ChinaListPrivacy")]
-        public string ChinaLazyList {
+        public string ChinaListLazy {
             get {
-                return ((string)(this["ChinaLazyList"]));
+                return ((string)(this["ChinaListLazy"]));
             }
             set {
-                this["ChinaLazyList"] = value;
+                this["ChinaListLazy"] = value;
             }
         }
         

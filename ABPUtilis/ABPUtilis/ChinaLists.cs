@@ -49,7 +49,7 @@ namespace ABPUtils
                 return;
             }
 
-            var path = GetFullPath(input);
+            var path = input.ToFullPath();
             if (!IsDirectory(path))
             {
                 Console.WriteLine("input {0} is not dicectory.", input);
@@ -117,7 +117,7 @@ namespace ABPUtils
             sBuilder.AppendLine(ListEndMark);
 
             Console.WriteLine("Merge {0}, {1} and {2}.", input, Configs.Easylist, Configs.Easyprivacy);
-            Save(GetFullPath(output), sBuilder.ToString());
+            Save(output, sBuilder.ToString());
 
             var updater = new ListUpdater(output);
             updater.Update();
@@ -136,7 +136,7 @@ namespace ABPUtils
         private static IEnumerable<string> GetChinaLists(string input)
         {
             var files = Directory.GetFiles(input, "*.txt", SearchOption.TopDirectoryOnly).ToList();
-            var enabled = Configs.ChinaLazyList;
+            var enabled = Configs.ChinaListLazy;
 
             var result = files.Where(enabled.Contains).ToList();
             result.Sort();
@@ -200,17 +200,17 @@ namespace ABPUtils
         /// validate domain by nslookup
         /// </summary>
         /// <param name="dns"></param>
-        /// <param name="fileName"></param>
-        /// <param name="invalidDomains"></param>
-        public static void ValidateDomains(IPAddress dns, string fileName, string invalidDomains = "invalid_domains.txt")
+        /// <param name="input"></param>
+        /// <param name="output"></param>
+        public static void ValidateDomains(IPAddress dns, string input, string output = "invalid_domains.txt")
         {
             if (dns == null)
                 dns = IPAddress.Parse("8.8.8.8");
 
-            if (string.IsNullOrEmpty(invalidDomains))
-                invalidDomains = "invalid_domains.txt";
+            if (string.IsNullOrEmpty(output))
+                output = "invalid_domains.txt";
 
-            var cl = new ListUpdater(fileName);
+            var cl = new ListUpdater(input);
             var domains = cl.GetDomains();
             //List<string> urls = cl.ParseURLs();
             var results = new StringBuilder();
@@ -262,7 +262,7 @@ namespace ABPUtils
                 }
             });
 
-            Save(invalidDomains, results.ToString());
+            Save(output, results.ToString());
         }
 
         public static QueryResult DnsQuery(IPAddress dnsServer, string domain)
@@ -328,7 +328,8 @@ namespace ABPUtils
         /// <param name="content"></param>
         public static void Save(string fileName, string content)
         {
-            using (var sw = new StreamWriter(fileName, false))
+            var path = fileName.ToFullPath();
+            using (var sw = new StreamWriter(path, false))
             {
                 sw.Write(content);
                 sw.Flush();
@@ -470,21 +471,16 @@ namespace ABPUtils
             return true;
         }
 
-        private static string GetFullPath(string path)
-        {
-            return Path.GetFullPath(Path.Combine(Configs.RunTime, path));
-        }
-
         public static bool CombineList(string input, string output)
         {
-            var path = Path.GetFullPath(Path.Combine(Configs.RunTime, input));
+            var path =input.ToFullPath();
             var header = Configs.Header(Path.GetFileName(path));
             if (string.IsNullOrEmpty(header)) return false;
             var content = File.ReadAllText(path);
             var sb = new StringBuilder(header);
             sb.AppendLine(content);
             sb.AppendLine(ListEndMark);
-            var target = Path.GetFullPath(Path.Combine(Configs.RunTime, output));
+            var target = output.ToFullPath();
             Save(target, sb.ToString());
             var updater = new ListUpdater(target);
             updater.Update();

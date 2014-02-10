@@ -21,7 +21,7 @@ namespace ABPUtils
 
         public ListUpdater(string fileName)
         {
-            FileName = Path.GetFullPath(Path.Combine(Configurations.Default.RunTime, fileName));
+            FileName = fileName.ToFullPath();
         }
 
         /// <summary>

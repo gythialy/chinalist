@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using ABPUtils.Properties;
 
@@ -8,7 +7,7 @@ namespace ABPUtils
 {
     public class Configurations
     {
-        private const string EasyListFolder = "easylist";
+        private const string EasyListFolder = "easylist/";
 
         private readonly string _version;
         private readonly string _chinaListHeader;
@@ -43,25 +42,28 @@ namespace ABPUtils
             _antiSocialHeader = string.Format(userSettings["ChinaListAntiSocialHeader"].ToString(), _version);
             _privacyHeader = string.Format(userSettings["ChinaListPrivacyHeader"].ToString(), _version);
 
-            _chinaListPath = Path.GetFullPath(Path.Combine(RunTime, userSettings["ChinaList"].ToString()));
-            _chinaListPrivacyPath = Path.GetFullPath(Path.Combine(RunTime, userSettings["ChinaListPrivacy"].ToString()));
-            _chinaListAntiSocialPath = Path.GetFullPath(Path.Combine(RunTime, userSettings["ChinaListAntiSocial"].ToString()));
-            _patchPath = Path.GetFullPath(Path.Combine(RunTime, userSettings["PatchFile"].ToString()));
+            _chinaListPath = userSettings["ChinaList"].ToString().ToFullPath();
+            _chinaListPrivacyPath = userSettings["ChinaListPrivacy"].ToString().ToFullPath();
+            _chinaListAntiSocialPath = userSettings["ChinaListAntiSocial"].ToString().ToFullPath();
+            _patchPath = userSettings["PatchFile"].ToString().ToFullPath();
 
             _easyListUrl = userSettings["EasylistUrl"].ToString();
             var index = _easyListUrl.LastIndexOf("/", StringComparison.Ordinal) + 1;
-            _easyListName = Path.GetFullPath(Path.Combine(RunTime, EasyListFolder, _easyListUrl.Substring(index)));
+            _easyListName = EasyListFolder.ToFullPath(_easyListUrl.Substring(index));
 
             _easyPrivacyUrl = userSettings["EasyprivacyUrl"].ToString();
             index = _easyPrivacyUrl.LastIndexOf("/", StringComparison.Ordinal) + 1;
-            _easyPrivacyName = Path.GetFullPath(Path.Combine(RunTime, EasyListFolder, _easyPrivacyUrl.Substring(index)));
+            _easyPrivacyName = EasyListFolder.ToFullPath(_easyPrivacyUrl.Substring(index));
 
             _easyListFlag = userSettings["EasyListFlag"].ToString().Split('\n').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
             _easyPrivacyFlag = userSettings["EasyPrivacyFlag"].ToString().Split('\n').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
-            _lazyList = userSettings["ChinaLazyList"].ToString().Split(',').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
+            _lazyList = userSettings["ChinaListLazy"].ToString().Split(',').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
             _helpInfo = userSettings["HelpInfo"].ToString();
         }
 
+        /// <summary>
+        /// The minimum ABP version supported 
+        /// </summary>
         public string Version
         {
             get
@@ -70,6 +72,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// ABP header info for ChinaList
+        /// </summary>
         public string ChinaListHeader
         {
             get
@@ -78,6 +83,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// ABP header info for ChinaList Lazy
+        /// </summary>
         public string ChinaListLazyHeader
         {
             get
@@ -86,6 +94,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// ABP header info for ChinaList AntiSocial
+        /// </summary>
         public string ChinaListAntiSocialHeader
         {
             get
@@ -94,6 +105,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// ABP header info for ChinaList Privacy
+        /// </summary>
         public string ChinaListPrivacyHeader
         {
             get
@@ -102,6 +116,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// Path of ChinaList
+        /// </summary>
         public string ChinaList
         {
             get
@@ -110,6 +127,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// Path of ChinaList Privacy
+        /// </summary>
         public string ChinaListPrivacy
         {
             get
@@ -118,6 +138,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// Path of ChinaList Anti Social
+        /// </summary>
         public string ChinaListAntiSocial
         {
             get
@@ -126,6 +149,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// Path of the patch file
+        /// </summary>
         public string PatchFile
         {
             get
@@ -134,6 +160,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// Path of EasyList (abs full path)
+        /// </summary>
         public string Easylist
         {
             get
@@ -142,6 +171,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// Url of EasyList
+        /// </summary>
         public string EasylistUrl
         {
             get
@@ -150,6 +182,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// Path of Easyprivacy (abs full path)
+        /// </summary>
         public string Easyprivacy
         {
             get
@@ -158,6 +193,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// Url of EasyprivacyUrl
+        /// </summary>
         public string EasyprivacyUrl
         {
             get
@@ -166,6 +204,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// Flag of EasyList (To be mergered into ChinaList Lazy)
+        /// </summary>
         public List<string> EasyListFlag
         {
             get
@@ -174,6 +215,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// Flag of EasyPrivacy (To be mergered into ChinaList Lazy)
+        /// </summary>
         public List<string> EasyPrivacyFlag
         {
             get
@@ -182,7 +226,10 @@ namespace ABPUtils
             }
         }
 
-        public List<string> ChinaLazyList
+        /// <summary>
+        /// Flag of ChinaList Lazy (To be mergered into ChinaList Lazy)
+        /// </summary>
+        public List<string> ChinaListLazy
         {
             get
             {
@@ -190,6 +237,9 @@ namespace ABPUtils
             }
         }
 
+        /// <summary>
+        /// ABPUtils help info
+        /// </summary>
         public string HelpInfo
         {
             get
@@ -198,30 +248,20 @@ namespace ABPUtils
             }
         }
 
-        public string RunTime
-        {
-            get
-            {
-                return Environment.CurrentDirectory;
-            }
-        }
-
-        public string ParentFolder
-        {
-            get
-            {
-                return Directory.GetParent(RunTime).FullName;
-            }
-        }
-
         public string EasyListPath
         {
             get
             {
-                return Path.Combine(RunTime, EasyListFolder);
+                return EasyListFolder.ToFullPath();
             }
         }
 
+        /// <summary>
+        /// Get ABP Header by file name
+        /// TODO: reflection
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public string Header(string name)
         {
             switch (name)

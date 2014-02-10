@@ -68,8 +68,8 @@ namespace ABPUtils
                     return;
                 }
 
-                var chinaList = new ListUpdater(input);
-                chinaList.Validate();
+                var updater = new ListUpdater(input);
+                updater.Validate();
             }
             else if (args.IsTrue("u") || args.IsTrue("update"))
             {
@@ -83,9 +83,9 @@ namespace ABPUtils
                     return;
                 }
 
-                var chinaList = new ListUpdater(input);
-                chinaList.Update();
-                chinaList.Validate();
+                var updater = new ListUpdater(input);
+                updater.Update();
+                updater.Validate();
             }
             else if (args.IsTrue("c") || args.IsTrue("check"))
             {

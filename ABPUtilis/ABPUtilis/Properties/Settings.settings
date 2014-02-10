@@ -64,7 +64,7 @@ Usage: ABPUtils.exe -n -d=google.com -dns=8.8.8.8
     <Setting Name="PatchFile" Type="System.String" Scope="User">
       <Value Profile="(Default)">patch.xml</Value>
     </Setting>
-    <Setting Name="ChinaLazyList" Type="System.String" Scope="User">
+    <Setting Name="ChinaListLazy" Type="System.String" Scope="User">
       <Value Profile="(Default)">ChinaList,ChinaListAntiSocial,ChinaListPrivacy</Value>
     </Setting>
     <Setting Name="EasyListFlag" Type="System.String" Scope="User">
