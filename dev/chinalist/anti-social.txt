@@ -1,0 +1,41 @@
+[Adblock Plus 2.1]
+!  Checksum: tHeorFCx5VXzKtZZANRq3w
+!  Title: ChinaList Anti Social
+!  Adblock Plus List with Main Focus on Chinese Sites.
+!  Last Modified:  Fri, 03 Jan 2014 09:24:20 +0800
+!  Homepage: http://chinalist.github.io/
+!
+!  This is an unofficial version, 
+!  does not provide any technical support
+!
+!  please visit: https://github.com/chinalist/chinalist
+!
+!  coding: utf-8, expires: 5 days
+!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
+!---A
+||addthis.com^$third-party
+
+!---B
+||baifendian.com^$third-party
+||bdimg.share.baidu.com^$script
+||bshare.cn^$third-party
+
+!---F
+||facebook.com^$subdocument,third-party
+
+!---H
+||huaban.com^$third-party
+
+!---J
+||jiathis.com^$third-party
+
+!---Q
+||open.qzone.qq.com^$third-party
+
+!---U
+||ujian.cc^$third-party
+||uyan.cc^$third-party
+
+!---W
+||widget.weibo.com^
+||wumii.cn^$third-party,domain=~wumii.com

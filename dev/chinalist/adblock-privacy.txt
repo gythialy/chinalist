@@ -1,0 +1,55 @@
+[Adblock Plus 2.1]
+!  Checksum: 42A4zsp9MdPhCeE52AS7Kw
+!  Title: ChinaList Privacy
+!  Adblock Plus List with Main Focus on Chinese Sites.
+!  Last Modified:  Mon, 03 Feb 2014 16:57:45 +0800
+!  Homepage: http://chinalist.github.io/
+!
+!  As a supplement for EasyPrivacy,ChinaList won't provide the filters
+!  which in EasyPrivacy already.Please subscribe EasyPrivacy also.
+!  If you need help or have any question,
+!  please visit: https://github.com/chinalist/chinalist
+!
+!  coding: utf-8, expires: 5 days
+!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
+!---Num
+||stat.17k.com^
+||analytics.21cn.com^
+
+!---G
+||greenxf.com/count$script
+
+!---K
+||jscss.kdslife.com/club/html/count/PChome_Count.js
+
+!---I
+||iplaysoft.com/plus/api/counter.php
+
+!---S
+||tv.sohu.com/upload/trace/
+||count.vrs.sohu.com^
+
+!---P
+.gif?id=$domain=people.com.cn
+
+!---Y
+||p-log.ykimg.com^
+||e.stat.ykimg.com/red/
+||e.stat.youku.com^
+||l.youku.com^*log?
+||lstat.youku.com^
+
+!---Common
+|http://click.$image
+|http://pv.
+|http://pvstat.
+|http://*/pv.
+|http://*/pv/$domain=~163.com|~guokr.com|~yahoo.com,~xmlhttprequest
+|http://*/tj.js
+|http://*/track.$~stylesheet
+|http://track.
+/tracking.$image,object_subrequest
+!--sort by domain
+||51img.ajiang.net^
+||sitebro.$third-party
+||cnzz.com^$third-party
