@@ -417,13 +417,13 @@ namespace ABPUtils
         private static bool IsEasyListItemOn(string value)
         {
             var easyList = Configs.EasyListFlag;
-            return easyList != null && easyList.Any(value.Contains);
+            return easyList.Count == 0 || easyList.Any(value.Contains);
         }
 
         private static bool IsEasyPrivacyOff(string value)
         {
             var easyPrivacy = Configs.EasyPrivacyFlag;
-            return easyPrivacy != null && easyPrivacy.Any(value.Contains);
+            return easyPrivacy.Count == 0 || easyPrivacy.Any(value.Contains);
         }
 
         private static bool DownloadEasyList(WebProxy proxy)
