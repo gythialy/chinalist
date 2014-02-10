@@ -1,69 +1,117 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using ABPUtils.Properties;
 
 namespace ABPUtils
 {
     public class Configurations
     {
-        public Configurations()
+        private static readonly Settings UserSettings = Settings.Default;
+        private const string EasyListFolder = "easylist";
+
+        private Configurations()
         {
-            EasyListFlag = new List<string>();
-            EasyPrivacyFlag = new List<string>();
-            RemovedItems = new List<string>();
-            NewItems = new List<string>();
-            ModifyItems = new List<ModifyItem>();
-            Privacy = string.Empty;
         }
 
-        public List<string> EasyListFlag
+        public static string Version()
         {
-            get;
-            set;
+            return UserSettings["ABPVersion"].ToString();
         }
 
-        public List<string> EasyPrivacyFlag
+        public static string ChinaListHeader()
         {
-            get;
-            set;
+            return UserSettings["ChinaListHeader"].ToString();
         }
 
-        public List<string> RemovedItems
+        public static string ChinaListLazyHeader()
         {
-            get;
-            set;
+            return UserSettings["ChinaListLazyHeader"].ToString();
         }
 
-        public List<string> NewItems
+        public static string ChinaListAntiSocialHeader()
         {
-            get;
-            set;
+            return UserSettings["ChinaListAntiSocialHeader"].ToString();
         }
 
-        public List<ModifyItem> ModifyItems
+        public static string ChinaListPrivacyHeader()
         {
-            get;
-            set;
+            return UserSettings["ChinaListPrivacyHeader"].ToString();
         }
 
-        public string Privacy
+        public static string ChinaList()
         {
-            get;
-            set;
+            return Path.Combine(RunTime(), UserSettings["ListUpdater"].ToString());
         }
 
-    }
-
-    public class ModifyItem
-    {
-        public string OldItem
+        public static string ChinaListPrivacy()
         {
-            get;
-            set;
+            return Path.Combine(RunTime(), UserSettings["ChinaListPrivacy"].ToString());
         }
 
-        public string NewItem
+        public static string ChinaListAntiSocial()
         {
-            get;
-            set;
+            return Path.Combine(RunTime(), UserSettings["ChinaListAntiSocial"].ToString());
+        }
+
+        public static string PatchFile()
+        {
+            return Path.Combine(RunTime(), UserSettings["PatchFile"].ToString());
+        }
+
+        public static string Easylist()
+        {
+            var easyList = EasylistUrl();
+            var index = easyList.LastIndexOf("/", StringComparison.Ordinal);
+            return Path.Combine(RunTime(), EasyListFolder, easyList.Substring(index));
+        }
+
+        public static string EasylistUrl()
+        {
+            return UserSettings["EasylistUrl"].ToString();
+        }
+
+        public static string Easyprivacy()
+        {
+            var easyPrivacy = EasyprivacyUrl();
+            var index = easyPrivacy.LastIndexOf("/", StringComparison.Ordinal);
+            return Path.Combine(RunTime(), EasyListFolder, easyPrivacy.Substring(index));
+        }
+
+        public static string EasyprivacyUrl()
+        {
+            return UserSettings["EasyprivacyUrl"].ToString();
+        }
+
+        public static List<string> EasyListFlag()
+        {
+            return UserSettings["EasyListFlag"].ToString().Split('\n').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
+        }
+
+        public static List<string> EasyPrivacyFlag()
+        {
+            return UserSettings["EasyPrivacyFlag"].ToString().Split('\n').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
+        }
+
+        public static List<string> EnabledList()
+        {
+            return UserSettings["EnabledList"].ToString().Split(',').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
+        }
+
+        public static string HelpInfo()
+        {
+            return UserSettings["HelpInfo"].ToString();
+        }
+
+        public static string RunTime()
+        {
+            return Environment.CurrentDirectory;
+        }
+
+        public static string ParentFolder()
+        {
+            return Directory.GetParent(RunTime()).FullName;
         }
     }
 }

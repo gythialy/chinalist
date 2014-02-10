@@ -1,18 +1,3 @@
-[Adblock Plus 2.1]
-!  Checksum: ZaOLUgwCAjRjmDdJveNB3A
-!  Title: ChinaList
-!  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 03 Feb 2014 17:04:14 +0800
-!  Homepage: http://chinalist.github.io/
-!
-!  As a supplement for EasyList,ChinaList won't provide the filters
-!  which in EasyList already.Please subscribe EasyList also.
-!  If you need help or have any question,
-!  please visit: https://github.com/chinalist/chinalist
-!
-!  coding: utf-8, expires: 5 days
-!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
-!----------------------------White List--------------------
 2tu.cc#@#.adds
 36.cn#@#.mainAd
 51job.com#@##ad_left

@@ -24,7 +24,7 @@ namespace ABPUtils
         {
             if (args.IsTrue("help") || args.IsTrue("h"))
             {
-                Console.WriteLine(ChinaListConst.HelpInfo, DateTime.Now.ToString("yyyy"));
+                Console.WriteLine(Configurations.HelpInfo(), DateTime.Now.ToString("yyyy"));
             }
             else if (args.IsTrue("version"))
             {
@@ -66,7 +66,7 @@ namespace ABPUtils
                     return;
                 }
 
-                var chinaList = new ChinaList(input);
+                var chinaList = new ListUpdater(input);
                 chinaList.Validate();
             }
             else if (args.IsTrue("u") || args.IsTrue("update"))
@@ -81,7 +81,7 @@ namespace ABPUtils
                     return;
                 }
 
-                var chinaList = new ChinaList(input);
+                var chinaList = new ListUpdater(input);
                 chinaList.Update();
                 chinaList.Validate();
             }
