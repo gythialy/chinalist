@@ -55,8 +55,8 @@ namespace ABPUtils
             index = _easyPrivacyUrl.LastIndexOf("/", StringComparison.Ordinal) + 1;
             _easyPrivacyName = EasyListFolder.ToFullPath(_easyPrivacyUrl.Substring(index));
 
-            _easyListFlag = userSettings["EasyListFlag"].ToString().Split('\n').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
-            _easyPrivacyFlag = userSettings["EasyPrivacyFlag"].ToString().Split('\n').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
+            _easyListFlag = userSettings["EasyListFlag"].ToString().Split(new[] { '\r', '\n' }).Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
+            _easyPrivacyFlag = userSettings["EasyPrivacyFlag"].ToString().Split(new[] { '\r', '\n' }).Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
             _lazyList = userSettings["ChinaListLazy"].ToString().Split(',').Where(s => !string.IsNullOrEmpty(s.Trim())).ToList();
             _helpInfo = userSettings["HelpInfo"].ToString();
         }

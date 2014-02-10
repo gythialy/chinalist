@@ -336,7 +336,7 @@ namespace ABPUtils
             }
         }
 
-        private static bool IsFileExist(string fileName)
+        private static bool IsValid(string fileName)
         {
             var dt = File.GetLastWriteTime(fileName);
             var updater = new ListUpdater(fileName);
@@ -417,7 +417,6 @@ namespace ABPUtils
         private static bool IsEasyListItemOn(string value)
         {
             var easyList = Configs.EasyListFlag;
-
             return easyList != null && easyList.Any(value.Contains);
         }
 
@@ -451,7 +450,7 @@ namespace ABPUtils
                 {
                     var name = Path.GetFileName(s.Key);
 
-                    if (IsFileExist(s.Key))
+                    if (IsValid(s.Key))
                     {
                         Console.WriteLine("{0} is the latest, skip over downloading.", name);
                     }
@@ -473,7 +472,7 @@ namespace ABPUtils
 
         public static bool CombineList(string input, string output)
         {
-            var path =input.ToFullPath();
+            var path = input.ToFullPath();
             var header = Configs.Header(Path.GetFileName(path));
             if (string.IsNullOrEmpty(header)) return false;
             var content = File.ReadAllText(path);
