@@ -212,6 +212,7 @@
 ||books.com.tw/exep/ap/$third-party
 ||boosj.com^$third-party
 ||btnibbler.com^$third-party
+||btyou.com^$third-party
 ||buzzads.com^$third-party
 ||buzz-time.com.cn^$third-party
 ||c1o1.com^$third-party
