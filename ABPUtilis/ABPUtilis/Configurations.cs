@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using ABPUtils.Properties;
 
@@ -14,7 +15,7 @@ namespace ABPUtils
         private readonly string _lazyHeader;
         private readonly string _antiSocialHeader;
         private readonly string _privacyHeader;
-        private readonly string _chinaListPath;
+        private readonly List<string> _chinaListFlag;
         private readonly string _chinaListPrivacyPath;
         private readonly string _chinaListAntiSocialPath;
         private readonly string _patchPath;
@@ -42,7 +43,12 @@ namespace ABPUtils
             _antiSocialHeader = string.Format(userSettings["ChinaListAntiSocialHeader"].ToString(), _version);
             _privacyHeader = string.Format(userSettings["ChinaListPrivacyHeader"].ToString(), _version);
 
-            _chinaListPath = userSettings["ChinaList"].ToString().ToFullPath();
+            _chinaListFlag =
+                userSettings["ChinaList"].ToString()
+                    .Split(new[] { '\r', '\n' })
+                    .Select(s => s.ToFullPath())
+                    .Where(t => !string.IsNullOrEmpty(t) && File.Exists(t))
+                    .ToList();
             _chinaListPrivacyPath = userSettings["ChinaListPrivacy"].ToString().ToFullPath();
             _chinaListAntiSocialPath = userSettings["ChinaListAntiSocial"].ToString().ToFullPath();
             _patchPath = userSettings["PatchFile"].ToString().ToFullPath();
@@ -119,11 +125,11 @@ namespace ABPUtils
         /// <summary>
         /// Path of ChinaList
         /// </summary>
-        public string ChinaList
+        public List<string> ChinaList
         {
             get
             {
-                return _chinaListPath;
+                return _chinaListFlag;
             }
         }
 
@@ -233,7 +239,7 @@ namespace ABPUtils
         {
             get
             {
-                return _lazyList.Select(GetPropValue).Where(value => !string.IsNullOrEmpty(value)).ToList();
+                return (from s in _lazyList from t in GetPropValue(s).Split(',') where !string.IsNullOrEmpty(t) && File.Exists(t.ToFullPath()) select t).ToList();
             }
         }
 
@@ -279,7 +285,18 @@ namespace ABPUtils
 
         private string GetPropValue(string propName)
         {
-            return GetType().GetProperty(propName).GetValue(this, null).ToString();
+            var value = GetType().GetProperty(propName).GetValue(this, null);
+
+            if (value is string)
+                return value.ToString();
+
+            if (value.GetType().IsGenericType && value.GetType().GetGenericTypeDefinition() == typeof(List<>))
+            {
+                var t = value as List<string>;
+                return t == null ? string.Empty : string.Join(",", t.ToArray());
+            }
+
+            return string.Empty;
         }
     }
 }

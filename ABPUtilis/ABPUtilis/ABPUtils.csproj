@@ -40,8 +40,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>
-    </DefineConstants>
+    <DefineConstants>DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -155,6 +154,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="QueryResult.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="SimpleSerializer.cs" />
     <Compile Include="StringUtils.cs" />
     <Compile Include="Whois.cs" />

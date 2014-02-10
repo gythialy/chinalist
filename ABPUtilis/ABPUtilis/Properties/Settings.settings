@@ -2,11 +2,14 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ABPUtils.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="ABPVersion" Type="System.String" Scope="User">
-      <Value Profile="(Default)">2.1</Value>
-    </Setting>
     <Setting Name="ChinaList" Type="System.String" Scope="User">
-      <Value Profile="(Default)">chinalist/chinalist.txt</Value>
+      <Value Profile="(Default)">chinalist/chinalist-miscellaneous.txt
+chinalist/chinalist-ads-union.txt
+chinalist/chinalist-generic.txt
+chinalist/chinalist-hidden.txt
+chinalist/chinalist-specific.txt
+chinalist/chinalist-temp.txt
+chinalist/chinalist-white.txt</Value>
     </Setting>
     <Setting Name="ChinaListAntiSocial" Type="System.String" Scope="User">
       <Value Profile="(Default)">chinalist/chinalist-anti-social.txt</Value>
@@ -145,6 +148,9 @@ easylist:easyprivacy/easyprivacy_trackingservers_international.txt
 easylist:easyprivacy/easyprivacy_thirdparty_international.txt
 easylist:easyprivacy/easyprivacy_specific_international.txt
 easylist:easyprivacy/easyprivacy_whitelist_international.txt</Value>
+    </Setting>
+    <Setting Name="ABPVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2.0</Value>
     </Setting>
   </Settings>
 </SettingsFile>

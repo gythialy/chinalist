@@ -25,8 +25,7 @@ namespace ABPUtils
         /// <returns></returns>
         public static string ToFullPath(this string path1)
         {
-            var t = Environment.CurrentDirectory;
-            return Path.GetFullPath(Path.Combine(t, path1));
+            return string.IsNullOrEmpty(path1) ? string.Empty : Path.GetFullPath(Path.Combine(Environment.CurrentDirectory, path1));
         }
 
         /// <summary>
@@ -37,8 +36,7 @@ namespace ABPUtils
         /// <returns></returns>
         public static string ToFullPath(this String path1, string path2)
         {
-            var t = Environment.CurrentDirectory;
-            return Path.GetFullPath(Path.Combine(t, path1, path2));
+            return string.IsNullOrEmpty(path1) ? string.Empty : Path.GetFullPath(Path.Combine(Environment.CurrentDirectory, path1, path2));
         }
     }
 }

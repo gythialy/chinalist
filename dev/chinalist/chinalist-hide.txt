@@ -1,0 +1,109 @@
+##.wumii-widget-ad
+##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
+17k.com##[id^="ad0"]
+17k.com##.b950
+17k.com##[id^="PAGE_AD"]
+1000fr.net##center
+17ppt.com#@#.topads
+17ppt.com##.ad80
+3dmgame.com##.banner_2
+3dmgame.com##.R1
+www.3dmgame.com##.banner_1
+360doc.com###divadleft
+51caiju.com###hint + .AdTop-Article-QQ
+51caiju.com##.l_qq_com
+51.la###zztxt
+51.la###zanzhu
+52wubi.com##.top960
+amznz.com##div[style="float:left;width:250px;height:250px;"]
+appinn.com##.ads
+appinn.com##.ads-m
+appinn.com##.gad
+baihe.com##.blockUI
+bcc.com.tw##TABLE[width="100%"] TR > TD[height="80"]
+ck101.com###portal_block_563
+cnbeta.com##.bd_r
+fbook.net##.head-d
+hornydragon.blogspot.com,hornydragon.blogspot.tw###HTML13
+www.alibuybuy.com##[class^="ad_"]
+av199.com,hd199.com##table[height="30"]
+baiwandu.com##.space_wz > div[align="center"]:nth-child(3)
+briian.com###content > div:nth-of-type(2) > P
+ceil.me##div[style="position:relative;height:250px"]
+news.cnyes.com##[class^="ad"]
+coolapk.com##.ga200
+crsky.com##[id$="_TL"]
+blog.dausos.com##.ad_h
+blog.dausos.com##.adr
+blog.dausos.com##.adt
+dmzj.com##iframe[width="960"]
+downg.com##.content.ad-b950x50
+freegroup.org##.ad-box
+freegroup.org##div[style="width:336px; height:280px; margin:20px auto; text-align:center;"]
+freehao123.com##.box
+freehao123.com###jieweigg
+ftchinese.com###story_main_mpu
+ftchinese.com###topadcontainer
+fun698.com##table[width="958"]
+fun698.com##table[width="960"]
+gamebase.com.tw###ad118_728
+gamebase.com.tw###crazy_ad_728
+gamebase.com.tw##.wait_gbno1
+loltw.gamebase.com.tw##[class^="adsense-"]
+verycd.gdajie.com##th[colspan="3"]
+haogongju.net##[class^="ad_"]
+hdpfans.com##.adimglistbox
+hdpfans.com##.boxleftconm
+hdpfans.com##.boxrightcom
+bbs.imuyang.com###diy1
+www.infoq.com##.home_banner
+infoq.com##[class^="related_sponsors"]
+www.infoq.com###gbanner.gbanner
+infzm.com##[class$="adv"]
+infzm.com##[id$="adv"]
+infzm.com##P[style="text-align: center;display:block;padding-bottom:10px "]
+ithome.com###bbs_hl
+itopdog.cn##[class^="ad"]
+itopdog.cn##[id^="itopdog_ad-"]
+itopdog.cn##.xoxo > [id^="text-"]
+ithome.com.tw##table[height="110"]
+kugz.net###portal_block_241
+lkong.net##.myadvs
+lvye.cn##[class^="ad"]:not(.ad1)
+lvye.cn##.text-ad1
+mobile01.com##[class^="ad-"]
+mobile01.com##.admicrobtn
+mobile01.com##a[href^="adredir.php"]
+naruto.hk###jieshao DIV
+paoshu8.net##[id^="ad_"]
+paoshu8.net###TextTitle ~ table[border="0"]
+portableappc.com###text-7
+portal.opera.com##.ads
+portal.opera.com##.alt-ads
+price.com.hk###ad0
+price.com.hk##.tb
+pt80.net##.wp.a_t
+cn.reuters.com##.ad
+saraba1st.com##.tac.mb5
+sfacg.com###beitou
+www.shupeng.com##.dk-weixin
+www.shupeng.com##.mod.msg-mod.msg-notice + .mod
+suopao.org##.t5[style^="margin-top:8px;"]
+ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
+u-car.com.tw##.contad
+u-car.com.tw##.sidead_text
+u-car.com.tw##.top
+vmelon.com##.focus
+vmelon.com###text-4
+web20share.com##.widget:nth-of-type(5)
+wcxiaoshuo.com##div[style="margin:10px auto; width:960px;height:90px;"]
+xfastest.com##[id^="ad"].block
+xfastest.com##.articles-left-olny
+xfastest.com###showRightOverFlow
+xiachufang.com##.g-ga.g-bg-white
+yingzheng.com###diy1.area
+yunkeji.com##.content > p:nth-last-of-type(2)
+yunkeji.com##.content > p:nth-last-of-type(3)
+zazww.com##[id^="ads_c_"]
+zjol.com.cn##span.qqt
+zjol.com.cn##span.lqgg
