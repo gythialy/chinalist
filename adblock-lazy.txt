@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-!  Checksum: uH1R933usYbqjtS7QX/dug
+!  Checksum: XUE3k/Anm0aqiEUZysexbw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 10 Feb 2014 15:24:28 +0800
+!  Last Modified:  Mon, 10 Feb 2014 15:34:03 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
