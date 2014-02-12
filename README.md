@@ -4,41 +4,16 @@
 
 ## 公告
 
-**重要声明**
+**非侵入式广告**
 
-对于 Adblock Plus 的「非侵入式广告白名单」 (non-intrusive advertising list) 有任何疑问者，请务必了解该白名单由 Adblock Plus 官方维护，并非由志愿者管理。欲加入白名单者请详阅[官方文件](https://adblockplus.org/en/acceptable-ads#criteria)，符合条件后请向[官方提出申请](https://eyeo.com/acceptable-ads-application.html)。
-
-非侵入式广告项目与 ChinaList 等过滤列表维护者**完全无关**，我们只负责维护中文列表，并**不收取任何费用**。
-
-了解如何关闭「[允许非侵入式广告](https://adblockplus.org/zh_CN/acceptable-ads)」功能。  
-
+对于 Adblock Plus 的「[非侵入式广告白名单](https://adblockplus.org/zh_CN/acceptable-ads))」 (non-intrusive advertising list) 有任何疑问者，请务必了解该白名单由 Adblock Plus 官方维护，与 ChinaList **完全无关**，我们只负责维护中文列表，并**不收取任何费用**。
+ 
 **其他**
 
 - ChinaList 只是对 EasyList 的补充，EasyList 已存在的规则，ChinaList 将不再添加
 - 目前 ABP 没有能力处理国内各大视频网站的内嵌广告，请通过其他[脚本](http://userscripts.org/scripts/show/119622)或者[扩展](https://code.google.com/p/haoutil/)解决
 - ChinaList 不再(自 2010/08/04 起)提供对 ChinaList-Strict 和 NoSex-NoEnt 相关的任何支持，[相关讨论](http://goo.gl/PZMu)
 - ChinaList 不再(自 2013/08/27 起)过滤追踪用户信息的脚本等，[详情在此](http://goo.gl/op9DwE)
-
-## 订阅
-
-#### ChinaList 团队维护的列表
-- ChinaList  
-ChinaList 团队维护的核心列表，作为EasyList的补充列表。  
-**推荐所有中文用户订阅**
-- ChinaList Lazy  
-ChinaList 和 EasyList、 EasyPrivacy 的部分规则的合并列表，自动生成，和 ChinaList 保持同步更新。  
-轻量版的 EasyList, EasyPrivacy, ChinaList 的组合，[细节说明](https://github.com/chinalist/chinalist/wiki/something_about_ChinaList_Lazy)。  
-**推荐访问少量英文站点的中文用户订阅**
-
-#### 其他团队维护的列表  
-- EasyList    
-EasyList致力于维护ABP的通用规则，以及英文站点的规则。  
-**推荐订阅 ChinaList 用户都订阅此列表，ChinaList Lazy 用户则不必订阅**
-- EasyPrivacy      
-EasyPrivacy 主要用于过滤第三方统计类脚本。这些脚本使得网站主知道我们正在使用的操作系统／浏览器等信息，此类统计并非网站必须之功能，有理由过滤，细节请请参阅 [EasyPrivacy policy](https://easylist.adblockplus.org/en/policy)。  
-**根据个人喜好，选择是否订阅。**
-  
-> 如果您有订阅丶更新丶性能等方面的疑问，请参阅 [FAQ](https://github.com/chinalist/chinalist/wiki/FAQ)。 
 
 ## 补充
 
