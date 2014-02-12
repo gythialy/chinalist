@@ -461,6 +461,7 @@
 ||v-links.net^$third-party
 ||vipads.cn^$third-party
 ||s.vipcnzz.com^$third-party
+||vpon.com^$third-party
 ||uucm.cn^$third-party
 ||vodone.cn^$third-party
 ||wan789.net^$third-party

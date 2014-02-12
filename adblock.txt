@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: Lx4RVMNfHVP2N/GiMYL7Cw
+!  Checksum: lBrWj6As7r8g1P1wNQFUeQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 10 Feb 2014 21:18:16 +0800
+!  Last Modified:  Wed, 12 Feb 2014 14:33:47 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -475,6 +475,7 @@
 ||v-links.net^$third-party
 ||vipads.cn^$third-party
 ||s.vipcnzz.com^$third-party
+||vpon.com^$third-party
 ||uucm.cn^$third-party
 ||vodone.cn^$third-party
 ||wan789.net^$third-party
