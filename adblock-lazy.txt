@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: 76UghVyRMCAo9uaF7L0Bxg
+!  Checksum: pqjLLCLeAPGGIcQJ+XhDMw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 12 Feb 2014 14:34:01 +0800
+!  Last Modified:  Wed, 12 Feb 2014 16:48:07 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -532,7 +532,8 @@
 ||zfjiu.com^$third-party
 ||zhanzhang.net^$third-party
 ||zhiad.com^$third-party
-||zwads.com^$third-party!*** chinalist-anti-social.txt ***
+||zwads.com^$third-party
+!*** chinalist-anti-social.txt ***
 !---A
 ||addthis.com^$third-party
 !---B
@@ -620,7 +621,8 @@
 /tanchuang.
 @@||tbcdn.cn/apps/tuiguang/$domain=tmall.com
 /tuiguang/*
-/webafp?!*** chinalist-hide.txt ***
+/webafp?
+!*** chinalist-hide.txt ***
 ##.wumii-widget-ad
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
 17k.com##[id^="ad0"]
@@ -729,7 +731,8 @@ yunkeji.com##.content > p:nth-last-of-type(2)
 yunkeji.com##.content > p:nth-last-of-type(3)
 zazww.com##[id^="ads_c_"]
 zjol.com.cn##span.qqt
-zjol.com.cn##span.lqgg!*** chinalist-miscellaneous.txt ***
+zjol.com.cn##span.lqgg
+!*** chinalist-miscellaneous.txt ***
 !---Blog Sites
 /krads-images/*$domain=36kr.com
 ||img.chromi.org/2011/12/where-is-chromi.png
@@ -1375,7 +1378,8 @@ zhaozi.cn##.mt3
 ||zxtjd.com/source/plugin/disad/
 zxtjd.com###it_an
 ||zygod.net/js/
-||zzsky.cn/images/a_d_!*** chinalist-privacy.txt ***
+||zzsky.cn/images/a_d_
+!*** chinalist-privacy.txt ***
 !---Num
 ||stat.17k.com^
 ||analytics.21cn.com^
@@ -2884,11 +2888,13 @@ yaolan.com##div[id*="underHdAd"]
 yaolan.com##div[id^="active_ad"]
 yaolan.com##div[id^="bot_ad"]
 yaolan.com##div[id^="mama_ad"]
-yaolan.com##div[id^="frPicWzAd"]!*** chinalist-temp.txt ***
+yaolan.com##div[id^="frPicWzAd"]
+!*** chinalist-temp.txt ***
 !---2014.02
 ||qtfy30.cn/top_690.gif
 ||xiuxiu.meitu.com/images/banner/meitushop_fixed_816.gif
-||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif!*** chinalist-white.txt ***
+||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
+!*** chinalist-white.txt ***
 2tu.cc#@#.adds
 36.cn#@#.mainAd
 51job.com#@##ad_left
@@ -2933,7 +2939,8 @@ suning.com#@##topAd
 @@||gg.a.5d6d.$image,object_subrequest
 !--大众点评
 @@||dianping.com/adwords/$xmlhttprequest
-@@||union.mapbar.com/apis/maps/$script!*** EasyList ***
+@@||union.mapbar.com/apis/maps/$script
+!*** EasyList ***
 ! *** easylist:easylist/easylist_general_block.txt ***
 &ad_box_
 &ad_channel=
