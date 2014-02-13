@@ -2,7 +2,6 @@
 <PatchConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <RemovedItems>
     <string>||treatme.co.nz/Affiliates/</string>
-    <string>/adv.htm</string>
     <string>||axandra.com/affiliates/</string>
     <string>||blissful-sin.com/affiliates/</string>
     <string>||bloodstock.uk.com/affiliates/</string>
@@ -34,18 +33,6 @@
     <string>||lego.com^*/affiliate/</string>
     <string>||moneywise.co.uk/affiliate/</string>
     <string>||storage.to/affiliate/</string>
-    <string>://adv.</string>
-    <string>/ui/adv.</string>
-    <string>/adv.asp</string>
-    <string>/adv.jsp</string>
-    <string>/adv.html</string>
-    <string>/adv.png</string>
-    <string>/images/adv.</string>
-    <string>/js/adv.</string>
-    <string>/adv/managers/*</string>
-    <string>/google/adv.</string>
-    <string>/uploads/adv/*</string>
-    <string>/js/adv/*</string>
     <string>||carefuldoctor.com/adv/search.php</string>
     <string>/stat36/stat/track.php</string>
     <string>||breakmedia.com/track.jpg?</string>
@@ -81,7 +68,6 @@
     <string>||wrating.com/a1.js</string>
     <string>||baidu.com/h.js?</string>
     <string>||twitvid.com/api/tracking.php$object-subrequest</string>
-    <string>||unstat.baidu.com^</string>
     <string>||hk.ndx.nextmedia.com^</string>
     <string>||sitebro.tw^$third-party</string>
     <string>/criteo.js</string>
