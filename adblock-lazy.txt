@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: RzgxOKJPmeMDC3gDuePGgA
+!  Checksum: sM3ftajDKnUwYBMzEgoW9Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 13 Feb 2014 15:27:57 +0800
+!  Last Modified:  Thu, 13 Feb 2014 16:01:01 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -192,7 +192,7 @@
 ||adqoo.com^$third-party
 ||ads80.com^$third-party
 ||adsage.com^$third-party
-,domain=~autohome.com.cn|~iphone4.tw
+||adsame.com^$third-party,domain=~autohome.com.cn|~iphone4.tw
 ||adsbro.com^$third-party
 ||adszui.com^$third-party
 ||adunioncode.com^$third-party
@@ -1591,7 +1591,7 @@ acgzone.us##DIV[fuck="nothing"]
 !---阿里巴巴
 @@||c.aliimg.com/fdevlib/js/$script
 ||alimama.cn^$third-party,domain=~alimama.com|~taobao.com|~taobao.com.cn|~budou.com
-,domain=~taobao.com
+||alimama.com^$third-party,domain=~taobao.com
 ||kcart.alipay.com/web/bi.do?
 ||mmstat.com^$third-party
 !--淘宝
@@ -26668,7 +26668,7 @@ $~subdocument
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=dnf.qq.com
 @@||vanclimg.com/js.ashx?*/google-analytics.js$domain=vancl.com
 @@||yimg.com/ss/rapid-3.7.js$domain=deals.yahoo.com
-!*** C:\Documents and Settings\goreng\My Documents\github\chinalist\dev\patch.xml ***
+!*** patch.xml ***
 !---Google
 @@||accounts.google.com/accounts/adwords/$image,~third-party
 @@||accounts.google.com/adwords/$domain=accounts.google.com
