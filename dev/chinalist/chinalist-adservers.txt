@@ -130,6 +130,7 @@
 ||77go.com^$third-party
 ||77u.com^$third-party
 ||77union.cn^$third-party
+||77zhuan.com^$third-party
 ||789un.com^$third-party
 ||7clink.com^$third-party
 ||7k7k.com^$script,third-party

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: 5ms/xUrFHk/JmSAaNA8pXQ
+!  Checksum: RzgxOKJPmeMDC3gDuePGgA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 12 Feb 2014 22:43:47 +0800
+!  Last Modified:  Thu, 13 Feb 2014 15:27:57 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -144,6 +144,7 @@
 ||77go.com^$third-party
 ||77u.com^$third-party
 ||77union.cn^$third-party
+||77zhuan.com^$third-party
 ||789un.com^$third-party
 ||7clink.com^$third-party
 ||7k7k.com^$script,third-party
@@ -191,7 +192,7 @@
 ||adqoo.com^$third-party
 ||ads80.com^$third-party
 ||adsage.com^$third-party
-||adsame.com^$third-party,domain=~autohome.com.cn|~iphone4.tw
+,domain=~autohome.com.cn|~iphone4.tw
 ||adsbro.com^$third-party
 ||adszui.com^$third-party
 ||adunioncode.com^$third-party
@@ -1590,7 +1591,7 @@ acgzone.us##DIV[fuck="nothing"]
 !---阿里巴巴
 @@||c.aliimg.com/fdevlib/js/$script
 ||alimama.cn^$third-party,domain=~alimama.com|~taobao.com|~taobao.com.cn|~budou.com
-||alimama.com^$third-party,domain=~taobao.com
+,domain=~taobao.com
 ||kcart.alipay.com/web/bi.do?
 ||mmstat.com^$third-party
 !--淘宝
@@ -5140,6 +5141,7 @@ suning.com#@##topAd
 /adv-f.
 /adv-scroll.
 /adv-socialbar-
+l
 /adv/ads/*
 /adv/adv_
 /adv/banner/*
@@ -8949,7 +8951,7 @@ _a468x60.
 /servlet/ajrotator/*$popup
 /spopunder^$popup
 ://ads.$popup
-://adv.$popup
+$popup
 =popunder&$popup
 =popunders&$popup
 ?bannerid=*&punder=$popup
@@ -12437,6 +12439,7 @@ _popunder+$popup
 ###dcomad_top_300x250_0
 ###dcomad_top_300x250_1
 ###dcomad_top_300x251_2
+###ddAd
 ###ddAdZone2
 ###defer-adright
 ###detail_page_vid_topads
@@ -13809,6 +13812,7 @@ _popunder+$popup
 ###pof_ads_Wrapper
 ###pop_ad
 ###popadwrap
+###popoverAd
 ###popular-column-ad
 ###populate_ad_bottom
 ###populate_ad_left
@@ -18018,6 +18022,7 @@ _popunder+$popup
 ##.articleAd
 ##.articleAd300x250
 ##.articleAdBlade
+##.articleAdTopRight
 ##.articleAds
 ##.articleAdsL
 ##.articleEmbeddedAdBox
@@ -18316,6 +18321,7 @@ _popunder+$popup
 ##.blog_ad_continue
 ##.blog_divider_ad
 ##.blogads
+##.blogads-sb-home
 ##.blogroll-ad-img
 ##.blogs_2_square_ad
 ##.blox3featuredAd
@@ -22828,6 +22834,7 @@ _popunder+$popup
 ||doubleclick.net/pfadx/*.BLIPTV/$third-party
 ||doubleclick.net/pfadx/*.ESPN/$third-party
 ||doubleclick.net/pfadx/*.MCNONLINE/$third-party
+||doubleclick.net/pfadx/*.MTV-Viacom/$third-party
 ||doubleclick.net/pfadx/*.mtvi$third-party
 ||doubleclick.net/pfadx/*.muzu/$third-party
 ||doubleclick.net/pfadx/*.NBCUNI.COM/$third-party
@@ -26641,7 +26648,7 @@ http://utm.
 ||top.baidu.com/js/nsclick.js
 ||tracker.live.tudou.com^
 ||uestat.video.qiyi.com^
-||unstat.baidu.com^$~subdocument
+$~subdocument
 ||utrack.hexun.com^
 ||v.blog.sohu.com/dostat.do?
 ||valf.atm.youku.com^
@@ -26661,7 +26668,7 @@ http://utm.
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=dnf.qq.com
 @@||vanclimg.com/js.ashx?*/google-analytics.js$domain=vancl.com
 @@||yimg.com/ss/rapid-3.7.js$domain=deals.yahoo.com
-!-----------------additional for ChinaList Lazy-------------
+!*** C:\Documents and Settings\goreng\My Documents\github\chinalist\dev\patch.xml ***
 !---Google
 @@||accounts.google.com/accounts/adwords/$image,~third-party
 @@||accounts.google.com/adwords/$domain=accounts.google.com

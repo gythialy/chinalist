@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: MU6tcT4+rDIF/7eUaip/hw
+!  Checksum: DbSYZe7R+wo9wCFI554y0Q
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 12 Feb 2014 22:43:35 +0800
+!  Last Modified:  Thu, 13 Feb 2014 15:27:53 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -144,6 +144,7 @@
 ||77go.com^$third-party
 ||77u.com^$third-party
 ||77union.cn^$third-party
+||77zhuan.com^$third-party
 ||789un.com^$third-party
 ||7clink.com^$third-party
 ||7k7k.com^$script,third-party
