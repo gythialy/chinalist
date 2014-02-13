@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: pqjLLCLeAPGGIcQJ+XhDMw
+!  Checksum: 5ms/xUrFHk/JmSAaNA8pXQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 12 Feb 2014 16:48:07 +0800
+!  Last Modified:  Wed, 12 Feb 2014 22:43:47 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2765,6 +2765,7 @@ cn.yahoo.com###r_expandable
 ||l.yimg.com/pq/
 ||l.yimg.com^*/a/tw/$~stylesheet
 ||l.yimg.com^*/tw/ysm/
+||s.yimg.com/bf/ysm/$subdocument
 ||tw.yimg.com/a/tw/
 tw.news.yahoo.com##.gn_sub_blue
 tw.yahoo.com##.admod
@@ -22672,7 +22673,6 @@ _popunder+$popup
 ||commissionmonster.com^$third-party
 ||comscore.com^$third-party
 ||conduit-banners.com^$third-party
-||conmio.com^$third-party
 ||connectedads.net^$third-party
 ||connectionads.com^$third-party
 ||connexity.net^$third-party
