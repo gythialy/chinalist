@@ -34,7 +34,6 @@
     <string>||lego.com^*/affiliate/</string>
     <string>||moneywise.co.uk/affiliate/</string>
     <string>||storage.to/affiliate/</string>
-    <string>://adv.</string>
     <string>/ui/adv.</string>
     <string>/adv.asp</string>
     <string>/adv.jsp</string>
@@ -81,7 +80,6 @@
     <string>||wrating.com/a1.js</string>
     <string>||baidu.com/h.js?</string>
     <string>||twitvid.com/api/tracking.php$object-subrequest</string>
-    <string>||unstat.baidu.com^</string>
     <string>||hk.ndx.nextmedia.com^</string>
     <string>||sitebro.tw^$third-party</string>
     <string>/criteo.js</string>

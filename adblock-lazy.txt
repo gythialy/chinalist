@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: sM3ftajDKnUwYBMzEgoW9Q
+!  Checksum: rG/xKgMc6IE6wmvXuw1vdQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 13 Feb 2014 16:01:01 +0800
+!  Last Modified:  Thu, 13 Feb 2014 16:46:13 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -7820,6 +7820,7 @@ l
 ://ad.*/jstag^
 ://adcl.
 ://ads.
+://adv.
 ://affiliate.$third-party
 ://affiliates.$third-party
 ://ax-d.*/jstag^
@@ -8951,7 +8952,7 @@ _a468x60.
 /servlet/ajrotator/*$popup
 /spopunder^$popup
 ://ads.$popup
-$popup
+://adv.$popup
 =popunder&$popup
 =popunders&$popup
 ?bannerid=*&punder=$popup
@@ -26648,7 +26649,7 @@ http://utm.
 ||top.baidu.com/js/nsclick.js
 ||tracker.live.tudou.com^
 ||uestat.video.qiyi.com^
-$~subdocument
+||unstat.baidu.com^$~subdocument
 ||utrack.hexun.com^
 ||v.blog.sohu.com/dostat.do?
 ||valf.atm.youku.com^
