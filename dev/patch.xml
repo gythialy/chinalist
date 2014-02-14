@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<PatchConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<PatchConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <RemovedItems>
     <string>||treatme.co.nz/Affiliates/</string>
     <string>||axandra.com/affiliates/</string>
@@ -22,9 +22,7 @@
     <string>||turboyourpc.com/images/affiliates/</string>
     <string>||uniblue.com^*/affiliates/</string>
     <string>||chaturbate.com/affiliates/</string>
-    <string>||pornprosnetwork.com/affiliates/</string>
     <string>||swurve.com/affiliates/</string>
-    <string>||tlavideo.com/affiliates/</string>
     <string>||srwww1.com^*/affiliate/</string>
     <string>||1page.co.za/affiliate/</string>
     <string>||gameduell.com/res/affiliate/</string>
@@ -47,10 +45,6 @@
     <string>||goadv.com^*/track.js</string>
     <string>||cnzz.com/c.php?</string>
     <string>||cnzz.com/stat.</string>
-    <string>||wrating.com/*.gif?</string>
-    <string>||wrating.com/*.swf?</string>
-    <string>||wrating.com/a1.js</string>
-    <string>||bfnsoftware.com^*/counter.cgi?</string>
     <string>||imghostsrc.com/counter.php?</string>
     <string>||agendize.com^*/counts.jsp?</string>
     <string>||weather.ca/counter.gif?</string>
@@ -64,16 +58,12 @@
     <string>||stat.tudou.com^</string>
     <string>||stats.tudou.com^</string>
     <string>||stats.tudou.com^</string>
-    <string>||wrating.com/*.gif?</string>
-    <string>||wrating.com/a1.js</string>
     <string>||baidu.com/h.js?</string>
     <string>||twitvid.com/api/tracking.php$object-subrequest</string>
     <string>||hk.ndx.nextmedia.com^</string>
     <string>||sitebro.tw^$third-party</string>
-    <string>/criteo.js</string>
     <string>||partner.googleadservices.com^$third-party</string>
     <string>||viglink.com/api/insert?$third-party</string>
-    <string>||metaffiliation.com^*^taff=s</string>
     <string>||alimama.com^$third-party</string>
     <string>||adsame.com^$third-party</string>
     <string>||aaa.dv0.info^$third-party</string>
@@ -85,12 +75,78 @@
     <string>##a[href^="http://www.liutilities.com/aff"]</string>
     <string>##a[href^="http://www.liutilities.com/products/campaigns/adv/"]</string>
     <string>||washingtonpost.com/wp-srv/wapolabs/dw/readomniturecookie.html</string>
+    <string>||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|1025thebull.com|1031iheartaustin.com|1037theq.com|1041beat.com|1057ezrock.com|1067litefm.com|10news.com|247comedy.com|3news.co.nz|49ers.com|610cktb.com|700wlw.com|850koa.com|940winz.com|94hjy.com|970espn.com|99kisscountry.com|abc15.com|abc2news.com|abcactionnews.com|am1300thezone.com|am570radio.com|am760.net|atlantafalcons.com|automobilemag.com|automotive.com|azcardinals.com|baltimoreravens.com|baynews9.com|bbc.co.uk|bbc.com|belfasttelegraph.co.uk|bengals.com|bet.com|big1059.com|bigdog1009.ca|bloomberg.com|bnn.ca|boom973.com|boom997.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|caller.com|canada.com|capitalfm.ca|cbs.com|cbsnews.com|cbssports.com|channel955.com|chargers.com|chicagobears.com|chicagotribune.com|cj104.com|cjad.com|cjbk.com|clevelandbrowns.com|cnettv.cnet.com|coast933.com|colts.com|commercialappeal.com|courierpress.com|cp24.com|cricketcountry.com|csmonitor.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|egirlgames.net|elvisduran.com|enjoydressup.com|entrepreneur.com|eonline.com|escapegames.com|euronews.com|evolution935.com|fansportslive.com|fm98wjlb.com|foodnetwork.ca|four.co.nz|foxsportsradio.com|fresh100.com|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalpost.com|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|gosanangelo.com|hallelujah1051.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|independentmail.com|jaguars.com|kase101.com|kcchiefs.com|kdvr.com|kfiam640.com|kgbx.com|khow.com|kiisfm.com|kitsapsun.com|kitv.com|kjrh.com|knoxnews.com|kogo.com|komonews.com|kshb.com|kwgn.com|kwnr.com|kxan.com|leaderpost.com|livestream.com|magic96.com|metacafe.com|miamidolphins.com|mix923fm.com|mojointhemorning.com|moneycontrol.com|montrealgazette.com|motorcyclistonline.com|mtv.ca|mydamnchannel.com|myezrock.com|mymagic97.com|naplesnews.com|nationalpost.com|nba.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newsnet5.com|newstalk1010.com|newstalk1130.com|newyorkjets.com|nymag.com|oktvusa.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|player.screenwavemedia.com|prowrestling.com|raaga.com|radio.com|raiders.com|rapbasement.com|redding.com|redskins.com|reporternews.com|reuters.com|rollingstone.com|rootsports.com|rottentomatoes.com|seahawks.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|sploder.com|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|tcpalm.com|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|thedenverchannel.com|thedrocks.com|theindychannel.com|theprovince.com|thestarphoenix.com|theteam1260.com|tide.com|timescolonist.com|timeslive.co.za|timesrecordnews.com|titansonline.com|totaljerkface.com|tripadvisor.ca|tripadvisor.co.id|tripadvisor.co.uk|tripadvisor.com|tripadvisor.com.au|tripadvisor.com.my|tripadvisor.com.sg|tripadvisor.ie|tripadvisor.in|turnto23.com|tvone.tv|tvoneonline.com|twitch.tv|usmagazine.com|vancouversun.com|vcstar.com|veetle.com|vice.com|videojug.com|vikings.com|virginradio.ca|washingtonpost.com|washingtontimes.com|wcpo.com|wdfn.com|weather.com|wescfm.com|wgci.com|wibw.com|wikihow.com|windsorstar.com|wiod.com|wjdx.com|wkyt.com|wmyi.com|wor710.com|wptv.com|wxyz.com|yahoo.com|youtube.com|z100.com</string>
+    <string>||doubleclick.net^$third-party,domain=abc-7.com|addictinggames.com|allbusiness.com|allthingsd.com|bizjournals.com|bloomberg.com|bnn.ca|break.com|cbc.ca|cbs19.tv|cbs3springfield.com|cbsatlanta.com|cbslocal.com|complex.com|dailymail.co.uk|darkhorizons.com|deluxemusic.tv|doubleviking.com|euronews.com|extratv.com|fandango.com|fox19.com|fox5vegas.com|gorillanation.com|grooveshark.com|hawaiinewsnow.com|hulu.com|imdb.com|joblo.com|kcra.com|kctv5.com|ketv.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|kypost.com|live5news.com|livestation.com|livestream.com|metro.us|metronews.ca|miamiherald.com|my9nj.com|myfoxdetroit.com|myfoxorlando.com|myfoxphilly.com|myfoxphoenix.com|myfoxtampabay.com|nbcrightnow.com|neatorama.com|necn.com|neopets.com|news.com.au|news4jax.com|nintendoeverything.com|own3d.tv|pagesuite-professional.co.uk|pandora.com|player.theplatform.com|ps3news.com|radio.com|rottentomatoes.com|sbsun.com|shacknews.com|sk-gaming.com|ted.com|tv2.no|universalsports.com|ustream.tv|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcvb.com|wdrb.com|wdsu.com|wflx.com|wfmz.com|wfsb.com|wgal.com|whdh.com|wired.com|wisn.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wral.com|wsj.com|wsmv.com|wsvn.com|wtae.com|wthr.com|wxii12.com|wyff4.com|yahoo.com|youtube.com</string>
   </RemovedItems>
   <NewItems>
-    <string>!---Google</string>
+    <string>!---Google.com</string>
+    <string>##a[href^="http://www.google.com/aclk?"]</string>
+    <string>www.google.com#@#a[href^="http://www.google.com/aclk?"]</string>
+    <string>||google.com/pagead/</string>
+    <string>||google.com/uds/afs?*adsense$subdocument</string>
+    <string>||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com</string>
+    <string>mail.google.com###\:rr .nH[role="main"] .mq:first-child</string>
+    <string>mail.google.com###\:rr &gt; .nH &gt; .nH[role="main"] &gt; .aKB</string>
+    <string>mail.google.com###\:rr &gt; .nH &gt; .nH[role="main"] &gt; .nH &gt; .nH &gt; .AT[style]</string>
+    <string>mail.google.com###\:rr &gt; .nH &gt; div[role="main"] &gt; .mq:last-child</string>
+    <string>maps.google.com###mclip</string>
+    <string>google.com###tadsc</string>
+    <string>google.com##.GC3LC41DERB + div[style="position: relative; height: 170px;"]</string>
+    <string>google.com##.GGQPGYLCD5</string>
+    <string>google.com##.GGQPGYLCMCB</string>
+    <string>google.com##.GISRH3UDHB</string>
+    <string>mail.google.com##.aeF .nH[role="main"] &gt; .mq:last-child</string>
+    <string>mail.google.com##.aeF &gt; .nH &gt; .nH[role="main"] &gt; .aKB</string>
+    <string>mail.google.com##.aeF &gt; .nH &gt; .nH[role="main"] &gt; .afn:first-child + .mq</string>
+    <string>mail.google.com##.aeF &gt; .nH &gt; .nH[role="main"] &gt; .mq:first-child</string>
+    <string>mail.google.com##.aeF &gt; .nH &gt; .nH[role="main"] &gt; .nH &gt; .nH &gt; .AT[style]</string>
+    <string>mail.google.com##.aeF &gt; .nH &gt; .nH[role="main"] &gt; .nH &gt; .nH &gt; .nH &gt; .mq:last-child</string>
+    <string>mail.google.com##.aeF &gt; .nH &gt; .nH[role="main"] &gt; div + .mq</string>
+    <string>google.com,~mail.google.com##.c[style="margin: 0pt;"]</string>
+    <string>maps.google.com##.hotel-partner-item-sponsored</string>
+    <string>maps.google.com##.hotel-price</string>
+    <string>google.com##.nH.MC</string>
+    <string>mail.google.com##.nH.PS</string>
+    <string>mail.google.com##.nH.adC &gt; .nH &gt; .nH &gt; .u5 &gt; .azN</string>
+    <string>mail.google.com##.oM</string>
+    <string>mail.google.com##.rh &gt; #ra</string>
+    <string>google.com,~mail.google.com##.ts[style="margin:0 0 12px;height:92px;width:100%"]</string>
+    <string>mail.google.com##.u4</string>
+    <string>mail.google.com##.u9</string>
+    <string>mail.google.com##.xz</string>
+    <string>mail.google.com##.z0DeRc</string>
+    <string>google.com,~mail.google.com##[style="border: 1px solid rgb(0, 90, 136);"]</string>
+    <string>google.com,~mail.google.com##[style="border: 1px solid rgb(145, 117, 77);"]</string>
+    <string>google.com,~mail.google.com##[style="border: 1px solid rgb(241, 250, 248);"]</string>
+    <string>google.com,~mail.google.com##[style="border: 1px solid rgb(51, 102, 153);"]</string>
+    <string>google.com,~mail.google.com##[style="border: 1px solid rgb(51, 102, 204);"]</string>
+    <string>mail.google.com##a[href^="http://pagead2.googlesyndication.com/"]</string>
+    <string>m.youtube.com##a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"]</string>
+    <string>www.google.com##body &gt; div[align]:first-child + style + table[cellpadding="0"][width="100%"] &gt; tbody:only-child &gt; tr:only-child &gt; td:only-child</string>
+    <string>google.com##div[style^="height: 16px; font: bold 12px/16px"]</string>
+    <string>@@||google.com/_/apps-static/*/socialads/$script,stylesheet</string>
+    <string>@@||google.com/ads/search/module/ads/*/search.js$domain=about.com|armstrongmywire.com|atlanticbb.net|bestbuy.com|bresnan.net|broadstripe.net|buckeyecablesystem.net|cableone.net|centurylink.net|charter.net|cincinnatibell.net|dish.net|ehow.com|forbbbs.org|forbes.com|hargray.net|hawaiiantel.net|hickorytech.net|homeaway.co.uk|knology.net|livestrong.com|mediacomtoday.com|midco.net|mybendbroadband.com|mybrctv.com|mycenturylink.com|myconsolidated.net|myepb.net|mygrande.net|mygvtc.com|myhughesnet.com|myritter.com|northstate.net|nwcable.net|query.nytimes.com|rentals.com|search.rr.com|searchresults.verizon.com|suddenlink.net|surewest.com|synacor.net|tds.net|toshiba.com|trustedreviews.com|truvista.net|windstream.net|windstreambusiness.net|wowway.net|zoover.co.uk|zoover.com</string>
+    <string>@@||google.com/adsense/$subdocument,domain=sedo.co.uk|sedo.com|sedo.jp|sedo.kr|sedo.pl</string>
+    <string>@@||google.com/adsense/search/ads.js$domain=armstrongmywire.com|atlanticbb.net|bestbuy.com|bresnan.net|broadstripe.net|buckeyecablesystem.net|cableone.net|centurylink.net|charter.net|cincinnatibell.net|dish.net|forbbbs.org|forbes.com|hargray.net|hawaiiantel.net|hickorytech.net|homeaway.co.uk|knology.net|livestrong.com|mediacomtoday.com|midco.net|mybendbroadband.com|mybrctv.com|mycenturylink.com|myconsolidated.net|myepb.net|mygrande.net|mygvtc.com|myhughesnet.com|myritter.com|northstate.net|nwcable.net|query.nytimes.com|rentals.com|search.rr.com|searchresults.verizon.com|suddenlink.net|surewest.com|synacor.net|tds.net|toshiba.com|trustedreviews.com|truvista.net|windstream.net|windstreambusiness.net|wowway.net|www.google.com|zoover.co.uk|zoover.com</string>
+    <string>@@||google.com/adsense/search/async-ads.js$domain=about.com|ehow.com</string>
+    <string>@@||google.com/doubleclick/studio/swiffy/$domain=www.google.com</string>
+    <string>@@||google.com/search?q=$xmlhttprequest</string>
+    <string>@@||google.com/uds/?file=ads&amp;$script,domain=guardian.co.uk|landandfarm.com</string>
+    <string>@@||google.com/uds/afs?$document,subdocument,domain=ehow.com|livestrong.com</string>
+    <string>@@||google.com/uds/afs?$subdocument,domain=about.com</string>
+    <string>@@||google.com/uds/api/ads/$script,domain=guardian.co.uk</string>
+    <string>@@||google.com/uds/api/ads/*/search.$script,domain=italyinus2013.org|landandfarm.com|query.nytimes.com|trustedreviews.com|www.google.com</string>
+    <string>@@||google.com/uds/modules/elements/newsshow/iframe.html?format=728x90^$document,subdocument</string>
+    <string>@@||google.com^*/show_afs_ads.js$domain=whitepages.com</string>
+    <string>@@||mail.google.com^*&amp;view=ad&amp;$xmlhttprequest</string>
+    <string>@@||mail.google.com^*/uploaderapi*.swf</string>
+    <string>@@||translate.google.com/translate/static/*-ads/</string>
+    <string>@@||www.google.com/ads/preferences/$image,script,subdocument</string>
     <string>@@||accounts.google.com/accounts/adwords/$image,~third-party</string>
     <string>@@||accounts.google.com/adwords/$domain=accounts.google.com</string>
+    <string>@@||accounts.google.com^$document,subdocument,domain=adwords.google.com</string>
     <string>@@||adwords.google.com^$domain=adwords.google.com</string>
+    <string>@@||bpui0.google.com^$document,subdocument,domain=adwords.google.com</string>
     <string>@@||google.com/help/hc/images/adwords/$image,~third-party</string>
     <string>@@||google.com/payments/*/adwords.$document,subdocument</string>
     <string>@@||google.com/tools/feedback/open.js?*^url=https://adwords.google.com/$script,domain=adwords.google.com</string>
@@ -104,21 +160,41 @@
     <string>@@||www.google.com/adwords/$domain=www.google.com</string>
     <string>@@||www.google.com/adwords/$elemhide</string>
     <string>accounts.google.com#@#.adwords</string>
-    <string>!---Twitter</string>
-    <string>search.genieo.com,search.installmac.com##.promoted</string>
+    <string>@@||maps.google.com/staticmap?*=300x250</string>
+    <string>@@||doubleclick.net/clk;$popup,domain=hotukdeals.com|jobamatic.com|play.google.com|santander.co.uk|techrepublic.com</string>
+    <string>||video.google.com/api/stats/</string>
+    <string>||docs.google.com/stat|$xmlhttprequest</string>
+    <string>||google.com/reader/logging?</string>
+    <string>||google.com/stream_204?</string>
+    <string>||google.com/support/webmasters/api/metrics?$script</string>
+    <string>||google.com/uploadstats|$xmlhttprequest</string>
+    <string>||google.com^*/dlpageping?</string>
+    <string>||google.com^*/log?</string>
+    <string>||google.com^*/urchin_post.js</string>
+    <string>||video-stats.video.google.com^</string>
+    <string>@@||google.com/js/gweb/analytics/$domain=google.com</string>
+    <string>@@||google.com/js/gweb/analytics/doubletrack.js$domain=android.com</string>
+    <string>@@||googletagmanager.com/gtm.js?$domain=ebuyer.com|google.com</string>
+    <string>!---Twitter.com</string>
     <string>twitter.com##.promoted-account</string>
     <string>twitter.com##.promoted-trend</string>
     <string>twitter.com##.promoted-tweet</string>
     <string>twitter.com##.promotion</string>
     <string>twitter.com##.stream-item[data-item-type="tweet"][data-item-id*=":"]</string>
     <string>twitter.com##.stream-tweet[impression_id][label="promoted"]</string>
-    <string>!---Youtube</string>
-    <string>@@||s.ytimg.com/yts/swfbin/player-*/watch_as3.swf$object,domain=youtube.com</string>
-    <string>@@||youtube.com/yt/advertise/medias/images/$image</string>
-    <string>@@||youtube.com/yt/css/www-advertise.css</string>
-    <string>@@||youtube.com^*_adsense_$xmlhttprequest</string>
-    <string>||2mdn.net^$object-subrequest,third-party,domain=101cargames.com|1025thebull.com|1037theq.com|1041beat.com|1057ezrock.com|1067litefm.com|10news.com|247comedy.com|3news.co.nz|49ers.com|610cktb.com|700wlw.com|850koa.com|940winz.com|94hjy.com|970espn.com|99kisscountry.com|abc15.com|abc2news.com|abcactionnews.com|am570radio.com|am760.net|atlantafalcons.com|automobilemag.com|automotive.com|azcardinals.com|baltimoreravens.com|bbc.co.uk|bbc.com|belfasttelegraph.co.uk|bengals.com|bet.com|big1059.com|bigdog1009.ca|bloomberg.com|boom973.com|boom997.com|box10.com|brisbanetimes.com.au|buccaneers.com|buffalobills.com|bullz-eye.com|businessweek.com|calgaryherald.com|canada.com|capitalfm.ca|cbs.com|cbsnews.com|cbssports.com|channel955.com|chargers.com|chicagobears.com|cj104.com|cjad.com|cjbk.com|clevelandbrowns.com|cnettv.cnet.com|coast933.com|colts.com|cp24.com|cricketcountry.com|ctvnews.ca|dallascowboys.com|denverbroncos.com|detroitlions.com|drive.com.au|earthcam.com|edmontonjournal.com|egirlgames.net|elvisduran.com|enjoydressup.com|entrepreneur.com|eonline.com|escapegames.com|euronews.com|evolution935.com|fansportslive.com|fm98wjlb.com|foodnetwork.ca|four.co.nz|foxsportsradio.com|fresh100.com|gamingbolt.com|ghananation.com|giantbomb.com|giants.com|globalnews.ca|globalpost.com|globaltoronto.com|globaltv.com|globaltvbc.com|globaltvcalgary.com|go.com|gorillanation.com|hallelujah1051.com|heraldsun.com.au|hgtv.ca|houstontexans.com|iheart.com|independent.ie|jaguars.com|kcchiefs.com|kdvr.com|kfiam640.com|kgbx.com|khow.com|kiisfm.com|kjrh.com|kogo.com|komonews.com|kshb.com|kwgn.com|kwnr.com|kxan.com|leaderpost.com|livestream.com|magic96.com|metacafe.com|miamidolphins.com|mix923fm.com|mojointhemorning.com|moneycontrol.com|montrealgazette.com|motorcyclistonline.com|mtv.ca|mydamnchannel.com|myezrock.com|mymagic97.com|nationalpost.com|nba.com|nba.tv|ndtv.com|neworleanssaints.com|newsmax.com|newsmaxhealth.com|newsnet5.com|newstalk1010.com|newstalk1130.com|newyorkjets.com|nymag.com|ottawacitizen.com|packers.com|panthers.com|patriots.com|pcworld.com|philadelphiaeagles.com|player.screenwavemedia.com|prowrestling.com|radio.com|raiders.com|rapbasement.com|redskins.com|reuters.com|rollingstone.com|rootsports.com|rottentomatoes.com|seahawks.com|sherdog.com|skynews.com.au|slice.ca|smh.com.au|sploder.com|steelers.com|stlouisrams.com|streetfire.net|stuff.co.nz|telegraph.co.uk|theage.com.au|theaustralian.com.au|thecomedynetwork.ca|thedenverchannel.com|thedrocks.com|theindychannel.com|theprovince.com|thestarphoenix.com|theteam1260.com|tide.com|timescolonist.com|timeslive.co.za|titansonline.com|tsn.ca|turnto23.com|tvone.tv|tvoneonline.com|twitch.tv|usmagazine.com|vancouversun.com|veetle.com|vice.com|videojug.com|vikings.com|virginradio.ca|washingtonpost.com|washingtontimes.com|wcpo.com|wdfn.com|weather.com|wescfm.com|wgci.com|wibw.com|wikihow.com|windsorstar.com|wiod.com|wkyt.com|wmyi.com|wor710.com|wptv.com|wxyz.com|yahoo.com|youtube.com|z100.com</string>
-    <string>||doubleclick.net^$third-party,domain=abc-7.com|addictinggames.com|allthingsd.com|bizjournals.com|bloomberg.com|break.com|cbc.ca|cbs19.tv|cbs3springfield.com|cbsatlanta.com|cbslocal.com|complex.com|darkhorizons.com|deluxemusic.tv|doubleviking.com|euronews.com|extratv.com|fandango.com|fox19.com|fox5vegas.com|gorillanation.com|grooveshark.com|hawaiinewsnow.com|hulu.com|imdb.com|joblo.com|kcra.com|kctv5.com|ketv.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|kypost.com|live5news.com|livestation.com|miamiherald.com|my9nj.com|myfoxdetroit.com|myfoxorlando.com|myfoxphilly.com|myfoxphoenix.com|myfoxtampabay.com|nbcrightnow.com|neatorama.com|necn.com|neopets.com|news.com.au|news4jax.com|nintendoeverything.com|own3d.tv|pagesuite-professional.co.uk|pandora.com|ps3news.com|radio.com|rottentomatoes.com|sbsun.com|shacknews.com|sk-gaming.com|ted.com|tv2.no|universalsports.com|ustream.tv|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcvb.com|wdrb.com|wdsu.com|wflx.com|wfmz.com|wfsb.com|wgal.com|whdh.com|wired.com|wisn.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wral.com|wsj.com|wsmv.com|wsvn.com|wtae.com|wthr.com|wxii12.com|wyff4.com|yahoo.com|youtube.com</string>
+    <string>||analytics.twitter.com^$third-party</string>
+    <string>||twitter.com/i/jot</string>
+    <string>||twitter.com/oct.js</string>
+    <string>||twitter.com/scribe/</string>
+    <string>||scribe.twitter.com^</string>
+    <string>||twitter.com/abacus?</string>
+    <string>||twitter.com/scribe?</string>
+    <string>||twitter.com/scribes/</string>
+    <string>||twitter.com^*.gif?</string>
+    <string>||twitter.com^*/log.json?</string>
+    <string>!---Youtube.com</string>
+    <string>||2mdn.net^$object-subrequest,third-party,domain=yahoo.com|youtube.com</string>
+    <string>||doubleclick.net^$third-party,domain=yahoo.com|youtube.com</string>
     <string>||phobos.apple.com^$image,domain=dailymotion.com|youtube.com</string>
     <string>||topspin.net/secure/media/$image,domain=youtube.com</string>
     <string>||espn.vad.go.com^$domain=youtube.com</string>
@@ -144,12 +220,28 @@
     <string>youtube.com##.watch-extra-info-right</string>
     <string>youtube.com##a[href^="http://www.youtube.com/cthru?"]</string>
     <string>m.youtube.com##a[onclick*="\"ping_url\":\"http://www.google.com/aclk?"]</string>
+    <string>@@||s.ytimg.com/yts/swfbin/player-*/watch_as3.swf$object,domain=youtube.com</string>
+    <string>@@||youtube.com/yt/advertise/medias/images/$image</string>
+    <string>@@||youtube.com/yt/css/www-advertise.css</string>
+    <string>@@||youtube.com^*_adsense_$xmlhttprequest</string>
+    <string>@@||ytimg.com/yts/img/channels/*_banner-*.jpg$domain=youtube.com</string>
+    <string>@@||ytimg.com/yts/img/channels/*_banner-*.png$domain=youtube.com</string>
+    <string>@@||ytimg.com^*/channels4_banner.jpg?$domain=youtube.com</string>
+    <string>@@||ytimg.com^*/channels4_banner_hd.jpg?$domain=youtube.com</string>
+    <string>||nonxt1.c.youtube.com^$third-party</string>
+    <string>||s.youtube.com^</string>
+    <string>||s2.youtube.com^</string>
+    <string>||youtube.com/gen_204?</string>
+    <string>||youtube.com/generate_204</string>
+    <string>||youtube.com/get_video?</string>
+    <string>||youtube.com/live_204?</string>
+    <string>||youtube.com/player_204?</string>
+    <string>||youtube.com/ptracking?</string>
+    <string>||youtube.com/s?</string>
+    <string>||youtube.com/set_awesome?</string>
+    <string>||youtube.com/stream_204?</string>
   </NewItems>
   <ModifyItems>
-    <ModifyItem>
-      <OldItem>/fcgi-bin/*</OldItem>
-      <NewItem>/fcgi-bin/*$domain=~qq.com</NewItem>
-    </ModifyItem>
     <ModifyItem>
       <OldItem>/html.ng/*</OldItem>
       <NewItem>/html.ng/*$domain=~cntv.cn</NewItem>
