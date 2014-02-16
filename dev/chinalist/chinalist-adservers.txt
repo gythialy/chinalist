@@ -47,8 +47,9 @@
 ||114lm.com^$third-party
 ||115.238.103.82^$third-party
 ||116b.com^$third-party
-||118114.cn^$third-party
 ||11l11.net^$third-party
+||118114.cn^$third-party
+||1188.com^$third-party
 ||12291.com^$third-party
 ||12l22.net^$third-party
 ||155game.com^$third-party
