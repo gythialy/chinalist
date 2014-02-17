@@ -441,7 +441,7 @@
 ||ujoin.net^$third-party
 ||ujian.cc^$third-party
 ||ulink.cc^$third-party
-||union.$third-party,popup,domain=~click.union.jd.com|~click.union.360buy.com
+||union.$third-party,popup,domain=~click.union.jd.com|~click.union.360buy.com|~huihui.cn
 ||union001.$third-party
 ||union009.com^$third-party
 ||union178.com^$third-party

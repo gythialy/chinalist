@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: nGVm6CPlzoskt2cLC9isfA
+!  Checksum: e9sNpiz6CY1y3A90AC8JRA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 16 Feb 2014 22:10:59 +0800
+!  Last Modified:  Mon, 17 Feb 2014 11:58:07 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -455,7 +455,7 @@
 ||ujoin.net^$third-party
 ||ujian.cc^$third-party
 ||ulink.cc^$third-party
-||union.$third-party,popup,domain=~click.union.jd.com|~click.union.360buy.com
+||union.$third-party,popup,domain=~click.union.jd.com|~click.union.360buy.com|~huihui.cn
 ||union001.$third-party
 ||union009.com^$third-party
 ||union178.com^$third-party
