@@ -1551,6 +1551,7 @@ news.ynet.com##.RC
 ||static.youku.com/*/index/js/iresearch.js
 soku.com###ab_282
 !--土豆
+@@||js.tudouui.com/bin/player2/$object
 /cv/*&uuid=$object_subrequest
 ||tudou.com^*/outside.php
 ||player.pb.ops.tudou.com/info.php?

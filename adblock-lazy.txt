@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: SYdYZC0av4jmLTnC6k68BA
+!  Checksum: tplU8mym/y2FN9Zfq9/41Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 17 Feb 2014 11:58:18 +0800
+!  Last Modified:  Mon, 17 Feb 2014 14:16:28 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2808,6 +2808,7 @@ news.ynet.com##.RC
 ||static.youku.com/*/index/js/iresearch.js
 soku.com###ab_282
 !--土豆
+@@||js.tudouui.com/bin/player2/$object
 /cv/*&uuid=$object_subrequest
 ||tudou.com^*/outside.php
 ||player.pb.ops.tudou.com/info.php?
