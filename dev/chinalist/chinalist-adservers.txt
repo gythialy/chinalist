@@ -348,6 +348,7 @@
 ||meidulm.com^$third-party
 ||miaozhen.com^$third-party
 ||molidao.com^$third-party
+||mtxsk.com^$third-party
 ||myad.cn^$third-party
 ||myiee.com^$third-party
 ||mylovewebs.com^$third-party
