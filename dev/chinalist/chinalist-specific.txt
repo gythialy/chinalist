@@ -448,10 +448,10 @@ share.dmhy.me,share.dmhy.org###WLGO_ad
 !---discuss.com.hk
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /overture/*$domain=discuss.com.hk|uwants.com
-/promo/*$subdocument,domain=discuss.com.hk
+||networld.hk/ad2/
+||n2.hk/groupon/
 discuss.com.hk##.ad
 discuss.com.hk,uwants.com##a[href^="http://ad"]
-discuss.com.hk,uwants.com##a[href^="http://b.optimix.asia/"]
 uwants.com###foruminfo + div[align="center"]
 
 !---动漫屋
