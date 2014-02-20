@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: V39m17fk8m8JpoG0NvCIiw
+!  Checksum: TPZYBLUUsdrHvevmX7sHGg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 20 Feb 2014 11:35:15 +0800
+!  Last Modified:  Thu, 20 Feb 2014 11:40:54 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -433,7 +433,7 @@
 ||t3nlink.com^$third-party
 ||news.tagtoo.co^$third-party
 ||tajianedu.com^$third-party
-||tanx.com^$third-party,domain=~taobao.com|~tmall.com
+||tanx.com^$third-party,domain=~taobao.com|~tmall.com|~alimama.com
 ||tazhao.com^$third-party
 ||tbjfw.com^$third-party
 ||tenoad.com^$third-party

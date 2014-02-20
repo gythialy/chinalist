@@ -419,7 +419,7 @@
 ||t3nlink.com^$third-party
 ||news.tagtoo.co^$third-party
 ||tajianedu.com^$third-party
-||tanx.com^$third-party,domain=~taobao.com|~tmall.com
+||tanx.com^$third-party,domain=~taobao.com|~tmall.com|~alimama.com
 ||tazhao.com^$third-party
 ||tbjfw.com^$third-party
 ||tenoad.com^$third-party
