@@ -12,6 +12,7 @@
 /adpuba/*
 /adservice/*
 /adv.
+.org/adv/
 /advpic/*
 /attachments/ad/*
 .com/js/ad.

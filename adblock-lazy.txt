@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: 9jJRPCN2inW0VOPx/vsbwA
+!  Checksum: V39m17fk8m8JpoG0NvCIiw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 17 Feb 2014 19:44:45 +0800
+!  Last Modified:  Thu, 20 Feb 2014 11:35:15 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -570,6 +570,7 @@
 /adpuba/*
 /adservice/*
 /adv.
+.org/adv/
 /advpic/*
 /attachments/ad/*
 .com/js/ad.
@@ -3061,6 +3062,7 @@ suning.com#@##topAd
 -ad_banner-
 -ad_injector/
 -ad_leaderboard/
+-adblack-
 -adcentre.
 -adchain.
 -adhelper.
@@ -3616,6 +3618,7 @@ suning.com#@##topAd
 /ad/html/*
 /ad/iframe.
 /ad/iframe/*
+/ad/image/*
 /ad/img/*
 /ad/index.
 /ad/index/*
@@ -3646,6 +3649,7 @@ suning.com#@##topAd
 /ad/skin_
 /ad/skyscraper.
 /ad/skyscrapper.
+/ad/spacer.
 /ad/sponsored-
 /ad/sponsors/*
 /ad/superbanner.
@@ -3679,6 +3683,7 @@ suning.com#@##topAd
 /ad1x1home.
 /ad2.
 /ad2/index.
+/ad2/res/*
 /ad2010.
 /ad234.
 /ad247realmedia/*
@@ -4240,6 +4245,7 @@ suning.com#@##topAd
 /adition.
 /adixs.
 /adj.php?
+/adjk.
 /adjs.
 /adjs_
 /adjsmp.
@@ -4577,6 +4583,7 @@ suning.com#@##topAd
 /ads/generator/*
 /ads/google1.
 /ads/google2.
+/ads/google_
 /ads/gpt/*
 /ads/header-
 /ads/header_
@@ -4666,6 +4673,7 @@ suning.com#@##topAd
 /ads/sidedoor/*
 /ads/skins/*
 /ads/sky_
+/ads/spacer.
 /ads/sponsor
 /ads/square-
 /ads/square.
@@ -5450,6 +5458,7 @@ suning.com#@##topAd
 /as_u/ads/*
 /aseadnshow.
 /aspbanner_inc.asp?
+/asset/ad/*
 /assets/ad-
 /assets/ad/*
 /assets/ads/*
@@ -5919,6 +5928,7 @@ suning.com#@##topAd
 /direct_ads.
 /directads.
 /directadvert.
+/discuss_ad/*
 /DispAd_
 /display-ad/*
 /display-ads-
@@ -6318,6 +6328,7 @@ suning.com#@##topAd
 /graphics/ad_
 /graphics/ads/*
 /grid-ad.
+/groupon/ads/*
 /gt6skyadtop.
 /guardianleader.
 /gujAd.
@@ -6876,7 +6887,7 @@ suning.com#@##topAd
 /overlay_advertisement/*
 /overlayad.
 /overlayads.
-/overture.$script
+/overture.$script,stylesheet
 /overture/*$script,subdocument
 /overture_
 /ovt_show.asp?
@@ -7282,6 +7293,7 @@ suning.com#@##topAd
 /showad/*
 /showAd300.
 /showad_
+/showadjs.
 /showads.
 /showads/*
 /showads_
@@ -7964,6 +7976,7 @@ _ad.gif|
 _ad.jsp?
 _ad.php?
 _ad/full_
+_ad/section_
 _ad01.
 _ad1.$~stylesheet
 _ad103.
@@ -8990,6 +9003,7 @@ _popunder+$popup
 ###AD-HOME-LEFT
 ###AD1line
 ###AD2line
+###AD300_VAN
 ###AD300x250
 ###AD300x600
 ###ADEXPERT_PUSHDOWN
@@ -10391,6 +10405,7 @@ _popunder+$popup
 ###ad_bottom_article_text
 ###ad_bottombrandtext
 ###ad_box
+###ad_box02
 ###ad_box160a
 ###ad_box_2
 ###ad_box_ad_0
@@ -10928,6 +10943,8 @@ _popunder+$popup
 ###adrightbottom
 ###adrighthome
 ###adrightrail
+###adriver_middle
+###adriver_top
 ###adrotate_widgets-3
 ###adrotate_widgets-4
 ###adrotate_widgets-5
@@ -11033,6 +11050,7 @@ _popunder+$popup
 ###adsBox-460_left
 ###adsBox-dynamic-right
 ###adsBoxResultsPage
+###adsCTN
 ###adsContainer
 ###adsContent
 ###adsDisplay
@@ -11057,6 +11075,7 @@ _popunder+$popup
 ###adsPanel
 ###adsProdHighlight_wrap
 ###adsSPRBlock
+###adsSuperCTN
 ###adsTop
 ###adsTopLeft
 ###adsZone1
@@ -11138,6 +11157,8 @@ _popunder+$popup
 ###ads_sponsFeed-headline
 ###ads_sponsFeed-left
 ###ads_sponsored_link_pixel
+###ads_superbanner1
+###ads_superbanner2
 ###ads_superior
 ###ads_td
 ###ads_text
@@ -12558,6 +12579,7 @@ _popunder+$popup
 ###dfrads-widget-6
 ###dfrads-widget-7
 ###dhm-bar
+###dict-adv
 ###direct-ad
 ###disable-ads-container
 ###displayAdSet
@@ -13012,6 +13034,7 @@ _popunder+$popup
 ###headAdv
 ###headGoogleAffiliateLinkblock
 ###head_ad
+###head_ad_area
 ###head_ads
 ###head_advert
 ###headad
@@ -14701,6 +14724,7 @@ _popunder+$popup
 ###topBannerAd
 ###topBannerAdContainer
 ###topContentAdTeaser
+###topImgAd
 ###topLeaderAdAreaPageSkin
 ###topMPU
 ###topNavLeaderboardAdHolder
@@ -15038,6 +15062,8 @@ _popunder+$popup
 ##.ADPod
 ##.ADTextSingle
 ##.AD_2
+##.AD_300x100
+##.AD_300x250
 ##.AD_300x265
 ##.AD_302x252
 ##.AD_ALBUM_ITEMLIST
@@ -15178,6 +15204,7 @@ _popunder+$popup
 ##.BGoogleAds300
 ##.Banner300x250
 ##.Banner468X60
+##.BannerAD728
 ##.BannerAd
 ##.BigBoxAd
 ##.BigBoxAdLabel
@@ -15529,6 +15556,7 @@ _popunder+$popup
 ##.ad-block-wide
 ##.ad-blog2biz
 ##.ad-blogads
+##.ad-board
 ##.ad-body
 ##.ad-boombox
 ##.ad-border
@@ -16959,6 +16987,7 @@ _popunder+$popup
 ##.adright300
 ##.adrightsm
 ##.adrighttop
+##.adriverBanner
 ##.adroot
 ##.adrotate_widget
 ##.adrow
@@ -17576,6 +17605,7 @@ _popunder+$popup
 ##.adv-p
 ##.adv-search-ad
 ##.adv-sidebar
+##.adv-x61
 ##.adv300
 ##.adv300-250
 ##.adv300-250-2
@@ -17967,6 +17997,7 @@ _popunder+$popup
 ##.advt300
 ##.advt720
 ##.advtBlock
+##.advt_160x600
 ##.advt_468by60px
 ##.advt_indieclick
 ##.advt_single
@@ -18442,6 +18473,8 @@ _popunder+$popup
 ##.box-advert
 ##.box-advert-sponsored
 ##.box-adverts
+##.box-google-text-ad
+##.box-recommend-ad
 ##.boxAd
 ##.boxAdContainer
 ##.boxAdFields
@@ -18851,6 +18884,8 @@ _popunder+$popup
 ##.divRepAd
 ##.divSponsoredBox
 ##.divSponsoredLinks
+##.divTopADBanner
+##.divTopADBannerWapper
 ##.div_adv300
 ##.div_adv620
 ##.div_adv728
@@ -18926,6 +18961,7 @@ _popunder+$popup
 ##.entryad
 ##.eol-ads
 ##.exec-advert-flash
+##.expanding-ad
 ##.external-add
 ##.extrasColumnFuseAdLocal
 ##.ez-ad
@@ -19795,6 +19831,7 @@ _popunder+$popup
 ##.lsn-yahooAdBlock
 ##.lt_ad_call
 ##.luxeAd
+##.m-ad
 ##.m-ad-tvguide-box
 ##.m-sponsored
 ##.m4-adsbygoogle
@@ -19890,6 +19927,8 @@ _popunder+$popup
 ##.merchantAdsBoxColRight
 ##.messageBoardAd
 ##.message_ads
+##.metaRedirectWrapperBottomAds
+##.metaRedirectWrapperTopAds
 ##.meta_ad
 ##.metaboxType-sponsor
 ##.mf-ad300-container
@@ -20220,6 +20259,7 @@ _popunder+$popup
 ##.pane-ad-manager-right1
 ##.pane-ads
 ##.pane-frontpage-ad-banner
+##.pane-frontpage-ad-banner-hk
 ##.pane-openx
 ##.pane-site-ads
 ##.pane-sponsored-links
@@ -21587,6 +21627,7 @@ _popunder+$popup
 ##.wideadbox
 ##.widget-ad
 ##.widget-ad-codes
+##.widget-ad-sky
 ##.widget-ad-zone
 ##.widget-ad300x250
 ##.widget-ads
@@ -21791,6 +21832,7 @@ _popunder+$popup
 ##a[href^="http://mgid.com/"]
 ##a[href^="http://n.admagnet.net/"]
 ##a[href^="http://pubads.g.doubleclick.net/"]
+##a[href^="http://ryushare.com/affiliate.python"]
 ##a[href^="http://secure.hostgator.com/~affiliat/"]
 ##a[href^="http://secure.signup-page.com/"]
 ##a[href^="http://secure.signup-way.com/"]
@@ -21851,6 +21893,7 @@ _popunder+$popup
 ##a[href^="http://www1.clickdownloader.com/"]
 ##a[href^="http://wxdownloadmanager.com/dl/"]
 ##a[href^="http://xads.zedo.com/"]
+##a[href^="http://zevera.com/afi.html"]
 ##a[href^="https://coinbase.com/?r="]
 ##a[href^="https://secure.eveonline.com/ft/?aid="]
 ##a[href^="https://www.share-online.biz/affiliate/"]
@@ -21978,6 +22021,7 @@ _popunder+$popup
 ||888promos.com^$third-party
 ||8yxupue8.com^$third-party
 ||97d73lsi.com^$third-party
+||9ts3tpia.com^$third-party
 ||a-ads.com^$third-party
 ||a-static.com^$third-party
 ||a.raasnet.com^$third-party
@@ -22255,6 +22299,7 @@ _popunder+$popup
 ||adsnext.net^$third-party
 ||adsonar.com^$third-party
 ||adsovo.com^$third-party
+||adspaper.org^$third-party
 ||adspdbl.com^$third-party
 ||adspeed.com^$third-party
 ||adspirit.de^$third-party
@@ -22639,6 +22684,7 @@ _popunder+$popup
 ||cash4members.com^$third-party
 ||cashatgsc.com^$third-party
 ||cashmylinks.com^$third-party
+||cashonvisit.com^$third-party
 ||cashtrafic.com^$third-party
 ||cashtrafic.info^$third-party
 ||cashworld.biz^$third-party
@@ -23313,6 +23359,7 @@ _popunder+$popup
 ||jemmgroup.com^$third-party
 ||jiwire.com^$third-party
 ||jizzontoy.com^$third-party
+||jo7cofh3.com^$third-party
 ||jobat.be^$third-party
 ||jobsyndicate.com^$third-party
 ||jobtarget.com^$third-party
@@ -23592,6 +23639,7 @@ _popunder+$popup
 ||netsolads.com^$third-party
 ||networkplay.in^$third-party
 ||networkxi.com^$third-party
+||networld.hk^$third-party
 ||networldmedia.net^$third-party
 ||neudesicmediagroup.com^$third-party
 ||newgentraffic.com^$third-party
@@ -23612,6 +23660,7 @@ _popunder+$popup
 ||northmay.com^$third-party
 ||nowlooking.net^$third-party
 ||nowspots.com^$third-party
+||nplexmedia.com^$third-party
 ||npvos.com^$third-party
 ||nrnma.com^$third-party
 ||nscontext.com^$third-party
@@ -23829,6 +23878,7 @@ _popunder+$popup
 ||publisher.to^$third-party
 ||publisheradnetwork.com^$third-party
 ||pubmatic.com^$third-party
+||pubserve.net^$third-party
 ||pulse360.com^$third-party
 ||pulsemgr.com^$third-party
 ||purpleflag.net^$third-party
@@ -24048,6 +24098,7 @@ _popunder+$popup
 ||sponsoredtweets.com^$third-party
 ||sponsormob.com^$third-party
 ||sponsorpalace.com^$third-party
+||sponsorpay.com^$third-party
 ||sportsyndicator.com^$third-party
 ||spotrails.com^$third-party
 ||spotscenered.info^$third-party
@@ -24490,6 +24541,7 @@ _popunder+$popup
 -social-tracking.
 -tracking.js?
 -xtcore.js
+.asis?Log=
 .au/1x1.gif?
 .beacon.min.js
 .cn/b.gif?
@@ -24549,6 +24601,7 @@ _popunder+$popup
 .GoogleAnalytics/
 .gov/stat?
 .html?wpl=
+.jsp/?Log=
 .net/c.gif?
 .net/HG?hc=&hb=
 .net/p.gif?
@@ -24656,6 +24709,7 @@ _popunder+$popup
 /aftrack.
 /aftrackingplugin.swf
 /aggbug.aspx?
+/ajax-hits-counter/*
 /ajaxClicktrack.
 /ajaxlog?
 /ajaxservice.svc/registersession?session_id=
@@ -25135,6 +25189,7 @@ _popunder+$popup
 /fkounter5/*
 /flash-stats.php?
 /flashtag.txt?Log=
+/flcounter/*$script
 /flv_tracking.
 /fora_player_tracking.
 /foresee/*
@@ -25375,6 +25430,7 @@ _popunder+$popup
 /Impressions/aolukdp.imp?
 /impressions3.asp?
 /impressions?
+/ImpressionsEvent.js
 /in.cgi?*http
 /in.getclicky.com/*
 /include/js/ga-
@@ -26527,7 +26583,9 @@ _global_analytics_
 _google_analytics.
 _googleAnalytics.
 _googleAnalytics_
+_hptag.asis?
 _i2a.js
+_imp?Log=
 _imp_logging?
 _impressions.gif?
 _logimpressions.
@@ -26595,7 +26653,6 @@ http://utm.
 ||vdoing.com^$third-party
 ||wrating.com^$third-party
 ! *** easylist:easyprivacy/easyprivacy_thirdparty_international.txt ***
-||116.213.75.36/logstat/$domain=~caixin.com.ip
 ||alipay.com/common/um/lsa.swf
 ||baidu.com/cpro/ui/c.js
 ||baidu.com/cpro/ui/f.js
@@ -26681,6 +26738,7 @@ http://utm.
 ||narutom.com/stat.js
 ||nsclick.baidu.com^
 ||nstat.tudou.com^
+||on.cc^*/checkrev.gif?
 ||pan.baidu.com/api/analytics?
 ||pingback.sogou.com^
 ||pingjs.qq.com^
@@ -26727,6 +26785,9 @@ http://utm.
 ||wenku.baidu.com/tongji/
 ||wumii.com/images/pixel.png
 ||xnimg.cn^*/beacon.js
+||youdao.com/cf.gif?
+||youdao.com/imp/cac.js
+||youdao.com/rlog.js
 ||youku.com/compvlog?
 ! *** easylist:easyprivacy/easyprivacy_whitelist_international.txt ***
 @@||hm.baidu.com/h.js?$domain=weaku.com
