@@ -201,6 +201,7 @@
 ||artxun.com^$third-party
 ||at918.com^$third-party
 ||advooe.com^$third-party
+||mobads.baidu.com^$third-party
 ||baitaiad.com^$third-party
 ||baizoon.com^$third-party
 ||bbs66shun.com^$third-party
@@ -472,6 +473,7 @@
 ||wanliuliang.com^$third-party
 ||wauee.com^$third-party
 ||xdwan.com^$third-party
+||phone.waystorm.com^$third-party
 ||web933.com^$third-party
 ||whoclick.cn^$third-party
 ||wiseie.com^$third-party

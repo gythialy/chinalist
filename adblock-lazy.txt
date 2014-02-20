@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: yrRR8vM8a+YMUMCaKsltGg
+!  Checksum: 9ljf4jJz2phJdgfIxfsMlg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 20 Feb 2014 16:53:46 +0800
+!  Last Modified:  Thu, 20 Feb 2014 19:12:57 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -215,6 +215,7 @@
 ||artxun.com^$third-party
 ||at918.com^$third-party
 ||advooe.com^$third-party
+||mobads.baidu.com^$third-party
 ||baitaiad.com^$third-party
 ||baizoon.com^$third-party
 ||bbs66shun.com^$third-party
@@ -486,6 +487,7 @@
 ||wanliuliang.com^$third-party
 ||wauee.com^$third-party
 ||xdwan.com^$third-party
+||phone.waystorm.com^$third-party
 ||web933.com^$third-party
 ||whoclick.cn^$third-party
 ||wiseie.com^$third-party
@@ -3621,6 +3623,7 @@ suning.com#@##topAd
 /ad/index/*
 /ad/inline?
 /ad/integral-
+/ad/jsonp/*
 /ad/leaderboard.
 /ad/load_
 /ad/log/*
@@ -9327,6 +9330,7 @@ _popunder+$popup
 ###GoogleRelatedAds
 ###GoogleSponsored
 ###Google_Adsense_Main
+###HALExchangeAds
 ###HALHouseAd
 ###HB_News-ad
 ###HEADERAD
@@ -9351,6 +9355,7 @@ _popunder+$popup
 ###HouseAdInsert
 ###ID_Ad_Sky
 ###IM_AD
+###IN_HOUSE_AD_SWITCHER_0
 ###IframeAdBannerSmallContainer
 ###ImageRotaAreaAD
 ###IslandAd_DeferredAdSpacediv
@@ -9497,6 +9502,7 @@ _popunder+$popup
 ###YahooSponsoredResults
 ###_ads
 ###abHeaderAdStreamer
+###ab_adblock
 ###about_adsbottom
 ###above-comments-ad
 ###above-footer-ads
@@ -10039,6 +10045,7 @@ _popunder+$popup
 ###adFrame
 ###adFtofrs
 ###adGallery
+###adGmWidget
 ###adGoogleText
 ###adGroup1
 ###adGroup4
@@ -10203,6 +10210,7 @@ _popunder+$popup
 ###adSpotIsland
 ###adSpotIslandLarge
 ###adSpotSponsoredLinks
+###adSpotholder-EGN
 ###adSpotlightSquare1
 ###adSqb
 ###adSquare
@@ -10765,6 +10773,7 @@ _popunder+$popup
 ###adblockbottom
 ###adblockerwarnung
 ###adblockrighta
+###adblocktop
 ###adblocktwo
 ###adbn
 ###adbnr
@@ -11441,6 +11450,7 @@ _popunder+$popup
 ###adv_banner_sidebar
 ###adv_border
 ###adv_box_a
+###adv_center
 ###adv_config
 ###adv_google_300
 ###adv_google_728
@@ -11892,6 +11902,7 @@ _popunder+$popup
 ###banner_adsense
 ###banner_advertisement
 ###banner_content_ad
+###banner_sedo
 ###banner_slot
 ###banner_spacer
 ###banner_topad
@@ -11927,7 +11938,13 @@ _popunder+$popup
 ###bg_YieldManager-160x600
 ###bg_YieldManager-300x250
 ###bg_YieldManager-728x90
+###bg_banner_120x600
+###bg_banner_468x60
+###bg_banner_728x90
 ###bgad
+###bh_adFrame_ag_300x250_atf
+###bh_adFrame_bh_300x250_atf
+###bh_adFrame_bh_300x250_btf
 ###big-box-ad
 ###bigAd
 ###bigAd1
@@ -11989,6 +12006,7 @@ _popunder+$popup
 ###block-thewrap_ads_250x300-6
 ###block-thewrap_ads_250x300-7
 ###block-views-sidebar-ad
+###block-views-sponsor-block
 ###blockAd
 ###blockAds
 ###block_ad
@@ -12022,6 +12040,9 @@ _popunder+$popup
 ###blox-tile-ad
 ###blox-tower-ad
 ###bn_ad
+###bnr-300x250
+###bnr-468x60
+###bnr-728x90
 ###bnrAd
 ###bnrhd468
 ###body-ads
@@ -12045,6 +12066,7 @@ _popunder+$popup
 ###bottom-ad-wrapper
 ###bottom-ads
 ###bottom-adspot
+###bottom-article-ad-336x280
 ###bottom-banner-spc
 ###bottom-boxad
 ###bottom-side-ad
@@ -12170,6 +12192,7 @@ _popunder+$popup
 ###c4ad-Top-parent
 ###c_ad_sb
 ###c_ad_sky
+###c_sponsoredSquare
 ###caAdLarger
 ###carbonads-container
 ###catad
@@ -12438,6 +12461,8 @@ _popunder+$popup
 ###ctl_bottom_ad1
 ###ctr-ad
 ###ctrlsponsored
+###ctx_listing_ads
+###ctx_listing_ads2
 ###cubeAd
 ###cube_ad
 ###cube_ads
@@ -12631,6 +12656,7 @@ _popunder+$popup
 ###div_ad_leaderboard
 ###div_content_mid_lft_ads
 ###div_googlead
+###div_header_sponsors
 ###div_prerollAd_1
 ###div_side_big_ad
 ###div_video_ads
@@ -12646,6 +12672,9 @@ _popunder+$popup
 ###dnn_ad_banner
 ###dnn_ad_skyscraper
 ###dnn_ad_sponsored_links
+###dnn_banner_120x600
+###dnn_banner_486x60
+###dnn_ctl00_Ad2Pane
 ###dnn_dnn_dartBanner
 ###dnn_googleAdsense_a
 ###dnn_playerAd
@@ -12976,6 +13005,7 @@ _popunder+$popup
 ###googleads1
 ###googleads_h_injection
 ###googleads_mpu_injection
+###googleadsense
 ###googleadsense300x250
 ###googleadsrc
 ###googleadstop
@@ -13011,6 +13041,7 @@ _popunder+$popup
 ###half-page-ad
 ###halfPageAd
 ###halfe-page-ad-box
+###hb-header-ad
 ###hd-ads
 ###hd-banner-ad
 ###hd_ad
@@ -13058,6 +13089,7 @@ _popunder+$popup
 ###header-advertisement
 ###header-advertising
 ###header-adverts
+###header-banner-728-90
 ###header-banner-ad
 ###header-banner-spc
 ###header-google
@@ -13305,6 +13337,7 @@ _popunder+$popup
 ###internalads
 ###interstitialAd
 ###interstitialAdContainer
+###interstitialAdUnit
 ###interstitial_ad
 ###interstitial_ad_container
 ###interstitial_ad_wrapper
@@ -13732,6 +13765,8 @@ _popunder+$popup
 ###newPostProfileAd
 ###newPostProfileVerticalAd
 ###newTopAds
+###new_ad_728_90
+###new_ad_header
 ###new_topad
 ###newadmpu
 ###newads
@@ -13767,6 +13802,7 @@ _popunder+$popup
 ###oas_Right2
 ###oas_Top
 ###oas_Top1
+###oas_asponsor
 ###oas_wide_skyscraper
 ###ob_sponsoredcontent
 ###oba_message
@@ -14142,6 +14178,7 @@ _popunder+$popup
 ###rtm_html_920
 ###rtmm_right_ad
 ###rtmod_ad
+###rtn_ad_160x600
 ###rubicsTextAd
 ###rxgcontent
 ###rxgfooter
@@ -14250,6 +14287,7 @@ _popunder+$popup
 ###sideBannerAd
 ###sideBar-ads
 ###sideBarAd
+###sideSponsors
 ###side_ad
 ###side_ad_call
 ###side_ad_container_A
@@ -14294,8 +14332,11 @@ _popunder+$popup
 ###sidebar-adv
 ###sidebar-advertise-text
 ###sidebar-advertisement
+###sidebar-banner300
 ###sidebar-left-ad
 ###sidebar-long-advertise
+###sidebar-post-120x120-banner
+###sidebar-post-300x250-banner
 ###sidebar-scroll-ad-container
 ###sidebar-sponsor-link
 ###sidebar-sponsors
@@ -14334,6 +14375,7 @@ _popunder+$popup
 ###sidebard-ads-wrapper
 ###sidebargooglead
 ###sidebargoogleads
+###sidebarrectad
 ###sideline-ad
 ###sidepad-ad
 ###single-ad
@@ -14516,6 +14558,8 @@ _popunder+$popup
 ###sponsors-block
 ###sponsorsBox
 ###sponsorsContainer
+###sponsors_right_container
+###sponsors_top_container
 ###sponsorsads1
 ###sponsorsads2
 ###sponsorship-box
@@ -14689,6 +14733,7 @@ _popunder+$popup
 ###top-left-ad
 ###top-right-ad
 ###top-search-ad-wrapper
+###top-sidebar-ad-300x250
 ###top-story-ad
 ###top100_ad300right
 ###top100_ad300rightbottom
@@ -16031,6 +16076,7 @@ _popunder+$popup
 ##.ad728x90WithLabel
 ##.ad728x90_container
 ##.ad728x90box
+##.ad728x90btf
 ##.ad768x90
 ##.ad90
 ##.ad90x780
@@ -16080,6 +16126,7 @@ _popunder+$popup
 ##.adBlock_2
 ##.adBlock_3
 ##.adBodyBlockBottom
+##.adBorder
 ##.adBorders
 ##.adBottomBoard
 ##.adBottomLink
@@ -16554,11 +16601,13 @@ _popunder+$popup
 ##.ad_header
 ##.ad_header_lb
 ##.ad_header_left
+##.ad_header_noad
 ##.ad_heading
 ##.ad_headline
 ##.ad_help_link
 ##.ad_holder
 ##.ad_home_block
+##.ad_honcode_label
 ##.ad_hpm
 ##.ad_hyper_wrap
 ##.ad_identifier
@@ -17042,6 +17091,8 @@ _popunder+$popup
 ##.ads-by
 ##.ads-by-google-0
 ##.ads-card
+##.ads-cars-larger
+##.ads-cars-top2
 ##.ads-categories-bsa
 ##.ads-col
 ##.ads-content
@@ -18181,12 +18232,14 @@ _popunder+$popup
 ##.banner-adverts
 ##.banner-buysellads
 ##.banner-rectangleMedium
+##.banner-sidebar-300x250
 ##.banner-top-banner-728x90
 ##.banner1-728x90
 ##.banner120x600
 ##.banner125x125
 ##.banner160
 ##.banner160x600
+##.banner250_250
 ##.banner300
 ##.banner300by250
 ##.banner300x100
@@ -21418,6 +21471,7 @@ _popunder+$popup
 ##.top_ad_disclaimer
 ##.top_ad_div
 ##.top_ad_holder
+##.top_ad_inner
 ##.top_ad_label
 ##.top_ad_list
 ##.top_ad_long
@@ -21665,6 +21719,7 @@ _popunder+$popup
 ##.widget_sdac_footer_ads_widget
 ##.widget_sdac_skyscraper_ad_widget
 ##.widget_sdac_top_ad_widget
+##.widget_sej_sidebar_ad
 ##.widget_sidebaradwidget
 ##.widget_sponsored_content
 ##.widget_uds-ads
@@ -21794,6 +21849,7 @@ _popunder+$popup
 ##a[href^="http://adultfriendfinder.com/p/register.cgi?pid="]
 ##a[href^="http://affiliate.coral.co.uk/processing/"]
 ##a[href^="http://affiliate.glbtracker.com/"]
+##a[href^="http://affiliate.godaddy.com/"]
 ##a[href^="http://amzn.to/"] > img[src^="data"]
 ##a[href^="http://api.ringtonematcher.com/"]
 ##a[href^="http://bonusfapturbo.nmvsite.com/"]
@@ -22835,6 +22891,7 @@ _popunder+$popup
 ||crispads.com^$third-party
 ||criteo.com^$third-party
 ||criteo.net^$third-party
+||crowdgatheradnetwork.com^$third-party
 ||crowdgravity.com^$third-party
 ||cruiseworldinc.com^$third-party
 ||ctasnet.com^$third-party
@@ -24316,6 +24373,7 @@ _popunder+$popup
 ||vectorstock.com^$third-party
 ||vellde.com^$third-party
 ||velmedia.net^$third-party
+||velti.com^$third-party
 ||vemba.com^$third-party
 ||veoxa.com^$third-party
 ||versahq.com^$third-party
@@ -24387,6 +24445,7 @@ _popunder+$popup
 ||wfnetwork.com^$third-party
 ||wgreatdream.com^$third-party
 ||wh5kb0u4.com^$third-party
+||where.com^$third-party
 ||whtsrv9.com^$third-party
 ||why-outsource.net^$third-party
 ||widgetadvertising.biz^$third-party

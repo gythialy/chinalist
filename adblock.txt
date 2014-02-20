@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: jwcbDDnGwjp3mEvFGwD/WA
+!  Checksum: Yq9CufwMAk7satbdQjHXVg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 20 Feb 2014 16:53:41 +0800
+!  Last Modified:  Thu, 20 Feb 2014 19:12:45 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -215,6 +215,7 @@
 ||artxun.com^$third-party
 ||at918.com^$third-party
 ||advooe.com^$third-party
+||mobads.baidu.com^$third-party
 ||baitaiad.com^$third-party
 ||baizoon.com^$third-party
 ||bbs66shun.com^$third-party
@@ -486,6 +487,7 @@
 ||wanliuliang.com^$third-party
 ||wauee.com^$third-party
 ||xdwan.com^$third-party
+||phone.waystorm.com^$third-party
 ||web933.com^$third-party
 ||whoclick.cn^$third-party
 ||wiseie.com^$third-party
