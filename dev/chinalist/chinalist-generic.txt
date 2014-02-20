@@ -2,7 +2,6 @@
 /adfiles/*
 /adflash/*
 /adimage/*
-/adjk.php^
 /adjs/*
 @@||zerodm.net/js/ads/zxdmxz.js
 /adphoto/*
@@ -11,7 +10,6 @@
 /adpshow.
 /adpuba/*
 /adservice/*
-/adv.
 .org/adv/
 /advpic/*
 /attachments/ad/*

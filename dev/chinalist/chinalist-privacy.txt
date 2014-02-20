@@ -13,7 +13,6 @@
 
 !---S
 ||tv.sohu.com/upload/trace/
-||count.vrs.sohu.com^
 
 !---P
 .gif?id=$domain=people.com.cn

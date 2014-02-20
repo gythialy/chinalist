@@ -43,7 +43,6 @@ freegroup.org##div[style^="width:336px; height:280px;"]
 freehao123.com##.box
 freehao123.com###jieweigg
 ftchinese.com###story_main_mpu
-ftchinese.com###topadcontainer
 fun698.com##table[width="958"]
 fun698.com##table[width="960"]
 gamebase.com.tw###ad118_728
