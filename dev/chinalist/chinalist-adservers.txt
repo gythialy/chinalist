@@ -157,6 +157,7 @@
 ||99ddd.com^$third-party
 ||9buo.com^$third-party
 ||9ead.com^$third-party
+||9w1an.com^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
 ||a3p4.com^$third-party
