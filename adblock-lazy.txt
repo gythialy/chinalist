@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: p43P98Y1IEc5deSmSNzSBw
+!  Checksum: RonR4yKfbkHX3mabsbZqXg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 22 Feb 2014 20:07:39 +0800
+!  Last Modified:  Sun, 23 Feb 2014 19:31:07 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -539,6 +539,7 @@
 ||zhanzhang.net^$third-party
 ||zhiad.com^$third-party
 ||zwads.com^$third-party
+||zytwq.net^$third-party
 !*** chinalist-anti-social.txt ***
 !---A
 ||addthis.com^$third-party
@@ -3192,6 +3193,7 @@ suning.com#@##topAd
 -webad1.
 .1d/ads/
 .a3s?n=*&zone_id=
+.ace.advertising.
 .ad-cloud.
 .ad-traffic.
 .ad.final.
@@ -3208,6 +3210,7 @@ suning.com#@##topAd
 .adresult.
 .adriver.$~object-subrequest
 .adru.
+.ads-and-tracking.
 .ads-lazy.
 .ads-tool.
 .ads.darla.
@@ -3451,6 +3454,7 @@ suning.com#@##topAd
 /_js2/oas.
 /_scripts/_oas/*
 /_svc/ad/*
+/a/ads/*
 /a1/*?sub=$third-party
 /a2/?sub=$third-party
 /a2/ads/*
@@ -3787,6 +3791,7 @@ suning.com#@##topAd
 /ad_data/*
 /ad_detect.
 /ad_digital.
+/ad_dir/*
 /ad_display.
 /ad_drivers/*
 /ad_editorials_
@@ -5451,8 +5456,9 @@ suning.com#@##topAd
 /anyad.js
 /api/ads/*
 /apopwin.
+/app.ads-
 /app.ads.
-/app/ads.js
+/app/ads.
 /Article-Ad-
 /article_ad.
 /artimediatargetads.
@@ -8295,6 +8301,7 @@ _jtads/
 _juicyads.
 _layerad.
 _leaderboard_ad_
+_left_ad.
 _link_ads-
 _live/ad/
 _logadslot&
@@ -10461,6 +10468,7 @@ _popunder+$popup
 ###ad_container_sidebar
 ###ad_container_top
 ###ad_content
+###ad_content_before_first_para
 ###ad_content_fullsize
 ###ad_content_primary
 ###ad_content_right
@@ -10681,6 +10689,7 @@ _popunder+$popup
 ###ad_skyscraper_1
 ###ad_skyscraper_right
 ###ad_skyscraper_text
+###ad_slot
 ###ad_slot_leaderboard
 ###ad_slot_livesky
 ###ad_slot_right_bottom
@@ -10864,6 +10873,7 @@ _popunder+$popup
 ###adholder
 ###adhome
 ###adhomepage
+###adhzh
 ###adid10601
 ###adid2161
 ###adiframe1_iframe
@@ -13888,6 +13898,7 @@ _popunder+$popup
 ###pcworldAdBottom
 ###pcworldAdTop
 ###pencil-ad
+###pencil-ad-container
 ###perm_ad
 ###pg-ad-160x600
 ###pg-ad-item-160x600
@@ -14636,6 +14647,7 @@ _popunder+$popup
 ###storyAdWrap
 ###story_ad
 ###story_ads
+###story_main_mpu
 ###storyad2
 ###storyblock-ad
 ###style_ad_bottom
@@ -15354,6 +15366,7 @@ _popunder+$popup
 ##.LeftWideSkyscraperAdPanel
 ##.Ligatus
 ##.Loge_AD
+##.LogoandHeaderAdsHome
 ##.LoungeAdsBottomLinks
 ##.M2Advertisement
 ##.MDCadSummary
@@ -16108,6 +16121,7 @@ _popunder+$popup
 ##.ad960
 ##.ad970x30
 ##.ad970x90
+##.ad980
 ##.ad980x50box
 ##.ad987
 ##.adAgate
@@ -16525,6 +16539,7 @@ _popunder+$popup
 ##.ad_biz
 ##.ad_blk
 ##.ad_block
+##.ad_block_1
 ##.ad_block_2
 ##.ad_block_300x250
 ##.ad_block_336
@@ -17182,15 +17197,26 @@ _popunder+$popup
 ##.ads-widget-sponsor-gallery
 ##.ads-zone
 ##.ads01
+##.ads02
 ##.ads03
+##.ads04
+##.ads05
+##.ads06
 ##.ads07
+##.ads08
+##.ads09
 ##.ads1
+##.ads10
 ##.ads1000x100
 ##.ads11
+##.ads12
 ##.ads120_600
 ##.ads120_80
 ##.ads123
 ##.ads125
+##.ads13
+##.ads14
+##.ads15
 ##.ads160
 ##.ads160x600
 ##.ads180x150
@@ -18171,6 +18197,7 @@ _popunder+$popup
 ##.articleAdTopRight
 ##.articleAds
 ##.articleAdsL
+##.articleAdvert
 ##.articleEmbeddedAdBox
 ##.articleFooterAd
 ##.article_ad
@@ -19021,6 +19048,7 @@ _popunder+$popup
 ##.editorial-adsense
 ##.editors-ads
 ##.ehs-adbridge
+##.element-adplace
 ##.em-ad
 ##.em-ads-widget
 ##.em_ad_300x250
@@ -23086,6 +23114,7 @@ _popunder+$popup
 ||doubleclick.net^*/ad/$~object-subrequest,third-party
 ||doubleclick.net^*/adi/$~object-subrequest,third-party
 ||doubleclick.net^*/adj/$~object-subrequest,third-party
+||doubleclick.net^*/pfadx/*_zattoo^$third-party
 ||doubleclick.net^*/pfadx/cmn_complextv/$third-party
 ||doubleclick.net^*/pfadx/ibs.orl.news/$third-party
 ||doubleclick.net^*/pfadx/muzumain/$third-party
@@ -24508,6 +24537,7 @@ _popunder+$popup
 ||wingads.com^$third-party
 ||wlmarketing.com^$third-party
 ||wmmediacorp.com^$third-party
+||wonclick.com^$third-party
 ||wootmedia.net^$third-party
 ||wordbankads.com^$third-party
 ||worlddatinghere.com^$third-party
@@ -24931,6 +24961,7 @@ _popunder+$popup
 /bbtstats/pixel.gif?
 /beacon.cgi?
 /beacon.gif?
+/beacon.js
 /beacon/b.ashx?
 /beacon?
 /beaconimg.php?
@@ -25737,6 +25768,7 @@ _popunder+$popup
 /mngi/tracking/*
 /mobify_ga.gif
 /moduleTracker.
+/monitus.js
 /morega.js
 /mouseover-tracker.
 /mousetrap/mp-embed.
@@ -25873,7 +25905,7 @@ _popunder+$popup
 /pageTracking.js
 /pageView.act
 /pageview.ashx
-/pageview.js
+/pageview.js$third-party
 /pageview;
 /pageviews-counter-
 /pageviews/*
@@ -26789,6 +26821,7 @@ http://utm.
 ||toruk.tanx.com^
 ||track.ra.icast.cn^
 ||tracking.cat898.com^
+||traffic.bokecc.com^
 ||webterren.com/webdig.js?
 ||yigouw.com/c.js
 ! *** easylist:easyprivacy/easyprivacy_specific_international.txt ***
