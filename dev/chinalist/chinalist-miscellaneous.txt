@@ -472,6 +472,7 @@ cnmo.com##div[id*="pop"],div[class*="pop"]
 ||disp.cc/ads_data/
 disp.cc###ads_page_b
 disp.cc###ads_page_r
+disp.cc##.ads_bot_block
 ||dj520.com/js/stj.js
 dj520.com##.a304
 dj520.com##.pal
