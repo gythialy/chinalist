@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: RonR4yKfbkHX3mabsbZqXg
+!  Checksum: Ttuyt3XK8zomt5sZmyKukA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 23 Feb 2014 19:31:07 +0800
+!  Last Modified:  Mon, 24 Feb 2014 18:34:58 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -198,6 +198,7 @@
 ||adsbro.com^$third-party
 ||adszui.com^$third-party
 ||adunioncode.com^$third-party
+||adver.com.tw^$third-party
 ||advprotraffic.com^$third-party
 ||adwww.cn^$third-party
 ||adyeye.com^$third-party
@@ -2056,6 +2057,12 @@ iplaysoft.com##[style="margin:-10px 0 0 0;overflow:hidden"]
 ||download.it168.com/jscript/bubble.js
 it168.com##[id^="ADV"]
 it168.com##.gg
+!---ITHome
+ithome.com.tw###ad-on-top
+ithome.com.tw##.ad-text-in-middle
+ithome.com.tw##[class="span4"]
+ithome.com.tw##.span4:nth-child(5)
+ithome.com.tw##.span4:nth-child(8)
 !---小猪快跑
 ||imanke.com/static/imanke/pigbbs.js
 ||jumpcn.com/show/
@@ -3149,6 +3156,7 @@ suning.com#@##topAd
 -images/ad-
 -img/ads/
 -inspire-ad.
+-intern-ads/
 -layer-ad.
 -layer-ads/
 -leaderboard-ad-
@@ -6479,6 +6487,7 @@ suning.com#@##topAd
 /imagesadspro/*
 /imfloat.
 /img-ads/*
+/img.ads.
 /img/_ad.
 /img/ad-
 /img/ad.
@@ -9521,6 +9530,8 @@ _popunder+$popup
 ###YahooContentAdsContainerForBrowse
 ###YahooSponsoredResults
 ###_ads
+###a_ad10Sp
+###a_ad11Sp
 ###abHeaderAdStreamer
 ###ab_adblock
 ###about_adsbottom
@@ -9890,7 +9901,9 @@ _popunder+$popup
 ###ad1-468x400
 ###ad1-home
 ###ad1006
+###ad10Sp
 ###ad11
+###ad11Sp
 ###ad120x600
 ###ad120x600container
 ###ad120x60_override
@@ -10023,6 +10036,7 @@ _popunder+$popup
 ###adBrandDev
 ###adBreak
 ###adCENTRAL
+###adCTXSp
 ###adChannel
 ###adChoiceFooter
 ###adChoices
@@ -10122,6 +10136,7 @@ _popunder+$popup
 ###adMiddle_imgAd
 ###adMiniPremiere
 ###adMonster1
+###adMpu
 ###adMpuBottom
 ###adNshareWrap
 ###adOne
@@ -10940,6 +10955,7 @@ _popunder+$popup
 ###adplaceholder_mpu01
 ###adplacement
 ###adplacer_preroll1
+###adpos-top
 ###adpos1-leaderboard
 ###adposition
 ###adposition-C
@@ -11411,6 +11427,7 @@ _popunder+$popup
 ###adtech_takeover
 ###adtechbanner728
 ###adtext
+###adtext-top-content
 ###adtop
 ###adtopHeader
 ###adtop_dfp
@@ -12072,6 +12089,10 @@ _popunder+$popup
 ###bnrAd
 ###bnrhd468
 ###body-ads
+###bodyAd1
+###bodyAd2
+###bodyAd3
+###bodyAd4
 ###body_728_ad
 ###body_ad
 ###bodymainAd
@@ -12322,6 +12343,7 @@ _popunder+$popup
 ###containerMrecAd
 ###containerSqAd
 ###container_ad
+###container_top_ad
 ###contener_pginfopop1
 ###content-ad
 ###content-ad-header
@@ -14597,6 +14619,7 @@ _popunder+$popup
 ###sponsorship-box
 ###sponsorshipBadge
 ###sporsored-results
+###sports_only_ads
 ###spotadvert
 ###spotadvert1
 ###spotadvert2
@@ -15915,6 +15938,7 @@ _popunder+$popup
 ##.ad-text
 ##.ad-text-blockA01
 ##.ad-text-blockB01
+##.ad-text-label
 ##.ad-text-links
 ##.ad-textG01
 ##.ad-thanks
@@ -16101,6 +16125,7 @@ _popunder+$popup
 ##.ad650x140
 ##.ad670x83
 ##.ad728
+##.ad72890
 ##.ad728By90
 ##.ad728_90
 ##.ad728_blk
@@ -16110,6 +16135,7 @@ _popunder+$popup
 ##.ad728x90-1
 ##.ad728x90-2
 ##.ad728x90WithLabel
+##.ad728x90_2
 ##.ad728x90_container
 ##.ad728x90box
 ##.ad728x90btf
@@ -17749,11 +17775,13 @@ _popunder+$popup
 ##.adv_banner_hor
 ##.adv_box_narrow
 ##.adv_cnt
+##.adv_default_box_container
 ##.adv_flash
 ##.adv_headerleft
 ##.adv_headerright
 ##.adv_hed
 ##.adv_here
+##.adv_in_body_a
 ##.adv_info_text
 ##.adv_leaderboard
 ##.adv_left
@@ -17840,6 +17868,7 @@ _popunder+$popup
 ##.advert-words
 ##.advert-wrap
 ##.advert120
+##.advert1Banner
 ##.advert2
 ##.advert300
 ##.advert300-home
@@ -18033,6 +18062,7 @@ _popunder+$popup
 ##.advertising-banner
 ##.advertising-block
 ##.advertising-box-top-teaser
+##.advertising-fixed
 ##.advertising-header
 ##.advertising-leaderboard
 ##.advertising-local-links
@@ -18126,6 +18156,7 @@ _popunder+$popup
 ##.adzone-footer
 ##.adzone-sidebar
 ##.afffix-custom-ad
+##.affiliate-footer
 ##.affiliate-link
 ##.affiliate-mrec-iframe
 ##.affiliate-sidebar
@@ -18508,6 +18539,8 @@ _popunder+$popup
 ##.bn_textads
 ##.bnr_ad
 ##.bodaciousad
+##.body-adzone
+##.bodyAd
 ##.body_ad
 ##.body_sponsoredresults_bottom
 ##.body_sponsoredresults_middle
@@ -18980,6 +19013,7 @@ _popunder+$popup
 ##.displayAdCode
 ##.displayAdSlot
 ##.displayAdUnit
+##.displayAds
 ##.display_ad
 ##.div-google-adx
 ##.divAd
@@ -20045,6 +20079,7 @@ _popunder+$popup
 ##.meta_ad
 ##.metaboxType-sponsor
 ##.mf-ad300-container
+##.mgid-wrapper
 ##.micro_ad
 ##.mid-ad-wrapper
 ##.mid-advert
@@ -20447,6 +20482,7 @@ _popunder+$popup
 ##.pop-up-ad
 ##.popadtext
 ##.popunder-adv
+##.popup-ad
 ##.popupAd
 ##.popupAdOuter
 ##.popupAdWrapper
@@ -20600,6 +20636,7 @@ _popunder+$popup
 ##.reklama-vert
 ##.reklama1
 ##.reklame-right-col
+##.reklame-wrapper
 ##.reklamka
 ##.rel_ad_box
 ##.related-ad
@@ -21774,6 +21811,7 @@ _popunder+$popup
 ##.widget_advertisment
 ##.widget_advwidget
 ##.widget_bestgoogleadsense
+##.widget_catchbox_adwidget
 ##.widget_customadvertising
 ##.widget_cxad
 ##.widget_econaabachoadswidget
@@ -21937,6 +21975,7 @@ _popunder+$popup
 ##a[href^="http://down1oads.com/"]
 ##a[href^="http://elitefuckbook.com/"]
 ##a[href^="http://feedads.g.doubleclick.net/"]
+##a[href^="http://fileloadr.com/"]
 ##a[href^="http://fusionads.net"]
 ##a[href^="http://galleries.pinballpublishernetwork.com/"]
 ##a[href^="http://galleries.securewebsiteaccess.com/"]
@@ -25214,6 +25253,7 @@ _popunder+$popup
 /dc-storm/aff.
 /dc-storm/track.
 /dcs.gif?
+/dcs_tag.
 /dcstorm-track.
 /dcstorm.js
 /dcstorm/track.
@@ -26478,6 +26518,7 @@ _popunder+$popup
 /utag.loader-
 /utag.loader.
 /utrack?
+/uvstat.js
 /uxm_tracking.
 /v5.3nse.
 /v52.js

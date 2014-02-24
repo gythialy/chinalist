@@ -184,6 +184,7 @@
 ||adsbro.com^$third-party
 ||adszui.com^$third-party
 ||adunioncode.com^$third-party
+||adver.com.tw^$third-party
 ||advprotraffic.com^$third-party
 ||adwww.cn^$third-party
 ||adyeye.com^$third-party

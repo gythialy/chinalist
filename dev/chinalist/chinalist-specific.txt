@@ -716,6 +716,13 @@ iplaysoft.com##[style="margin:-10px 0 0 0;overflow:hidden"]
 it168.com##[id^="ADV"]
 it168.com##.gg
 
+!---ITHome
+ithome.com.tw###ad-on-top
+ithome.com.tw##.ad-text-in-middle
+ithome.com.tw##[class="span4"]
+ithome.com.tw##.span4:nth-child(5)
+ithome.com.tw##.span4:nth-child(8)
+
 !---小猪快跑
 ||imanke.com/static/imanke/pigbbs.js
 ||jumpcn.com/show/

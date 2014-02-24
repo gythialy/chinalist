@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: XjkRwxGFURCeqtoEy4E1pQ
+!  Checksum: tquYHiL0FdMtPyqITyt5HA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 23 Feb 2014 19:30:55 +0800
+!  Last Modified:  Mon, 24 Feb 2014 18:34:46 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -198,6 +198,7 @@
 ||adsbro.com^$third-party
 ||adszui.com^$third-party
 ||adunioncode.com^$third-party
+||adver.com.tw^$third-party
 ||advprotraffic.com^$third-party
 ||adwww.cn^$third-party
 ||adyeye.com^$third-party
@@ -2003,6 +2004,12 @@ iplaysoft.com##[style="margin:-10px 0 0 0;overflow:hidden"]
 ||download.it168.com/jscript/bubble.js
 it168.com##[id^="ADV"]
 it168.com##.gg
+!---ITHome
+ithome.com.tw###ad-on-top
+ithome.com.tw##.ad-text-in-middle
+ithome.com.tw##[class="span4"]
+ithome.com.tw##.span4:nth-child(5)
+ithome.com.tw##.span4:nth-child(8)
 !---小猪快跑
 ||imanke.com/static/imanke/pigbbs.js
 ||jumpcn.com/show/
