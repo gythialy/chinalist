@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: WDmp9KQR44dbbXV5tuJFBw
+!  Checksum: 9+FatcttLPsAOMzCpHR4nQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 24 Feb 2014 20:45:35 +0800
+!  Last Modified:  Tue, 25 Feb 2014 15:27:04 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2153,6 +2153,12 @@ tw.msn.com###promotionlink
 tw.msn.com###area1 > .ro:nth-child(6)
 news.msn.com.tw###adv_images_l
 news.msn.com.tw##.three
+||upyun.kiees.com/125x125.jpg
+||s.tankr.net/s/$image
+jandan.net###sidebar > h3:nth-of-type(2)
+jandan.net###sidebar > ul:nth-of-type(2)
+jandan.net###sidebar > h3:nth-of-type(3)
+jandan.net###sidebar > ul:nth-of-type(3)
 !---未名空间
 ||jiaoyou8.com^$domain=mitbbs.com
 ||mitbbs.com/ad_
@@ -2993,7 +2999,6 @@ suning.com#@##topAd
 &advtile=
 &adzone=
 &banner_id=
-&bannerid=
 &clicktag=http
 &customSizeAd=
 &expandable_ad_
@@ -11809,6 +11814,7 @@ _popunder+$popup
 ###ap_cu_overlay
 ###ap_cu_wrapper
 ###apiBackgroundAd
+###apiTopAdContainer
 ###apiTopAdWrap
 ###apmNADiv
 ###apolload
@@ -12586,6 +12592,8 @@ _popunder+$popup
 ###dfp-ad-home_1-wrapper
 ###dfp-ad-home_2-wrapper
 ###dfp-ad-home_3-wrapper
+###dfp-ad-homepage_728x90
+###dfp-ad-homepage_728x90-wrapper
 ###dfp-ad-large_rectangle
 ###dfp-ad-large_rectangle-wrapper
 ###dfp-ad-leaderboard
@@ -15786,6 +15794,7 @@ _popunder+$popup
 ##.ad-leaderboard-companion
 ##.ad-leaderboard-container
 ##.ad-leaderboard-marquee
+##.ad-leaderboard_river
 ##.ad-left
 ##.ad-left3
 ##.ad-leftrail
@@ -15794,6 +15803,8 @@ _popunder+$popup
 ##.ad-link-left
 ##.ad-link-right
 ##.ad-links
+##.ad-lower_rec
+##.ad-lower_river
 ##.ad-lrec
 ##.ad-manager-ad
 ##.ad-marker
@@ -15942,6 +15953,7 @@ _popunder+$popup
 ##.ad-text-label
 ##.ad-text-links
 ##.ad-textG01
+##.ad-textads
 ##.ad-thanks
 ##.ad-tile
 ##.ad-tl1
@@ -15973,6 +15985,7 @@ _popunder+$popup
 ##.ad-unit-mpu
 ##.ad-unit-top
 ##.ad-update
+##.ad-upper_rec
 ##.ad-us
 ##.ad-vert
 ##.ad-vertical
@@ -19242,6 +19255,7 @@ _popunder+$popup
 ##.fullbannerad
 ##.fusionAdLink
 ##.future_dfp-inline_ad
+##.fw-mod-ad
 ##.fwAdTags
 ##.g-ad
 ##.g-adblock3
@@ -20878,6 +20892,7 @@ _popunder+$popup
 ##.section-ad-related
 ##.section-ad-wrapper
 ##.section-ad2
+##.section-adtag
 ##.section-advert-banner
 ##.section-aside-ad
 ##.section_ad_left
@@ -20991,6 +21006,9 @@ _popunder+$popup
 ##.sidebar_ads
 ##.sidebar_ads-300x250
 ##.sidebar_ads_336
+##.sidebar_ads_left
+##.sidebar_ads_right
+##.sidebar_ads_title
 ##.sidebar_adsense
 ##.sidebar_advertising
 ##.sidebar_box_ad
@@ -21919,6 +21937,7 @@ _popunder+$popup
 ##.yom-ad-LREC
 ##.yom-ad-LREC3
 ##.yom-ad-MREC2
+##.yom-ad-moneyball
 ##.youradhere
 ##.youtubeSuperLeaderBoardAdHolder
 ##.youtubeSuperLeaderOverallAdArea
@@ -22002,6 +22021,7 @@ _popunder+$popup
 ##a[href^="http://secure.signup-way.com/"]
 ##a[href^="http://t.wowtrk.com/"]
 ##a[href^="http://tour.affbuzzads.com/"]
+##a[href^="http://track.adform.net/"]
 ##a[href^="http://tracking.crazylead.com/"]
 ##a[href^="http://ul.to/ref/"]
 ##a[href^="http://us.marketgid.com"]
