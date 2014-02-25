@@ -31,7 +31,6 @@ steachs.com###banner
 ||54new.com/da/
 ||54new.com/pop_right_bottom/js/msn.js
 ||66ys.*/d/
-||qpic.cn^$domain=7958.com
 ||7edown.com/pic/0601/
 ||7edown.com/upload/yd*.gif
 ||7xdown.com/adgg/

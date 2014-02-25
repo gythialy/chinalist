@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: WOzkJQ4cVx5R/DFlGp0xew
+!  Checksum: hQzSO/0uPumdfHxwXOwqzg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 25 Feb 2014 15:26:40 +0800
+!  Last Modified:  Tue, 25 Feb 2014 16:28:19 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -751,7 +751,6 @@ steachs.com###banner
 ||54new.com/da/
 ||54new.com/pop_right_bottom/js/msn.js
 ||66ys.*/d/
-||qpic.cn^$domain=7958.com
 ||7edown.com/pic/0601/
 ||7edown.com/upload/yd*.gif
 ||7xdown.com/adgg/
@@ -1485,8 +1484,8 @@ jd.com#@#.adwords
 !---千军万马
 @@||baidu.com^$domain=7958.com
 @@||baidustatic.com^$domain=7958.com
+||qpic.cn^$domain=7958.com
 ||7958.com/static/disk/images/tija_gif.gif
-7958.com##[id^="cproIframe"]
 !---8684
 @@||js.973.com/ad/sys_ad_complete.js$domain=8684.cn
 @@||js.973.com/gjs/169.js

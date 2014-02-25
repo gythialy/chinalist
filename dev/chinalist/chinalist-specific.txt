@@ -131,8 +131,8 @@ jd.com#@#.adwords
 !---千军万马
 @@||baidu.com^$domain=7958.com
 @@||baidustatic.com^$domain=7958.com
+||qpic.cn^$domain=7958.com
 ||7958.com/static/disk/images/tija_gif.gif
-7958.com##[id^="cproIframe"]
 
 !---8684
 @@||js.973.com/ad/sys_ad_complete.js$domain=8684.cn
