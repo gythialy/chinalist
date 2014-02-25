@@ -135,7 +135,7 @@ club.tgfcer.com#@##content_adv
 ||i02.youxigu.com/skin/youxigu/img/bg-new.jpg
 
 !---Net Disks
-||static.115img.com/static/115tj.js
+||static.115img.com/static/delivery/
 ||d.119g.com/fanwan/$script
 ||bego.cc/adm.js
 ||bego.cc/img/

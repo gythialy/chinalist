@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: 6sZ6E13JrfbiqC0PAY4Pqg
+!  Checksum: GNC+60iy+njbxXhuoavpQA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 25 Feb 2014 16:28:23 +0800
+!  Last Modified:  Tue, 25 Feb 2014 18:56:49 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -873,7 +873,7 @@ club.tgfcer.com#@##content_adv
 ||wowmovies.cn/img/vda/
 ||i02.youxigu.com/skin/youxigu/img/bg-new.jpg
 !---Net Disks
-||static.115img.com/static/115tj.js
+||static.115img.com/static/delivery/
 ||d.119g.com/fanwan/$script
 ||bego.cc/adm.js
 ||bego.cc/img/
@@ -4553,6 +4553,7 @@ suning.com#@##topAd
 /ads/afc/*
 /ads/aff-
 /ads/as_header.
+/ads/assets/*
 /ads/b/*
 /ads/banner-
 /ads/banner.
@@ -6610,6 +6611,7 @@ suning.com#@##topAd
 /js_ad_utf8.
 /js_ads/*
 /js_ads_
+/js_adv_
 /jsad.php
 /jsad/*
 /jsads-
@@ -10868,6 +10870,8 @@ _popunder+$popup
 ###add720
 ###add_160x600
 ###add_720bottom
+###add_block_ad1
+###add_block_ad2
 ###add_ciao2
 ###add_space_google
 ###add_space_sidebar
@@ -18295,6 +18299,7 @@ _popunder+$popup
 ##.b5_widget_skyscraper_ad
 ##.b5ad_bigbox
 ##.b5ad_skyscraper
+##.b_ad
 ##.b_ads
 ##.b_ads_cont
 ##.b_ads_r
@@ -22337,6 +22342,7 @@ _popunder+$popup
 ||adimpression.net^$third-party
 ||adinch.com^$third-party
 ||adindigo.com^$third-party
+||adinfinity.com.au^$third-party
 ||adinterax.com^$third-party
 ||adiqglobal.com^$third-party
 ||adireland.com^$third-party
@@ -23322,6 +23328,7 @@ _popunder+$popup
 ||freelancer.com^$third-party
 ||freepaidsurveyz.com^$third-party
 ||freerotator.com^$third-party
+||freeskreen.com^$third-party
 ||friendlyduck.com^$third-party
 ||fruitkings.com^$third-party
 ||ftjcfx.com^$third-party
@@ -23357,6 +23364,7 @@ _popunder+$popup
 ||geek2us.net^$third-party
 ||geld-internet-verdienen.net^$third-party
 ||genericlink.com^$third-party
+||genesismedia.com^$third-party
 ||geo-idm.fr^$third-party
 ||geopromos.com^$third-party
 ||geovisite.com^$third-party
@@ -23566,6 +23574,7 @@ _popunder+$popup
 ||justrelevant.com^$third-party
 ||kanoodle.com^$third-party
 ||kantarmedia.com^$third-party
+||kargo.com^$third-party
 ||kavanga.ru^$third-party
 ||keewurd.com^$third-party
 ||kehalim.com^$third-party
@@ -24328,6 +24337,7 @@ _popunder+$popup
 ||swadvertising.org^$third-party
 ||swelen.com^$third-party
 ||switchadhub.com^$third-party
+||swoop.com^$third-party
 ||symbiosting.com^$third-party
 ||syndicatedsearchresults.com^$third-party
 ||tacoda.net^$third-party
@@ -25697,6 +25707,7 @@ _popunder+$popup
 /kejobscounter.
 /Kelkooid?
 /kelkooSponsoredLinks.
+/keywordlogger.
 /kissmetrics.
 /kissmetrics/*
 /KISSmetricsTrackCode.
