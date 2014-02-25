@@ -531,6 +531,7 @@ frdic.com,godic.net###sidebar1
 ||x.itiexue.net/html/$script
 tiexue.net###Baidu_WWW_TopAD4
 tiexue.net##.banner
+||s.tankr.net/s/$script
 @@||img.jb51.net/inc/content.js
 ||img.jb51.net^$script
 jb51.net###liad_list

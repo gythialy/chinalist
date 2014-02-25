@@ -826,14 +826,6 @@ tw.msn.com###area1 > .ro:nth-child(6)
 news.msn.com.tw###adv_images_l
 news.msn.com.tw##.three
 
-!---煎蛋
-||upyun.kiees.com/125x125.jpg
-||s.tankr.net/s/$image
-jandan.net###sidebar > h3:nth-of-type(2)
-jandan.net###sidebar > ul:nth-of-type(2)
-jandan.net###sidebar > h3:nth-of-type(3)
-jandan.net###sidebar > ul:nth-of-type(3)
-
 !---未名空间
 ||jiaoyou8.com^$domain=mitbbs.com
 ||mitbbs.com/ad_

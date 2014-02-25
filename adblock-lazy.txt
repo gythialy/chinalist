@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: GNC+60iy+njbxXhuoavpQA
+!  Checksum: T2qFD0Z5AnVkxpCzKU2LKw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 25 Feb 2014 18:56:49 +0800
+!  Last Modified:  Tue, 25 Feb 2014 23:48:32 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1264,6 +1264,7 @@ frdic.com,godic.net###sidebar1
 ||x.itiexue.net/html/$script
 tiexue.net###Baidu_WWW_TopAD4
 tiexue.net##.banner
+||s.tankr.net/s/$script
 @@||img.jb51.net/inc/content.js
 ||img.jb51.net^$script
 jb51.net###liad_list
@@ -2152,12 +2153,6 @@ tw.msn.com###promotionlink
 tw.msn.com###area1 > .ro:nth-child(6)
 news.msn.com.tw###adv_images_l
 news.msn.com.tw##.three
-||upyun.kiees.com/125x125.jpg
-||s.tankr.net/s/$image
-jandan.net###sidebar > h3:nth-of-type(2)
-jandan.net###sidebar > ul:nth-of-type(2)
-jandan.net###sidebar > h3:nth-of-type(3)
-jandan.net###sidebar > ul:nth-of-type(3)
 !---未名空间
 ||jiaoyou8.com^$domain=mitbbs.com
 ||mitbbs.com/ad_
@@ -20996,6 +20991,7 @@ _popunder+$popup
 ##.sidebarAdNotice
 ##.sidebarAdUnit
 ##.sidebarAds300px
+##.sidebarCloseAd
 ##.sidebarNewsletterAd
 ##.sidebar_ADBOX
 ##.sidebar_ad
