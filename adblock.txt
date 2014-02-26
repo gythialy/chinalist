@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: iuxUslMfFy/5L+a0cbh4YQ
+!  Checksum: Om+W5XJSjpapFCdK30DtSg
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 25 Feb 2014 23:48:21 +0800
+!  Last Modified:  Wed, 26 Feb 2014 14:58:00 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -259,6 +259,7 @@
 ||d1ad.com^$third-party
 ||d9ad.com^$third-party
 ||daoyoudao.com^$third-party
+||dian500.com^$third-party
 ||dian5000.com^$third-party
 ||diangao.com^$third-party
 ||diankee.com^$third-party
@@ -506,6 +507,7 @@
 ||xiaoangel.com^$third-party
 ||xixianad.com^$third-party
 ||xp3366.com^$third-party
+||xp9365.com^$third-party
 ||xq12.com^$third-party
 ||xsu.cc^$third-party
 ||xt918.com^$third-party
@@ -532,6 +534,7 @@
 ||ysm-advertising.tw^$third-party
 ||ytunion.com^$third-party
 ||yuunion.com^$third-party
+||yx4449.com^$third-party
 ||yxcpm.com^$third-party
 ||yy32.com^$third-party
 ||zdy.cc^$third-party
