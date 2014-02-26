@@ -8,4 +8,4 @@ echo "Combine ChinaList Anti Social"
 mono ABPUtils.exe -b -i=chinalist/chinalist-anti-social.txt -o=../adblock-anti-social.txt
 echo "Combine ChinaList Lazy"
 mono ABPUtils.exe -m -i=chinalist/ -o=../adblock-lazy.txt -patch
-read -n1 -p "Press any key to continue...\n"
+
