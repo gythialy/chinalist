@@ -30,6 +30,7 @@ shuhe.cc#@#.ad960
 wired.tw#@#.header_ad
 wired.tw#@#.sidebar_ads
 wired.tw#@#.top-content-adplace
+xuduba.com#@#.ad980
 !---Shopping websites
 @@||a.banggo.com/Ad/getAdPosList.shtml
 @@/adbanner/*$image,domain=books.com.tw
