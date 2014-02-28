@@ -505,9 +505,9 @@ enet.com.cn##[class^="ad"]
 !---ETtoday
 ||msg.ettoday.net^
 ||ettoday.travelrich.com^
-ettoday.net##a[href^="http://ad.ettoday.net/adclick.php?"]
-ettoday.net##.customizeline
+ettoday.net###for-ec
 ettoday.net###ticker_3
+ettoday.net##.ec_menu
 
 !---粉酷多
 /pagead/*$domain=fankudo.com

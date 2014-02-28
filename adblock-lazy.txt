@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: 5T/efqRxufyoqqh1mURN8g
+!  Checksum: wP8PFeAXsMvZo+9wjqrBpg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 28 Feb 2014 15:15:02 +0800
+!  Last Modified:  Fri, 28 Feb 2014 15:59:25 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1877,9 +1877,9 @@ enet.com.cn##[class^="ad"]
 !---ETtoday
 ||ettoday.travelrich.com^
 ||msg.ettoday.net^
+ettoday.net###for-ec
 ettoday.net###ticker_3
-ettoday.net##.customizeline
-ettoday.net##a[href^="http://ad.ettoday.net/adclick.php?"]
+ettoday.net##.ec_menu
 !---粉酷多
 /pagead/*$domain=fankudo.com
 ||fankudo.com/3C.html
