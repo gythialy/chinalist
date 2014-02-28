@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: 8FtFiJtRDCkP9qeqzCK3Rg
+!  Checksum: ra4Wfr3b+tUpCnxIc7DpPw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 27 Feb 2014 10:35:07 +0800
+!  Last Modified:  Fri, 28 Feb 2014 13:26:41 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -1739,12 +1739,14 @@ dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; ove
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
 !---动漫花园
+||share.dmhy.*/MY$image
 ||share.dmhy.*/MZ$image
-||share.dmhy.*/QS*.jpg
+||share.dmhy.*/QS$image
 ||share.dmhy.*/shareman$image
 ||share.dmhy.*/WLGO$image
 share.dmhy.me,share.dmhy.org###shareman_ad
 share.dmhy.me,share.dmhy.org###WLGO_ad
+share.dmhy.me,share.dmhy.org##.ad
 !---豆瓣
 ||douban.com^*/fm_bgad.js
 ||img3.douban.com/js/packed_ad
