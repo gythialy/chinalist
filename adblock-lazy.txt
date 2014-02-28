@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: gzPXovqr53+8K01GBkAIAQ
+!  Checksum: 5T/efqRxufyoqqh1mURN8g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 28 Feb 2014 13:26:53 +0800
+!  Last Modified:  Fri, 28 Feb 2014 15:15:02 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -365,6 +365,7 @@
 ||miaozhen.com^$third-party
 ||mobads.baidu.com^$third-party
 ||molidao.com^$third-party
+||mosa86.com^$third-party
 ||mtxsk.com^$third-party
 ||myad.cn^$third-party
 ||myiee.com^$third-party
