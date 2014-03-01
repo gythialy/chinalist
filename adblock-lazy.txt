@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: S0JPirtzCmivFjkaODFWaA
+!  Checksum: YdMMtsvbxtAqo3swCxw30w
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 28 Feb 2014 22:23:24 +0800
+!  Last Modified:  Sat, 01 Mar 2014 11:31:09 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -765,8 +765,8 @@ steachs.com###banner
 ||05sun.com^$script
 ||2345.com/duoteimg/duotehtml/
 ||32666.com/img/
-||33lc.com/js/*_*.js
-||33lc.com/js/banner.js
+||33lc.com/caches/poster_js/
+||33lc.com/lvcha/jquery.gotop.js
 ||52zy.com/other/js/
 ||54new.com/da/
 ||54new.com/pop_right_bottom/js/msn.js
@@ -837,8 +837,7 @@ steachs.com###banner
 |http://$popup,domain=rmdown.com
 32666.com##.ad
 32666.com##.fmright
-33lc.com##.adArea2
-33lc.com##.soft-snap
+33lc.com##.soft-info:first-child
 orsoon.com###adsmid
 rsdown.cn#@#.banner-ads
 !---Game Sites
@@ -5776,6 +5775,7 @@ suning.com#@##topAd
 /cjadsprite.
 /ck.php?nids
 /clarityray.js
+/classifieds/banners/*
 /click/ads_
 /clickboothad.
 /clicksor.
@@ -13076,6 +13076,7 @@ _popunder+$popup
 ###googlead01
 ###googlead2
 ###googlead_outside
+###googleadleft
 ###googleads
 ###googleads1
 ###googleads_h_injection
@@ -14636,6 +14637,7 @@ _popunder+$popup
 ###sponsoredwellcontainertop
 ###sponsorlink
 ###sponsors-block
+###sponsors-home
 ###sponsorsBox
 ###sponsorsContainer
 ###sponsors_right_container
@@ -15904,6 +15906,7 @@ _popunder+$popup
 ##.ad-rotation
 ##.ad-row
 ##.ad-s
+##.ad-scl
 ##.ad-script-processed
 ##.ad-section
 ##.ad-section-body
@@ -17860,6 +17863,7 @@ _popunder+$popup
 ##.advert-bg-250
 ##.advert-block
 ##.advert-bloggrey
+##.advert-bot-box
 ##.advert-box
 ##.advert-btm
 ##.advert-center
@@ -19010,6 +19014,7 @@ _popunder+$popup
 ##.dart-ad-taboola
 ##.dart-ad-title
 ##.dart-leaderboard
+##.dart-leaderboard-top
 ##.dart-medsquare
 ##.dartAd300
 ##.dartAd491
@@ -19130,6 +19135,7 @@ _popunder+$popup
 ##.eniro_ad
 ##.entry-ad
 ##.entry-ads
+##.entry-ads-110
 ##.entry-body-ad
 ##.entry-bottom-ad
 ##.entry-injected-ad
@@ -21806,6 +21812,7 @@ _popunder+$popup
 ##.web-result-sponsored
 ##.webad-cnt
 ##.webads336x280
+##.webadvert-container
 ##.well-ad
 ##.wfb-ad
 ##.wg-ad-square
@@ -22040,6 +22047,7 @@ _popunder+$popup
 ##a[href^="http://mgid.com/"]
 ##a[href^="http://n.admagnet.net/"]
 ##a[href^="http://pubads.g.doubleclick.net/"]
+##a[href^="http://refer.webhostingbuzz.com/"]
 ##a[href^="http://ryushare.com/affiliate.python"]
 ##a[href^="http://secure.hostgator.com/~affiliat/"]
 ##a[href^="http://secure.signup-page.com/"]

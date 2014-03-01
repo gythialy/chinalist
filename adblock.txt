@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: /Da+4gq5RtIE8fD9nxHx5g
+!  Checksum: FctZUkgHo+7v3OxqU0Ht4g
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 28 Feb 2014 22:23:12 +0800
+!  Last Modified:  Sat, 01 Mar 2014 11:30:54 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -745,8 +745,8 @@ steachs.com###banner
 ||05sun.com^$script
 ||2345.com/duoteimg/duotehtml/
 ||32666.com/img/
-||33lc.com/js/*_*.js
-||33lc.com/js/banner.js
+||33lc.com/caches/poster_js/
+||33lc.com/lvcha/jquery.gotop.js
 ||52zy.com/other/js/
 ||54new.com/da/
 ||54new.com/pop_right_bottom/js/msn.js
@@ -817,8 +817,7 @@ steachs.com###banner
 |http://$popup,domain=rmdown.com
 32666.com##.ad
 32666.com##.fmright
-33lc.com##.adArea2
-33lc.com##.soft-snap
+33lc.com##.soft-info:first-child
 orsoon.com###adsmid
 rsdown.cn#@#.banner-ads
 !---Game Sites

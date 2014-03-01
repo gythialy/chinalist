@@ -22,10 +22,9 @@ steachs.com###banner
 ||32666.com/img/
 32666.com##.ad
 32666.com##.fmright
-||33lc.com/js/*_*.js
-||33lc.com/js/banner.js
-33lc.com##.adArea2
-33lc.com##.soft-snap
+||33lc.com/caches/poster_js/
+||33lc.com/lvcha/jquery.gotop.js
+33lc.com##.soft-info:first-child
 ||52zy.com/other/js/
 ||maizituan.com/yanzi/$domain=54new.com
 ||54new.com/da/
