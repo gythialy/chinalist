@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: YdMMtsvbxtAqo3swCxw30w
+!  Checksum: 3LBunZqW7Vfw+bhbC7Zl4A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 01 Mar 2014 11:31:09 +0800
+!  Last Modified:  Sat, 01 Mar 2014 11:33:25 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -838,6 +838,7 @@ steachs.com###banner
 32666.com##.ad
 32666.com##.fmright
 33lc.com##.soft-info:first-child
+33lc.com##.soft-show2
 orsoon.com###adsmid
 rsdown.cn#@#.banner-ads
 !---Game Sites
