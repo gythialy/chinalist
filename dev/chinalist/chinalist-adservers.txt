@@ -264,6 +264,8 @@
 ||egooad.com^$third-party
 ||ems183.cn^$third-party
 ||esearches.com.tw^$third-party
+||widget.ezprice.com.tw^$third-party
+||ysm.ezprice.net^$third-party
 ||ezsaving.com^$third-party
 ||f8272.com^$third-party
 ||feedsportal.com^$third-party

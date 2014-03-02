@@ -66,6 +66,8 @@ itopdog.cn##[class^="ad"]
 itopdog.cn##[id^="itopdog_ad-"]
 itopdog.cn##.xoxo > [id^="text-"]
 ithome.com.tw##table[height="110"]
+kocpc.com.tw##.sidebar:nth-child(2)
+kocpc.com.tw##.sidebar:nth-child(3)
 kugz.net###portal_block_241
 lkong.net##.myadvs
 lvye.cn##[class^="ad"]:not(.ad1)

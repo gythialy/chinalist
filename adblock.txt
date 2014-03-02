@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: 8pkllQg2jtXTgb7T/Q3x5g
+!  Checksum: DNs1gPHzv6N2qGBMoLrS/g
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 01 Mar 2014 19:56:28 +0800
+!  Last Modified:  Sun, 02 Mar 2014 18:23:43 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -494,6 +494,7 @@
 ||wauee.com^$third-party
 ||web933.com^$third-party
 ||whoclick.cn^$third-party
+||widget.ezprice.com.tw^$third-party
 ||wiseie.com^$third-party
 ||wofan.net^$third-party
 ||womenwan.com^$third-party
@@ -532,6 +533,7 @@
 ||yoyi.com.cn^$third-party
 ||yoyi.tv^$third-party
 ||yoyocm.com^$third-party
+||ysm.ezprice.net^$third-party
 ||ysm-advertising.tw^$third-party
 ||ytunion.com^$third-party
 ||yuunion.com^$third-party
@@ -676,6 +678,8 @@ ithome.com.tw##table[height="110"]
 itopdog.cn##.xoxo > [id^="text-"]
 itopdog.cn##[class^="ad"]
 itopdog.cn##[id^="itopdog_ad-"]
+kocpc.com.tw##.sidebar:nth-child(2)
+kocpc.com.tw##.sidebar:nth-child(3)
 kugz.net###portal_block_241
 lkong.net##.myadvs
 loltw.gamebase.com.tw##[class^="adsense-"]

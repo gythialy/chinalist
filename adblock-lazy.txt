@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: VvYSFRRIcObTBSmb9TWoAw
+!  Checksum: jsm6O1IYO6GAvQYG7uH8bQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 01 Mar 2014 19:56:29 +0800
+!  Last Modified:  Sun, 02 Mar 2014 18:23:55 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -494,6 +494,7 @@
 ||wauee.com^$third-party
 ||web933.com^$third-party
 ||whoclick.cn^$third-party
+||widget.ezprice.com.tw^$third-party
 ||wiseie.com^$third-party
 ||wofan.net^$third-party
 ||womenwan.com^$third-party
@@ -532,6 +533,7 @@
 ||yoyi.com.cn^$third-party
 ||yoyi.tv^$third-party
 ||yoyocm.com^$third-party
+||ysm.ezprice.net^$third-party
 ||ysm-advertising.tw^$third-party
 ||ytunion.com^$third-party
 ||yuunion.com^$third-party
@@ -696,6 +698,8 @@ ithome.com.tw##table[height="110"]
 itopdog.cn##.xoxo > [id^="text-"]
 itopdog.cn##[class^="ad"]
 itopdog.cn##[id^="itopdog_ad-"]
+kocpc.com.tw##.sidebar:nth-child(2)
+kocpc.com.tw##.sidebar:nth-child(3)
 kugz.net###portal_block_241
 lkong.net##.myadvs
 loltw.gamebase.com.tw##[class^="adsense-"]
@@ -3588,6 +3592,7 @@ suning.com#@##topAd
 /ad.epl?
 /ad.gif|
 /ad.html?
+/ad.info.
 /ad.jsp?
 /ad.mason?
 /ad.php3?
@@ -4790,6 +4795,7 @@ suning.com#@##topAd
 /ads_300_
 /ads_6.
 /ads_728_
+/ads_ad_
 /ads_banner_
 /ads_banners/*
 /ads_bg.
@@ -8039,6 +8045,7 @@ _ad_block&
 _ad_bottom.
 _ad_box.
 _ad_bsb.
+_ad_center.
 _ad_change.
 _ad_choices.
 _ad_choices_
@@ -8442,6 +8449,7 @@ takeover_banner_
 /antiadblock.
 /blockblock/blockblock.jquery.js
 /no-adblock/*
+/wp-content/plugins/anti-block/*
 ! *** easylist:easylist/easylist_general_block_dimensions.txt ***
 ,160x600;
 ,468x60-
@@ -9428,6 +9436,7 @@ _popunder+$popup
 ###MAINAD-box
 ###MPUAdSpace
 ###MainAd
+###MainAd1
 ###MainContent_ucTopRightAdvert
 ###MainSponsoredLinks
 ###MastheadAd
@@ -14352,6 +14361,7 @@ _popunder+$popup
 ###side-ad-container
 ###side-ads
 ###side-ads-box
+###side-banner-ad
 ###side-big-ad-bottom
 ###side-big-ad-middle
 ###side-boxad
@@ -15108,6 +15118,7 @@ _popunder+$popup
 ###widget_ad
 ###widget_advertisement
 ###widgetwidget_adserve2
+###wog-300x250-ads
 ###wp-insert-ad-widget-1
 ###wp-topAds
 ###wp125adwrap_2c
@@ -19508,6 +19519,7 @@ _popunder+$popup
 ##.gridstream_ad
 ##.group-google-ads
 ##.group_ad
+##.grv_is_sponsored
 ##.gsAd
 ##.gsfAd
 ##.gsl-ads
@@ -21864,6 +21876,7 @@ _popunder+$popup
 ##.widget_advwidget
 ##.widget_bestgoogleadsense
 ##.widget_catchbox_adwidget
+##.widget_cevo_contentad
 ##.widget_customadvertising
 ##.widget_cxad
 ##.widget_econaabachoadswidget
@@ -22114,6 +22127,7 @@ _popunder+$popup
 ##a[href^="http://xads.zedo.com/"]
 ##a[href^="http://zevera.com/afi.html"]
 ##a[href^="https://coinbase.com/?r="]
+##a[href^="https://my.leadpages.net/leadbox/"]
 ##a[href^="https://secure.eveonline.com/ft/?aid="]
 ##a[href^="https://www.share-online.biz/affiliate/"]
 ##a[id^="mg_add"]
@@ -22963,6 +22977,8 @@ _popunder+$popup
 /gn_analytics.
 /gn_tracking.
 /goAnalytics.
+/gomez.js
+/gomez/*$script
 /GomezTracking.
 /google-analyticator/*
 /google-analytics-
@@ -23865,7 +23881,6 @@ _popunder+$popup
 /tracker/referrer/*
 /tracker/story.jpg?
 /tracker/t.php?
-/tracker/track$script
 /tracker2.js
 /tracker?*=
 /tracker_activityStream.
