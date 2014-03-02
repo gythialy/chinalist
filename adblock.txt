@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: DNs1gPHzv6N2qGBMoLrS/g
+!  Checksum: HRos7aPqipoCfVFCXz7Taw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 02 Mar 2014 18:23:43 +0800
+!  Last Modified:  Sun, 02 Mar 2014 18:34:02 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -739,7 +739,7 @@ zjol.com.cn##span.qqt
 ||rakuten-static.com^$domain=cwyuni.tw
 ||ruanyifeng.com/blog/images/ad_
 cwyuni.tw###banner > h2
-cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box533632)
+cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box533632):not(#box1026387)
 cwyuni.tw##a[href*="rakuten.tw"]
 steachs.com###banner
 !---Download Sites
@@ -2264,12 +2264,12 @@ msn.people.com.cn##.banNSch
 ||pixgold.com^
 ||pixnet.net^*sticker$object
 ||referer.pixplug.in^
-pixnet.net###pixblogad
 pixnet.net##.ad
 pixnet.net##[id*="-ad-"]
 pixnet.net##[id*="-aD-"]
 pixnet.net##[id*="-Ad-"]
 pixnet.net##[id*="-AD-"]
+pixnet.net,cwyuni.tw###pixblogad
 www.pixnet.net###extradiv2
 www.pixnet.net###extradiv5
 !---Plurk
