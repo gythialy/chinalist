@@ -1004,7 +1004,7 @@ pixnet.net##[id*="-AD-"]
 pixnet.net##[id*="-Ad-"]
 pixnet.net##[id*="-aD-"]
 pixnet.net##[id*="-ad-"]
-pixnet.net###pixblogad
+pixnet.net,cwyuni.tw###pixblogad
 www.pixnet.net###extradiv2
 www.pixnet.net###extradiv5
 
