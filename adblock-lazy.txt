@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: nk0KCRNCowngaYJESWknnw
+!  Checksum: qJKGFsaDQE+3mcCLyd4D8A
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 03 Mar 2014 11:11:19 +0800
+!  Last Modified:  Mon, 03 Mar 2014 21:55:45 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2303,9 +2303,12 @@ oeeee.com##[class^="ad-"]
 ||pconline.com.cn/js/ivy.js
 pconline.com.cn##.ivyBaidu
 !---人民网
+@@||pmm.people.com.cn/main/s?user=people|homepage|2013juxing$subdocument,~third-party
 ||hi.people.com.cn/NMediaFile/$object
 ||hi.people.com.cn/NMediaFile/*.gif
 ||msn.people.com.cn/css/2010tianrun/
+||people.com.cn/adv/
+||people.com.cn/img/*/p_libraryad.min.js
 msn.people.com.cn##.banNSch
 !---PIXNET
 /blog/addvisit^

@@ -984,6 +984,9 @@ oeeee.com##.textad-960-65.clearfix.c-gray
 pconline.com.cn##.ivyBaidu
 
 !---人民网
+@@||pmm.people.com.cn/main/s?user=people|homepage|2013juxing$subdocument,~third-party
+||people.com.cn/adv/
+||people.com.cn/img/*/p_libraryad.min.js
 ||hi.people.com.cn/NMediaFile/$object
 ||hi.people.com.cn/NMediaFile/*.gif
 ||msn.people.com.cn/css/2010tianrun/
