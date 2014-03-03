@@ -984,7 +984,6 @@ oeeee.com##.textad-960-65.clearfix.c-gray
 pconline.com.cn##.ivyBaidu
 
 !---人民网
-@@||pmm.people.com.cn/main/s*^2013juxing
 ||hi.people.com.cn/NMediaFile/$object
 ||hi.people.com.cn/NMediaFile/*.gif
 ||msn.people.com.cn/css/2010tianrun/
@@ -1241,6 +1240,7 @@ tv.sohu.com###miaozhenad
 ||brand.sogou.com^
 ||lu.sogou.com^$subdocument
 ||pb.sogou.com^$image
+||wan.sogou.com/pop/
 sogou.com###bdfs0
 sogou.com##.sponsored
 sogou.com###zhuanqu

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: rrPuBmAgmFe1EzHbGG80Gw
+!  Checksum: nk0KCRNCowngaYJESWknnw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sun, 02 Mar 2014 18:34:03 +0800
+!  Last Modified:  Mon, 03 Mar 2014 11:11:19 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2303,7 +2303,6 @@ oeeee.com##[class^="ad-"]
 ||pconline.com.cn/js/ivy.js
 pconline.com.cn##.ivyBaidu
 !---人民网
-@@||pmm.people.com.cn/main/s*^2013juxing
 ||hi.people.com.cn/NMediaFile/$object
 ||hi.people.com.cn/NMediaFile/*.gif
 ||msn.people.com.cn/css/2010tianrun/
@@ -2544,6 +2543,7 @@ tv.sohu.com##.skyAD
 ||lu.sogou.com^$subdocument
 ||pb.sogou.com^$image
 ||sogou.com/js/pb_*.js
+||wan.sogou.com/pop/
 map.sogou.com###CboardDlg_1
 sogou.com###bdfs0
 sogou.com###zhuanqu
@@ -8255,6 +8255,7 @@ _afs_ads.
 _alt/ads/
 _argus_ad_
 _assets/ads/
+_background_ad.
 _background_ad/
 _banner_ad.
 _banner_ad_
@@ -10423,6 +10424,7 @@ _popunder+$popup
 ###ad_Right
 ###ad_Top
 ###ad_Top2
+###ad_TopLongBanner
 ###ad_Wrap
 ###ad_YieldManager-160x600
 ###ad_YieldManager-300x250
@@ -10881,6 +10883,7 @@ _popunder+$popup
 ###adcontainer3
 ###adcontainer5
 ###adcontainerRight
+###adcontainer_top_ads
 ###adcontainsm
 ###adcontent
 ###adcontent1
@@ -11874,6 +11877,7 @@ _popunder+$popup
 ###article_ad_bottom
 ###article_ad_bottom_cont
 ###article_ad_container
+###article_ad_rt1
 ###article_ad_top
 ###article_ad_top_cont
 ###article_ad_w
@@ -13484,6 +13488,7 @@ _popunder+$popup
 ###large-ads
 ###large-rectange-ad
 ###large-rectange-ad-2
+###large_rec_ad1
 ###largead
 ###lateAd
 ###lateralAdWrapper
@@ -14327,6 +14332,7 @@ _popunder+$popup
 ###section-ad-bottom
 ###section-blog-ad
 ###section-container-ddc_ads
+###section-pagetop-ad
 ###section_ad
 ###section_advertisements
 ###section_advertorial_feature
@@ -17730,7 +17736,6 @@ _popunder+$popup
 ##.adtile
 ##.adtips
 ##.adtips1
-##.adtitle
 ##.adtop
 ##.adtop-border
 ##.adtops
@@ -23804,6 +23809,7 @@ _popunder+$popup
 /tacoda_
 /TacodaFTT.
 /tagomnitureengine.js
+/tagx.js
 /taxtag.js
 /tc_logging.js
 /tc_targeting.
@@ -24082,6 +24088,7 @@ _popunder+$popup
 /wcount.php?
 /web_analytics/*
 /web_answertip.
+/web_traffic_capture.js
 /webabacus-$script
 /WebAnalytics.
 /webAnalytics/*
