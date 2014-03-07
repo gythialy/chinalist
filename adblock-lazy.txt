@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: qJKGFsaDQE+3mcCLyd4D8A
+!  Checksum: dq6CCOU+cIBfUKHOKFelsg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 03 Mar 2014 21:55:45 +0800
+!  Last Modified:  Fri, 07 Mar 2014 14:48:00 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -632,7 +632,7 @@
 |http://*/js/ad/
 |http://*/js/tc.js
 |http://acs.
-|http://ad.$domain=~opinion.cw.com.tw|~gridsum.com|~qjwm.com|~wsj.com
+|http://ad.$domain=~opinion.cw.com.tw|~gridsum.com|~gridsumdissector.com|~qjwm.com|~wsj.com
 |http://gg.$~stylesheet,domain=~gg.ma
 |https://*/ad/
 !*** chinalist-hide.txt ***
@@ -2921,7 +2921,7 @@ yaolan.com##div[id^="topAd"]
 yaolan.com##div[id^="underZs"]
 yaolanimage.cn/home/js/adinsert_new.js
 !*** chinalist-temp.txt ***
-!---2014.02
+!---2014.03
 ||qtfy30.cn/top_690.gif
 ||xiuxiu.meitu.com/images/banner/meitushop_fixed_816.gif
 ||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
@@ -3214,6 +3214,7 @@ suning.com#@##topAd
 -us/ads/
 -web-ad-
 -Web-Ad.
+-Web-Advert.
 -webad1.
 .1d/ads/
 .a3s?n=*&zone_id=
@@ -3252,6 +3253,7 @@ suning.com#@##topAd
 .adtech_
 .adtooltip&
 .advert.$domain=~advert.ly
+.AdvertismentBottom.
 .advertmarket.
 .adwolf.
 .ae/ads/
@@ -3329,6 +3331,7 @@ suning.com#@##topAd
 .gif?ad=
 .gr/ads/
 .homad.
+.HomepageAdvertismentBottom.
 .html?ad=
 .html?ad_
 .html?clicktag=
@@ -3659,6 +3662,7 @@ suning.com#@##topAd
 /ad/log/*
 /ad/login-
 /ad/middle.
+/ad/mpu/*
 /ad/omakasa.
 /ad/player|
 /ad/pong?
@@ -3967,6 +3971,7 @@ suning.com#@##topAd
 /ad_tags_
 /ad_text.
 /ad_text_
+/ad_tickets.
 /ad_tile/*
 /ad_timer.
 /ad_title_
@@ -4727,6 +4732,7 @@ suning.com#@##topAd
 /ads/vg/*
 /ads/video_
 /ads/view.
+/ads/views/*
 /ads/vip_
 /ads/web/*
 /ads/welcomescreen.
@@ -5192,6 +5198,7 @@ suning.com#@##topAd
 /adv-scroll.
 /adv-socialbar-
 /adv.asp
+/adv.css?
 /adv.html
 /adv.jsp
 /adv.png
@@ -5205,12 +5212,16 @@ suning.com#@##topAd
 /adv/kelkoo_
 /adv/lrec_
 /adv/managers/*
+/adv/mjx.
+/adv/mobile/*
 /adv/preroll_
+/adv/rdb.
 /adv/script1.
 /adv/script2.
 /adv/skin.
 /adv/skin_
 /adv/sponsor/*
+/adv/sprintf-
 /adv/topBanners.
 /adv02.
 /adv03.
@@ -5355,6 +5366,7 @@ suning.com#@##topAd
 /advrotator.
 /advscript.
 /advscripts/*
+/advshow.
 /advt.
 /advzones/*
 /adw.shtml
@@ -5463,6 +5475,7 @@ suning.com#@##topAd
 /ajax-advert.
 /ajax/ad/*
 /ajax/ads/*
+/ajaxAd?
 /ajaxads.
 /ajrotator/*
 /ajs.php?
@@ -5877,6 +5890,7 @@ suning.com#@##topAd
 /csp/ads?
 /css/ads.
 /css/adsense
+/css/adv.
 /cssjs/ads/*
 /ctamlive160x160.
 /cube_ads/*
@@ -6247,6 +6261,7 @@ suning.com#@##topAd
 /get-advert-
 /get.ad?
 /get/ad.
+/get/ad/*
 /get_ad_
 /get_ads.
 /get_ads/*
@@ -7054,6 +7069,7 @@ suning.com#@##topAd
 /poplivejasmine.
 /popounder4.
 /poprotator.
+/popshow.$~stylesheet
 /popu.js
 /popunder-
 /popunder.
@@ -7834,7 +7850,6 @@ suning.com#@##topAd
 /wp-content/plugins/wp-bannerize/*
 /wp-content/plugins/wp-super-popup-pro/*
 /wp-content/plugins/wp-super-popup/*$~stylesheet
-/wp-content/uploads/useful_banner_manager_banners/*
 /wp-popup-scheduler/*
 /wp-srv/ad/*
 /wpads/iframe.
@@ -7974,6 +7989,7 @@ suning.com#@##topAd
 ?adtarget=
 ?adtechplacementid=
 ?adtype=
+?adunit_id=
 ?adunitid=
 ?adunitname=
 ?adv/id=
@@ -8603,6 +8619,7 @@ takeover_banner_
 /300x250.
 /300x250/*
 /300x250_
+/300x250b.
 /300x250px-
 /300x250px_
 /300x350.
@@ -8715,6 +8732,7 @@ takeover_banner_
 /760x90_
 /768x90-
 /768x90.
+/780x90.
 /800x90.
 /80x468_
 /900x130_
@@ -9026,6 +9044,7 @@ _a468x60.
 &program=revshare&$popup
 -ads-campaign/$popup
 .co/ads/$popup
+.engine?PlacementId=$popup
 /?placement=*&redirect$popup
 /ad.php|$popup
 /ad/window.php?$popup
@@ -9034,6 +9053,7 @@ _a468x60.
 /adserver.$popup
 /afu.php?zoneid=$popup
 /bani/index.php?id=$popup
+/popout.$popup
 /popunder.$popup
 /popunder_$popup
 /promoredirect?*&campaign=*&zone=$popup
@@ -10321,7 +10341,6 @@ _popunder+$popup
 ###adValue
 ###adVcss
 ###adWrap
-###adWrapper
 ###adWrapper1
 ###adWrapperLeft
 ###adWrapperRight
@@ -10575,6 +10594,7 @@ _popunder+$popup
 ###ad_hide_for_menu
 ###ad_holder
 ###ad_home
+###ad_home_middle
 ###ad_horizontal
 ###ad_horseshoe_left
 ###ad_horseshoe_right
@@ -10771,6 +10791,7 @@ _popunder+$popup
 ###ad_top
 ###ad_topBanner
 ###ad_top_728x90
+###ad_top_banner
 ###ad_top_bar
 ###ad_top_header_center
 ###ad_top_holder
@@ -10977,6 +10998,7 @@ _popunder+$popup
 ###admiddle3
 ###admiddle3center
 ###admiddle3left
+###admiddleCenter
 ###admod2
 ###admon-300x250
 ###admon-728x90
@@ -11041,6 +11063,7 @@ _popunder+$popup
 ###ads-200x200-a
 ###ads-250
 ###ads-300
+###ads-300-250
 ###ads-336x280
 ###ads-468
 ###ads-5
@@ -11302,6 +11325,7 @@ _popunder+$popup
 ###adsense04
 ###adsense05
 ###adsense1
+###adsense160600
 ###adsense2pos
 ###adsense300x250
 ###adsense468
@@ -11430,6 +11454,7 @@ _popunder+$popup
 ###adspotlight1
 ###adsquare
 ###adsquare2
+###adsright
 ###adss
 ###adssidebar2
 ###adssidebar3
@@ -11442,6 +11467,7 @@ _popunder+$popup
 ###adstripnew
 ###adstuff
 ###adswidget2-quick-adsense
+###adsxpls2
 ###adszed-728x90
 ###adtab
 ###adtab-feedback2
@@ -11490,7 +11516,6 @@ _popunder+$popup
 ###adv-middle
 ###adv-midroll
 ###adv-mpux
-###adv-network
 ###adv-preroll
 ###adv-right
 ###adv-right1
@@ -11508,6 +11533,7 @@ _popunder+$popup
 ###adv300bottom
 ###adv300top
 ###adv300x250
+###adv300x250container
 ###adv468x90
 ###adv728
 ###adv768x90
@@ -11829,6 +11855,7 @@ _popunder+$popup
 ###after-header-ad-left
 ###after-header-ad-right
 ###after-header-ads
+###after_ad
 ###afterpostad
 ###agencies_ad
 ###agi-ad300x250
@@ -12317,6 +12344,8 @@ _popunder+$popup
 ###circad_wrapper
 ###city_House_Ad_300x137
 ###clickforad
+###cliczone-advert-left
+###cliczone-advert-right
 ###clientAds
 ###closeAdsDiv
 ###closeable-ad
@@ -12351,6 +12380,7 @@ _popunder+$popup
 ###commentTopAd
 ###comment_ad_zone
 ###comments-ad-container
+###comments-ads
 ###commercial-textlinks
 ###commercial_ads
 ###commercial_ads_footer
@@ -12480,6 +12510,8 @@ _popunder+$popup
 ###ctl00_ContentPlaceHolder1_ad12_adRotator_divAd
 ###ctl00_ContentPlaceHolder1_blockAdd_divAdvert
 ###ctl00_ContentPlaceHolder1_ctl00_StoryContainer1_ImageHouseAd
+###ctl00_ContentPlaceHolder1_ucAdHomeRightFO_divAdvertisement
+###ctl00_ContentPlaceHolder1_ucAdHomeRight_divAdvertisement
 ###ctl00_ContentPlaceHolder_PageHeading_Special_divGoogleAd2
 ###ctl00_ContentRightColumn_RightColumn_Ad1_BanManAd
 ###ctl00_ContentRightColumn_RightColumn_Ad2_BanManAd
@@ -12548,6 +12580,7 @@ _popunder+$popup
 ###ctl00_tc_ctl19_AdControl
 ###ctl00_topAd
 ###ctl00_ucAffiliateAdvertDisplay_pnlAffiliateAdvert
+###ctl00_ucFooter_ucFooterBanner_divAdvertisement
 ###ctl_bottom_ad
 ###ctl_bottom_ad1
 ###ctr-ad
@@ -13584,6 +13617,7 @@ _popunder+$popup
 ###li-right-geobooster-oas
 ###ligatus
 ###ligatusdiv
+###linebreak-ads
 ###linkAdSingle
 ###linkAds
 ###link_ads
@@ -13770,6 +13804,7 @@ _popunder+$popup
 ###movads10
 ###movieads
 ###mph-rightad
+###mpu-ad
 ###mpu-advert
 ###mpu-cont
 ###mpu-content
@@ -14554,6 +14589,7 @@ _popunder+$popup
 ###specialAd_one
 ###specialAd_two
 ###special_ads
+###specialadfeatures
 ###specialadvertisingreport_container
 ###specials_ads
 ###speed_ads
@@ -14863,6 +14899,8 @@ _popunder+$popup
 ###topAdSpace_div
 ###topAdcontainer
 ###topAds
+###topAds1
+###topAds2
 ###topAdsContainer
 ###topAdsDiv
 ###topAdsG
@@ -15830,6 +15868,7 @@ _popunder+$popup
 ##.ad-lb
 ##.ad-leader
 ##.ad-leader-plus-top
+##.ad-leader-top
 ##.ad-leader-wrap
 ##.ad-leaderboard
 ##.ad-leaderboard-companion
@@ -15868,6 +15907,7 @@ _popunder+$popup
 ##.ad-mpu
 ##.ad-mrec
 ##.ad-mrect
+##.ad-msg
 ##.ad-msgunit
 ##.ad-msn
 ##.ad-national-1
@@ -15935,6 +15975,7 @@ _popunder+$popup
 ##.ad-sense
 ##.ad-sep
 ##.ad-served
+##.ad-shifted
 ##.ad-show-label
 ##.ad-showcase
 ##.ad-side
@@ -16042,6 +16083,7 @@ _popunder+$popup
 ##.ad-with-us
 ##.ad-wrap
 ##.ad-wrapper
+##.ad-x10x20x30
 ##.ad-x31-full
 ##.ad-zone
 ##.ad-zone-s-q-l
@@ -16104,6 +16146,7 @@ _popunder+$popup
 ##.ad250-h1
 ##.ad250-h2
 ##.ad250c
+##.ad250wrap
 ##.ad250x250
 ##.ad260x60
 ##.ad284x134
@@ -16177,6 +16220,7 @@ _popunder+$popup
 ##.ad612x80
 ##.ad620x70
 ##.ad626X35
+##.ad640x480
 ##.ad644
 ##.ad650x140
 ##.ad670x83
@@ -16218,6 +16262,7 @@ _popunder+$popup
 ##.adArticleTopText
 ##.adAuto
 ##.adBGcolor
+##.adBan
 ##.adBanner
 ##.adBanner300x250
 ##.adBanner728x90
@@ -16242,6 +16287,7 @@ _popunder+$popup
 ##.adBlockNext
 ##.adBlockSpacer
 ##.adBlock_1
+##.adBlock_17
 ##.adBlock_2
 ##.adBlock_3
 ##.adBodyBlockBottom
@@ -16735,6 +16781,7 @@ _popunder+$popup
 ##.ad_iframe2
 ##.ad_ifrwrap
 ##.ad_image
+##.ad_img
 ##.ad_index02
 ##.ad_indicator
 ##.ad_info_block
@@ -16758,6 +16805,7 @@ _popunder+$popup
 ##.ad_line
 ##.ad_line2
 ##.ad_link
+##.ad_link1
 ##.ad_link_468
 ##.ad_link_area
 ##.ad_link_label
@@ -16842,6 +16890,8 @@ _popunder+$popup
 ##.ad_section_300x250
 ##.ad_section_728x90
 ##.ad_segment
+##.ad_sense_01
+##.ad_shuffling_text
 ##.ad_side
 ##.ad_sidebar
 ##.ad_sidebar_bigbox
@@ -17182,6 +17232,7 @@ _popunder+$popup
 ##.ads-468
 ##.ads-468x60-bordered
 ##.ads-728-90
+##.ads-728x90
 ##.ads-728x90-wrap
 ##.ads-above-comments
 ##.ads-ads-top
@@ -17333,6 +17384,7 @@ _popunder+$popup
 ##.ads598x98
 ##.ads5blocks
 ##.ads667x100
+##.ads720x90
 ##.ads728
 ##.ads728_90
 ##.ads728x90
@@ -17403,6 +17455,7 @@ _popunder+$popup
 ##.ads_amazon
 ##.ads_amazon_outer
 ##.ads_area
+##.ads_article
 ##.ads_before
 ##.ads_bg
 ##.ads_big
@@ -17701,6 +17754,7 @@ _popunder+$popup
 ##.adspot-title
 ##.adspot1
 ##.adspot200x90
+##.adspot468x60
 ##.adspot728x90
 ##.adspot_468x60
 ##.adspot_728x90
@@ -17720,6 +17774,7 @@ _popunder+$popup
 ##.adsupperugo_txt
 ##.adswidget
 ##.adswitch
+##.adsxpls
 ##.adsystem_ad
 ##.adszone
 ##.adtab
@@ -17739,6 +17794,7 @@ _popunder+$popup
 ##.adtile
 ##.adtips
 ##.adtips1
+##.adtoggle
 ##.adtop
 ##.adtop-border
 ##.adtops
@@ -17840,6 +17896,7 @@ _popunder+$popup
 ##.adv_info_text
 ##.adv_leaderboard
 ##.adv_left
+##.adv_link
 ##.adv_medium_rectangle
 ##.adv_panel
 ##.adv_pointer_home
@@ -17962,6 +18019,7 @@ _popunder+$popup
 ##.advert_300x250
 ##.advert_336
 ##.advert_468x60
+##.advert_area
 ##.advert_back_160x600
 ##.advert_back_300x250
 ##.advert_back_300xXXX
@@ -18118,6 +18176,7 @@ _popunder+$popup
 ##.advertising-banner
 ##.advertising-block
 ##.advertising-box-top-teaser
+##.advertising-content
 ##.advertising-fixed
 ##.advertising-header
 ##.advertising-leaderboard
@@ -18131,6 +18190,7 @@ _popunder+$popup
 ##.advertising160
 ##.advertising2
 ##.advertising300_home
+##.advertising300x250
 ##.advertising728
 ##.advertising728_3
 ##.advertisingBanner
@@ -18629,6 +18689,7 @@ _popunder+$popup
 ##.bottom-banner-ad
 ##.bottom-center-adverts
 ##.bottom-leaderboard-adslot
+##.bottom-left-ad
 ##.bottom-rightadvtsment
 ##.bottomAd
 ##.bottomAdBlock
@@ -18922,6 +18983,7 @@ _popunder+$popup
 ##.container-adwords
 ##.container-rectangle-ad
 ##.container-top-adv
+##.containerAdsense
 ##.containerSqAd
 ##.container_ad
 ##.container_row_ad
@@ -19248,6 +19310,7 @@ _popunder+$popup
 ##.footerAdUnit
 ##.footerAdWrapper
 ##.footerAds
+##.footerAdsWrap
 ##.footerAdslot
 ##.footerAdverts
 ##.footerFullAd
@@ -19738,6 +19801,7 @@ _popunder+$popup
 ##.hyad
 ##.hype_adrotate_widget
 ##.i360ad
+##.i_ad
 ##.ib-figure-ad
 ##.ibm_ad_bottom
 ##.ibm_ad_text
@@ -20286,6 +20350,7 @@ _popunder+$popup
 ##.mpuholderportalpage
 ##.mrec_advert
 ##.ms-ads-link
+##.ms_header_ad
 ##.msat-adspace
 ##.msfg-shopping-mpu
 ##.msnChannelAd
@@ -20783,6 +20848,7 @@ _popunder+$popup
 ##.rightColumnAdsTop
 ##.rightColumnRectAd
 ##.rightRailAd
+##.rightSecAds
 ##.rightSideBarAd
 ##.rightSideSponsor
 ##.rightTopAdWrapper
@@ -21348,7 +21414,6 @@ _popunder+$popup
 ##.sponsoredlinkscontainer
 ##.sponsoredresults
 ##.sponsoredtabl
-##.sponsoredtextlink_container
 ##.sponsoredtextlink_container_ovt
 ##.sponsorheader
 ##.sponsoring_link
@@ -21560,6 +21625,7 @@ _popunder+$popup
 ##.three-ads
 ##.tibu_ad
 ##.ticket-ad
+##.tile-ad
 ##.tileAdContainer
 ##.tileAdWrap
 ##.tileAds
@@ -21638,6 +21704,7 @@ _popunder+$popup
 ##.topLeaderboardAd
 ##.topNavRMAd
 ##.topPC-adWrap
+##.topPagination_ad
 ##.topRightAd
 ##.top_Ad
 ##.top_ad
@@ -21691,6 +21758,7 @@ _popunder+$popup
 ##.topboardads
 ##.topcontentadvertisement
 ##.topfootad
+##.topicDetailsAdRight
 ##.topic_inad
 ##.topnavSponsor
 ##.topratedBoxAD
@@ -21742,6 +21810,7 @@ _popunder+$popup
 ##.tz_ad_widget
 ##.uds-ad
 ##.uds-ads
+##.ui-ad
 ##.ukAds
 ##.ukn-banner-ads
 ##.ukn-inline-advert
@@ -21928,6 +21997,7 @@ _popunder+$popup
 ##.wpbrad
 ##.wpbrad-ad
 ##.wpbrad-zone
+##.wpi_ads
 ##.wpn_ad_content
 ##.wrap-ads
 ##.wrap_boxad
@@ -22135,7 +22205,6 @@ _popunder+$popup
 ##a[href^="http://xads.zedo.com/"]
 ##a[href^="http://zevera.com/afi.html"]
 ##a[href^="https://coinbase.com/?r="]
-##a[href^="https://my.leadpages.net/leadbox/"]
 ##a[href^="https://secure.eveonline.com/ft/?aid="]
 ##a[href^="https://www.share-online.biz/affiliate/"]
 ##a[id^="mg_add"]
@@ -22242,7 +22311,6 @@ _popunder+$popup
 .com/ga-*.js
 .com/ga.js;
 .com/ga.js?
-.com/ga.jsp?
 .com/HG?
 .com/hitlog?
 .com/i.gif?
@@ -22860,6 +22928,7 @@ _popunder+$popup
 /fb-app-tracker.
 /fbanalytics/*
 /fbcounter/*
+/federated-analytics.
 /files/ga.js
 /finalizestats.
 /firestats/*
@@ -22897,11 +22966,10 @@ _popunder+$popup
 /ga-tracking/*
 /ga.aspx?
 /ga.gif?
-/ga.jsp?nbtpr=$image
-/ga.jsp?utmac=$image
-/ga.php?name=$image
-/ga.php?utm
-/ga.pl?utmac=$image
+/ga.jsp?$image
+/ga.php?$image
+/ga.pl?$image
+/ga/*.gif?
 /ga/trackevent.
 /ga1.js
 /ga2.aspx?utmac=$image
@@ -23281,6 +23349,7 @@ _popunder+$popup
 /media_viewed_tracking.
 /mediateGA.js
 /megacounter/*
+/metatraffic/track.asp?
 /metrics-ga.
 /metrics.xml
 /metrics/ga.html?
@@ -23302,6 +23371,7 @@ _popunder+$popup
 /mint/?record
 /mint8/?
 /mintstats/?js
+/mistats/*
 /mixpanel-measurement.
 /mixpanel.
 /mixpanel_beacon.
@@ -23812,6 +23882,7 @@ _popunder+$popup
 /tacoda_
 /TacodaFTT.
 /tagomnitureengine.js
+/TagSvc/*
 /tagx.js
 /taxtag.js
 /tc_logging.js
@@ -23936,10 +24007,12 @@ _popunder+$popup
 /tracking_cookie_baker.
 /tracking_frame_
 /tracking_headerJS_
+/tracking_id_
 /tracking_iframe.
 /tracking_link_cookie.
 /tracking_pix.
 /tracking_pixel
+/TrackingCookieCheck.
 /trackingcookies.
 /TrackingData.
 /trackingfilter.json?
@@ -23952,6 +24025,7 @@ _popunder+$popup
 /trackings/addview/*
 /trackingScript1.
 /trackingScript2.
+/TrackingService.js
 /trackIt.js
 /trackit.php?
 /trackit.pl?
@@ -24276,6 +24350,7 @@ _imp?Log=
 _imp_logging?
 _impressions.gif?
 _logimpressions.
+_nedstat.js
 _nielsen.js
 _NielsenNetRatings.
 _ntpagetag.
@@ -24428,8 +24503,11 @@ http://utm.
 ||nstat.tudou.com^
 ||on.cc^*/checkrev.gif?
 ||pan.baidu.com/api/analytics?
+||pb.i.sogou.com^
+||pb.sogou.com^
 ||pingback.sogou.com^
 ||pingjs.qq.com^
+||pv.sogou.com^
 ||rgd.com.cn/counter/
 ||s.pixfs.net/js/pixlogger.min.js
 ||s.pixfs.net/visitor.pixplug.in/
