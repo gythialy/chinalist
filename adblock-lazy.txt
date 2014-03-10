@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: dq6CCOU+cIBfUKHOKFelsg
+!  Checksum: Ugyjb0FEaMY0hIRmrMfOYg
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 07 Mar 2014 14:48:00 +0800
+!  Last Modified:  Mon, 10 Mar 2014 22:15:07 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -178,6 +178,7 @@
 ||adhai.com^$third-party
 ||adjwl.com^$third-party
 ||adkongjian.com^$third-party
+||admaji.com^$third-party
 ||admaster.com.cn^$third-party
 ||admin6.com^$third-party
 ||adnets.cn^$third-party
@@ -4568,7 +4569,6 @@ suning.com#@##topAd
 /ads/ads.
 /ads/ads/*
 /ads/ads_
-/ads/advshow.
 /ads/afc/*
 /ads/aff-
 /ads/as_header.
@@ -5037,6 +5037,7 @@ suning.com#@##topAd
 /adsplay.
 /adsponsor.
 /adspot.
+/adspot/*
 /adspots/*
 /adspro/*
 /AdsPublisher.
@@ -5350,6 +5351,7 @@ suning.com#@##topAd
 /advertverticallong.
 /advfiles/*
 /advhd.
+/advice-ads.
 /adview.
 /adview/*
 /adview?
@@ -6836,6 +6838,7 @@ suning.com#@##topAd
 /myfreepaysitebanner.
 /mylayer-ad/*
 /mysimpleads/*
+/n/adv_
 /n_ads/*
 /namediaad.
 /nativeads/*
@@ -7409,6 +7412,7 @@ suning.com#@##topAd
 /sitemanagement/ads/*
 /sites/ad_
 /sitewide/ads/*
+/size=*/random=*/viewid=
 /skin/ad/*
 /skin/ad3/*
 /skin/adv/*
@@ -7893,6 +7897,7 @@ suning.com#@##topAd
 /your-ad-
 /your-ad.
 /your_ad.
+/yourad1.
 /youradhere.
 /youradhere468-
 /youradhere_
@@ -9218,6 +9223,7 @@ _popunder+$popup
 ###AdSpaceLeaderboard
 ###AdSpacing
 ###AdSponsor_SF
+###AdSpotMovie
 ###AdSquare02
 ###AdSubsectionShowcase_F1
 ###AdTaily_Widget_Container
@@ -9267,6 +9273,7 @@ _popunder+$popup
 ###Ads_CAD
 ###Ads_OV_BS
 ###Ads_Special
+###Adsense300x250
 ###Adtag300x250Bottom
 ###Adtag300x250Top
 ###Adv10
@@ -9707,6 +9714,7 @@ _popunder+$popup
 ###ad-bottom-banner
 ###ad-bottom-right-container
 ###ad-bottom-wrapper
+###ad-bottomright
 ###ad-box
 ###ad-box-1
 ###ad-box-bottom
@@ -9776,6 +9784,8 @@ _popunder+$popup
 ###ad-img
 ###ad-in-post
 ###ad-inner
+###ad-inside1
+###ad-inside2
 ###ad-introtext
 ###ad-label
 ###ad-label2
@@ -9806,6 +9816,7 @@ _popunder+$popup
 ###ad-main
 ###ad-main-bottom
 ###ad-main-top
+###ad-makeup
 ###ad-medium
 ###ad-medium-lower
 ###ad-medium-rectangle
@@ -9844,6 +9855,9 @@ _popunder+$popup
 ###ad-recommend
 ###ad-rectangle
 ###ad-rectangle-flag
+###ad-rectangle1
+###ad-rectangle2
+###ad-rectangle3
 ###ad-region-1
 ###ad-results
 ###ad-rian
@@ -10885,6 +10899,7 @@ _popunder+$popup
 ###adbritebottom
 ###adbutton
 ###adbuttons
+###adcatfish
 ###adcell
 ###adcenter
 ###adchoices-icon
@@ -11657,6 +11672,7 @@ _popunder+$popup
 ###advert_back_300x250_1
 ###advert_back_300x250_2
 ###advert_banner
+###advert_belowmenu
 ###advert_bottom_100x70
 ###advert_box
 ###advert_header
@@ -12965,6 +12981,7 @@ _popunder+$popup
 ###frnContentAd
 ###front-ad-cont
 ###front-page-advert
+###frontPageAd
 ###front_ad728
 ###front_adtop_content
 ###front_advert
@@ -13503,6 +13520,7 @@ _popunder+$popup
 ###joead2
 ###js-ad-leaderboard
 ###js_adsense
+###jt-advert
 ###jupiter-ads
 ###ka_adFullBanner
 ###ka_adMediumRectangle
@@ -13602,6 +13620,7 @@ _popunder+$popup
 ###left_ad
 ###left_ads
 ###left_adspace
+###left_adv
 ###left_advertisement
 ###left_bg_ad
 ###left_float_ad
@@ -14570,6 +14589,7 @@ _popunder+$popup
 ###slider_ad
 ###slideshow_ad_300x250
 ###sm-banner-ad
+###smallAd
 ###small_ad
 ###small_ad_banners_vertical
 ###small_ads
@@ -16755,6 +16775,7 @@ _popunder+$popup
 ##.ad_fullwidth
 ##.ad_gal
 ##.ad_global_header
+##.ad_gpt
 ##.ad_grid
 ##.ad_gutter_top
 ##.ad_half_page
@@ -16879,6 +16900,7 @@ _popunder+$popup
 ##.ad_regular3
 ##.ad_reminder
 ##.ad_report_btn
+##.ad_rightSky
 ##.ad_right_col
 ##.ad_right_column
 ##.ad_right_column160
@@ -17826,6 +17848,7 @@ _popunder+$popup
 ##.adv-300-250
 ##.adv-300x250
 ##.adv-336-280
+##.adv-4
 ##.adv-468-60
 ##.adv-700
 ##.adv-ad
@@ -17841,6 +17864,8 @@ _popunder+$popup
 ##.adv-mpu
 ##.adv-outer
 ##.adv-p
+##.adv-right
+##.adv-right-300
 ##.adv-search-ad
 ##.adv-sidebar
 ##.adv-x61
@@ -18311,6 +18336,7 @@ _popunder+$popup
 ##.annonstext
 ##.another_text_ad
 ##.answer_ad_content
+##.aol-twist-flyout-ad
 ##.aolSponsoredLinks
 ##.aopsadvert
 ##.ap_str_ad
@@ -18843,6 +18869,7 @@ _popunder+$popup
 ##.card--ad
 ##.care2_adspace
 ##.careerAdviceAd1
+##.carouselbanner_advert
 ##.cat_context_ad
 ##.catalog_ads
 ##.catalyst-ads
@@ -18891,6 +18918,7 @@ _popunder+$popup
 ##.change-ad-h-btn
 ##.change_AdContainer
 ##.changeableadzone
+##.channel-adv
 ##.chitika-ad
 ##.chitikaAdBlock
 ##.chitikaAdCopy
@@ -18945,6 +18973,7 @@ _popunder+$popup
 ##.cnt_ad
 ##.cntrad
 ##.cobalt-ad
+##.col-ad
 ##.col-line-ad
 ##.colRightAd
 ##.col_header_ads_300x250
@@ -19128,6 +19157,7 @@ _popunder+$popup
 ##.dfp_ad_caption
 ##.dfrads
 ##.diggable-ad-sponsored
+##.display-ad
 ##.display-ads-block
 ##.displayAd
 ##.displayAd728x90Js
@@ -19203,6 +19233,7 @@ _popunder+$popup
 ##.editorial-adsense
 ##.editors-ads
 ##.ehs-adbridge
+##.ej-advertisement-text
 ##.element-adplace
 ##.em-ad
 ##.em-ads-widget
@@ -19580,6 +19611,7 @@ _popunder+$popup
 ##.graphic_ad
 ##.grev-ad
 ##.grey-ad-line
+##.grey-ad-notice
 ##.greyAd
 ##.greyad
 ##.grid-ad
@@ -22245,6 +22277,7 @@ _popunder+$popup
 ###tadsto.c
 ###topstuff > #tads
 ##.GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-
+##.GJJKPX2N1 > .GJJKPX2M1 > .GJJKPX2P4
 ##.GPMV2XEDA2 > .GPMV2XEDP1 > .GPMV2XEDJBB
 ##.ch[onclick="ga(this,event)"]
 ##.commercial-unit-desktop-rhs
@@ -22578,6 +22611,8 @@ _popunder+$popup
 /beacon?
 /beaconimg.php?
 /BehaviourCaptureHandler.
+/betamax_tracker.gif?
+/betamax_tracker.js
 /bh_counter.js
 /bicomscore.
 /bicomscore_
@@ -22757,7 +22792,6 @@ _popunder+$popup
 /com_joomlawatch/*
 /competeTracking_test.html?
 /comscore.
-/comscore/beacon.js
 /comscore_beacon.
 /comscore_stats.
 /comscorebeacon.
@@ -22923,7 +22957,6 @@ _popunder+$popup
 /external/nielsen_
 /ezytrack.
 /FacebookTracking.
-/fast-google-analytics/*
 /fastcounter.
 /fb-app-tracker.
 /fbanalytics/*
@@ -23754,7 +23787,6 @@ _popunder+$popup
 /sikquantcast_
 /SilverPop.
 /silverpop/*
-/simple-google-analytics/*
 /simtracker.min.js
 /site-tracker-
 /site-tracker.
@@ -24292,6 +24324,7 @@ _popunder+$popup
 ://b.*/vanity/?
 ://c.*/c.gif?
 ://c1.*/c.gif?
+://click.*/open.aspx?
 ://email.*/blankpixel.gif
 ://eulerian.*/ea.js
 ://gdyn.*/1.gif?
@@ -24551,7 +24584,6 @@ http://utm.
 ||webstat.kuwo.cn^
 ||wenku.baidu.com/tongji/
 ||wumii.com/images/pixel.png
-||xnimg.cn^*/beacon.js
 ||youdao.com/cf.gif?
 ||youdao.com/imp/cac.js
 ||youdao.com/rlog.js

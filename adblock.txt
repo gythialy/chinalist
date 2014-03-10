@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: b7oi1CpFrLAyAmLv6/IbKg
+!  Checksum: XZUT7hoYvjzsl5roAD5VFA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 07 Mar 2014 14:47:58 +0800
+!  Last Modified:  Mon, 10 Mar 2014 22:14:55 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -178,6 +178,7 @@
 ||adhai.com^$third-party
 ||adjwl.com^$third-party
 ||adkongjian.com^$third-party
+||admaji.com^$third-party
 ||admaster.com.cn^$third-party
 ||admin6.com^$third-party
 ||adnets.cn^$third-party
