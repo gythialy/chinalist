@@ -6,6 +6,7 @@
 52vfx.com#@##head_ad
 idown.org#@#.popup_ad
 @@||bbs.52waha.com/data/attachment/common/ad/common_74_icon.png
+@@||ad.gridsumdissector.com/v1/Content/images/ad-dissector-icon.png
 bbs.9baka.com,bbs.9gal.com#@##top_ad
 yocoy.com#@##AdArea
 @@||zj.189.cn/wt_uac/login/wt/js/pop.js
