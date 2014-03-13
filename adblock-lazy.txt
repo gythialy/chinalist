@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: Gk+xmCSrPliY8oSOZ03A0Q
+!  Checksum: 5pLQRRskrkv2N/AcQEmJtA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 12 Mar 2014 16:52:38 +0800
+!  Last Modified:  Thu, 13 Mar 2014 09:27:18 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -1855,11 +1855,10 @@ dm5.com,dm5.hk##.cl970
 ||market.duowan.com^
 !---东方财富网
 ||cmsjs.eastmoney.com/js/fixedSoft$script
-||eastmoney.com/images/uma.html
-||eastmoney.com/js/fs2012.js
+||cmsjs.eastmoney.com^$subdocument
+||dfcfw.com/js/*/emfloatmedia$script
 ||same.eastmoney.com^
 eastmoney.com##.banner
-eastmoney.com##.bannerE
 eastmoney.com##.lyad
 !---生物通
 @@||ebiotrade.com/jslibrary/js44.js
@@ -16205,6 +16204,7 @@ _popunder+$popup
 ##.ad300x2501
 ##.ad300x250GrayBorder
 ##.ad300x250Module
+##.ad300x250Right
 ##.ad300x250Top
 ##.ad300x250_box
 ##.ad300x250_container

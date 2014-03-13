@@ -475,12 +475,11 @@ dm5.com,dm5.hk##.cl970
 ||market.duowan.com^
 
 !---东方财富网
-||eastmoney.com/images/uma.html
-||eastmoney.com/js/fs2012.js
 ||same.eastmoney.com^
 ||cmsjs.eastmoney.com/js/fixedSoft$script
+||cmsjs.eastmoney.com^$subdocument
+||dfcfw.com/js/*/emfloatmedia$script
 eastmoney.com##.lyad
-eastmoney.com##.bannerE
 eastmoney.com##.banner
 
 !---生物通
