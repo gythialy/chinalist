@@ -1583,9 +1583,7 @@ yesky.com##[class^="ad"]
 ||v.stats.yytcdn.com^
 
 !---人人影视
-@@||res.yyets.com/ads/bd-160.js
 ||copy.ousns.com^
-||res.yyets.com/ads/
 yyets.com##a[href="http://ehdw.taobao.com/"]
 yyets.com##[style="width:690px; height:90px; overflow:hidden; margin-bottom:1em; text-align:center;"]
 yyets.com##.games-rec-list

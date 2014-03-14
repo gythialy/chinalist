@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: 99fZ8NBWDMtUPknZKP57fA
+!  Checksum: C2/b/Xq0g6S8bW4HZhmRSw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 14 Mar 2014 17:00:15 +0800
+!  Last Modified:  Fri, 14 Mar 2014 22:58:06 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2848,9 +2848,7 @@ yesky.com##[class^="ad"]
 ||v.stats.yytcdn.com^
 ||yytcdn.com/uploads/page_advertisement/
 !---人人影视
-@@||res.yyets.com/ads/bd-160.js
 ||copy.ousns.com^
-||res.yyets.com/ads/
 yyets.com##.games-rec-list
 yyets.com##.tb-box
 yyets.com##[style="width:690px; height:90px; overflow:hidden; margin-bottom:1em; text-align:center;"]
@@ -8051,6 +8049,7 @@ _ad.php?
 _ad/full_
 _ad/section_
 _ad01.
+_ad01_
 _ad1.$~stylesheet
 _ad103.
 _ad120x120_
@@ -8331,6 +8330,7 @@ _externalad.
 _fach_ad.
 _feast_ad.
 _files/ad.
+_fixed_ad.
 _floating_ad_
 _floatingad_
 _footer_ad_
@@ -9845,6 +9845,7 @@ _popunder+$popup
 ###ad-new
 ###ad-north
 ###ad-north-base
+###ad-northeast
 ###ad-one
 ###ad-other
 ###ad-overlay
@@ -21215,6 +21216,7 @@ _popunder+$popup
 ##.singlepageleftad
 ##.singlepostad
 ##.singlepostadsense
+##.singpagead
 ##.site-ad-block
 ##.site-ads
 ##.site-top-ad
