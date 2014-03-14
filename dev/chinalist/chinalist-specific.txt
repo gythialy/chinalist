@@ -1585,9 +1585,9 @@ yesky.com##[class^="ad"]
 !---人人影视
 ||copy.ousns.com^
 yyets.com##a[href="http://ehdw.taobao.com/"]
-yyets.com##[style="width:690px; height:90px; overflow:hidden; margin-bottom:1em; text-align:center;"]
 yyets.com##.games-rec-list
-yyets.com##.tb-box
+yyets.com##.j-t
+yyets.com##.joke
 
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
