@@ -238,6 +238,7 @@
     <string>||youtube.com/s?</string>
     <string>||youtube.com/set_awesome?</string>
     <string>||youtube.com/stream_204?</string>
+    <string>||a-ads.com^$third-party</string>
   </NewItems>
   <ModifyItems>
     <ModifyItem>

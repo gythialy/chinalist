@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: tUqzsV/J2OVgc+jBvBIULQ
+!  Checksum: 99fZ8NBWDMtUPknZKP57fA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Thu, 13 Mar 2014 16:05:20 +0800
+!  Last Modified:  Fri, 14 Mar 2014 17:00:15 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -4634,6 +4634,7 @@ suning.com#@##topAd
 /ads/house/*
 /ads/house_
 /ads/html/*
+/ads/htmlparser.
 /ads/iframe
 /ads/im2.
 /ads/image/*
@@ -4686,6 +4687,7 @@ suning.com#@##topAd
 /ads/popup.
 /ads/popup_
 /ads/post-
+/ads/postscribe.
 /ads/preloader/*
 /ads/preroll/*
 /ads/preroll_
@@ -4739,6 +4741,7 @@ suning.com#@##topAd
 /ads/welcomescreen.
 /ads/widebanner.
 /ads/widget.
+/ads/writecapture.
 /ads/www/*
 /ads/yahoo/*
 /ads/zone/*
@@ -7561,6 +7564,7 @@ suning.com#@##topAd
 /studioads/*
 /stuff/ad-
 /style_ad.
+/styles/ads.
 /styles/ads/*
 /subAd.
 /subad2_
@@ -9701,6 +9705,7 @@ _popunder+$popup
 ###ad-banner-top
 ###ad-banner-wrap
 ###ad-bar
+###ad-base
 ###ad-beauty
 ###ad-bg
 ###ad-big
@@ -10420,6 +10425,7 @@ _popunder+$popup
 ###ad_500
 ###ad_500_label
 ###ad_500x150
+###ad_6
 ###ad_700x430
 ###ad_728
 ###ad_728_90
@@ -14117,6 +14123,7 @@ _popunder+$popup
 ###ps-top-ads-sponsored
 ###ps-vertical-ads
 ###psmpopup
+###pub-right-top-ads
 ###pub468x60
 ###publicGoogleAd
 ###publicidad
@@ -14308,6 +14315,8 @@ _popunder+$popup
 ###rightskyad
 ###righttop-adverts
 ###righttop-adverts-container
+###ringtone-ad-bottom
+###ringtone-ad-top
 ###rm_ad_text
 ###rockmelt-ad-top
 ###rolldown-ad
@@ -15900,6 +15909,7 @@ _popunder+$popup
 ##.ad-leaderboard-container
 ##.ad-leaderboard-marquee
 ##.ad-leaderboard_river
+##.ad-leadtop
 ##.ad-left
 ##.ad-left3
 ##.ad-leftrail
@@ -20949,6 +20959,7 @@ _popunder+$popup
 ##.rightnav_adsense
 ##.rightrail_ads
 ##.rightsideAd
+##.ringtone-ad
 ##.riverSponsor
 ##.rmx-ad
 ##.rnav_ad
@@ -24763,4 +24774,5 @@ youtube.com##a[href^="http://www.youtube.com/cthru?"]
 ||youtube.com/s?
 ||youtube.com/set_awesome?
 ||youtube.com/stream_204?
+||a-ads.com^$third-party
 !------------------------End of List-------------------------
