@@ -38,6 +38,7 @@ blog.dausos.com##.adr
 blog.dausos.com##.adt
 dmzj.com##iframe[width="960"]
 downg.com##.content.ad-b950x50
+du00.com###ad
 freegroup.org##.ad-box
 freegroup.org##div[style^="width:336px; height:280px;"]
 freehao123.com##.box
