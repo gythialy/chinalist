@@ -476,6 +476,8 @@ disp.cc##.ads_bot_block
 dj520.com##.a304
 dj520.com##.pal
 ||djkk.com/ak/
+||share.dmhy.*/*?$image
+share.dmhy.me,share.dmhy.org##[id$="_ad"]
 /banner/*$domain=dolc.de|dolc.info
 dolc.de,dolc.info###sitefocus
 ||dospy.com/hezuo/

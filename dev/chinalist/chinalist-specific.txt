@@ -411,16 +411,6 @@ dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; ove
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
 
-!---动漫花园
-||share.dmhy.*/QS$image
-||share.dmhy.*/MY$image
-||share.dmhy.*/MZ$image
-||share.dmhy.*/shareman$image
-||share.dmhy.*/WLGO$image
-share.dmhy.me,share.dmhy.org##.ad
-share.dmhy.me,share.dmhy.org###shareman_ad
-share.dmhy.me,share.dmhy.org###WLGO_ad
-
 !---豆瓣
 ||douban.com^*/fm_bgad.js
 ||img3.douban.com/js/packed_ad
