@@ -15,6 +15,7 @@ yocoy.com#@##AdArea
 @@||bbs.byr.cn/article/Advertising/
 @@||bbs.byr.cn/board/Advertising?
 @@||chinahr.com/images/phpads/$image,~third-party
+@@||houdask.com/data/advertising/$image
 @@||icbc.com.cn/ICBC_ADJS/$script,~third-party
 @@||fireeye.ijinshan.com/static/js/analyse.js
 @@||ganji.com/findjob/send_resume.php?$subdocument

@@ -411,16 +411,6 @@ dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; ove
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
 
-!---动漫花园
-||share.dmhy.*/QS$image
-||share.dmhy.*/MY$image
-||share.dmhy.*/MZ$image
-||share.dmhy.*/shareman$image
-||share.dmhy.*/WLGO$image
-share.dmhy.me,share.dmhy.org##.ad
-share.dmhy.me,share.dmhy.org###shareman_ad
-share.dmhy.me,share.dmhy.org###WLGO_ad
-
 !---豆瓣
 ||douban.com^*/fm_bgad.js
 ||img3.douban.com/js/packed_ad
@@ -1583,13 +1573,11 @@ yesky.com##[class^="ad"]
 ||v.stats.yytcdn.com^
 
 !---人人影视
-@@||res.yyets.com/ads/bd-160.js
 ||copy.ousns.com^
-||res.yyets.com/ads/
 yyets.com##a[href="http://ehdw.taobao.com/"]
-yyets.com##[style="width:690px; height:90px; overflow:hidden; margin-bottom:1em; text-align:center;"]
 yyets.com##.games-rec-list
-yyets.com##.tb-box
+yyets.com##.j-t
+yyets.com##.joke
 
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
