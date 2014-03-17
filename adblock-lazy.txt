@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: 7WzWgxz+d3KoEpFAq2OMFw
+!  Checksum: IfrECsdVBAvvYuWe6dhIow
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 17 Mar 2014 13:20:42 +0800
+!  Last Modified:  Mon, 17 Mar 2014 13:28:04 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -673,6 +673,7 @@ coolapk.com##.ga200
 crsky.com##[id$="_TL"]
 dmzj.com##iframe[width="960"]
 downg.com##.content.ad-b950x50
+du00.com###ad
 fbook.net##.head-d
 freegroup.org##.ad-box
 freegroup.org##div[style^="width:336px; height:280px;"]
@@ -1298,6 +1299,7 @@ www.jstv.com##.jadv
 ||qzwb.com^$object
 ||s.tankr.net/s/$script
 ||school.itzcn.com/popup.js
+||share.dmhy.*/*?$image
 ||so100.cn/images/a*.js
 ||so100.cn/images/newshead.htm
 ||soaspx.com/images/hws.gif
@@ -1387,6 +1389,7 @@ ph66.com##[class^="ad_"]
 qiushibaike.com##.sitelink
 qzwb.com##.area[style^="height:70px;"]
 ruten.com.tw###supertop-bar
+share.dmhy.me,share.dmhy.org##[id$="_ad"]
 subpig.net##.a_p
 tianyayidu.com##div[style^="width:728px;"]
 tiexue.net###Baidu_WWW_TopAD4
@@ -1796,15 +1799,6 @@ dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; ove
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
-!---动漫花园
-||share.dmhy.*/MY$image
-||share.dmhy.*/MZ$image
-||share.dmhy.*/QS$image
-||share.dmhy.*/shareman$image
-||share.dmhy.*/WLGO$image
-share.dmhy.me,share.dmhy.org###shareman_ad
-share.dmhy.me,share.dmhy.org###WLGO_ad
-share.dmhy.me,share.dmhy.org##.ad
 !---豆瓣
 ||douban.com^*/fm_bgad.js
 ||img3.douban.com/js/packed_ad
@@ -2847,12 +2841,10 @@ yesky.com##[class^="ad"]
 ||v.stats.yytcdn.com^
 ||yytcdn.com/uploads/page_advertisement/
 !---人人影视
-@@||res.yyets.com/ads/bd-160.js
 ||copy.ousns.com^
-||res.yyets.com/ads/
 yyets.com##.games-rec-list
-yyets.com##.tb-box
-yyets.com##[style="width:690px; height:90px; overflow:hidden; margin-bottom:1em; text-align:center;"]
+yyets.com##.joke
+yyets.com##.j-t
 yyets.com##a[href="http://ehdw.taobao.com/"]
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
@@ -2936,6 +2928,7 @@ yaolanimage.cn/home/js/adinsert_new.js
 @@||fireeye.ijinshan.com/static/js/analyse.js
 @@||ganji.com/findjob/send_resume.php?$subdocument
 @@||hm.baidu.com^$third-party,domain=pic.cankaoxiaoxi.com
+@@||houdask.com/data/advertising/$image
 @@||icbc.com.cn/ICBC_ADJS/$script,~third-party
 @@||kanknim.allyes.com^$object-subrequest
 @@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
