@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: 99fZ8NBWDMtUPknZKP57fA
+!  Checksum: 7WzWgxz+d3KoEpFAq2OMFw
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Fri, 14 Mar 2014 17:00:15 +0800
+!  Last Modified:  Mon, 17 Mar 2014 13:20:42 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -569,7 +569,7 @@
 ||widget.weibo.com^
 ||wumii.cn^$third-party,domain=~wumii.com
 !*** chinalist-generic.txt ***
-!/acmsd/*
+/acmsd/*
 .cn/ads/
 .com.cn/js/ad.
 .com/js/ad.
@@ -636,7 +636,7 @@
 |http://gg.$~stylesheet,domain=~gg.ma
 |https://*/ad/
 !*** chinalist-hide.txt ***
-!##.wumii-widget-ad
+##.wumii-widget-ad
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
 1000fr.net##center
 17k.com##.b950
@@ -1809,8 +1809,7 @@ share.dmhy.me,share.dmhy.org##.ad
 ||douban.com^*/fm_bgad.js
 ||img3.douban.com/js/packed_ad
 ||mr3.douban.com^*/rda/$object-subrequest
-!---Discuz
-! & PHPWind etc.
+!---Discuz! & PHPWind etc.
 ###ad_headerbanner
 ###sitefocus.focus
 ##.a_fl
@@ -2925,7 +2924,7 @@ yaolanimage.cn/home/js/adinsert_new.js
 ||xiuxiu.meitu.com/images/banner/meitushop_fixed_816.gif
 ||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
 !*** chinalist-white.txt ***
-!2tu.cc#@#.adds
+2tu.cc#@#.adds
 @@||ad.gridsumdissector.com/v1/Content/images/ad-dissector-icon.png
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||ad.qyer.com^
@@ -4553,8 +4552,11 @@ suning.com#@##topAd
 /ads/160.
 /ads/160/*
 /ads/2010/*
+/ads/250x120_
 /ads/300.
 /ads/3002.
+/ads/300x120_
+/ads/300x250_
 /ads/468.
 /ads/468a.
 /ads/728.
@@ -4714,6 +4716,7 @@ suning.com#@##topAd
 /ads/side-
 /ads/sidebar-
 /ads/sidedoor/*
+/ads/sitewide_
 /ads/skins/*
 /ads/sky_
 /ads/spacer.
@@ -8051,6 +8054,7 @@ _ad.php?
 _ad/full_
 _ad/section_
 _ad01.
+_ad01_
 _ad1.$~stylesheet
 _ad103.
 _ad120x120_
@@ -8331,6 +8335,7 @@ _externalad.
 _fach_ad.
 _feast_ad.
 _files/ad.
+_fixed_ad.
 _floating_ad_
 _floatingad_
 _footer_ad_
@@ -9845,6 +9850,7 @@ _popunder+$popup
 ###ad-new
 ###ad-north
 ###ad-north-base
+###ad-northeast
 ###ad-one
 ###ad-other
 ###ad-overlay
@@ -17144,6 +17150,7 @@ _popunder+$popup
 ##.adfix-300x250
 ##.adflag
 ##.adfloatleft
+##.adfloatright
 ##.adfoot
 ##.adfootbox
 ##.adfooter
@@ -21215,6 +21222,7 @@ _popunder+$popup
 ##.singlepageleftad
 ##.singlepostad
 ##.singlepostadsense
+##.singpagead
 ##.site-ad-block
 ##.site-ads
 ##.site-top-ad
