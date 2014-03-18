@@ -47,7 +47,7 @@
 |http://*/js/tc.js
 |http://*.tw/ad/$domain=~atmovies.com.tw
 @@/data/preview/*$image
-|https://*/ad/
+|https://*/ad/$domain=~pay.suning.com
 /images/prom/*
 .info/ad/
 /main/s?

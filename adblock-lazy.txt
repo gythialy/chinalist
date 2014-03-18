@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: IfrECsdVBAvvYuWe6dhIow
+!  Checksum: 39OmG7TOpyGBDquhhlbx4g
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 17 Mar 2014 13:28:04 +0800
+!  Last Modified:  Tue, 18 Mar 2014 23:14:26 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -634,7 +634,7 @@
 |http://*/js/tc.js
 |http://acs.
 |http://gg.$~stylesheet,domain=~gg.ma
-|https://*/ad/
+|https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
 ##.wumii-widget-ad
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
@@ -3368,6 +3368,7 @@ suning.com#@##topAd
 .nl/ads/
 .no/ads/
 .nu/ads/
+.nz/ads/
 .oasfile.
 .openad.
 .openx.
@@ -4615,6 +4616,7 @@ suning.com#@##topAd
 /ads/footer.
 /ads/footer_
 /ads/freewheel/*
+/ads/g/*
 /ads/generatedHTML/*
 /ads/generator/*
 /ads/google1.
@@ -15917,6 +15919,7 @@ _popunder+$popup
 ##.ad-link-left
 ##.ad-link-right
 ##.ad-links
+##.ad-location
 ##.ad-lower_rec
 ##.ad-lower_river
 ##.ad-lrec
@@ -16002,6 +16005,7 @@ _popunder+$popup
 ##.ad-rotation
 ##.ad-row
 ##.ad-s
+##.ad-s-rendered
 ##.ad-scl
 ##.ad-script-processed
 ##.ad-section
@@ -21518,6 +21522,7 @@ _popunder+$popup
 ##.ss-ad-banner
 ##.ss-ad-mpu
 ##.ss-ad-tower
+##.stack-l-ad-center
 ##.stackedads1
 ##.stand-alone-adzone
 ##.standalone_txt_ad

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: xoIge9g4jQuT73los1JEOg
+!  Checksum: iIb1wnnQvhfOu6HCAHr3jA
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 17 Mar 2014 13:28:03 +0800
+!  Last Modified:  Tue, 18 Mar 2014 23:14:14 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -614,7 +614,7 @@
 |http://*/js/tc.js
 |http://acs.
 |http://gg.$~stylesheet,domain=~gg.ma
-|https://*/ad/
+|https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
 ##.wumii-widget-ad
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
