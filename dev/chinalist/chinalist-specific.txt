@@ -1230,11 +1230,12 @@ tv.sohu.com###miaozhenad
 !--Sogou
 ||sogou.com/js/pb_*.js
 ||brand.sogou.com^
+||file.cloud.sogou.com/*/superzone/
 ||lu.sogou.com^$subdocument
 ||pb.sogou.com^$image
 ||wan.sogou.com/pop/
-sogou.com###bdfs0
-sogou.com##.sponsored
+sogou.com###right
+sogou.com,soso.com##.sponsored
 sogou.com###zhuanqu
 map.sogou.com###CboardDlg_1
 

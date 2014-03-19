@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: 39OmG7TOpyGBDquhhlbx4g
+!  Checksum: cpvT81sOWaEupN2kyRki7Q
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Tue, 18 Mar 2014 23:14:26 +0800
+!  Last Modified:  Wed, 19 Mar 2014 16:30:37 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2535,14 +2535,15 @@ tv.sohu.com###miaozhenad
 tv.sohu.com##.skyAD
 !--Sogou
 ||brand.sogou.com^
+||file.cloud.sogou.com/*/superzone/
 ||lu.sogou.com^$subdocument
 ||pb.sogou.com^$image
 ||sogou.com/js/pb_*.js
 ||wan.sogou.com/pop/
 map.sogou.com###CboardDlg_1
-sogou.com###bdfs0
+sogou.com###right
 sogou.com###zhuanqu
-sogou.com##.sponsored
+sogou.com,soso.com##.sponsored
 !---搜房
 ||hezuo.sh.soufun.com^$subdocument,third-party
 ||imgn.jiatx.com/jiatx/mall/outer/
@@ -15384,6 +15385,7 @@ _popunder+$popup
 ##.AdnetBox
 ##.Ads-768x90
 ##.AdsBottom
+##.AdsBottom336X280
 ##.AdsBoxBottom
 ##.AdsBoxSection
 ##.AdsBoxTop
@@ -18284,6 +18286,7 @@ _popunder+$popup
 ##.advfrm
 ##.advhere
 ##.advslideshow
+##.advspot
 ##.advt
 ##.advt-banner-3
 ##.advt-block
@@ -21119,6 +21122,7 @@ _popunder+$popup
 ##.sideBarCubeAd
 ##.sideBlockAd
 ##.sideBoxAd
+##.sideBoxM1ad
 ##.sideBySideAds
 ##.side_ad
 ##.side_ad2
