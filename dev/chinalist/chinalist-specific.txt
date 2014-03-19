@@ -1234,7 +1234,7 @@ tv.sohu.com###miaozhenad
 ||lu.sogou.com^$subdocument
 ||pb.sogou.com^$image
 ||wan.sogou.com/pop/
-sogou.com###right
+sogou.com,soso.com###right
 sogou.com,soso.com##.sponsored
 sogou.com###zhuanqu
 map.sogou.com###CboardDlg_1

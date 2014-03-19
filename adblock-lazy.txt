@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: cpvT81sOWaEupN2kyRki7Q
+!  Checksum: IF+HEZ+t5A/XtPn2EwSZiQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 19 Mar 2014 16:30:37 +0800
+!  Last Modified:  Wed, 19 Mar 2014 16:32:29 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2541,8 +2541,8 @@ tv.sohu.com##.skyAD
 ||sogou.com/js/pb_*.js
 ||wan.sogou.com/pop/
 map.sogou.com###CboardDlg_1
-sogou.com###right
 sogou.com###zhuanqu
+sogou.com,soso.com###right
 sogou.com,soso.com##.sponsored
 !---搜房
 ||hezuo.sh.soufun.com^$subdocument,third-party
