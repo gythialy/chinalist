@@ -29,6 +29,7 @@ shuhe.cc#@#.ad960
 @@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
 @@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
 @@||online.unionpay.com/ads/$script,~third-party
+@@||zhuanlan.zhihu.com/api/columns/adman/posts$xmlhttprequest
 wired.tw#@#.header_ad
 wired.tw#@#.sidebar_ads
 wired.tw#@#.top-content-adplace

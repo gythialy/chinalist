@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: pQPozMFhDCsOJS/b1Qun+Q
+!  Checksum: uZJh7aJy1NlBjU5eFYNduQ
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 19 Mar 2014 16:32:28 +0800
+!  Last Modified:  Sat, 22 Mar 2014 00:10:34 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
@@ -2883,6 +2883,7 @@ yaolanimage.cn/home/js/adinsert_new.js
 @@||online.unionpay.com/ads/$script,~third-party
 @@||sdc.pingan.com^$~image
 @@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
+@@||zhuanlan.zhihu.com/api/columns/adman/posts$xmlhttprequest
 @@||zj.189.cn/wt_uac/login/wt/js/pop.js
 36.cn#@#.mainAd
 51job.com#@##ad_left

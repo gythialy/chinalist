@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: 8ql9HskPycS78qk4Nbl8pA
+!  Checksum: ++boCDx64t6fUh4I8d4ecQ
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Sat, 22 Mar 2014 00:08:41 +0800
+!  Last Modified:  Sat, 22 Mar 2014 00:10:35 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -2936,6 +2936,7 @@ yaolanimage.cn/home/js/adinsert_new.js
 @@||online.unionpay.com/ads/$script,~third-party
 @@||sdc.pingan.com^$~image
 @@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
+@@||zhuanlan.zhihu.com/api/columns/adman/posts$xmlhttprequest
 @@||zj.189.cn/wt_uac/login/wt/js/pop.js
 36.cn#@#.mainAd
 51job.com#@##ad_left
