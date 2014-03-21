@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: IF+HEZ+t5A/XtPn2EwSZiQ
+!  Checksum: 8ql9HskPycS78qk4Nbl8pA
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Wed, 19 Mar 2014 16:32:29 +0800
+!  Last Modified:  Sat, 22 Mar 2014 00:08:41 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -3568,6 +3568,7 @@ suning.com#@##topAd
 /ad-serve?
 /ad-server.
 /ad-server/*
+/ad-sidebar-
 /ad-skyscraper.
 /ad-specs.
 /ad-sprite.
@@ -4551,7 +4552,6 @@ suning.com#@##topAd
 /ads/300.
 /ads/3002.
 /ads/300x120_
-/ads/300x250_
 /ads/468.
 /ads/468a.
 /ads/728.
@@ -5271,7 +5271,13 @@ suning.com#@##topAd
 /advert1/*
 /advert2.
 /advert3.
+/advert31.
+/advert32.
 /advert33.
+/advert34.
+/advert35.
+/advert36.
+/advert37.
 /advert4.
 /advert5.
 /advert6.
@@ -5280,6 +5286,7 @@ suning.com#@##topAd
 /advertbanner.
 /advertbanner2.
 /advertbox.
+/advertguruonline1.
 /adverthorisontalfullwidth.
 /advertical.
 /advertise-
@@ -5338,10 +5345,12 @@ suning.com#@##topAd
 /advertize_
 /advertlayer.
 /advertmedia/*
+/advertmsig.
 /advertorial/*
 /advertorial_
 /advertorials/*
 /advertphp/*
+/advertpixelmedia1.
 /advertpro/*
 /advertrail.
 /advertright.
@@ -5353,6 +5362,7 @@ suning.com#@##topAd
 /advertsquare.
 /advertstub.
 /advertverticallong.
+/advertwebapp.
 /advfiles/*
 /advhd.
 /advice-ads.
@@ -5857,6 +5867,7 @@ suning.com#@##topAd
 /contentad/*
 /contentad_
 /contentAdServlet?
+/contentadvert1.
 /contentadxxl.
 /contentad|
 /context_ad/*
@@ -6758,6 +6769,7 @@ suning.com#@##topAd
 /main_ad.
 /main_ad/*
 /mainad.
+/mainpagepopupadv1.
 /marginaleadservlet?
 /marketing-banners/*
 /marketing/banners/*
@@ -7912,6 +7924,7 @@ suning.com#@##topAd
 /ysmads.
 /ysmwrapper.js
 /z-ads.
+/z/ads/*
 /zagcookie_
 /zanox.js
 /zanox/banner/*
@@ -8242,6 +8255,7 @@ _adtext_
 _adtitle.
 _adtoma.
 _adtop.
+_adtxt.
 _adunit.
 _adv/300.
 _adv/overlay/
@@ -8347,6 +8361,7 @@ _google_ads.
 _google_ads/
 _google_ads_
 _googlead.
+_grid_ad?
 _header_ad.
 _header_ad_
 _headerad.
@@ -10411,6 +10426,7 @@ _popunder+$popup
 ###ad_300x250_container
 ###ad_300x250_content_column
 ###ad_300x250_m_c
+###ad_300x250_secondary
 ###ad_300x250_startgame
 ###ad_300x250m
 ###ad_300x600
@@ -10438,13 +10454,16 @@ _popunder+$popup
 ###ad_728x90
 ###ad_728x90_container
 ###ad_728x90_content
+###ad_728x90home
 ###ad_728x91
 ###ad_8
 ###ad_88x31
 ###ad_940
 ###ad_984
+###ad_990x90
 ###ad_A
 ###ad_B
+###ad_B1
 ###ad_Banner
 ###ad_Bottom
 ###ad_C
@@ -11123,6 +11142,7 @@ _popunder+$popup
 ###ads-leader
 ###ads-leaderboard
 ###ads-leaderboard1
+###ads-left-top
 ###ads-lrec
 ###ads-main
 ###ads-menu
@@ -11134,6 +11154,7 @@ _popunder+$popup
 ###ads-right-bottom
 ###ads-right-cube
 ###ads-right-skyscraper
+###ads-right-top
 ###ads-right-twobottom
 ###ads-rt
 ###ads-sidebar-skyscraper-unit
@@ -11777,6 +11798,7 @@ _popunder+$popup
 ###advertising-top
 ###advertising2
 ###advertising3
+###advertisingBlocksLeaderboard
 ###advertisingLink
 ###advertisingModule160x600
 ###advertisingModule728x90
@@ -13056,6 +13078,7 @@ _popunder+$popup
 ###glamads
 ###glinkswrapper
 ###global-banner-ad
+###globalHeader_divAd
 ###globalLeftNavAd
 ###globalTopNavAd
 ###global_header_ad
@@ -13592,6 +13615,7 @@ _popunder+$popup
 ###leaderboardAd
 ###leaderboardAdArea
 ###leaderboardAdArea2
+###leaderboardAdLabel
 ###leaderboardAdSibling
 ###leaderboardAdTop
 ###leaderboardAds
@@ -13969,6 +13993,7 @@ _popunder+$popup
 ###oas_wide_skyscraper
 ###ob_sponsoredcontent
 ###oba_message
+###objadscript
 ###oem_ad
 ###ofie_ad
 ###onespot-ads
@@ -15642,6 +15667,7 @@ _popunder+$popup
 ##._bannerAds
 ##._bottom_ad_wrapper
 ##._top_ad_wrapper
+##.a-d-container
 ##.a160x600
 ##.a728x90
 ##.aa_AdAnnouncement
@@ -16036,11 +16062,15 @@ _popunder+$popup
 ##.ad-skyscraper-label
 ##.ad-slider
 ##.ad-slot
+##.ad-slot--inline
+##.ad-slot--mpu-banner-ad
 ##.ad-slot-1
 ##.ad-slot-2
 ##.ad-slot-234-60
 ##.ad-slot-300-250
 ##.ad-slot-728-90
+##.ad-slot__label
+##.ad-slot__oas
 ##.ad-smallBP
 ##.ad-source
 ##.ad-sp
@@ -16327,6 +16357,7 @@ _popunder+$popup
 ##.adBlockBottomBreak
 ##.adBlockNext
 ##.adBlockSpacer
+##.adBlockSpot
 ##.adBlock_1
 ##.adBlock_17
 ##.adBlock_2
@@ -17261,6 +17292,7 @@ _popunder+$popup
 ##.adrule
 ##.ads-1
 ##.ads-125
+##.ads-125-widget
 ##.ads-160-head
 ##.ads-160x600
 ##.ads-2
@@ -17764,6 +17796,7 @@ _popunder+$popup
 ##.adslothead
 ##.adslotleft
 ##.adslotright
+##.adslug
 ##.adsmall
 ##.adsmalltext
 ##.adsmanag
@@ -18242,6 +18275,7 @@ _popunder+$popup
 ##.advertising728_3
 ##.advertisingBanner
 ##.advertisingBlock
+##.advertisingBlocks
 ##.advertisingLegend
 ##.advertisingLrec
 ##.advertisingTable
@@ -19809,6 +19843,7 @@ _popunder+$popup
 ##.homestream-ad
 ##.hor_ad
 ##.hori-play-page-adver
+##.horisont_ads
 ##.horiz_adspace
 ##.horizontal-ad-holder
 ##.horizontalAd
@@ -21497,6 +21532,7 @@ _popunder+$popup
 ##.sport-mpu-box
 ##.spot-ad
 ##.spotlightAd
+##.sprite-ad_label_vert
 ##.sqAd2
 ##.sq_ad
 ##.square-ad
@@ -24619,6 +24655,7 @@ http://utm.
 ||youdao.com/rlog.js
 ||youku.com/compvlog?
 ! *** easylist:easyprivacy/easyprivacy_whitelist_international.txt ***
+@@||amazonaws.com/angular-ui-router.min.js*-google-analytics.js$script,domain=dcard.tw
 @@||gridsumdissector.com^*/logger.js
 @@||hm.baidu.com/h.js?$domain=weaku.com
 @@||imrworldwide.com/novms/js/2/ggcmb353.js$domain=nexttv.com.tw
