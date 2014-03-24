@@ -4,14 +4,14 @@
 
 ## 公告
 
-由于 [ABP 策略调整](https://adblockplus.org/blog/switching-default-blocking-lists-for-chinese-users)，ChinaList 项目做如下调整：
+由于 [ABP 策略调整](https://adblockplus.org/blog/switching-default-blocking-lists-for-chinese-users)，ChinaList 将作为独立的民间项目，与 ABP 官方不再有任何关系(2014-3-24 起)。
+
+项目做如下调整，下阶段目标，参见[路线图](https://github.com/chinalist/chinalist/wiki/Roadmap)
 
 - 原 ChinaList Lazy 改为 ChinaList，将作为以后本项目维护的主列表，不依赖任何第三方列表
 - 原 ChinaList 改为 ChinaList Lite, 和原策略保持一致，作为 EasyList 的补充列表
 
-单独订阅 ChinaList Lazy，ChinaList 用户不受任何影响，列表会自动重定向。订阅官方 EasyList + ChinaList 用户，如果想使用我们维护的列表需要手动更改订阅。如不更改会自动更新到 ABP 官方 fork 的我们的项目列表。
-
-注: ChinaList 将作为独立的民间项目，与 ABP 官方不再有任何关系(2014-3-24 起)。
+注：单独订阅 ChinaList Lazy，ChinaList 用户不受任何影响，列表会自动重定向。订阅官方 EasyList + ChinaList 用户，如果想使用我们维护的列表需要手动更改订阅。如不更改会自动更新到 ABP 官方 fork 的我们的项目列表。
 
 ## 补充
 
