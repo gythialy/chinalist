@@ -33,8 +33,8 @@ Adblock Plus非万能，其实现原理[在此](http://adblockplus.org/zh_CN/faq
 
 ## LICENSE 
 
-- ChinaList [GNU Lesser GPL](http://www.gnu.org/licenses/lgpl.html)
-- ChinaList Lazy [Creative Commons 3.0 BY-SA](http://creativecommons.org/licenses/by-sa/3.0/)
+- ChinaList Lite [GNU Lesser GPL](http://www.gnu.org/licenses/lgpl.html)
+- ChinaList [Creative Commons 3.0 BY-SA](http://creativecommons.org/licenses/by-sa/3.0/)
 
 -------------
 
