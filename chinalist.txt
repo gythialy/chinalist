@@ -1,9 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: i6vGRqW8pPjxaW/IymE4EA
+!  Checksum: IGiRjZMUsFaKDBjgwkxTDw
 !  Title: ChinaList
-!  Redirect: https://raw.github.com/chinalist/chinalist/master/chinalist.txt
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 24 Mar 2014 09:47:09 +0800
+!  Last Modified:  Mon, 24 Mar 2014 09:37:11 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList Lazy = Part of EasyList + ChinaList + Part of EasyPrivacy
@@ -3259,7 +3258,6 @@ suning.com#@##topAd
 .asp?coad
 .aspx?ad=
 .aspx?adid=
-.aspx?ads=
 .aspx?zoneid=
 .au/ads/
 .banner%20ad.
@@ -3406,7 +3404,7 @@ suning.com#@##topAd
 .popupvideoad.
 .refit.ads.
 .rolloverad.
-.se/?placement=$script,third-party
+.se/?placement=$script,subdocument,third-party
 .shortcuts.search.
 .show_ad_
 .sk/ads/
@@ -3554,6 +3552,7 @@ suning.com#@##topAd
 /ad-loading.
 /ad-local.
 /ad-logger/*
+/ad-manager/*
 /ad-managment/*
 /ad-methods.
 /ad-modules/*
@@ -3989,6 +3988,7 @@ suning.com#@##topAd
 /ad_ver/*
 /ad_vert.
 /ad_vertical.
+/ad_video.htm
 /ad_video1.
 /ad_view_
 /ad_wide_
@@ -4659,6 +4659,7 @@ suning.com#@##topAd
 /ads/leaderboard/*
 /ads/leaderboard?
 /ads/leaderboard_
+/ads/leaderbox.
 /ads/load.
 /ads/main.
 /ads/menu_
@@ -5377,6 +5378,7 @@ suning.com#@##topAd
 /adviewed.
 /adviewer.
 /adviframe/*
+/advinfo.
 /advision.
 /advolatility.
 /advpartnerinit.
@@ -7455,6 +7457,7 @@ suning.com#@##topAd
 /slafc.js
 /slideadverts/*
 /slideinad.
+/slider-ad-
 /slider.ad.
 /slider_ad.
 /sliderAd/*
@@ -7912,6 +7915,7 @@ suning.com#@##topAd
 /yellowpagesads/*
 /yieldads.
 /yieldlab.
+/yieldmanager/*
 /yin-ad/*
 /yld/js/*
 /yld_mgr/*
@@ -8007,6 +8011,7 @@ suning.com#@##topAd
 ?adlocation=
 ?adpage=
 ?adpartner=
+?ads=
 ?adsdata=
 ?adsite=
 ?adsize=
@@ -11589,6 +11594,7 @@ _popunder+$popup
 ###adv468x90
 ###adv728
 ###adv768x90
+###advCarrousel
 ###advHome
 ###advMegaBanner
 ###advRectangle
@@ -14977,6 +14983,7 @@ _popunder+$popup
 ###topImgAd
 ###topLeaderAdAreaPageSkin
 ###topMPU
+###topMpuContainer
 ###topNavLeaderboardAdHolder
 ###topOpenXAdSlot
 ###topOverallAdArea
@@ -17407,6 +17414,7 @@ _popunder+$popup
 ##.ads-widget
 ##.ads-widget-partner-gallery
 ##.ads-widget-sponsor-gallery
+##.ads-wrapper
 ##.ads-zone
 ##.ads01
 ##.ads02
@@ -17426,6 +17434,7 @@ _popunder+$popup
 ##.ads120_80
 ##.ads123
 ##.ads125
+##.ads125-widget
 ##.ads13
 ##.ads14
 ##.ads15
@@ -18549,6 +18558,7 @@ _popunder+$popup
 ##.bannerAdContainer
 ##.bannerAdLeaderboard
 ##.bannerAdRectangle
+##.bannerAdSidebar
 ##.bannerAdTower
 ##.bannerAdWrap
 ##.bannerAdWrapper300x250
@@ -20168,6 +20178,7 @@ _popunder+$popup
 ##.listings-bottom-ad-w
 ##.little_vid_ads
 ##.live-search-list-ad-container
+##.live_tv_sponsorship_ad
 ##.livingsocial-ad
 ##.ljad
 ##.llsAdContainer
@@ -20408,6 +20419,7 @@ _popunder+$popup
 ##.mpu-container-blank
 ##.mpu-footer
 ##.mpu-fp
+##.mpu-holder
 ##.mpu-left
 ##.mpu-right
 ##.mpu-title
@@ -20753,6 +20765,7 @@ _popunder+$popup
 ##.premium_ad_container
 ##.premiumad
 ##.pricead-border
+##.primary-ad
 ##.primary-advertisment
 ##.primary_sidebar_ad
 ##.printAds
@@ -21161,6 +21174,7 @@ _popunder+$popup
 ##.sideBlockAd
 ##.sideBoxAd
 ##.sideBoxM1ad
+##.sideBoxMiddleAd
 ##.sideBySideAds
 ##.side_ad
 ##.side_ad2

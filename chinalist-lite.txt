@@ -1,9 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: crrvxjAz1ue65MSg4eN7mg
-!  Title: ChinaList
-!  Redirect: https://raw.github.com/chinalist/chinalist/master/chinalist-lite.txt
+!  Checksum: dI4qK5FQcoRL67klrDlQxg
+!  Title: ChinaList Lite
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 24 Mar 2014 09:47:01 +0800
+!  Last Modified:  Mon, 24 Mar 2014 09:28:37 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  As a supplement for EasyList,ChinaList won't provide the filters
