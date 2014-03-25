@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-!  Checksum: PxhzqgpXJum3OeJtbiaQ/g
+!  Checksum: yoAps7ziobcR8L/jBkHpSw
 !  Title: ChinaList
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 24 Mar 2014 09:53:37 +0800
+!  Last Modified:  Tue, 25 Mar 2014 09:43:47 +0800
 !  Homepage: http://chinalist.github.io/
 !
 !  ChinaList = Part of EasyList + Part of EasyPrivacy + ChinaList Lite
@@ -3572,6 +3572,7 @@ suning.com#@##topAd
 /ad-server/*
 /ad-sidebar-
 /ad-skyscraper.
+/ad-source/*
 /ad-specs.
 /ad-sprite.
 /ad-strip.
@@ -3633,6 +3634,7 @@ suning.com#@##topAd
 /ad/common_
 /ad/content/*
 /ad/cpmstar/*
+/ad/css/*
 /ad/directcall/*
 /ad/empty.
 /ad/extra/*
@@ -3657,6 +3659,7 @@ suning.com#@##topAd
 /ad/jsonp/*
 /ad/leaderboard.
 /ad/load_
+/ad/loading.
 /ad/log/*
 /ad/login-
 /ad/middle.
@@ -3675,6 +3678,7 @@ suning.com#@##topAd
 /ad/right2.
 /ad/rotate?
 /ad/script/*
+/ad/select?
 /ad/serve.
 /ad/show.
 /ad/side_
@@ -3845,6 +3849,7 @@ suning.com#@##topAd
 /ad_gif/*
 /ad_gif_
 /ad_google.
+/ad_h.css?
 /ad_hcl_
 /ad_hcr_
 /ad_head0.
@@ -3886,6 +3891,7 @@ suning.com#@##topAd
 /ad_links/*
 /ad_load.
 /ad_loader.
+/ad_loader2.
 /ad_locations/*
 /ad_log_
 /ad_lomadee.
@@ -6788,6 +6794,7 @@ suning.com#@##topAd
 /mbn_ad.
 /mcad.php
 /mDialogAdModule.
+/media/ad/*
 /media/ads/*
 /media/adv/*
 /media_ads/*
@@ -7477,6 +7484,7 @@ suning.com#@##topAd
 /smartbanner/*
 /smartlinks.epl?
 /smb/ads/*
+/smedia/ad/*
 /SmpAds.
 /socialads.
 /socialads/*
@@ -8172,6 +8180,7 @@ _adbar.
 _adbg1a.
 _adbg2.
 _adbg2a.
+_adblue.
 _adbox.
 _adbox_
 _adbreak.
@@ -9430,6 +9439,7 @@ _popunder+$popup
 ###GameMediumRectangleAD
 ###GamePageAdDiv
 ###GoogleADsense
+###GoogleADthree
 ###GoogleAd
 ###GoogleAd1
 ###GoogleAd2
@@ -11048,6 +11058,7 @@ _popunder+$popup
 ###admain
 ###admanagerResultListBox
 ###admanager_leaderboard
+###admanager_top_banner
 ###admid
 ###admiddle3
 ###admiddle3center
@@ -16926,6 +16937,8 @@ _popunder+$popup
 ##.ad_no_border
 ##.ad_note
 ##.ad_notice
+##.ad_nsRT_300_250
+##.ad_nsbd_300_250
 ##.ad_one
 ##.ad_outer
 ##.ad_overlays
@@ -19493,6 +19506,7 @@ _popunder+$popup
 ##.gads_cb
 ##.gads_container
 ##.gadsense
+##.gadstxtmcont2
 ##.galleria-AdOverlay
 ##.gallery-ad
 ##.gallery-sidebar-ad
@@ -21772,6 +21786,7 @@ _popunder+$popup
 ##.top-adsense-banner
 ##.top-adspace
 ##.top-adv
+##.top-adverbox
 ##.top-advert
 ##.top-banner-468
 ##.top-banner-ad
@@ -22225,6 +22240,7 @@ _popunder+$popup
 ##a[href^="http://bs.serving-sys.com/"]
 ##a[href^="http://buysellads.com/"]
 ##a[href^="http://c.actiondesk.com/"]
+##a[href^="http://cdn3.adexprts.com/"]
 ##a[href^="http://cinema.friendscout24.de?"]
 ##a[href^="http://clk.directrev.com/"]
 ##a[href^="http://codec.codecm.com/"]
@@ -22528,6 +22544,7 @@ _popunder+$popup
 /activetrackphp.php?
 /activity-track/?
 /activity.gif?
+/ad/tr.gif?
 /ad_1_trans.
 /adam.js
 /AdCount/*
@@ -24558,6 +24575,7 @@ http://utm.
 ||log.v.iask.com^
 ||look.urs.tw^$third-party
 ||sinajs.cn/z.gif?
+||sitemaji.com/nownews.php?
 ||tanx.com/cms.gif?
 ||tns.simba.taobao.com^
 ||toruk.tanx.com^
@@ -24615,6 +24633,7 @@ http://utm.
 ||logstat.caixin.com^
 ||luobo.tv/staticts.html
 ||narutom.com/stat.js
+||nextmedia.com/ajax/addlog/?
 ||nsclick.baidu.com^
 ||nstat.tudou.com^
 ||on.cc^*/checkrev.gif?

@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-!  Checksum: dI4qK5FQcoRL67klrDlQxg
+!  Checksum: WvePgpGUlSuftPn21oT72A
 !  Title: ChinaList Lite
 !  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 24 Mar 2014 09:28:37 +0800
+!  Last Modified:  Tue, 25 Mar 2014 09:43:45 +0800
 !  Homepage: http://chinalist.github.io/
 !
-!  As a supplement for EasyList,ChinaList won't provide the filters
+!  As a supplement for EasyList, ChinaList won't provide the filters
 !  which in EasyList already.Please subscribe EasyList also.
 !  If you need help or have any question,
 !  please visit: https://github.com/chinalist/chinalist
+!  Licence: https://github.com/chinalist/chinalist/blob/master/LICENSE
 !  coding: utf-8, expires: 5 days
-!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !*** chinalist-adservers.txt ***
 !--中国电信
 /clicktotal/ClickTotal.js
