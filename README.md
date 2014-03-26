@@ -2,6 +2,8 @@
 
 专为所有中文用户(简/繁)维护的 Adblock Plus 过滤列表
 
+## 从今日(2014/03/26)起, 本项目停止维护，[原因见此](https://github.com/chinalist/chinalist/wiki)。
+
 ## 公告
 
 由于 [ABP 策略调整](https://adblockplus.org/blog/switching-default-blocking-lists-for-chinese-users)，ChinaList 将作为独立的民间项目，与 ABP 官方不再有任何关系(2014-3-24 起)。
