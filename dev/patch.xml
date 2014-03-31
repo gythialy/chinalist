@@ -1,82 +1,6 @@
 <?xml version="1.0"?>
 <PatchConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <RemovedItems>
-    <string>||treatme.co.nz/Affiliates/</string>
-    <string>||axandra.com/affiliates/</string>
-    <string>||blissful-sin.com/affiliates/</string>
-    <string>||bloodstock.uk.com/affiliates/</string>
-    <string>||bpath.com/affiliates/</string>
-    <string>||bruteforceseo.com/affiliates/</string>
-    <string>||bruteforcesocialmedia.com/affiliates/</string>
-    <string>||expekt.com/affiliates/</string>
-    <string>||familytreedna.com/img/affiliates/</string>
-    <string>||graboid.com/affiliates/</string>
-    <string>||graduateinjapan.com/affiliates/</string>
-    <string>||hostgator.com/~affiliat/cgi-bin/affiliates/$third-party</string>
-    <string>||liutilities.com^*/affiliate/</string>
-    <string>||pcmall.co.za/affiliates/</string>
-    <string>||proxysolutions.net/affiliates/</string>
-    <string>||singlemuslim.com/affiliates/</string>
-    <string>||sweed.to/affiliates/</string>
-    <string>||ticketnetwork.com/images/affiliates/</string>
-    <string>||turboyourpc.com/images/affiliates/</string>
-    <string>||uniblue.com^*/affiliates/</string>
-    <string>||chaturbate.com/affiliates/</string>
-    <string>||swurve.com/affiliates/</string>
-    <string>||srwww1.com^*/affiliate/</string>
-    <string>||1page.co.za/affiliate/</string>
-    <string>||gameduell.com/res/affiliate/</string>
-    <string>||handango.com/marketing/affiliate/</string>
-    <string>||buy.com^*/affiliate/</string>
-    <string>||lego.com^*/affiliate/</string>
-    <string>||moneywise.co.uk/affiliate/</string>
-    <string>||storage.to/affiliate/</string>
-    <string>||carefuldoctor.com/adv/search.php</string>
-    <string>/stat36/stat/track.php</string>
-    <string>||breakmedia.com/track.jpg?</string>
-    <string>/mystats/track.js</string>
-    <string>/stats/track.asp?</string>
-    <string>||adchemy-content.com^*/tracking.js</string>
-    <string>||facebook.com/js/conversions/tracking.js</string>
-    <string>||widgeo.net/tracking.php?</string>
-    <string>/counter.php?chcounter_mode=</string>
-    <string>/vstats/counter.php</string>
-    <string>/webstatistik/track.asp</string>
-    <string>||goadv.com^*/track.js</string>
-    <string>||cnzz.com/c.php?</string>
-    <string>||cnzz.com/stat.</string>
-    <string>||imghostsrc.com/counter.php?</string>
-    <string>||agendize.com^*/counts.jsp?</string>
-    <string>||weather.ca/counter.gif?</string>
-    <string>||widgethost.com/pax/counter.js?</string>
-    <string>||sitebro.com^$third-party</string>
-    <string>||sitebro.net^$third-party</string>
-    <string>||aiya.com.cn/stat.js</string>
-    <string>/visualstat/stat.php</string>
-    <string>||beacon.indieclick.com^</string>
-    <string>||beacon2.indieclick.com^</string>
-    <string>||stat.tudou.com^</string>
-    <string>||stats.tudou.com^</string>
-    <string>||stats.tudou.com^</string>
-    <string>||baidu.com/h.js?</string>
-    <string>||twitvid.com/api/tracking.php$object-subrequest</string>
-    <string>||hk.ndx.nextmedia.com^</string>
-    <string>||sitebro.tw^$third-party</string>
-    <string>||partner.googleadservices.com^$third-party</string>
-    <string>||viglink.com/api/insert?$third-party</string>
-    <string>||alimama.com^$third-party</string>
-    <string>||adsame.com^$third-party</string>
-    <string>||aaa.dv0.info^$third-party</string>
-    <string>||allyes.com^$third-party</string>
-    <string>||banners.webmasterplan.com^$third-party</string>
-    <string>||leadintelligence.co.uk/in-text.js$third-party</string>
-    <string>||quirk.biz/webtracking/</string>
-    <string>||s.cxt.ms^$third-party</string>
-    <string>##a[href^="http://www.liutilities.com/aff"]</string>
-    <string>##a[href^="http://www.liutilities.com/products/campaigns/adv/"]</string>
-    <string>||washingtonpost.com/wp-srv/wapolabs/dw/readomniturecookie.html</string>
-    <string>||doubleclick.net^$third-party,domain=abc-7.com|addictinggames.com|allbusiness.com|allthingsd.com|bizjournals.com|bloomberg.com|bnn.ca|break.com|cbc.ca|cbs19.tv|cbs3springfield.com|cbsatlanta.com|cbslocal.com|complex.com|dailymail.co.uk|darkhorizons.com|deluxemusic.tv|doubleviking.com|euronews.com|extratv.com|fandango.com|fox19.com|fox5vegas.com|gorillanation.com|grooveshark.com|hawaiinewsnow.com|hulu.com|imdb.com|joblo.com|kcra.com|kctv5.com|ketv.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|kypost.com|live5news.com|livestation.com|livestream.com|metro.us|metronews.ca|miamiherald.com|my9nj.com|myfoxdetroit.com|myfoxorlando.com|myfoxphilly.com|myfoxphoenix.com|myfoxtampabay.com|nbcrightnow.com|neatorama.com|necn.com|neopets.com|news.com.au|news4jax.com|nintendoeverything.com|own3d.tv|pagesuite-professional.co.uk|pandora.com|player.theplatform.com|ps3news.com|radio.com|rottentomatoes.com|sbsun.com|shacknews.com|sk-gaming.com|ted.com|tv2.no|universalsports.com|ustream.tv|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcvb.com|wdrb.com|wdsu.com|wflx.com|wfmz.com|wfsb.com|wgal.com|whdh.com|wired.com|wisn.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wral.com|wsj.com|wsmv.com|wsvn.com|wtae.com|wthr.com|wxii12.com|wyff4.com|yahoo.com|youtube.com</string>
-  </RemovedItems>
+  <RemovedItems />
   <NewItems>
     <string>!---Google.com</string>
     <string>##a[href^="http://www.google.com/aclk?"]</string>
@@ -240,10 +164,5 @@
     <string>||youtube.com/stream_204?</string>
     <string>||a-ads.com^$third-party</string>
   </NewItems>
-  <ModifyItems>
-    <ModifyItem>
-      <OldItem>/html.ng/*</OldItem>
-      <NewItem>/html.ng/*$domain=~cntv.cn</NewItem>
-    </ModifyItem>
-  </ModifyItems>
+  <ModifyItems />
 </PatchConfig>

@@ -194,8 +194,6 @@ www.jrj.com.cn##[class^="mw a"]
 ||libertytimes.com.tw/IService2/AdLinkList.php
 ||libertytimes.com.tw/js/ajs/
 ||libertytimes.com.tw/Js/adopen.js
-||newtalk.tw/media/ad/
-newtalk.tw###ad_top_banner
 newtalk.tw##.ind_news_station
 ||cn.nytimes.com/o.php?
 ||oschina.net/uploads/ad/
