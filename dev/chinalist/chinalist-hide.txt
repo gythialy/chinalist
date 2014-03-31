@@ -23,6 +23,7 @@ baihe.com##.blockUI
 bcc.com.tw##TABLE[width="100%"] TR > TD[height="80"]
 ck101.com###portal_block_563
 cnbeta.com##.bd_r
+cnbeta.com##.tools > .time
 fbook.net##.head-d
 hornydragon.blogspot.com,hornydragon.blogspot.tw###HTML13
 www.alibuybuy.com##[class^="ad_"]

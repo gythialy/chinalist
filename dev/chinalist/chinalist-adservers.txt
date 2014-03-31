@@ -10,9 +10,6 @@
 ||jxad.jx163.com^
 !--联通
 ||kdly.net^$third-party
-!--广东电信
-/js/utils51.js
-/js/utils78.js
 !--popup
 ||100tjs.com^$popup,third-party
 ||114zhaofang.com^$popup,third-party
