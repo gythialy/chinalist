@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: C37r+47366L1o462cFi+CA
+!  Checksum: b0HhcaayJorkjklFCopIyQ
 !  Title: Gythialy's List
-!  Last Modified:  Mon, 31 Mar 2014 11:33:20 +0800
+!  Last Modified:  Thu, 03 Apr 2014 08:57:52 +0800
 !
 !  This is a private list, 
 !  will not provide any technical support
@@ -629,6 +629,9 @@
 |http://gg.$~stylesheet,domain=~gg.ma
 |https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
+###bottomads
+###right2
+###tads
 ##.wumii-widget-ad
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
 1000fr.net##center
@@ -1100,44 +1103,6 @@ zzzcn.com#@##adtop
 ||ttg.im/pic/fangtuo.jpg
 ||ttg.im/pic/ttg-
 ||ttg.im/pic/ttg_
-!---Video Sites
-@@||go.goyeah.com/adpolestar/$object_subrequest
-@@||resource.ws.kukuplay.com/upload/$object-subrequest
-@@||sopnba.com/js/gb.js
-||33md.cc/33md_js/tj.js
-||5156ys.net/g/
-||acsystem.wasu.cn^
-||analytics.tv189.cn^
-||apas.aipai.com/www/api/aipaiPlayFull2.js?0.
-||apas.aipai.com/www/images/
-||ballive.com/jsgg/
-||e2mv.com/da/
-||edsystem.wasu.cn^
-||goyeah.com/homepage.html
-||hc.yinyuetai.com/partner/$object-subrequest
-||image.jstv.com/jstv/photo.js
-||img.1ting.com/v5/js/*text.js
-||img.ovp.tv380.com/ovp/*/adi/$domain=weiqitv.com
-||longbuluo.com/taobacss/fumeiti.js
-||luckstatic.v1.cn/st/10000/
-||pipi.cn/player/
-||pp.7060.com^
-||resource.*.kukuplay.com/upload/$object-subrequest
-||s.mediashare.cn/rmi/mswlog.jsp?
-||sopnba.com/js/
-||static.hd.baofeng.com/script/baidu_3979.js
-||tucao.cc/ad/
-||ugcad.pps.tv^
-||web.aipai.com/bbt/
-||web.houyi.baofeng.net/Consultation/web.php
-33md.cc##.ib_ad
-33md.cc##.viewt_77
-aipai.com##.cover_bd
-tucao.cc##.a2013d
-wasu.cn##.m_sp970x100
-wasu.cn##.sp313x262
-www.jstv.com##.delayadv
-www.jstv.com##.jadv
 !---Miscellaneous
 /banner/*$domain=dolc.de|dolc.info
 /gif/*$image,domain=txzqw.com
@@ -5591,6 +5556,7 @@ suning.com#@##topAd
 /cb.php?sub$script,third-party
 /cci-ads-
 /cdn-cgi/pe/bag?r[]=*cpalead.com
+/cdn.ads.
 /centerads.
 /central/ads/*
 /ceoads/*
@@ -7262,6 +7228,7 @@ suning.com#@##topAd
 /small_ads/*
 /smallad-
 /smalltopl.
+/smart-ad-server.
 /smartad-
 /smartad.
 /smartads.
@@ -10183,6 +10150,7 @@ _popunder+$popup
 /ping?spacedesc
 /pingd?
 /PingPixel.
+/pingServerAction?
 /pistats/cgi-bin/*
 /piwik-$domain=~piwik.org
 /piwik.js
@@ -10799,6 +10767,7 @@ _popunder+$popup
 /vtrack.php?
 /vtracker.
 /vTracker_
+/vztrack.gif?
 /vzTracker/*
 /wa01.gif?log=
 /wanalytics/*

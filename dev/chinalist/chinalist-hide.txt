@@ -1,3 +1,6 @@
+###bottomads
+###tads
+###right2
 ##.wumii-widget-ad
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
 17k.com##[id^="ad0"]

@@ -4,8 +4,8 @@
 // @author Gythialy
 // @version 1.0.0
 // @description disable anti ABP for hkgolden.com
-// @homepage https://code.google.com/p/adblock-chinalist/
-// @updateURL https://adblock-chinalist.googlecode.com/svn/trunk/scripts/anti_hkgolden.user.js
+// @homepage https://github.com/gythialy/chinalist/
+// @updateURL https://github.com/gythialy/chinalist/raw/master/scripts/anti_hkgolden.user.js
 // @include http://*.hkgolden.com/*
 // @grant GM_log
 // @run-at document-start
