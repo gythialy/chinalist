@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: b0HhcaayJorkjklFCopIyQ
+!  Checksum: Ja+Ao7waMk9mYYmGNZTULA
 !  Title: Gythialy's List
-!  Last Modified:  Thu, 03 Apr 2014 08:57:52 +0800
+!  Last Modified:  Tue, 08 Apr 2014 11:04:10 +0800
 !
 !  This is a private list, 
 !  will not provide any technical support
@@ -1099,10 +1099,10 @@ zhulang.com##[id^="adv"]
 zzzcn.com#@##adtop
 !---Private Sites
 !--TTG
-@@||ttg.im/pic/ttg_logo.png
-||ttg.im/pic/fangtuo.jpg
-||ttg.im/pic/ttg-
-||ttg.im/pic/ttg_
+@@||totheglory.im/pic/ttg_logo.png
+||totheglory.im/pic/fangtuo.jpg
+||totheglory.im/pic/ttg-
+||totheglory.im/pic/ttg_
 !---Miscellaneous
 /banner/*$domain=dolc.de|dolc.info
 /gif/*$image,domain=txzqw.com
@@ -3170,6 +3170,7 @@ suning.com#@##topAd
 .textads.
 .th/ads/
 .to/ads/
+.tv/ads.
 .tv/ads/
 .tz/ads/
 .uk/ads/
@@ -3348,6 +3349,7 @@ suning.com#@##topAd
 /ad.info.
 /ad.jsp?
 /ad.mason?
+/ad.min.
 /ad.php3?
 /ad.php?
 /ad.php|
@@ -4891,6 +4893,7 @@ suning.com#@##topAd
 /adtagcms.
 /adtaggingsubsec.
 /adtago.
+/adTagRequest.
 /adtags.
 /adtags/*
 /adtagtc.
@@ -5509,6 +5512,7 @@ suning.com#@##topAd
 /bottomad/*
 /bottomads.
 /box_ad_
+/box_ads_
 /boxad.
 /boxad1.
 /boxad2.
@@ -6542,6 +6546,7 @@ suning.com#@##topAd
 /match_ads.
 /maxadselect.
 /maxi_ad.
+/mbads?
 /mbn_ad.
 /mcad.php
 /mDialogAdModule.
@@ -6592,6 +6597,7 @@ suning.com#@##topAd
 /modules/doubleclick/*
 /modules_ads.
 /momsads.
+/moneyball/ads/*
 /mpu-dm.html
 /mpuad.
 /mpuguardian.
@@ -7912,6 +7918,7 @@ _ad_side.
 _ad_size.
 _ad_sky.
 _ad_skyscraper.
+_ad_slot=
 _ad_small.
 _ad_sponsor/
 _ad_square.
@@ -7991,6 +7998,7 @@ _ads_only&
 _ads_reporting.
 _ads_single_
 _ads_targeting.
+_ads_text.
 _ads_top.
 _adsbgd.
 _adscript.
@@ -9117,6 +9125,7 @@ _popunder+$popup
 /argtk.min.
 /article_counter.php?
 /article_hit.php?
+/ArticleViewTracking/*
 /asknet_tracking.
 /aslog.php?
 /aspenanalytics.

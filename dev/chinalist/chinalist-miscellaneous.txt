@@ -359,10 +359,10 @@ zzzcn.com#@##adtop
 
 !---Private Sites
 !--TTG
-@@||ttg.im/pic/ttg_logo.png
-||ttg.im/pic/fangtuo.jpg
-||ttg.im/pic/ttg-
-||ttg.im/pic/ttg_
+@@||totheglory.im/pic/ttg_logo.png
+||totheglory.im/pic/fangtuo.jpg
+||totheglory.im/pic/ttg-
+||totheglory.im/pic/ttg_
 
 !---Miscellaneous
 ||111cn.net/gg_ad/
