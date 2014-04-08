@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name pcbeta ads Remover
-// @namespace https://code.google.com/p/adblock-chinalist/
+// @namespace https://github.com/gythialy/chinalist/
 // @author Gythialy
-// @version 1.0.3
+// @version 1.0.4
 // @description Remove bbs.pcbeta.com ads for ChinaList
 // @homepage https://github.com/gythialy/chinalist/
 // @updateURL https://github.com/gythialy/chinalist/raw/master/scripts/remove_ads_for_pcbeta.user.js
 // @include http://bbs.pcbeta.com/*
+// @grant GM_log
 // ==/UserScript==
 (function() {
     var DEBUG = 0;
@@ -35,17 +36,16 @@
         }
     }
 
-    var t = x('//div[@id="wp"]/div[@style]');
+    var t = x(".//*[@id='wp']/div[2]");
     for (var i = 0; i < t.snapshotLength; i++) {
         var node = t.snapshotItem(i);
         log(node.style.height);
-        if (node.style.height === '437px') {
+        if (node) {
             node.style.height = 'inherit';
             break;
         }
     }
 
-    remove(x('//div[@style="padding:0 10px 10px;background:#d0dae4;"]/div[contains(@style,"height:90px")]'));
-    remove(x('//div[contains(@style,"height:170px")]'));
+    remove(x(".//*[@id='wp']/div[2]/div"));
     remove(x('.//div[@id="sitefocus"][@class="focus"]'));
 })();
