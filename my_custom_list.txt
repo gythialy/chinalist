@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: kYJiK1ZN7h9hpM8gLMD6MQ
+!  Checksum: imWGwouZcoPDRRQ9j45Khg
 !  Title: Gythialy's List
-!  Last Modified:  Wed, 09 Apr 2014 10:21:12 +0800
+!  Last Modified:  Mon, 21 Apr 2014 12:51:55 +0800
 !
 !  This is a private list, 
 !  will not provide any technical support
@@ -629,6 +629,7 @@
 |http://gg.$~stylesheet,domain=~gg.ma
 |https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
+##.adsbygoogle
 ###bottomads
 ###right2
 ###tads
@@ -2872,7 +2873,7 @@ suning.com#@##topAd
 -advertisement-icon.
 -advertisement.
 -advertisement_
--advertising-$domain=~advertise.bingads.microsoft.com
+-advertising-$domain=~advertise.bingads.microsoft.com|~advertising.microsoft.com|~platform.twitter.com
 -advertising_
 -advertisment-
 -adwords.
@@ -3011,6 +3012,7 @@ suning.com#@##topAd
 .bbn.by/
 .biz/ad.
 .biz/ad/
+.biz/ad2/
 .biz/ads/
 .bns1.net/
 .box.ad.
@@ -3066,12 +3068,14 @@ suning.com#@##topAd
 .cz/affil/
 .cz/bannery/
 .dartconfig.js
+.displayAds&
 .eg/ads/
 .eu/ads/
 .fm/ads/
 .gg/ads/
 .gif?ad=
 .gr/ads/
+.hk/ads/
 .homad.
 .HomepageAdvertismentBottom.
 .html?ad=
@@ -3114,6 +3118,7 @@ suning.com#@##topAd
 .net/pfadj/
 .net/pops.js
 .net/vghd_
+.nl/ad2/
 .nl/ads/
 .no/ads/
 .nu/ads/
@@ -3185,6 +3190,7 @@ suning.com#@##topAd
 .zw/ads/
 /!advert_
 /0/ads/*
+/04/ads-
 /1/ads/*
 /120ad.
 /120ads/*
@@ -3489,6 +3495,7 @@ suning.com#@##topAd
 /ad300ws.
 /ad300x.
 /ad300x145.
+/ad300x250-
 /ad300x250.
 /ad300x250_
 /ad350.
@@ -3783,6 +3790,7 @@ suning.com#@##topAd
 /adblock?id=
 /adblockl.
 /adblockr.
+/adbn?
 /adboost.
 /adborder.
 /adbot160.
@@ -4133,6 +4141,7 @@ suning.com#@##topAd
 /admonitor-
 /admonitor.
 /adnap/*
+/adNdsoft/*
 /adnet.
 /ADNet/*
 /adnet2.
@@ -4956,6 +4965,8 @@ suning.com#@##topAd
 /adunix.
 /adutil.
 /adutils.
+/aduxads.
+/aduxads/*
 /adv-1.
 /adv-2.
 /adv-banner.
@@ -5154,6 +5165,7 @@ suning.com#@##topAd
 /adweb.
 /adweb2.
 /adwidgets/*
+/adWiseShopPlus1.
 /adwiz.
 /adwizard.
 /adwizard_
@@ -5220,6 +5232,7 @@ suning.com#@##topAd
 /affiliate-content/*
 /affiliate/ad/*
 /affiliate/ads/*
+/affiliate/banner/*
 /affiliate/banners/*
 /affiliate/promo-
 /affiliate/promo/*
@@ -5467,6 +5480,7 @@ suning.com#@##topAd
 /bgads/*
 /bi_affiliate.js
 /bigad.
+/bigad_
 /bigads/*
 /bigboxad.
 /bigtopl.swf
@@ -5785,6 +5799,7 @@ suning.com#@##topAd
 /displayads3.
 /displayadsiframe.
 /div-ads.
+/divad/*
 /dlfeatads.
 /dmn-advert.
 /dne_ad.
@@ -6619,7 +6634,7 @@ suning.com#@##topAd
 /multiad/*
 /my-ad-integration.
 /myads/*
-/mydirtyhobby.$domain=~mydirtyhobby.com,~mydirtyhobby.de
+/mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de
 /myfreepaysitebanner.
 /mylayer-ad/*
 /mysimpleads/*
@@ -7979,6 +7994,7 @@ _adright.
 _adright2.
 _adrotator.
 _adrow-
+_ads-affiliates_
 _ads.cgi
 _ads.html
 _ads.js?
@@ -8948,6 +8964,7 @@ _popunder+$popup
 .do_tracking&
 .eloqua.js
 .gatracker.
+.gatracking.js
 .gif?Log=$~xmlhttprequest
 .googleanalytics.js
 .GoogleAnalytics/
@@ -9955,6 +9972,7 @@ _popunder+$popup
 /maxymiser.
 /Maxymiser/*
 /mbcom.tracking.
+/mcount.cgi?
 /md.js?country=
 /mdwtc/click_thru/*
 /media_viewed_tracking.
@@ -10969,6 +10987,7 @@ _i2a.js
 _imp?Log=
 _imp_logging?
 _impressions.gif?
+_landingLog/
 _logimpressions.
 _nedstat.js
 _nielsen.js
@@ -11061,7 +11080,6 @@ http://utm.
 ||ifengimg.com/sta_collection.*.js
 ||js.letvcdn.com/js/*/stats/
 ||js.static.m1905.cn/pingd.js
-||lc.jiathis.com^
 ||log.v.iask.com^
 ||look.urs.tw^$third-party
 ||sinajs.cn/z.gif?
@@ -11134,6 +11152,8 @@ http://utm.
 ||pingback.sogou.com^
 ||pingjs.qq.com^
 ||pv.sogou.com^
+||qq.com/p?
+||report.qq.com^
 ||rgd.com.cn/counter/
 ||s.pixfs.net/js/pixlogger.min.js
 ||s.pixfs.net/visitor.pixplug.in/
@@ -11192,7 +11212,6 @@ http://utm.
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=dnf.qq.com
 @@||uwants.com/include/*/swfaddress.js
 @@||vanclimg.com/js.ashx?*/google-analytics.js$domain=vancl.com
-@@||yimg.com/ss/rapid-3.7.js$domain=deals.yahoo.com
 !*** patch.xml ***
 !---Google.com
 ##a[href^="http://www.google.com/aclk?"]
