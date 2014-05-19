@@ -13,6 +13,7 @@
 .org/adv/
 /advpic/*
 /attachments/ad/*
+/banner_
 .com/js/ad.
 |http://*.hk/ad/
 .com/js/ad_$domain=~eslite.com
@@ -51,6 +52,7 @@
 /images/prom/*
 .info/ad/
 /main/s?
+/ons/*
 /paypic/*
 /piaofu.js
 /picad/*

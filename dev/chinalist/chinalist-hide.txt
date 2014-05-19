@@ -1,3 +1,6 @@
+##[class*="right-ad"]
+##.adv
+##.mod_ad
 ##.adsbygoogle
 ###bottomads
 ###tads

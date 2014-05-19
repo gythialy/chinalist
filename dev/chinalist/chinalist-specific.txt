@@ -184,7 +184,6 @@ hao123img.com/res/ecom/
 ||pan.baidu.com/share/autoincre?
 ||pan.baidu.com/pcloud/
 ||pan.baidu.com/share/hotrec?
-||pan.baidu.com/share/download?
 ||pan.baidu.com/share/docrec?
 ||pan.baidu.com/api/analytics?
 !--tieba
@@ -1004,11 +1003,14 @@ pinglun.sohu.com##.sogouAd1
 www.sohu.com###ad_TOP
 www.sohu.com###contentC > .columnC
 !--tv
-||js.tv.itc.cn/gg$script
+||js.tv.itc.cn/*/gg$script
+||v.aty.sohu.com^
 ||vm.aty.sohu.com^
 ||hd.sohu.com.cn^$object_subrequest
 ||images.sohu.com/ytv/$subdocument
 ||images.sohu.com/ytv/*.swf
+||images.sohu.com/ytv/BJ/BJSC/*
+||push.my.tv.sohu.com^
 tv.sohu.com##.skyAD
 tv.sohu.com###miaozhenad
 !--Sogou
@@ -1162,12 +1164,9 @@ weather.com.cn##[class^="adpos"]
 weather.com.cn##.post_st
 
 !---威锋
-||weiphone.com/baidu.html
-||aoodoo.weiphone.com^
-||lab.weiphone.com/images_new/ad-
-weiphone.com##.brand
-weiphone.com##.b_adlink
-weiphone.com##[class^="wea_d_"]
+||aoodoo.feng.com^
+bbs.feng.com##a[href^="http://www.feng.com/aoodoo/"]
+bbs.feng.com##.wrap.wea_d_panel_980
 
 !---万卷书库
 ||wjskw.com/flad300209.gif
@@ -1226,13 +1225,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||xinhuanet.com/classad/
 ||xinhuanet.com^*/ad_
 
-!---西子湖畔
-||a.xizi.com^
-||app2.xizi.com/uploadfile/
-||xizi.com/js/rotator.js
-xizi.com##.main_mod.cc
-xizi.com##.top_recommend
-
 !---新丝路
 ||61.128.121.99/nsrad/
 xj163.cn##[class^="ad"]
@@ -1254,50 +1246,6 @@ kuai.xunlei.com##.adv_area
 ||jsunion.kankan.xunlei.com^$third-party
 ||gouwu.vip.xunlei.com^$third-party
 
-!---Yahoo
-!--CN
-||bj.data.cn.yahoo.com/dpjs/yahoo.js
-cn.yahoo.com##.p_sider
-cn.yahoo.com###r_expandable
-!--TW
-@@||ads.yimg.com/ja/a/$image,domain=tw.yahoo.com
-@@||l.yimg.com/f/a/tw/js/flash_general_20090213.js$domain=tw.yahoo.com
-@@||l.yimg.com/f/a/tw/*/790840_*.swf
-@@||l.yimg.com/f/a/tw/elephant/*240x94*.swf
-@@||l.yimg.com/zz/combo?*/ads/$script
-||tw.dictionary.search.yahoo.com/beacon/
-||tw.rd.yahoo.com^$image
-||tw.img.webmaster.yahoo.com^*/ystats.gif
-||yimg.com/no/$domain=~yahoo.com
-||l.yimg.com/d/lib/bc/bcr_2.0.5.js
-||l.yimg.com/pq/
-||l.yimg.com^*/a/tw/$~stylesheet
-||l.yimg.com^*/tw/ysm/
-||s.yimg.com/bf/ysm/$subdocument
-||tw.yimg.com/a/tw/
-tw.news.yahoo.com##.gn_sub_blue
-tw.yahoo.com##.admod
-tw.yahoo.com###ad_exp
-tw.yahoo.com###ad_mntl
-tw.yahoo.com###eyebrow > a:not(#sethomepage)
-tw.yahoo.com##.newsad
-tw.yahoo.com##.pa-banner
-tw.yahoo.com##.colpadding > .tabmd
-tw.yahoo.com###ticker
-!--HK
-||l.yimg.com/*/a/hk/$~stylesheet
-||l.yimg.com/mq/hk/promotions/
-||s.yimg.com/ja/ap/$script,domain=hk.yahoo.com|hk.news.yahoo.com
-hk.yahoo.com###eu
-hk.yahoo.com###mntl1
-hk.yahoo.com###mt_ugc
-hk.yahoo.com###ysm-ad
-hk.dictionary.yahoo.com###fr-adv
-hk.search.auctions.yahoo.com###yauadysmh
-
-!---yam
-||s1.josho.yamedia.tw/f/plugin.swf^
-
 !---北青网
 ||fun.ynet.com^
 ||ranking.ynet.com^
@@ -1315,6 +1263,7 @@ news.ynet.com##.RC
 ||hz.youku.com/red/
 ||static.youku.com/*/js/cps.js
 ||static.youku.com/*/index/js/iresearch.js
+||translate.googleapis.com^$domain=youku.com
 soku.com###ab_282
 !--土豆
 @@||js.tudouui.com/bin/player2/$object

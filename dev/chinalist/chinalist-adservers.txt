@@ -11,6 +11,9 @@
 !--联通
 ||kdly.net^$third-party
 !--popup
+||ns112.com^$popup
+||ipvertising.com^$popup
+||creatives.livejasmin.com^$popup
 ||100tjs.com^$popup,third-party
 ||114zhaofang.com^$popup,third-party
 ||116b.com^$popup,third-party
@@ -531,3 +534,6 @@
 ||zhiad.com^$third-party
 ||zwads.com^$third-party
 ||zytwq.net^$third-party
+||queoh.com^$third-party
+||nywwm.com^$third-party
+||msecnd.net^$third-party
