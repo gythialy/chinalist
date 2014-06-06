@@ -192,6 +192,8 @@ hao123img.com/res/ecom/
 tieba.baidu.com##.l_banner
 tieba.baidu.com###search_button.search_button
 tieba.baidu.com##[id^="game_couplet_pb_"]
+||bdstatic.com/tb/r/image/
+||tb1.bdstatic.com/tb/cms/tbmall/*
 !--unions
 ||cb.baidu.com^
 ||cbjs.baidu.com^
@@ -221,6 +223,7 @@ bilibili.tv##.ad-f
 !---CSDN
 ||csdn.net/ggmm/
 csdn.net##.ad_960
+csdn.net##[class^="ad_news"]
 download.csdn.net##.ad_area_1
 !--iteye
 ||info-database.csdn.net/Upload/$image,third-party
@@ -709,15 +712,6 @@ onlinedown.net##.ban
 onlinedown.net##.newsbox
 onlinedown.net##.r1
 newhua.com##[class^="ad_"]
-
-!---牛游戏网
-||newyx.net/images/newest/home/hao.jpg
-||newyx.net/js/bg$script
-||newyx.net/js/dui_lian.js
-||newyx.net/js/newyx$script
-||newyx.net/tupian/
-newyx.net##.ad
-newyx.net##.adh450
 
 !---Nownews
 @@||ad1.nownews.com/*.php?ownerid=1355
@@ -1292,12 +1286,6 @@ yyets.com##a[href="http://ehdw.taobao.com/"]
 yyets.com##.games-rec-list
 yyets.com##.j-t
 yyets.com##.joke
-
-!---叶子猪游戏网
-@@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
-||yzz.cn/home/theme/popwin/
-||yktj.yzz.cn^
-bbs.yzz.cn##.half-banner
 
 !---ZOL
 ||ca.cbsi.com.cn/rpv?
