@@ -144,7 +144,7 @@ acgzone.us##DIV[fuck="nothing"]
 @@||tmatch.simba.taobao.com/?name=mcad$script
 ||acookie.*.gif?
 ||atpanel.com^$image
-||taobao.com/go/$third-party,domain=~tmall.com
+||taobao.com/go/$third-party,domain=~tmall.com|~tmall.hk
 ||strip.taobaocdn.com^$third-party
 ||a.tbcdn.cn/s/atp.js
 ||a.tbcdn.cn/s/ac.js
@@ -178,7 +178,6 @@ zhidao.baidu.com##.wgt-ads
 hao123img.com/res/ecom/
 !--pan
 ||dq.baidu.com/nocipher?
-||pan.baidu.com/disk/cmsdata?
 ||pan.baidu.com/notice/
 ||pan.baidu.com/mis/dtcount?
 ||pan.baidu.com/share/autoincre?

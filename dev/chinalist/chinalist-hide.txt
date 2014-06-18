@@ -2,6 +2,7 @@
 ##.adv
 ##.mod_ad
 ##.adsbygoogle
+###ad_left
 ###bottomads
 ###tads
 ###rhs_block

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: U+gZu4lJBNolRMqPRwagzQ
+!  Checksum: GuqJE5/NBi1mAYvEWIIkNQ
 !  Title: Gythialy's List
-!  Last Modified:  Fri, 06 Jun 2014 11:05:37 +0800
+!  Last Modified:  Wed, 18 Jun 2014 16:35:01 +0800
 !
 !  This is a private list, 
 !  will not provide any technical support
@@ -425,7 +425,7 @@
 ||t.iloveyouxi.com^$third-party
 ||t3nlink.com^$third-party
 ||tajianedu.com^$third-party
-||tanx.com^$third-party,domain=~taobao.com|~tmall.com|~alimama.com
+||tanx.com^$third-party,domain=~taobao.com|~tmall.com|~alimama.com|~tmall.hk
 ||tazhao.com^$third-party
 ||tbjfw.com^$third-party
 ||tenoad.com^$third-party
@@ -611,7 +611,7 @@
 /u/_sponsor/*
 /webafp?
 @@/data/preview/*$image
-@@||tbcdn.cn/apps/tuiguang/$domain=tmall.com
+@@||tbcdn.cn/apps/tuiguang/$domain=tmall.com|tmall.hk
 @@||zerodm.net/js/ads/zxdmxz.js
 |http://*.cn/ad/$domain=~easybuy.com.cn
 |http://*.hk/ad/
@@ -627,6 +627,7 @@
 |https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
 ##[class*="right-ad"]
+###ad_left
 ###bottomads
 ###rhs_block
 ###right2
@@ -1510,7 +1511,7 @@ acgzone.us##DIV[fuck="nothing"]
 ||acookie.*.gif?
 ||atpanel.com^$image
 ||strip.taobaocdn.com^$third-party
-||taobao.com/go/$third-party,domain=~tmall.com
+||taobao.com/go/$third-party,domain=~tmall.com|~tmall.hk
 !---汽车之家
 @@||33.autohome.com.cn/njs/1.js
 ||33.autohome.com.cn^$script,object
@@ -1539,7 +1540,6 @@ hao123img.com/res/ecom/
 !--pan
 ||dq.baidu.com/nocipher?
 ||pan.baidu.com/api/analytics?
-||pan.baidu.com/disk/cmsdata?
 ||pan.baidu.com/mis/dtcount?
 ||pan.baidu.com/notice/
 ||pan.baidu.com/pcloud/
@@ -2853,6 +2853,7 @@ suning.com#@##topAd
 -layer-ads/
 -leaderboard-ad-
 -load-ads.
+-NewAd.
 -news-ad-
 -newsletter-ad-
 -NewStockAd-
@@ -2890,6 +2891,7 @@ suning.com#@##topAd
 -us/ads/
 -web-ad-
 -Web-Ad.
+-web-advert-
 -Web-Advert.
 -webad1.
 .1d/ads/
@@ -3377,6 +3379,7 @@ suning.com#@##topAd
 /ad/realclick/*
 /ad/rectangle.
 /ad/reklamy.
+/ad/request?
 /ad/right2.
 /ad/rotate?
 /ad/script/*
@@ -3529,6 +3532,7 @@ suning.com#@##topAd
 /ad_digital.
 /ad_dir/*
 /ad_display.
+/ad_display_
 /ad_drivers/*
 /ad_editorials_
 /ad_engine?
@@ -3860,6 +3864,7 @@ suning.com#@##topAd
 /adengine/*
 /adengine_
 /adentry.
+/adError/*
 /adexample?
 /adexclude/*
 /adexternal.
@@ -4398,6 +4403,7 @@ suning.com#@##topAd
 /ads/oas_
 /ads/original/*
 /ads/oscar/*
+/ads/outbrain?
 /ads/overlay-
 /ads/p/*
 /ads/page.
@@ -4609,6 +4615,7 @@ suning.com#@##topAd
 /adscalebigsize.
 /adscalecontentad.
 /adscaleskyscraper.
+/adscloud.
 /adscluster.
 /adscontent.
 /adscontent2.
@@ -5458,6 +5465,7 @@ suning.com#@##topAd
 /bbad9.
 /bckgrnd_ad.
 /bdcustomadsense-
+/beacon/ad/*
 /behaviorads/*
 /beta-ad.
 /betrad.js
@@ -6449,6 +6457,7 @@ suning.com#@##topAd
 /jsad.php
 /jsad/*
 /jsads-
+/jsAds/*
 /jsadscripts/*
 /jsc/ads.
 /jsfiles/ads/*
@@ -7129,6 +7138,7 @@ suning.com#@##topAd
 /scripts/ads/*
 /scripts/adv.
 /scripts/afc/*
+/scripts/feedmeCaf.php?q=*&d=*&ron=$script
 /scripts/zanox-
 /scrollads/*
 /search-ads?
@@ -7737,6 +7747,7 @@ suning.com#@##topAd
 /ysc_csc_news
 /ysmads.
 /ysmwrapper.js
+/yume_ad_library_
 /z-ads.
 /z/ads/*
 /zagcookie_
@@ -8065,6 +8076,7 @@ _adskin.
 _adskin_
 _adsonar.
 _adspace-
+_adspace_
 _adsrv=
 _adsrv?
 _adssource.
@@ -8100,6 +8112,7 @@ _advertisehere.
 _advertisement-
 _advertisement.
 _advertisement_
+_advertisementbar.
 _advertisements/
 _advertisementtxt_
 _advertising.
@@ -8259,6 +8272,7 @@ _right_ads_
 _rightad.
 _rightad1.
 _rightad_
+_rightmn_ads.
 _search/ads.js
 _sectionfront_ad.
 _show_ads.
@@ -8298,6 +8312,7 @@ _vertical_ad.
 _video_ads_
 _videoad.
 _vodaaffi_
+_web-advert.
 _Web_ad.
 _webad.
 _webad_
@@ -8661,7 +8676,6 @@ takeover_banner_
 470x60.swf|
 480x60.png|
 480x80.jpg|
-700200.jpg|
 700_200.gif|
 700_200.jpg|
 700x200.gif|
@@ -9969,7 +9983,6 @@ _popunder+$popup
 /log.cfm?
 /log.gif?
 /log.jphp?
-/log.js?
 /log.jsp?
 /log.php?*http
 /log.php?id
@@ -11121,6 +11134,7 @@ http://utm.
 ||bokecc.com/flash/timerecorder?
 ||cbsi.com.cn/js/dw.js
 ||cdn.hiido.cn^$third-party
+||cdnmaster.com/sitemaster/sm360.js
 ||click.bokecc.com^
 ||cms.grandcloud.cn^$third-party
 ||cnzz.com/c.php?
@@ -11256,6 +11270,7 @@ http://utm.
 ||youku.com/compvlog?
 ! *** easylist:easyprivacy/easyprivacy_whitelist_international.txt ***
 @@||amazonaws.com/angular-ui-router.min.js*-google-analytics.js$script,domain=dcard.tw
+@@||google-analytics.com/analytics.js$domain=news.gamme.com.tw
 @@||hm.baidu.com/h.js?$domain=weaku.com
 @@||imrworldwide.com/novms/js/2/ggcmb353.js$domain=nexttv.com.tw
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=dnf.qq.com

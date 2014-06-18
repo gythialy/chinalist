@@ -63,6 +63,6 @@
 /tan1.js
 /u/_sponsor/*
 /tanchuang.
-@@||tbcdn.cn/apps/tuiguang/$domain=tmall.com
+@@||tbcdn.cn/apps/tuiguang/$domain=tmall.com|tmall.hk
 /tuiguang/*
 /webafp?
