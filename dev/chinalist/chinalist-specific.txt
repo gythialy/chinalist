@@ -181,7 +181,6 @@ hao123img.com/res/ecom/
 ||pan.baidu.com/notice/
 ||pan.baidu.com/mis/dtcount?
 ||pan.baidu.com/share/autoincre?
-||pan.baidu.com/pcloud/
 ||pan.baidu.com/share/hotrec?
 ||pan.baidu.com/share/docrec?
 ||pan.baidu.com/api/analytics?

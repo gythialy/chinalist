@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: GuqJE5/NBi1mAYvEWIIkNQ
+!  Checksum: 0aRjOs/kXDdHbhooxMZb2g
 !  Title: Gythialy's List
-!  Last Modified:  Wed, 18 Jun 2014 16:35:01 +0800
+!  Last Modified:  Thu, 24 Jul 2014 10:04:31 +0800
 !
 !  This is a private list, 
 !  will not provide any technical support
@@ -1542,7 +1542,6 @@ hao123img.com/res/ecom/
 ||pan.baidu.com/api/analytics?
 ||pan.baidu.com/mis/dtcount?
 ||pan.baidu.com/notice/
-||pan.baidu.com/pcloud/
 ||pan.baidu.com/share/autoincre?
 ||pan.baidu.com/share/docrec?
 ||pan.baidu.com/share/hotrec?
@@ -2665,6 +2664,7 @@ suning.com#@##topAd
 &admid=
 &adname=
 &adnet=
+&adnum=
 &adpageurl=
 &adsafe=
 &adserver=
@@ -2703,7 +2703,6 @@ suning.com#@##topAd
 &video_ads_
 &videoadid=
 &view=ad&
-+Ads/$~stylesheet
 +advertorial.
 +adverts/
 -2/ads/
@@ -2712,6 +2711,7 @@ suning.com#@##topAd
 -ad-001-
 -ad-180x150px.
 -ad-200x200-
+-ad-24x24.
 -ad-313x232.
 -ad-340x400-
 -ad-400.
@@ -2733,10 +2733,12 @@ suning.com#@##topAd
 -ad-loading.
 -ad-manager/$~stylesheet
 -ad-marker.
+-ad-mpu+
 -ad-new_
 -ad-right.
 -ad-rotators/
 -ad-server/
+-ad-sidebar-
 -ad-tile.
 -ad-top.
 -ad-unit.
@@ -2775,6 +2777,7 @@ suning.com#@##topAd
 -ads-manager/
 -ads-right.
 -ads.gif
+-ads.js?
 -ads.php?
 -ads.swf
 -ads/728x
@@ -2797,6 +2800,7 @@ suning.com#@##topAd
 -adv.jpg
 -adv.js
 -advert-label-
+-advert.jpg?
 -advert.swf
 -advert1.
 -advert2.
@@ -2813,6 +2817,7 @@ suning.com#@##topAd
 -affiliates/img_
 -article-ads-
 -article-advert-
+-Banner-Ad)-
 -banner.swf?
 -banner468x60.
 -bannerads/
@@ -2878,6 +2883,7 @@ suning.com#@##topAd
 -seasonal-ad.
 -show-ads.
 -side-ad-
+-Skyscraper-Ad.
 -skyscrapper160x600.
 -source/ads/
 -sponsor-ad.
@@ -2887,6 +2893,7 @@ suning.com#@##topAd
 -text-ads.
 -theme/ads/
 -third-ad.
+-top-ad.
 -top-ads.
 -us/ads/
 -web-ad-
@@ -2894,6 +2901,7 @@ suning.com#@##topAd
 -web-advert-
 -Web-Advert.
 -webad1.
+-your-ads-here.
 .1d/ads/
 .a3s?n=*&zone_id=
 .ace.advertising.
@@ -3002,9 +3010,6 @@ suning.com#@##topAd
 .com/promodisplay?
 .com/ss/ad/
 .com/video-ad-
-.com^*.js?*=*-*-*-*-*&fsd=*.$script,third-party
-.com^*.js?*=*.*&id=*-*-*-*-*&*=*.$script,third-party
-.com^*?id=*-*-*-*-*&fsd=*.$script,third-party
 .cz/affil/
 .cz/bannery/
 .dartconfig.js
@@ -3029,7 +3034,6 @@ suning.com#@##topAd
 .info/ad_
 .info/ads-
 .info/ads/
-.info^*.js?guid=*-*-*-*-$third-party
 .initdoubleclickadselementcontent?
 .internads.
 .jp/ads/
@@ -3123,6 +3127,7 @@ suning.com#@##topAd
 .tv/ads/
 .tz/ads/
 .uk/ads/
+.uk/adv/
 .us/ads/
 .vert.ad.
 .widgets.ad?
@@ -3142,6 +3147,7 @@ suning.com#@##topAd
 /125x125ad.
 /126_ad.
 /17/ads/*
+/1912/ads/*
 /1afr.php?
 /2010/ads/*
 /2010main/ad/*
@@ -3210,6 +3216,7 @@ suning.com#@##topAd
 /ad-boxes-
 /ad-builder.
 /ad-button1.
+/ad-callback.
 /ad-cdn.
 /ad-channel-
 /ad-choices-
@@ -3260,6 +3267,7 @@ suning.com#@##topAd
 /ad-nytimes.
 /ad-offer1.
 /ad-openx.
+/ad-plate/*
 /ad-point/*
 /ad-pub.
 /ad-record.
@@ -3277,6 +3285,7 @@ suning.com#@##topAd
 /ad-specs.
 /ad-sprite.
 /ad-strip.
+/ad-studio/*
 /ad-tag2.
 /ad-tandem.
 /ad-template/*
@@ -3420,7 +3429,7 @@ suning.com#@##topAd
 /ad160.
 /ad160k.
 /ad160x600.
-/ad1_120x90.
+/ad1_
 /ad1place.
 /ad1x1home.
 /ad2.
@@ -3460,6 +3469,7 @@ suning.com#@##topAd
 /ad5.
 /ad6.
 /ad600x250.
+/ad600x330.
 /ad7.
 /ad728-
 /ad728.
@@ -3483,13 +3493,17 @@ suning.com#@##topAd
 /ad?sponsor=
 /ad?type=
 /ad_120_
+/ad_200x90_
+/ad_234x60_
 /ad_250x250_
 /ad_300.
 /ad_300250.
 /ad_300_
 /ad_600_
+/ad_600x160_
 /ad_728.
 /ad_728_
+/ad_960x90_
 /ad_agency/*
 /ad_area.
 /ad_art/*
@@ -3525,6 +3539,7 @@ suning.com#@##topAd
 /ad_content.
 /ad_contents/*
 /ad_count.
+/ad_counter.
 /ad_counter_
 /ad_creatives.
 /ad_data/*
@@ -3850,6 +3865,7 @@ suning.com#@##topAd
 /addyn/3.0/*
 /addyn|*;adtech;
 /addyn|*|adtech;
+/adedge/*
 /adengage-
 /adengage.
 /adengage/*
@@ -3865,6 +3881,8 @@ suning.com#@##topAd
 /adengine_
 /adentry.
 /adError/*
+/adevent.
+/adevents.
 /adexample?
 /adexclude/*
 /adexternal.
@@ -3925,7 +3943,6 @@ suning.com#@##topAd
 /adfuncs.
 /adfunction.
 /adfunctions.
-/adgallery/*
 /adgallery1.
 /adgallery1|
 /adgallery2.
@@ -3993,6 +4010,7 @@ suning.com#@##topAd
 /adinclude/*
 /adindex/*
 /adindicatortext.
+/adinit.
 /adinject.
 /adinjector.
 /adinjector_
@@ -4000,6 +4018,7 @@ suning.com#@##topAd
 /adinsertionplugin.
 /adinsertjuicy.
 /adinterax.
+/adiquity.
 /adiro.
 /adition.
 /adixs.
@@ -4008,6 +4027,7 @@ suning.com#@##topAd
 /adjs.
 /adjs_
 /adjsmp.
+/adjug.
 /adjuggler?
 /adkeys.
 /adl.php
@@ -4071,6 +4091,7 @@ suning.com#@##topAd
 /admatcherclient.
 /admatik.
 /admax.
+/admax/*
 /admaxads.
 /admeasure.
 /admedia.
@@ -4121,6 +4142,7 @@ suning.com#@##topAd
 /adometry.
 /adometry?
 /adonline.
+/adops.
 /adops/*
 /adoptionicon.
 /adoptions.
@@ -4226,6 +4248,13 @@ suning.com#@##topAd
 /adrotv2.
 /adrun.
 /adruptive.
+/ads-01.
+/ads-02.
+/ads-03.
+/ads-04.
+/ads-05.
+/ads-06.
+/ads-07.
 /ads-1.
 /ads-2.
 /ads-300-
@@ -4237,9 +4266,11 @@ suning.com#@##topAd
 /ads-foot.
 /ads-footer.
 /ads-header-
+/ads-holder.
 /ads-leader|
 /ads-min.
 /ads-new.
+/ads-nodep.
 /ads-pd.
 /ads-rectangle.
 /ads-rec|
@@ -4265,6 +4296,7 @@ suning.com#@##topAd
 /ads.js?
 /ads.json?
 /ads.jsp
+/ads.pbs
 /ads.php
 /ads.pl?
 /ads.png
@@ -4518,6 +4550,7 @@ suning.com#@##topAd
 /ads5/*
 /ads6.
 /ads6/*
+/ads620x60/*
 /ads7.
 /ads7/*
 /ads728.
@@ -4857,6 +4890,7 @@ suning.com#@##topAd
 /adsx/*
 /adsx728.
 /adsx_728.
+/adsxml/*
 /adsync/*
 /adsyndication.
 /adsyndication/*
@@ -4866,6 +4900,7 @@ suning.com#@##topAd
 /adsystem/*
 /ads~adsize~
 /adtable_
+/adtadd1.
 /adtag.
 /adtag/*
 /adtag?
@@ -5074,7 +5109,7 @@ suning.com#@##topAd
 /advertisewithus_
 /advertising-$domain=~outbrain.com
 /advertising.
-/advertising/*
+/advertising/*$domain=~temple.edu
 /advertising02.
 /advertising2.
 /advertising300x250.
@@ -5145,6 +5180,7 @@ suning.com#@##topAd
 /advshow.
 /advt.
 /advt/*
+/advt2.
 /advzones/*
 /adw.shtml
 /adw2.shtml
@@ -5237,6 +5273,7 @@ suning.com#@##topAd
 /affiliates.*.aspx?
 /affiliates/*/show_banner.
 /affiliates/ban
+/affiliates/contextual.
 /affiliatetags/*
 /affiliatewiz/*
 /affiliation/*
@@ -5284,6 +5321,7 @@ suning.com#@##topAd
 /app/ads.
 /Article-Ad-
 /article_ad.
+/articleSponsorDeriv_
 /artimediatargetads.
 /as3overstreamplatformadapter.
 /as_u/ads/*
@@ -5333,6 +5371,7 @@ suning.com#@##topAd
 /banman.asp?
 /banman/*
 /banmanpro/*
+/Banner-300x250.
 /banner-ad-
 /banner-ad/*
 /banner-ad_
@@ -5433,11 +5472,13 @@ suning.com#@##topAd
 /banners/adv/*
 /banners/adv_
 /banners/aff.
+/banners/affil/*
 /banners/affiliate/*
 /banners/ffadult/*
 /banners/googlebanner
 /banners/promo/*
 /banners_rotation.
+/bannersAds_
 /bannerscript/*
 /bannerserve/*
 /bannerserver/*
@@ -5686,6 +5727,7 @@ suning.com#@##topAd
 /criteoRTA.
 /crossoverad-
 /csp/ads?
+/css/ad.
 /css/ads.
 /css/adsense
 /css/adv.
@@ -5970,6 +6012,7 @@ suning.com#@##topAd
 /flesh_banner
 /fleshlight.
 /fleshlightcash_
+/fliionosadcapture-
 /flirt4free.
 /float-ads/*
 /float_ad.
@@ -6042,6 +6085,7 @@ suning.com#@##topAd
 /gamersad.
 /GAN_Ads/*
 /gannett/ads/*
+/gate-ad-
 /gatewayAds.
 /gazette/ads/*
 /geitonpop.
@@ -6137,6 +6181,7 @@ suning.com#@##topAd
 /google/adv.
 /google160.
 /google728.
+/google_ad.
 /google_ad_
 /google_ads.
 /google_ads/*
@@ -6285,6 +6330,7 @@ suning.com#@##topAd
 /iframedartad.
 /iframes/ad/*
 /ifrm_ads/*
+/ilivid-ad-
 /im-ad/im-rotator.
 /im-ad/im-rotator2.
 /im-popup/*
@@ -6294,6 +6340,7 @@ suning.com#@##topAd
 /image/ad/*
 /image/ads/*
 /image/ads_
+/image/adv/*
 /image/affiliate/*
 /image_ads/*
 /imageads/*
@@ -6345,6 +6392,7 @@ suning.com#@##topAd
 /img_ad_
 /img_ads/*
 /img_adv/*
+/imgad.
 /imgad?
 /imgad_
 /imgads/*
@@ -6430,6 +6478,7 @@ suning.com#@##topAd
 /jlist-affiliates/*
 /JPlayerAdFoxAdvertisementPlugin.
 /jqads.
+/jquery-ads.
 /jquery.adx.
 /jquery/ad.
 /jqueryadvertising.
@@ -6469,6 +6518,7 @@ suning.com#@##topAd
 /jumpstartunpaidad.
 /kaksvpopup.
 /KalahariAds.
+/kampyle.js
 /kantarmedia.
 /keyade.js
 /keyword_ad.
@@ -6589,7 +6639,6 @@ suning.com#@##topAd
 /media_ads/*
 /megaad.
 /meme_ad.
-/menu_adv.
 /metaad.
 /metaadserver/*
 /metsbanner.
@@ -6608,6 +6657,7 @@ suning.com#@##topAd
 /minify/ads-
 /mint/ads/*
 /misc/ad-
+/misc/ads.
 /misc/ads/*
 /miva_ads.
 /MixBerryAdsProduction/*
@@ -6665,6 +6715,7 @@ suning.com#@##topAd
 /nativeads/*
 /navad/*
 /navads/*
+/nbcuadops-
 /nd_affiliate.
 /neo/ads/*
 /neoads.
@@ -6702,6 +6753,7 @@ suning.com#@##topAd
 /nflads.
 /no_ads.
 /nonrotatingads/*
+/noticead.
 /nsfw/sponsors/*
 /nymag_ads.
 /nymag_ads_
@@ -6869,6 +6921,7 @@ suning.com#@##topAd
 /player_ads/*
 /pledgead.
 /plugin/ad/*
+/plugins/ad.
 /plugins/ads/*
 /plugins/page-cornr-
 /plugins/wp-moreads/*$~stylesheet
@@ -6929,7 +6982,7 @@ suning.com#@##topAd
 /postprofilehorizontalad.
 /postprofileverticalad.
 /posts_ad.
-/pounder-
+/pounder-$~image
 /ppd_ads.
 /ppd_ads_
 /predictad.
@@ -6952,6 +7005,7 @@ suning.com#@##topAd
 /processing/impressions.asp?
 /product-ad/*
 /product-ads/*
+/production/ads/*
 /projectwonderful_
 /promo/ad_
 /promo/ads/*
@@ -7008,6 +7062,7 @@ suning.com#@##topAd
 /railads.
 /railsad.
 /railsad_
+/RainbowTGXServer/*
 /ram/ads/*
 /randomad.
 /randomad120x600nsfw.
@@ -7055,6 +7110,7 @@ suning.com#@##topAd
 /report_ad.
 /requestadvertisement.
 /requestmyspacead.
+/resources/ad.
 /resources/ads/*
 /resources/ads_
 /responsive-ads.
@@ -7119,6 +7175,7 @@ suning.com#@##topAd
 /sailthru.js
 /salesad/*
 /samplead1.
+/samsung_ad.
 /satnetads.
 /satnetgoogleads.
 /savvyads.
@@ -7236,6 +7293,7 @@ suning.com#@##topAd
 /site_under.
 /siteads.
 /siteads/*
+/siteadvert.
 /siteafs.txt?
 /sitemanagement/ads/*
 /sites/ad_
@@ -7325,6 +7383,7 @@ suning.com#@##topAd
 /sponsorads.
 /sponsorads/*
 /sponsorbanners/*
+/sponsorbg/*
 /sponsored-backgrounds/*
 /sponsored-banner-
 /sponsored-links-
@@ -7347,6 +7406,7 @@ suning.com#@##topAd
 /sponsoredlinks?
 /sponsoredlinksiframe.
 /sponsoredlisting.
+/sponsorHeaderDeriv_
 /sponsoringbanner/*
 /sponsorpaynetwork.
 /sponsors-ads/*
@@ -7367,6 +7427,7 @@ suning.com#@##topAd
 /srv/ad/*
 /ss3/ads/*
 /static.ad.
+/static/ad-
 /static/ad/*
 /static/ad_
 /static/ads/*
@@ -7570,6 +7631,7 @@ suning.com#@##topAd
 /uploads/adv/*
 /uploads/adv_
 /upsellingads/*
+/us-ads.
 /usenext16.
 /user_ads/*
 /userad.
@@ -7652,6 +7714,7 @@ suning.com#@##topAd
 /web/ads/*
 /web_ads/*
 /webad.
+/WebAd/*
 /webad?
 /webadimg/*
 /webads.
@@ -7695,6 +7758,7 @@ suning.com#@##topAd
 /wp-content/plugins/wp-bannerize/*
 /wp-content/plugins/wp-super-popup-pro/*
 /wp-content/plugins/wp-super-popup/*$~stylesheet
+/wp-content/uploads/useful_banner_manager_banners/*
 /wp-popup-scheduler/*
 /wp-srv/ad/*
 /wpads/iframe.
@@ -7787,6 +7851,7 @@ suning.com#@##topAd
 =ad320x50-
 =ad_iframe&
 =ad_iframe_
+=adcenter&
 =adcode&
 =adexpert&
 =admeld&
@@ -7798,6 +7863,8 @@ suning.com#@##topAd
 =adspremiumplacement&
 =adtech_
 =advert/
+=advertiser.
+=advertiser/
 =advertorial&
 =adView&
 =akiba_ads_
@@ -7806,6 +7873,8 @@ suning.com#@##topAd
 =dartad_
 =deliverAdFrame&
 =display_ad&
+=DisplayAd&
+=displayAds&
 =dynamicads&
 =GetSponsorAds&
 =js_ads&
@@ -7863,6 +7932,7 @@ suning.com#@##topAd
 ?g1t2h=*&t1m2k3=
 ?getad=&$~object-subrequest
 ?goto=ad|
+?handler=ads&
 ?idaffiliation=
 ?module=ads/
 ?OASTagURL=
@@ -7905,6 +7975,7 @@ _ad300.
 _ad300x250.
 _ad6.
 _ad728x90.
+_ad9.
 _ad?darttag=
 _ad_125x125.
 _ad_2012.
@@ -8021,6 +8092,7 @@ _adify.
 _adjug.
 _adlabel_
 _adlesse.
+_adlib.
 _adlog.
 _admanager/
 _admarking_
@@ -8039,8 +8111,11 @@ _ads.cgi
 _ads.html
 _ads.js?
 _ads.php?
+_ads/horiz/
+_ads/horiz_
 _ads/iframe.
 _ads/inhouse/
+_ads/square/
 _ads1.
 _ads2.
 _ads?
@@ -8162,6 +8237,7 @@ _btnad_
 _button_ad_
 _buttonad.
 _centre_ad.
+_cgbanners.php?
 _ChatAd_
 _companionad.
 _content_ad.
@@ -8190,6 +8266,7 @@ _fixed_ad.
 _floating_ad_
 _floatingad_
 _footer_ad_
+_framed_ad/
 _friendlyduck.
 _gads_bottom.
 _gads_footer.
@@ -8250,6 +8327,7 @@ _partner_ad.
 _platform_ads.
 _platform_ads_
 _player_ads_
+_pop_ad.
 _pop_ad/
 _pop_under.
 _popunder.
@@ -8261,7 +8339,7 @@ _psu_ad.
 _radio_ad_
 _railads.
 _rectangle_ads.
-_reklama_
+_reklama_$domain=~youtube.com
 _reporting_ads.
 _request_ad.
 _response_ad.
@@ -8317,6 +8395,7 @@ _Web_ad.
 _webad.
 _webad_
 _WebBannerAd_
+_widget_ad.
 _yahooads/
 _your_ad.
 _zedo.
@@ -8505,7 +8584,6 @@ takeover_banner_
 /336x280_
 /340x85_
 /4-6-8x60.
-/400x225_
 /400x250/*
 /400x297.
 /428x60.
@@ -8921,7 +8999,6 @@ _a468x60.
 -ads-campaign/$popup
 .co/ads/$popup
 .com/?adv=$popup
-.engine?id=*-*-*-*-*&rand=*.*&*&referrerUrl=$popup,third-party
 .engine?PlacementId=$popup
 /?placement=*&redirect$popup
 /ad.php|$popup
@@ -8937,6 +9014,8 @@ _a468x60.
 /popunder_$popup
 /promoredirect?*&campaign=*&zone=$popup
 /punder.php$popup
+/realmedia/ads/*$popup
+/Redirect.engine$popup
 /servlet/ajrotator/*$popup
 /spopunder^$popup
 ://ads.$popup
@@ -9077,6 +9156,7 @@ _popunder+$popup
 /?livehit=
 /?record&key=
 /__ssobj/core.js
+/__sttm.gif?
 /__tm3k.gif?
 /__utm.gif
 /__utm.js
@@ -9119,6 +9199,7 @@ _popunder+$popup
 /adlogger.
 /adlogger_
 /adloggertracker.
+/adm_tracking.js
 /admonitoring.js
 /AdobeCustomVideoMeasurement.swf
 /adpixel.
@@ -9200,7 +9281,9 @@ _popunder+$popup
 /anametrix.js
 /anametrix/*
 /ancAdTrack.js
+/angularlytics.
 /anycent_tracker_
+/api/0/stats
 /apitracking.
 /apixel?
 /appendOmnitureTracking.
@@ -9227,6 +9310,7 @@ _popunder+$popup
 /audience_science_
 /audienceScience.
 /audsci.js
+/autotag.
 /AutoTracker.js
 /avant_sfpc_
 /avantlink/*$third-party
@@ -9255,6 +9339,7 @@ _popunder+$popup
 /banner-tracker.
 /banners-stat.
 /basesdc.js
+/batch.gif?
 /baynote-$script
 /baynote.
 /baynote/*
@@ -9297,6 +9382,7 @@ _popunder+$popup
 /boomerang.js
 /boost_stats.
 /botd.gif?
+/bower_components/fp/fp.js
 /br-trk-
 /br-trk.
 /br_imps/add_item?
@@ -9602,6 +9688,7 @@ _popunder+$popup
 /etracker/*
 /etrackercode.
 /eu-survey.js
+/event-report?*&uid=
 /event.gif?
 /event/*/*?*&euidl=*&url=
 /eventLogServlet?
@@ -9628,6 +9715,8 @@ _popunder+$popup
 /federated-analytics.
 /files/ga.js
 /finalizestats.
+/fingerprint.js
+/fingerprint.min.js
 /firestats/*
 /fkounter/*
 /fkounter5/*
@@ -9774,7 +9863,7 @@ _popunder+$popup
 /GoogleAnalystics.
 /googleanalytics-prod.swf
 /googleanalytics.js
-/googleAnalytics.swf
+/GoogleAnalytics.swf
 /googleanalytics/*
 /googleAnalytics1.
 /googleAnalytics2.
@@ -9865,6 +9954,7 @@ _popunder+$popup
 /imp.php?a
 /imp_cnt.gif?
 /imp_img.php?
+/impress.php?
 /impression.ashx
 /impression.gif?
 /impression.js?
@@ -9977,6 +10067,7 @@ _popunder+$popup
 /livezilla/server.php?request=track&
 /loadcounter.
 /loader-counter.
+/loadJsFingerprint.js
 /log-view.
 /Log.ashx?
 /log.bi?
@@ -10010,6 +10101,7 @@ _popunder+$popup
 /logEvent?
 /logextrastats.
 /logger.ashx?
+/logger.dll/*
 /logger/p.gif?
 /logger?*ctxid=
 /logger?d=
@@ -10024,6 +10116,7 @@ _popunder+$popup
 /LogImpression?
 /logLoad/?
 /LogMediaClick?
+/LogPage.aspx?
 /logpv.aspx?
 /LogRecorder.
 /logreferrer.php?*&referrer=
@@ -10087,6 +10180,7 @@ _popunder+$popup
 /mobify_ga.gif
 /modoweb-tracking/*
 /moduleTracker.
+/mongoose.fp.js
 /monitus.js
 /morega.js
 /mouseover-tracker.
@@ -10254,7 +10348,8 @@ _popunder+$popup
 /piwik-$domain=~piwik.org
 /piwik.js
 /piwik.php
-/piwik/*$domain=~piwik.org
+/piwik/js/*$domain=~piwik.org
+/piwikapi.js
 /piwikTracker.
 /pix.fcg?
 /pix.gif?
@@ -10299,6 +10394,7 @@ _popunder+$popup
 /popanalytics.
 /popupCookieWriter.
 /popuplog/*
+/postlog?
 /powercount.
 /pphlogger.
 /pr.php?
@@ -10320,6 +10416,7 @@ _popunder+$popup
 /pv.gif?url
 /pvcount.
 /pview?event
+/pvserver/pv.js
 /PvServlet?
 /px_trans.gif
 /pxl.cgi?
@@ -10608,6 +10705,7 @@ _popunder+$popup
 /timestrend_
 /tiwik.
 /tmv11.
+/tncms/tracking.js
 /tnsCounter.
 /tnsmetrix/*
 /tongji.js
@@ -10807,6 +10905,7 @@ _popunder+$popup
 /utag.handler.js
 /utag.loader-
 /utag.loader.
+/utrack.js?
 /utrack?
 /uvstat.js
 /uxm_tracking.
@@ -10936,6 +11035,7 @@ _popunder+$popup
 /wp-useronline/useronline.
 /wp.gif?wpi
 /wp_stat.php?
+/wpblog.gif?
 /wrapper/quantcast.swf
 /WRb.js
 /writelog.
@@ -11270,9 +11370,12 @@ http://utm.
 ||youku.com/compvlog?
 ! *** easylist:easyprivacy/easyprivacy_whitelist_international.txt ***
 @@||amazonaws.com/angular-ui-router.min.js*-google-analytics.js$script,domain=dcard.tw
+@@||aolcdn.com/js/mg2.js$domain=engadget.com
+@@||aolcdn.com/omniunih_int.js$domain=engadget.com
 @@||google-analytics.com/analytics.js$domain=news.gamme.com.tw
 @@||hm.baidu.com/h.js?$domain=weaku.com
 @@||imrworldwide.com/novms/js/2/ggcmb353.js$domain=nexttv.com.tw
+@@||itc.cn/v2/asset/*/pageView.js
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=dnf.qq.com
 @@||uwants.com/include/*/swfaddress.js
 @@||vanclimg.com/js.ashx?*/google-analytics.js$domain=vancl.com
