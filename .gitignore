@@ -218,5 +218,6 @@ pip-log.txt
 #############
 ## ChinaList
 #############
-dev/easylist/
+**/easylist/
 invalid_domains.txt
+**/tools

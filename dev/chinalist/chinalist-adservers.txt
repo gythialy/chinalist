@@ -1,12 +1,6 @@
 !--中国电信
 /clicktotal/ClickTotal.js
 ||189.cn/dns/
-||gd.ct10000.com/js/ecssstat.js
-||gd.ct10000.com^*/push/$popup,third-party
-||gd.189.cn/ad/$popup,third-party
-||gd.189.cn/gz/promotion/$popup,third-party
-||gd.189.cn^*/push/$popup,third-party
-||gd.189.cn/push/$popup,third-party
 ||jxad.jx163.com^
 !--联通
 ||kdly.net^$third-party
@@ -15,7 +9,6 @@
 ||ipvertising.com^$popup
 ||creatives.livejasmin.com^$popup
 ||100tjs.com^$popup,third-party
-||114zhaofang.com^$popup,third-party
 ||116b.com^$popup,third-party
 ||234y.com^$third-party
 ||web.7k7k.com^$popup,third-party
@@ -92,7 +85,6 @@
 ||400or800.com^$third-party
 ||460.com.cn^$third-party
 ||4779.com^$third-party
-||49ko.com^$third-party
 ||510599.com^$third-party
 ||5151ad.com^$third-party
 ||51link.com^$third-party
@@ -122,7 +114,6 @@
 ||7794lm.com^$third-party
 ||77go.com^$third-party
 ||77u.com^$third-party
-||77union.cn^$third-party
 ||77zhuan.com^$third-party
 ||789un.com^$third-party
 ||7clink.com^$third-party
@@ -321,7 +312,6 @@
 ||jugao.com^$third-party
 ||junnew.com^$third-party
 ||u.juyouxi.com^$third-party
-||kairing.com^$third-party
 ||kcld.net^$third-party
 ||kejet.$third-party
 ||keydot.net^$third-party
@@ -332,7 +322,6 @@
 ||kk7kk.com^$third-party
 ||kol4399.com^$third-party
 ||koowo.com^$third-party
-||kuaiwan.com^$third-party
 ||kucent.com^$third-party
 ||kuqi.com^$third-party
 ||cluclick.leshu.com^$third-party
