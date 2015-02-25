@@ -17,7 +17,6 @@ yocoy.com#@##AdArea
 @@||chinahr.com/images/phpads/$image,~third-party
 @@||houdask.com/data/advertising/$image
 @@||icbc.com.cn/ICBC_ADJS/$script,~third-party
-@@||fireeye.ijinshan.com/static/js/analyse.js
 @@||ganji.com/findjob/send_resume.php?$subdocument
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||adcdn.pingan.com^

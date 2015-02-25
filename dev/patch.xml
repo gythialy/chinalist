@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <PatchConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <RemovedItems />
+  <RemovedItems>
+    <string>||pos.baidu.com/wh/o.htm?</string>
+    <string>||valf.atm.youku.com^</string>
+    <string>||51img.ajiang.net^*.gif</string>
+    <string>||jsshuba.com/js/tongji.js</string>
+    <string>||xkxs.org/js/tongji.js</string>
+  </RemovedItems>
   <NewItems>
     <string>!---Google.com</string>
     <string>##a[href^="http://www.google.com/aclk?"]</string>
