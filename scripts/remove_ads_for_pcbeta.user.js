@@ -2,7 +2,7 @@
 // @name pcbeta ads Remover
 // @namespace https://github.com/gythialy/chinalist/
 // @author Gythialy
-// @version 1.0.4
+// @version 1.0.5
 // @description Remove bbs.pcbeta.com ads for ChinaList
 // @homepage https://github.com/gythialy/chinalist/
 // @updateURL https://github.com/gythialy/chinalist/raw/master/scripts/remove_ads_for_pcbeta.user.js
@@ -46,6 +46,9 @@
         }
     }
 
-    remove(x(".//*[@id='wp']/div[2]/div"));
+    // remove(x(".//*[@id='wp']/div[2]/div"));
+    remove(x(".//*[@id='wp']/div[contains(@style, 'background:#d0dae5;')]/div[contains(@style, 'clear:both;')]"));
+    remove(x("//*[@class='asdad']/following-sibling::div"));
+    remove(x("//*[@id='diynavtop']/following-sibling::style"));
     remove(x('.//div[@id="sitefocus"][@class="focus"]'));
 })();
