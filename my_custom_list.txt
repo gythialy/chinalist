@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: bE1VJbxfZp9bJ9QCbNUyIw
+!  Checksum: Q5rvlD1cl80xoBbS7NL/pg
 !  Title: Gythialy's List
-!  Last Modified:  Wed, 25 Feb 2015 10:15:10 +0800
+!  Last Modified:  Wed, 25 Feb 2015 10:19:45 +0800
 !
 !  This is a private list, 
 !  will not provide any technical support
@@ -579,6 +579,7 @@
 ||cnzz.com^$third-party
 ||sitebro.$third-party
 !*** chinalist-specific.txt ***
+cnbeta.com##.bd
 ||bbs.feng.com/aodoo3/$image
 !*** chinalist-white.txt ***
 2tu.cc#@#.adds
