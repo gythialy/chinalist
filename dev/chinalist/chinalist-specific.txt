@@ -1,2 +1,11 @@
+!--C
 cnbeta.com##.bd
+cnbeta.com##.time
+!--F
 ||bbs.feng.com/aodoo3/$image
+!--i
+iplaysoft.com##.entry-cat + center
+iplaysoft.com##.widget.widget_dd
+iplaysoft.com###sidebar > ul > li:nth-of-type(2)
+iplaysoft.com###sidebar > ul > li:nth-of-type(4)
+iplaysoft.com###section_event
