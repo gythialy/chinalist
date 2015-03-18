@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-!  Checksum: BYniYkaZwHz90Se8TuDAWw
+!  Checksum: vmFBYa4e9w2+afTXvU3GdA
 !  Title: Gythialy's List
-!  Last Modified:  Wed, 18 Mar 2015 13:44:23 +0800
+!  Last Modified:  Wed, 18 Mar 2015 14:17:05 +0800
 !
 !  This is a private list, 
 !  will not provide any technical support
@@ -590,8 +590,6 @@ iplaysoft.com###sidebar > ul > li:nth-of-type(2)
 iplaysoft.com###sidebar > ul > li:nth-of-type(4)
 iplaysoft.com##.entry-cat + center
 iplaysoft.com##.widget.widget_dd
-!*** chinalist-ublock.txt ***
-www.zdfans.com * inline-script block
 !*** chinalist-white.txt ***
 2tu.cc#@#.adds
 @@||ad.gridsumdissector.com/v1/Content/images/ad-dissector-icon.png
