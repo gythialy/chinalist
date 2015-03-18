@@ -7,13 +7,17 @@
 // @require http://libs.baidu.com/jquery/2.0.0/jquery.min.js
 // @grant none
 // ==/UserScript==
-function() {
+(function() {
+
     var signLink = $("#signed");
-    if (signLink && $('#sp_signed').val() === '\u7B7E\u5230') {
+    // console.log($('#sp_signed').text());
+
+    if (signLink && $('#sp_signed').text() === "签到") {
         var ss = $("script:not([src])")
-        for (let i of ss) {
+
+        for (var index = 0, len = ss.length; index < len; ++index) {
             //get the time_stamp and token for later use.
-            var ma = /signed_timestamp: "(\d+)", signed_token: "([\da-f]+)"/g.exec(i.textContent);
+            var ma = /signed_timestamp: "(\d+)", signed_token: "([\da-f]+)"/g.exec(ss[index].textContent);
             if (ma) {
                 //console.log(ma[0]);
                 var siPostData = {
@@ -21,7 +25,7 @@ function() {
                     signed_token: ma[2]
                 };
                 $.post(document.location.origin + "/signed.php", siPostData, function(data) {
-                    $('#sp_signed').html("<b style=\"color:green;\">\u5DF2\u7B7E\u5230</b>");
+                    $('#sp_signed').html("<b style=\"color:green;\">已签到</b>");
                     var sp = $('<span/>').html(data);
                     var ap = $('a[href="/mybonus.php"]').append(sp);
                     //alert(data);
@@ -30,4 +34,4 @@ function() {
             }
         }
     }
-}();
+})();
