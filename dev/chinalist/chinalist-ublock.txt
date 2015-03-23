@@ -1,5 +1,6 @@
 * * 3p block
 * * 3p-frame block
+* geetest.com * noop
 * irs01.com * noop
 * irs01.net * noop
 * lib.sinaapp.com * noop
@@ -65,6 +66,7 @@ reddit.com redditstatic.com * noop
 seekingalpha.com cdn-seekingalpha.com * noop
 slashdot.org bootstrapcdn.com * noop
 slashdot.org fsdn.com * noop
+smzdm.com zdmimg.com * noop
 stackoverflow.com ajax.googleapis.com * noop
 stackoverflow.com sstatic.net * noop
 superuser.com sstatic.net * noop
@@ -98,6 +100,8 @@ wikipedia.org wikimedia.org * noop
 wiktionary.org wikimedia.org * noop
 www.amazon.ca images-amazon.com * noop
 www.amazon.ca ssl-images-amazon.com * noop
+www.amazon.cn images-amazon.com * noop
+www.amazon.cn ssl-images-amazon.com * noop
 www.bbc.com bbc.co.uk * noop
 www.bbc.com bbci.co.uk * noop
 www.bbc.com bbcimg.co.uk * noop
