@@ -161,6 +161,8 @@ www.si.com timeinc.net * noop
 www.slate.com cdnslate.com * noop
 www.slideshare.net slidesharecdn.com * noop
 www.smashingmagazine.com netdna-cdn.com * noop
+www.taobao.com alicdn.com * noop
+www.taobao.com tbcdn.cn * noop
 www.techrepublic.com cbsimg.net * noop
 www.techrepublic.com cbsistatic.com * noop
 www.theguardian.com guardianapps.co.uk * noop
@@ -170,6 +172,10 @@ www.theregister.co.uk regmedia.co.uk * noop
 www.theverge.com ajax.googleapis.com * noop
 www.theverge.com vox-cdn.com * noop
 www.theverge.com voxmedia.com * noop
+www.tmall.com alicdn.com * noop
+www.tmall.com taobao.com * noop
+www.tmall.com taobaocdn.com * noop
+www.tmall.com tbcdn.cn * noop
 www.tomshardware.com bestofmedia.com * noop
 www.tomshardware.com bestofmicro.com * noop
 www.usatoday.com gannett-cdn.com * noop
