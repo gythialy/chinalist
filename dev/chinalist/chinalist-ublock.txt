@@ -1,5 +1,7 @@
 * * 3p block
 * * 3p-frame block
+* irs01.com * noop
+* irs01.net * noop
 * services.mozilla.com * noop
 * translate.googleapis.com * noop
 9to5mac.com 9to5mac.files.wordpress.com * noop
@@ -13,6 +15,8 @@ android-arsenal.com camo.githubusercontent.com * noop
 android-arsenal.com github.com * noop
 android-arsenal.com raw.githubusercontent.com * noop
 arstechnica.com arstechnica.net * noop
+bbs.kafan.cn ikafan.com * noop
+bbs.kafan.cn kafan.cn * noop
 blog.kaspersky.com kaspersky-cyberstat.com * noop
 blog.kaspersky.com kasperskycontenthub.com * noop
 blog.kaspersky.com netdna-cdn.com * noop
@@ -66,8 +70,6 @@ techcrunch.com wp.com * noop
 techcrunch.com wpcomwidgets.com * noop
 thenextweb.com tnwcdn.com * noop
 threatpost.com netdna-ssl.com * noop
-* irs01.com * noop
-* irs01.net * noop
 tv.sohu.com itc.cn * noop
 tv.sohu.com optaim.com * noop
 tv.sohu.com sohu.com.cn * noop
