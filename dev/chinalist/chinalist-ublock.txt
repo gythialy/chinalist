@@ -15,6 +15,7 @@ android-arsenal.com camo.githubusercontent.com * noop
 android-arsenal.com github.com * noop
 android-arsenal.com raw.githubusercontent.com * noop
 arstechnica.com arstechnica.net * noop
+bbs.feng.com weiphone.net * noop
 bbs.kafan.cn ikafan.com * noop
 bbs.kafan.cn kafan.cn * noop
 blog.kaspersky.com kaspersky-cyberstat.com * noop
@@ -23,6 +24,7 @@ blog.kaspersky.com netdna-cdn.com * noop
 blog.ycombinator.com phaven-prod.s3.amazonaws.com * noop
 blog.ycombinator.com posthaven-assets.s3.amazonaws.com * noop
 crowdin.com d1ztvzf22lmr1j.cloudfront.net * noop
+csdn.juming.com chaicp.com * noop
 deviantart.com deviantart.net * noop
 facebook.com akamaihd.net * noop
 facebook.com fbcdn.net * noop
@@ -124,6 +126,9 @@ www.funnyjunk.com fjcdn.com * noop
 www.huffingtonpost.ca huffpost.com * noop
 www.huffingtonpost.co.uk huffpost.com * noop
 www.ign.com ignimgs.com * noop
+www.iplaysoft.com mzstatic.com * noop
+www.iplaysoft.com sinaimg.cn * noop
+www.iplaysoft.com staticfile.org * noop
 www.iqiyi.com baidu.com * noop
 www.iqiyi.com pps.tv * noop
 www.iqiyi.com qiyi.com * noop
