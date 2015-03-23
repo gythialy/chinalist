@@ -135,6 +135,7 @@ www.iqiyi.com baidu.com * noop
 www.iqiyi.com pps.tv * noop
 www.iqiyi.com qiyi.com * noop
 www.iqiyi.com qiyipic.com * noop
+www.jd.com 360buyimg.com * noop
 www.kickstarter.com d297h9he240fqh.cloudfront.net * noop
 www.kickstarter.com d2pq0u4uni88oo.cloudfront.net * noop
 www.kickstarter.com imgix.net * noop
@@ -161,6 +162,9 @@ www.si.com timeinc.net * noop
 www.slate.com cdnslate.com * noop
 www.slideshare.net slidesharecdn.com * noop
 www.smashingmagazine.com netdna-cdn.com * noop
+www.suning.com gtags.net * noop
+www.suning.com pptv.com * noop
+www.suning.com suning.cn * noop
 www.taobao.com alicdn.com * noop
 www.taobao.com tbcdn.cn * noop
 www.techrepublic.com cbsimg.net * noop
@@ -186,6 +190,13 @@ www.washingtonpost.com jwpcdn.com * noop
 www.washingtonpost.com posttv.com * noop
 www.washingtonpost.com wpdigital.net * noop
 www.wsj.com wsj.net * noop
+www.yixun.com gtimg.cn * noop
+www.yixun.com gtimg.com * noop
+www.yixun.com icson.com * noop
+www.yixun.com paipai.com * noop
+www.yixun.com paipaiimg.com * noop
+www.yixun.com qq.com * noop
+www.yixun.com wgimg.com * noop
 www.youtube.com content.googleapis.com * noop
 www.youtube.com ggpht.com * noop
 www.youtube.com google.com * noop
