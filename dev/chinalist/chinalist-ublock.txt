@@ -26,7 +26,6 @@ blog.kaspersky.com netdna-cdn.com * noop
 blog.ycombinator.com phaven-prod.s3.amazonaws.com * noop
 blog.ycombinator.com posthaven-assets.s3.amazonaws.com * noop
 crowdin.com d1ztvzf22lmr1j.cloudfront.net * noop
-csdn.juming.com chaicp.com * noop
 deviantart.com deviantart.net * noop
 facebook.com akamaihd.net * noop
 facebook.com fbcdn.net * noop
@@ -46,6 +45,7 @@ github.com s3.amazonaws.com * noop
 gizmodo.com kinja-img.com * noop
 gizmodo.com kinja-static.com * noop
 gizmodo.com kinja.com * noop
+juming.com chaicp.com * noop
 lifehacker.com kinja-img.com * noop
 lifehacker.com kinja-static.com * noop
 lifehacker.com kinja.com * noop
