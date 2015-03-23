@@ -2,6 +2,8 @@
 * * 3p-frame block
 * irs01.com * noop
 * irs01.net * noop
+* lib.sinaapp.com * noop
+* qiniudn.com * noop
 * services.mozilla.com * noop
 * translate.googleapis.com * noop
 9to5mac.com 9to5mac.files.wordpress.com * noop
@@ -146,6 +148,8 @@ www.latimes.com tribdss.com * noop
 www.latimes.com tribune.com * noop
 www.lemonde.fr lemde.fr * noop
 www.linkedin.com licdn.com * noop
+www.lite6.com crsky.com * noop
+www.lite6.com duoshuo.com * noop
 www.marketwatch.com mktw.net * noop
 www.marketwatch.com wsj.net * noop
 www.nbcnews.com nbcudigitaladops.com * noop
