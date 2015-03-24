@@ -130,6 +130,8 @@ www.amazon.ca images-amazon.com * noop
 www.amazon.ca ssl-images-amazon.com * noop
 www.amazon.cn images-amazon.com * noop
 www.amazon.cn ssl-images-amazon.com * noop
+www.amazon.com images-amazon.com * noop
+www.amazon.com ssl-images-amazon.com * noop
 www.bbc.com bbc.co.uk * noop
 www.bbc.com bbci.co.uk * noop
 www.bbc.com bbcimg.co.uk * noop
