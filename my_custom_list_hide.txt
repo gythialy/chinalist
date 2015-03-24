@@ -1,15 +1,10 @@
 [Adblock Plus 2.0]
-!  Checksum: vPwmTwtky/Y74ODPoLqfJQ
-!  Title: ChinaList
-!  Adblock Plus List with Main Focus on Chinese Sites.
-!  Last Modified:  Mon, 23 Mar 2015 15:59:18 +0800
-!  Homepage: http://chinalist.github.io/
+!  Checksum: US+3mLyUCPfoQjJXTcx+7A
+!  Title: Gythialy's List
+!  Last Modified:  Tue, 24 Mar 2015 12:50:06 +0800
 !
-!  ChinaList = Part of EasyList + Part of EasyPrivacy + ChinaList Lite
-!  If you need to know the details,
-!  please visit: https://github.com/chinalist/chinalist/wiki/something_about_ChinaList_Lazy
-!  If you need help or have any question,
-!  please visit: https://github.com/chinalist/chinalist
+!  This is a private list, 
+!  will not provide any technical support
 !  CC-BY-SA 3.0+ Licensed
 !  coding: utf-8, expires: 5 days
 !*** chinalist-specific.txt ***
@@ -18,12 +13,8 @@ cnbeta.com##.bd
 cnbeta.com##.time
 !--F
 ||bbs.feng.com/aodoo3/$image
-!--i
-iplaysoft.com###section_event
-iplaysoft.com###sidebar > ul > li:nth-of-type(2)
-iplaysoft.com###sidebar > ul > li:nth-of-type(4)
-iplaysoft.com##.entry-cat + center
-iplaysoft.com##.widget.widget_dd
+!--V
+||cdn.v2ex.com/friends/$image
 !*** EasyList ***
 ! *** easylist:easylist/easylist_general_hide.txt ***
 ###A9AdsMiddleBoxTop
@@ -2850,6 +2841,7 @@ iplaysoft.com##.widget.widget_dd
 ###adv_70
 ###adv_71
 ###adv_728
+###adv_728x90
 ###adv_73
 ###adv_94
 ###adv_96
@@ -10165,6 +10157,7 @@ iplaysoft.com##.widget.widget_dd
 ##.advert-skyscraper
 ##.advert-stub
 ##.advert-text
+##.advert-three
 ##.advert-tile
 ##.advert-title
 ##.advert-top
@@ -12173,6 +12166,7 @@ iplaysoft.com##.widget.widget_dd
 ##.hi5-ad
 ##.hidden-ad
 ##.hideAdMessage
+##.hidePauseAdZone
 ##.hide_ad
 ##.highlights-ad
 ##.highlightsAd
@@ -14452,6 +14446,10 @@ iplaysoft.com##.widget.widget_dd
 ##.title_adbig
 ##.tj_ad_box
 ##.tj_ad_box_top
+##.tl-ad
+##.tl-ad-dfp
+##.tl-ad-display-3
+##.tl-ad-render
 ##.tm_ad200_widget
 ##.tm_topads_468
 ##.tm_widget_ad200px

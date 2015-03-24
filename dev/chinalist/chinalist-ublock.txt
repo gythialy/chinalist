@@ -1,5 +1,6 @@
 * * 3p block
 * * 3p-frame block
+* ajax.googleapis.com * noop
 * gdt.qq.com * block
 * geetest.com * noop
 * irs01.com * block
@@ -52,6 +53,9 @@ github.com s3.amazonaws.com * noop
 gizmodo.com kinja-img.com * noop
 gizmodo.com kinja-static.com * noop
 gizmodo.com kinja.com * noop
+google.com ggpht.com * noop
+google.com gstatic.com * noop
+google.com ytimg.com * noop
 iqiyi.com * 3p noop
 iqiyi.com 71.am * block
 iqiyi.com baidu.com * noop
@@ -72,6 +76,7 @@ mail.google.com gstatic.com * noop
 mashable.com mshcdn.com * noop
 medium.com d262ilb51hltx0.cloudfront.net * noop
 medium.com dnqgz544uhbo8.cloudfront.net * noop
+movie.douban.com doubanio.com * noop
 mozilla.org mozilla.net * noop
 mozilla.org mozillademos.org * noop
 nytimes.com nyt.com * noop
@@ -84,7 +89,6 @@ seekingalpha.com cdn-seekingalpha.com * noop
 slashdot.org bootstrapcdn.com * noop
 slashdot.org fsdn.com * noop
 smzdm.com zdmimg.com * noop
-stackoverflow.com ajax.googleapis.com * noop
 stackoverflow.com sstatic.net * noop
 superuser.com sstatic.net * noop
 taobao.com alicdn.com * noop
@@ -120,7 +124,6 @@ variety.com wp.com * noop
 veetle.com 38.102.162.229 * noop
 veetle.com 38.102.162.242 * noop
 veetle.com 38.102.162.254 * noop
-veetle.com ajax.googleapis.com * noop
 veetle.com d3u3s1yur1h76d.cloudfront.net * noop
 venturebeat.com netdna-cdn.com * noop
 venturebeat.com vbstatic.co * noop
@@ -205,14 +208,12 @@ www.theguardian.com guardianapps.co.uk * noop
 www.theguardian.com guim.co.uk * noop
 www.theguardian.com theguardian.tv * noop
 www.theregister.co.uk regmedia.co.uk * noop
-www.theverge.com ajax.googleapis.com * noop
 www.theverge.com vox-cdn.com * noop
 www.theverge.com voxmedia.com * noop
 www.tomshardware.com bestofmedia.com * noop
 www.tomshardware.com bestofmicro.com * noop
 www.usatoday.com gannett-cdn.com * noop
 www.usatoday.com usatoday.net * noop
-www.vox.com ajax.googleapis.com * noop
 www.vox.com vox-cdn.com * noop
 www.washingtonpost.com jwpcdn.com * noop
 www.washingtonpost.com posttv.com * noop
