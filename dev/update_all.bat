@@ -1,2 +1,2 @@
-ABPUtils.exe -m -i=chinalist/ -o=../my_custom_list_hide.txt
+ABPUtils.exe -m -i=chinalist/ -o=../my_custom_list.txt
 @pause
