@@ -10,6 +10,6 @@
 // @grant none
 // ==/UserScript==
 (function() {
-  $('#sinner_container').remove();
+  $('#sinner_container').css('display', 'none');
   $('#reader_pane.reader_pane_sinner').css('padding-right', '0px');
 })();
